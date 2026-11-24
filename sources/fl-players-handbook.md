@@ -226,7 +226,8 @@ Some of your ancestors came with the armies from Alderland to fight against elve
 
 When the Blood Mist fell like a shroud across Ravenland, your ancestors were forced to huddle together for ten generations, till the soil, and simply try to survive. But now the Mist has lifted, and the world has opened up again. You have exchanged the plow for a sword. You were born here, and you will take what you want, whether those who stand in your way be other humans or even stranger beings.
 
-- **Key Attribute:** Empathy KIN TALENT: Adaptive
+- **Key Attribute:** Empathy
+- **Kin Talent:** Adaptive
 - **Typical Professions:** All
 - **Typical Female Names:** Garmelda, Halinde, Nirmena, Sindia, Talene
 - **Typical Male Names:** Brynde, Hardar, Orovald, Pasinder, Vergevil
@@ -353,13 +354,12 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… doesn’t understand her role in the world.
+- … doesn’t understand her role in the world.
 
 You shall guide, but not teach.
 
-… is drawn to dark arts and must be kept under close watch. If needed, it’s your duty to stop her.
-
-… is a slender oak that could grow into something great, given the right care.
+- … is drawn to dark arts and must be kept under close watch. If needed, it’s your duty to stop her.
+- … is a slender oak that could grow into something great, given the right care.
 
 ##### Gear
 
@@ -395,11 +395,9 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… is the weak link of the group. Can you teach her?
-
-… has saved your life several times. How will you repay her?
-
-… is creepy. She must be up to no good.
+- … is the weak link of the group. Can you teach her?
+- … has saved your life several times. How will you repay her?
+- … is creepy. She must be up to no good.
 
 ##### Gear
 
@@ -437,11 +435,9 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… always makes a lot of noise. Stay away from her.
-
-… is always hungry and eats all the food you catch.
-
-… has no respect for nature and its creatures.
+- … always makes a lot of noise. Stay away from her.
+- … is always hungry and eats all the food you catch.
+- … has no respect for nature and its creatures.
 
 ##### Gear
 
@@ -479,11 +475,9 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… is the hero of your chronicle, but does not realize it.
-
-… does not understand what’s good for her, and needs your guidance.
-
-… is doomed. It’s only a matter of time.
+- … is the hero of your chronicle, but does not realize it.
+- … does not understand what’s good for her, and needs your guidance.
+- … is doomed. It’s only a matter of time.
 
 ##### Gear
 
@@ -521,11 +515,9 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… owes you silver but doesn’t seem to want to repay it.
-
-… saved your life once. What does she want in return?
-
-… is your ticket to fame and riches. Stay close.
+- … owes you silver but doesn’t seem to want to repay it.
+- … saved your life once. What does she want in return?
+- … is your ticket to fame and riches. Stay close.
 
 ##### Gear
 
@@ -563,9 +555,9 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… has the soul of a slave and needs to be set free. … is a loyal friend for whom you would give your life if it came to that.
-
-… shows you no respect and needs to be taught a lesson sooner or later.
+- … has the soul of a slave and needs to be set free.
+- … is a loyal friend for whom you would give your life if it came to that.
+- … shows you no respect and needs to be taught a lesson sooner or later.
 
 ##### Gear
 
@@ -601,11 +593,9 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… despises you and what you do, and thinks she is better than you.
-
-… treats you like a child to be chastised. Very annoying.
-
-… always grabs the best treasures for herself. Maybe it’s time to teach her a lesson?
+- … despises you and what you do, and thinks she is better than you.
+- … treats you like a child to be chastised. Very annoying.
+- … always grabs the best treasures for herself. Maybe it’s time to teach her a lesson?
 
 ##### Gear
 
@@ -643,9 +633,9 @@ Choose an option below or create your own:
 
 Choose an option below or create your own:
 
-… looks at you sideways and seems afraid of you. … doesn’t realize her own inner strength. Can you bring it forth?
-
-… doubts your magical powers. The fool!
+- … looks at you sideways and seems afraid of you.
+- … doesn’t realize her own inner strength. Can you bring it forth?
+- … doubts your magical powers. The fool!
 
 ##### Gear
 
@@ -1157,7 +1147,13 @@ Sometimes you and your adversary roll for different skills, sometimes the same. 
 
 DODGING and PARRYING in close combat are technically *not* opposed rolls, as they require an action by the defender and can be pushed.
 
-**Example:** *Moving through the old tower, Nirmena spots another undead guard. She tries to sneak by it, into the ancient library beyond. Nirmena has a current Agility score of 2 and skill level 1 in STEALTH, and thus gets to roll two Base Dice and one Skill Die. The undead has Wits 1 and skill level 2 in SCOUT, and rolls one Base Die and two Skill Dice. Nirmena rolls one ⚔ but so does the guard. Nirmena stumbles, but Josie decides to push the roll. She gets lucky and rolls another ⚔! She manages to stay silent, and sneaks past the undead guard without being spotted.*
+**Example:** *Moving through the old tower, Nirmena spots another undead guard. She tries to sneak by it, into the ancient library beyond. Nirmena has a current Agility score of 2 and skill level 1 in STEALTH, and thus gets to roll two Base Dice and one Skill Die. The undead has Wits 1 and skill level 2 in SCOUT, and rolls one Base Die and two Skill Dice.*
+
+*Nirmena rolls one ⚔ but so does the guard.*
+
+*Nirmena stumbles, but Josie decides to push the roll. She gets lucky and rolls another ⚔!*
+
+*She manages to stay silent, and sneaks past the undead guard without being spotted.*
 
 ## NPCs and Skills
 
@@ -2453,7 +2449,11 @@ MONSTERS never use hidden combinations.
 
 **Example:** *To spice up the fight against the orcs, hidden combinations are used. It’s time for a new round and since Orc 1 is Broken, Orc 2 acts first. He attacks Nirmena, and both therefore choose hidden combinations.*
 
-*The orc is the attacker and the GM secretly chooses the card sequence PREPARE+STRIKE for him. Nirmena chooses HINDER+STRIKE, very risky because she exposes herself to the orc’s attack. First, both the orc and Nirmena show their first cards: the orc’s PREPARE against Nirmena’s HINDER. The orc, who didn’t expect Nirmena’s bold move and can’t stop it, decides to follow through on his plan and uses his first action to SWING WEAPON (to increase the damage of the planned attack in step 2). Nirmena SHOVES. She can’t use her shortsword (as it has no HOOK), but rolls well and succeeds nonetheless. The orc falls down! In step 2, both have chosen to STRIKE. The orc goes first, but as he is prone he can’t attack. It’s Nirmena’s turn. She SLASHES at him with her sword and gets a +2 bonus as the orc is prone. The attack hits and the orc is Broken.*
+*The orc is the attacker and the GM secretly chooses the card sequence PREPARE+STRIKE for him. Nirmena chooses HINDER+STRIKE, very risky because she exposes herself to the orc’s attack. First, both the orc and Nirmena show their first cards: the orc’s PREPARE against Nirmena’s HINDER. The orc, who didn’t expect Nirmena’s bold move and can’t stop it, decides to follow through on his plan and uses his first action to SWING WEAPON (to increase the damage of the planned attack in step 2).*
+
+*Nirmena SHOVES. She can’t use her shortsword (as it has no HOOK), but rolls well and succeeds nonetheless. The orc falls down! In step 2, both have chosen to STRIKE.*
+
+*The orc goes first, but as he is prone he can’t attack. It’s Nirmena’s turn. She SLASHES at him with her sword and gets a +2 bonus as the orc is prone. The attack hits and the orc is Broken.*
 
 ## Ranged Combat
 

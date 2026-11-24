@@ -493,7 +493,7 @@ The Ailanders brought the Raven Church to Ravenland seven hundred years ago, whe
 
 ### Stats: Typical Raven Sister
 
-- STRENGTH 3, AGILITY 3, WITS 3, EMPATHY 3
+- **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 1, Marksmanship 2, Lore 3, Survival 1, Insight 2, Manipulation 1, Healing 2
 - **Talents:** Path of Healing 2, Path of Shifting Shapes 2, or Path of Sight 2
 - **Gear:** Staff, dagger, D6 copper
@@ -508,7 +508,7 @@ These killers, dressed in black and adorned with feathers, have slaughtered whol
 
 ### Stats: Typical Blackwing
 
-- STRENGTH 4, AGILITY 5, WITS 4, EMPATHY 3
+- **Attributes:** Strength 4, Agility 5, Wits 4, Empathy 3
 - **Skills:** Melee 4, Move 3, Stealth 4, Marksmanship 4, Lore 1, Survival 2, Insight 3, Manipulation 2
 - **Talents:** Path of the Killer 2, Executioner 2, Fast Footwork
 - **Gear:** Broadsword or scimitar, dagger, light crossbow, vial of poison, studded leather armor, VALUABLE find
@@ -529,21 +529,21 @@ The Sisters of Heme are the female counterpart of the Rust Brothers, but they ar
 
 ### Stats: Typical Rust Brother
 
-- STRENGTH 3, AGILITY 3, WITS 3, EMPATHY 3
+- **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 1, Marksmanship 2, Lore 3, Survival 1, Insight 2, Manipulation 1, Healing 2
 - **Talents:** Path of Blood 2 or Path of Death 2
 - **Gear:** Staff, dagger, D6 copper
 
 ### Stats: Typical Iron Guard
 
-- STRENGTH 5, AGILITY 4, WITS 3, EMPATHY 2
+- **Attributes:** Strength 5, Agility 4, Wits 3, Empathy 2
 - **Skills:** Might 2, Endurance 2, Melee 4, Move 2, Marksmanship 3
 - **Talents:** Path of the Blade 2 or Path of the Enemy 2, Threatening, Cold Blooded
 - **Gear:** Longsword or flail, heavy crossbow, chainmail or plate armor, great helm, large shield, combat trained horse, one VALUABLE find
 
 ### Stats: Typical Heme Sister
 
-- STRENGTH 3, AGILITY 3, WITS 3, EMPATHY 3
+- **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Lore 2, Insight 2, Healing 2
 - **Talents:** Path of Blood 2 or Path of Death 2
 - **Gear:** Staff or dagger, one SIMPLE find
@@ -638,7 +638,7 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 
 ### Stats: Typical Ailander
 
-- STRENGTH 3, AGILITY 3, WITS 3, EMPATHY 3
+- **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 2, Marksmanship 2, Healing 1
 - **Talents:** —
 - **Gear:** Shortsword, short bow
@@ -647,7 +647,7 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 
 ### Stats: Typical Frailer
 
-- STRENGTH 2, AGILITY 3, WITS 4, EMPATHY 4
+- **Attributes:** Strength 2, Agility 3, Wits 4, Empathy 4
 - **Skills:** Lore 2, Insight 2, Manipulation 2
 - **Talents:** —
 - **Gear:** Dagger, quill and ink
@@ -656,7 +656,7 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 
 ### Stats: Typical Silent Guard
 
-- STRENGTH 4, AGILITY 3, WITS 3, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 3, Insight 4
 - **Talents:** —
 - **Gear:** Short spear, large shield, chainmail, great helm, heavy crossbow
@@ -665,7 +665,7 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 
 ### Stats: Typical Alderlander
 
-- STRENGTH 3, AGILITY 3, WITS 3, EMPATHY 3
+- **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 1, Insight 2
 - **Talents:** —
 - **Gear:** Shortsword, short bow
@@ -676,7 +676,7 @@ The Aslenes have a more colorful physical appearance than the Alderlanders. They
 
 ### Stats: Typical Aslene
 
-- STRENGTH 3, AGILITY 4, WITS 3, EMPATHY 2
+- **Attributes:** Strength 3, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 2, Marksmanship 2, Move 2, Animal Handling 2
 - **Talents:** Horseback Fighter
 - **Gear:** Short spear, short bow, leather armor, riding horse
@@ -703,7 +703,7 @@ The Elvenspring worship the creator god, Clay, and the Shardmaiden, who they bel
 
 ### Stats: Typical Maiden Druid
 
-- STRENGTH 2, AGILITY 3, WITS 4, EMPATHY 3
+- **Attributes:** Strength 2, Agility 3, Wits 4, Empathy 3
 - **Skills:** Melee 2, Marksmanship 2, Lore 2, Manipulation 2, Move 1
 - **Talents:** Path of Shifting Shapes 2
 - **Gear:** Short bow, dagger, leather armor
@@ -754,7 +754,7 @@ Elves with the quiet disposition of the Stillelves did not resist when the human
 
 ### Stats: Typical Stillelf
 
-- STRENGTH 3, AGILITY 3, WITS 5, EMPATHY 2
+- **Attributes:** Strength 3, Agility 3, Wits 5, Empathy 2
 - **Skills:** Melee 2, Crafting 4, Lore 5, Insight 4
 - **Talents:** Path of Shifting Shapes 2
 - **Gear:** Wooden staff
@@ -769,7 +769,7 @@ Less patient elves still want to leave an impression on the world. Hopefully, it
 
 ### Stats: Typical Unruly Elf
 
-- STRENGTH 3, AGILITY 4, WITS 3, EMPATHY 2
+- **Attributes:** Strength 3, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 2, Endurance 2, Stealth 3, Marksmanship 2, Scouting 2, Survival 2
 - **Talents:** —
 - **Gear:** Longbow, short spear, knife
@@ -784,7 +784,7 @@ Dwarves like singing satirical songs about their allies, in which “the Golden 
 
 ### Stats: Typical Golden Bough Druid
 
-- STRENGTH 3, AGILITY 3, WITS 4, EMPATHY 3
+- **Attributes:** Strength 3, Agility 3, Wits 4, Empathy 3
 - **Skills:** Melee 2, Scouting 2, Lore 3, Marksmanship 2, Survival 3, Animal Handling 3
 - **Talents:** Path of Healing 2
 - **Gear:** Throwing spear, falcion, leather armor
@@ -797,7 +797,7 @@ Melders are very hard to discover, unless they choose to reveal themselves. This
 
 ### Stats: Typical Melder
 
-- STRENGTH 3, AGILITY 4, WITS 4, EMPATHY 3
+- **Attributes:** Strength 3, Agility 4, Wits 4, Empathy 3
 - **Skills:** Melee 2, Crafting 4, Stealth 5, Lore 4, Survival 3
 - **Talents:** Path of Sight 2
 - **Gear:** Knife
@@ -818,7 +818,7 @@ Redrunners hunt and retrieve elven rubies that have been lost. They work as an i
 
 ### Stats: Typical Redrunner
 
-- STRENGTH 4, AGILITY 5, WITS 3, EMPATHY 3
+- **Attributes:** Strength 4, Agility 5, Wits 3, Empathy 3
 - **Skills:** Endurance 3, Melee 4, Stealth 2, Move 3, Marksmanship 4, Insight 3, Survival 2
 - **Talents:** Path of the Enemy 2
 - **Gear:** Longbow, broadsword, dagger, leather armor
@@ -843,7 +843,7 @@ The Belderranians are builders who honor the god Huge. Their land is the main te
 
 ### Stats: Typical Belderranian
 
-- STRENGTH 4, AGILITY 2, WITS 3, EMPATHY 3
+- **Attributes:** Strength 4, Agility 2, Wits 3, Empathy 3
 - **Skills:** Might 3, Melee 3, Crafting 2
 - **Talents:** —
 - **Gear:** Battleaxe, large shield, chaimail, closed helmet
@@ -860,7 +860,7 @@ More ambitious Meromannians have been gathering an army since the Blood Mist lif
 
 ### Stats: Typical Meromannian
 
-- STRENGTH 4, AGILITY 3, WITS 3, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 2, Insight 2, Marksmanship 2
 - **Talents:** —
 - **Gear:** Warhammer, crossbow, studded leather armor
@@ -873,7 +873,7 @@ A group of nobles in Stonegarden does not have the same confidence in the clan�
 
 ### Stats: Typical Canide
 
-- STRENGTH 5, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 5, Agility 3, Wits 2, Empathy 2
 - **Skills:** Might 4, Endurance 2, Melee 3, Scouting 2, Survival 2
 - **Talents:** —
 - **Gear:** Two-handed axe, plate armor, closed helmet
@@ -890,7 +890,7 @@ Several interesting constructions apart from the castle can be found at Dragon�
 
 ### Stats: Typical Crombe
 
-- STRENGTH 3, AGILITY 3, WITS 4, EMPATHY 3
+- **Attributes:** Strength 3, Agility 3, Wits 4, Empathy 3
 - **Skills:** Melee 2, Crafting 3, Lore 2, Performance 3, Healing 2
 - **Talents:** —
 - **Gear:** Mace, leather armor
@@ -913,7 +913,7 @@ All offspring from the union of humans and dwarves are not ogres or unruly, and 
 
 ### Stats: Typical Ogre
 
-- STRENGTH 6, AGILITY 2, WITS 1, EMPATHY 2
+- **Attributes:** Strength 6, Agility 2, Wits 1, Empathy 2
 - **Skills:** Might 4, Endurance 2, Melee 2
 - **Talents:** —
 - **Gear:** Large wooden club
@@ -979,7 +979,7 @@ The name Urhur is derived from “purple,” a word the orcs cannot pronounce pr
 
 ### Stats: Typical Urhur
 
-- STRENGTH 4, AGILITY 3, WITS 3, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 2, Lore 1
 - **Talents:** —
 - **Gear:** Scimitar, large shield, studded leather armor
@@ -996,7 +996,7 @@ The Roka clan is led by General Archa, a scarred veteran and probably the most r
 
 ### Stats: Typical Roka
 
-- STRENGTH 5, AGILITY 2, WITS 2, EMPATHY 2
+- **Attributes:** Strength 5, Agility 2, Wits 2, Empathy 2
 - **Skills:** Might 2, Melee 2, Scouting 1, Survival 1
 - **Talents:** —
 - **Gear:** Flail, studded leather armor
@@ -1015,7 +1015,7 @@ The leader of the Isirs is called Eldag the Ravager. Ravaging bands of Isir warr
 
 ### Stats: Typical Isir
 
-- STRENGTH 4, AGILITY 3, WITS 3, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 3, Marksmanship 2, Survival 2
 - **Talents:** —
 - **Gear:** Two-handed sword, studded leather armor, closed helmet
@@ -1031,7 +1031,7 @@ The Viraga are often sent on especially difficult or dangerous covert actions, s
 
 ### Stats: Typical Viraga
 
-- STRENGTH 3, AGILITY 4, WITS 4, EMPATHY 3
+- **Attributes:** Strength 3, Agility 4, Wits 4, Empathy 3
 - **Skills:** Melee 2, Stealth 2, Move 2, Marksmanship 2, Lore 2, Insight 3, Manipulation 2
 - **Talents:** Path of the Killer 2
 - **Gear:** Shortsword, dagger, four throwing knives, leather armor
@@ -1042,7 +1042,7 @@ Orcs who have left the clans and been banished are called “drifters” among t
 
 ### Stats: Typical Drifter
 
-- STRENGTH 4, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Might 1, Melee 2, Insight 2
 - **Talents:** —
 - **Gear:** Scimitar, studded leather armor, studded leather cap
@@ -1061,7 +1061,7 @@ Despite a shared interest in nature both elves and druids hate wolfkin, believin
 
 ### Stats: Typical Wolfkin
 
-- STRENGTH 4, AGILITY 4, WITS 2, EMPATHY 2
+- **Attributes:** Strength 4, Agility 4, Wits 2, Empathy 2
 - **Skills:** Might 1, Endurance 3, Melee 3, Scouting 3, Survival 2
 - **Talents:** Path of the Forest 2
 - **Gear:** Short spear, knife, leather armor
@@ -1088,7 +1088,7 @@ Saurians have their own language, which other kin have great difficulty speaking
 
 ### Stats: Typical Saurian
 
-- STRENGTH 4, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Endurance 1, Melee 2, Scouting 2, Survival 3
 - **Talents:** —
 - **Armor Rating:** 3 (scales)
@@ -1104,7 +1104,7 @@ Whiners make their lairs in *hollows* – a sort of rock formation riddled with 
 
 ### Stats: Typical Whiner
 
-- STRENGTH 1, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 1, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 2, Stealth 3, Move 3
 - **Talents:** —
 - **Gear:** Short spear
@@ -1133,7 +1133,7 @@ Some halflings feel smothered by the idyllic life in the villages, grow restless
 
 ### Stats: Typical Halfling
 
-- STRENGTH 2, AGILITY 4, WITS 3, EMPATHY 4
+- **Attributes:** Strength 2, Agility 4, Wits 3, Empathy 4
 - **Skills:** Melee 1, Crafting 2, Stealth 2, Sleight of Hand 1, Insight 2, Manipulation 2
 - **Talents:** —
 - **Gear:** Shortsword, sling, leather armor
@@ -1146,7 +1146,7 @@ Goblins can see in the dark, but strong daylight hurts their eyes. Therefore, th
 
 ### Stats: Typical Goblin
 
-- STRENGTH 2, AGILITY 4, WITS 4, EMPATHY 2
+- **Attributes:** Strength 2, Agility 4, Wits 4, Empathy 2
 - **Skills:** Melee 1, Move 1, Stealth 2, Marksmanship 1, Insight 2, Manipulation 2
 - **Talents:** —
 - **Gear:** Shortsword or short spear, sling, D6 copper coins
@@ -1247,7 +1247,8 @@ In particularly afflicted areas, younger Abyss Worms are trapped and killed in l
 ### Stats: Old Worm
 
 - **Attributes:** Strength 18, Agility 2
-- **Movement:** 2 Armor Rating: 10
+- **Movement:** 2
+- **ARMOR** RATING: 10
 - **Weak Mouth Cavity:** An attack aimed at the mouth of an Abyss Worm suffer a −2 penalty, but if it hits the worm is not protected by any armor.
 
 ### Table: Monster Attacks
@@ -1921,7 +1922,7 @@ Some Trolls gorge themselves until they are so large and round that they more of
 ### Stats: Troll
 
 - **Attributes:** Strength 12–16, Agility 2
-- SKILLS: SCOUT 4
+- **SKILLS: SCOUT** 4
 - **Armor Rating:** 4 (skin)
 - **Movement:** 1
 - **Regenerate:** A Troll recovers one point of lost Strength each round.
@@ -2555,7 +2556,7 @@ The scene is, in fact, completely staged and no one is hurt. A group of slavers 
 
 ### Stats: Slavers
 
-- STRENGTH 3, AGILITY 2, WITS 2, EMPATHY 2
+- **Attributes:** Strength 3, Agility 2, Wits 2, Empathy 2
 - **Skills:** Melee 2
 - **Gear:** Wooden club or mace, leather armor, D6 copper
 
@@ -2618,7 +2619,7 @@ A group of starving robbers, equal in number to the adventurers, led by Argam Tw
 
 ### Stats: Bandits
 
-- STRENGTH 3, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 3, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 3, Stealth 2, Scouting 1, Survival 2
 - **Gear:** Broadsword, hand axe or wooden club, D6 copper
 
@@ -2662,7 +2663,7 @@ The dwarf Andred disavowed the god Huge after a tunnel collapse killed his famil
 
 ### Stats: Andred
 
-- STRENGTH 2, AGILITY 2, WITS 4, EMPATHY 4
+- **Attributes:** Strength 2, Agility 2, Wits 4, Empathy 4
 - **Skills:** Melee 2, Manipulation 3, Move 2, Marksmanship 4, Insight 4, Stealth 4, Sleight of Hand 5
 
 **TERRAIN TYPES:** Plains, Forest, Marshlands, Quagmire
@@ -2727,7 +2728,9 @@ The ghost cannot be avoided by KEEPING WATCH. Read more about ghosts on page 94.
 
 ## 22: The Glassblower
 
-*In the distance, you hear a beeping sound every time the wind take hold of the trees. It sounds like a huge flute. A glass structure rises above the landscape; corridors, openings, spirals and tunnels all made of glass. In the middle of the building stands a dwarf, illuminated by flames from a fireplace. The dwarf lifts the tip of a long metal rod from the fire, it is covered in a pulp of glowing glass. She puts the other end to her lips and with a heavy breath the pulp transforms in to a long winding tube of glass.* The dwarf Varamak got the vison of the glass structure in her dreams. She thinks it is possible to understand, curb and control the Blood Mist. For several weeks she has been working on her life’s project. The only thing left is to gather the Blood Mist in a glass tube and pour it in to the structure. She asks the adventurers for help. What Varamak does not know is that the vision she had was created by a demon. If she is able to collect the Blood Mist it will spread through the structure with increasing speed making a screaming sound. After D6 hours, the glass will break. The mist will cover the surroundings in the entire map hexagon (see the Blood Mist random encounter). It will disperse after D6 weeks.
+*In the distance, you hear a beeping sound every time the wind take hold of the trees. It sounds like a huge flute. A glass structure rises above the landscape; corridors, openings, spirals and tunnels all made of glass. In the middle of the building stands a dwarf, illuminated by flames from a fireplace. The dwarf lifts the tip of a long metal rod from the fire, it is covered in a pulp of glowing glass. She puts the other end to her lips and with a heavy breath the pulp transforms in to a long winding tube of glass.*
+
+The dwarf Varamak got the vison of the glass structure in her dreams. She thinks it is possible to understand, curb and control the Blood Mist. For several weeks she has been working on her life’s project. The only thing left is to gather the Blood Mist in a glass tube and pour it in to the structure. She asks the adventurers for help. What Varamak does not know is that the vision she had was created by a demon. If she is able to collect the Blood Mist it will spread through the structure with increasing speed making a screaming sound. After D6 hours, the glass will break. The mist will cover the surroundings in the entire map hexagon (see the Blood Mist random encounter). It will disperse after D6 weeks.
 
 **TERRAIN TYPES:** Hills, Mountains
 
@@ -2810,7 +2813,7 @@ The walking armor is the strange undead creature Teramalda, who wanders through 
 
 ### Stats: Teramalda
 
-- STRENGTH 12, AGILITY 4, WITS 3, EMPATHY 2
+- **Attributes:** Strength 12, Agility 4, Wits 3, Empathy 2
 - **Skills:** Scout 2
 - **Gear:** Two-handed sword
 - **Slow:** RUN is a SLOW action for Teramalda.
@@ -2844,7 +2847,7 @@ Kaun, the life partner of the minotaur Markut, died in a fight against a group o
 
 ### Stats: The Soldiers
 
-- STRENGTH 4, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 2
 - **Gear:** Broadsword, small shield, studded leather
 
@@ -2900,7 +2903,7 @@ The dwarf Guntermann has decided to make up for his mine running dry by “taxin
 
 ### Stats: Dwarven Warriors
 
-- STRENGTH 4, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 3, Move 2, Marksmanship 3, Insight 4
 - **Gear:** Battleaxe, studded leather, crossbow
 
@@ -2950,7 +2953,7 @@ A group of Saurians, equal in number to the adventurers plus D6, come upon the a
 
 ### Stats: Saurians
 
-- STRENGTH 4, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Stealth 2, Melee 2, Survival 2, Scouting 2
 - **Protection:** 4 (scales)
 - **Typical Gear:** Tridents or long spears
@@ -2965,7 +2968,7 @@ The elf Bluefeather and her bounty hunters have found the Ylendidra family, that
 
 ### Stats: Bounty Hunters
 
-- STRENGTH 2, AGILITY 4, WITS 3, EMPATHY 2
+- **Attributes:** Strength 2, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 3, Move 3, Marksmanship 3, Scouting 4, Survival 3, Insight 3
 - **Gear:** Studded leather, bow, sword
 
@@ -4215,7 +4218,7 @@ The most prominent individuals in the village, as well as the princely couple Ur
 
 The village elder, Mrs. Pollmor, is an elderly woman whose family has run the village for generations. She makes sure that the wall is decently functional, runs a militia, maintains the well, keeps the river clean, is responsible for fire protection, tends to the temple and sees to it that the latrines are emptied, as well as collecting taxes from those who don’t contribute to the aforementioned chores. Mrs. Pollmor is known as “The Bailiff” among those who dislike her. Ever since her man passed away she has become increasingly introverted and, aside from the occasional visit to Dead Man’s Hand, keeps to her rocking chair in front of the fireplace at home. Mrs. Pollmor lives in the shadow of her great-grandmother, who is held up as the founder of the village. With age, she has also become greedy and mean. She abuses her power and skirts her sense of justice more and more to misappropriate benefits for herself. The innkeeper, Olm and Ness, the blacksmith, are hoping that the conflict between the elder and Yawim, the brewmaster, will kindle an ember in the frozen heart of Mrs. Pollmor.
 
-- STRENGTH 2, AGILITY 2, WITS 4, EMPATHY 3
+- **Attributes:** Strength 2, Agility 2, Wits 4, Empathy 3
 - **Skills:** Lore 2, Insight 3, Manipulation 4
 - **Gear:** A large bronze amulet with a piece of amber at its centre – a sign of her office (worth D6 silver coins)
 
@@ -4227,7 +4230,7 @@ Yawim possesses exceptional brewing skills and runs the Three Skulls Tavern, whi
 
 Yawim is a beardless dwarf with a shaved head and a gut that grows ever larger in step with his fondness for beer. He is boisterous and always close to laughter or anger.
 
-- STRENGTH 4, AGILITY 2, WITS 3, EMPATHY 3
+- **Attributes:** Strength 4, Agility 2, Wits 3, Empathy 3
 - **Skills:** Melee 3, Crafting 2, Insight 1, Manipulation 2
 - **Gear:** Axe, ornamented chalice made from the horn of a minotaur hanging in a chain from his belt (worth D6 gold coins)
 
@@ -4235,7 +4238,7 @@ Yawim is a beardless dwarf with a shaved head and a gut that grows ever larger i
 
 Few know Sturkas’s name and most of the villagers only speak of him as “the Rust Brother” – usually with a hint of fear in their voices. Sturkas is a large, dark-haired man, dressed in a yellow and red cloak adorned with details of rusted iron. His face is disfigured by the scars of innumerable battles. To the outside world, he strictly adheres to the laws of the Rust Brothers, but in truth, he is remorseful of cruel acts in his younger years. He turns a blind eye to the midwife and her witchcraft, and secretly cares for the “village idiot”, Perko. Should he, however, discover that the midwife is a Raven Sister he will resolutely act according to the regulations of the Rust Brothers – i.e., kill her. The Rust Brother is on Mrs. Pollmor’s side in the escalating conflict in the village, but may choose to switch sides if he feels that it suits him.
 
-- STRENGTH 4, AGILITY 3, WITS 3, EMPATHY 2
+- **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Talents:** Path of Blood 2
 - **Skills:** Melee 3, Crafting 2, Insight 1, Manipulation 2
 - **Gear:** Longsword, chainmail
@@ -4248,7 +4251,7 @@ Midwife Nirvea is secretly a Raven Sister and the only person, except for Vike, 
 
 Nirvea appears older than her 40 years and is dressed in dirty sheets of cloth and a hood. She speaks with consideration, softly and slowly.
 
-- STRENGTH 2, AGILITY 3, WITS 3, EMPATHY 3
+- **Attributes:** Strength 2, Agility 3, Wits 3, Empathy 3
 - **Talents:** Path of Healing 2, Path of Sight 1
 - **Skills:** Lore 2, Insight 2, Healing 4
 - **Gear:** Satchel with herbs (Gear Bonus +2 to HEALING), leather pouch with raven bones for divinations
@@ -4261,7 +4264,7 @@ Perko drifts aimlessly around town and is mostly ignored by the villagers. For t
 
 Perko is a teenage boy with dirty, cut-off tights and a muddy tunic. His hair straggles in all directions and his stare is maniacal. He stuffs his pockets with dead birds, messy muck, insects and other items of interest that he gladly offers as gifts to those he meets.
 
-- STRENGTH 2, AGILITY 3, WITS 3, EMPATHY 1
+- **Attributes:** Strength 2, Agility 3, Wits 3, Empathy 1
 - **Skills:** Move 2, Sleight of Hand 3
 - **Gear:** Nothing of value
 
@@ -4279,7 +4282,7 @@ The count is a tall and proud man with a bronze crown and a trimmed mantle. His 
 >
 > - **Armor:** None. Ghosts are undead creatures, but immaterial, and can only be injured by fire or magic. Even if the ghost is defeated it will only be banished for a quarter of a day before it returns. The only way to permanently banish the ghost is through the spell PURGE UNDEAD (see page 124 in the *Player’s Handbook).*
 >
-> FOR MONSTER ATTACKS, see page 94.
+> **FOR MONSTER ATTACKS**, see page 94.
 
 ### Countess Ursula
 
@@ -4291,7 +4294,7 @@ She is bound by Zygofer’s magic to prevent anyone from freeing her husband fro
 >
 > - **Armor:** See above.
 >
-> FOR MONSTER ATTACKS, see page 94 in the Bestiary chapter.
+> **FOR MONSTER ATTACKS**, see page 94 in the Bestiary chapter.
 
 ### The Undead
 
@@ -4551,7 +4554,7 @@ The monsters and NPCs that the adventurers can meet at Weatherstone are describe
 
 A man in his fifties with greying, unkempt hair, wearing a green tunic, gray hose and knitted finger gloves to protect against the cold. Constantly with a pipe in the corner of his mouth, Dalb is a person who can enchant any audience with so simple a means as his green eyes and husky voice. The bard (who is not what he seems to be, see the boxed text “Who is Dalb?”) has struck camp outside Weatherstone to lure adventurers to their doom within. This night, he is very lucky as no less than two groups arrive shortly after one another.
 
-- STRENGTH 3, AGILITY 4, WITS 6, EMPATHY 6
+- **Attributes:** Strength 3, Agility 4, Wits 6, Empathy 6
 - **Skills:** Performance 5
 - **Gear:** Pipe, lute
 
@@ -4565,7 +4568,7 @@ A muscular and loud man who presents himself as a travelling merchant specializi
 
 He lacks empathy and is planning to doublecross his companions at the first and best opportunity.
 
-- STRENGTH 5, AGILITY 3, WITS 2, EMPATHY 2
+- **Attributes:** Strength 5, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 3, Might 3, Manipulation 2, Move 1
 - **Talents:** Path of the Blade 1, Threatening 1
 - **Gear:** Longsword, large shield, chainmail, D6 silver
@@ -4576,7 +4579,7 @@ He lacks empathy and is planning to doublecross his companions at the first and 
 
 Kordomar is a hunter from Harga who as a child was told many stories of Alderland, the lands south of the Iron Lock. Despite his greying hair and furrowed face, he is still skilled with bow and arrow. Kordomar came with Esgar to retrieve the sword of King Algarod, who he considers a hero. Kordomar wants to trade the sword for access to Alderland, where he has always dreamed of going. He does not trust Esgar.
 
-- STRENGTH 3, AGILITY 3, WITS 3, EMPATHY 2
+- **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 2
 - **Skills:** Marksmanship 4, Scouting 2, Survival 2
 - **Talents:** The Path of the Arrow 1, Sharpshooter 1
 - **Gear:** Longbow, dagger, leather armor, D6 copper
@@ -4585,7 +4588,7 @@ Kordomar is a hunter from Harga who as a child was told many stories of Alderlan
 
 A gnarly and brooding Rust Brother and historian who can tell many tales of Alderland and the history of the Rust Brothers. Ferebald knows about Algarod’s wretched past, and believes the king’s undead existence is a disgrace. Ferebald has secretly joined Esgar and his compatriots to try to kill Algarod as an act of mercy.
 
-- STRENGTH 2, AGILITY 2, WITS 4, EMPATHY 2
+- **Attributes:** Strength 2, Agility 2, Wits 4, Empathy 2
 - **Skills:** Lore 3, Insight 2, Melee 1
 - **Talents:** Path of Blood 1, Herbalist 1
 - **Gear:** Knife, parchment and pen, D8 copper
@@ -4596,7 +4599,7 @@ Dyndria plays the fiddle and seems to be a jovial woman with a taste for food an
 
 In fact, Dyndria is a thief and assassin hired by the rulers of Alderland, south of the Iron Lock. The new royal family wants to remove any traces of Algarod’s line since political rebels have revealed that the old king still roams Ravenland If Dyndria manages to take Algarod’s head to the Iron Lock, she will be richly rewarded and awarded citizenship in Alderland – or so she believes. Dyndria dreams of present day Alderland, but knows nothing about it. She has hinted to Esgar that she is a thief and would like to be part of any secret raid against the stronghold, but she has not divulged her true intentions.
 
-- STRENGTH 3, AGILITY 4, WITS 2, EMPATHY 3
+- **Attributes:** Strength 3, Agility 4, Wits 2, Empathy 3
 - **Skills:** Stealth 3, Marksmanship 2, Move 2, Melee 1, Manipulation 2, Performance 2
 - **Talents:** Path of Poison 1, Lightning Fast 1
 - **Gear:** Sling, dagger, leather armor, fiddle, D6 copper
@@ -4609,7 +4612,7 @@ The once mighty King Algarod wears chainmail and carries the sword Rustbite (unt
 
 His is a melancholy existence, dictated by Therania’s commands. If her portrait above the bed in the top room of the tower is destroyed, Therania loses her power over him. He will fly into a rage and may attempt to take back his royal power, negotiate with his liberators, or even destroy himself forever – for example, by leaping from the ramparts or asking the adventurers to find an urn with his embalmed heart which is hidden in the laboratory. In the latter case, they will be rewarded with his war chest which he believes is still in the wagons in the ravine.
 
-- STRENGTH 8, AGILITY 3, WITS 3, EMPATHY 2 King Algarod is a Death Knight, a powerful undead being. Death Knights are described in detail on page 86.
+- **Attributes:** Strength 8, Agility 3, Wits 3, Empathy 2 King Algarod is a Death Knight, a powerful undead being. Death Knights are described in detail on page 86.
 - **Gear:** Chainmail, great helm, the Rustbite longsword. If you want to introduce the *Nekhaka* spire or even the *Stanengist* crown itself (see *Raven’s Purge*), you can let Algarod have them in his chamber.
 - **Two Attacks:** King Algarod is a powerful Death Knight and as such gets to act twice every round. Draw two initiative cards at the beginning of combat.
 
@@ -4619,14 +4622,14 @@ Around the keep are dozens of undead Alderlander soldiers, dead for centuries. W
 
 ##### Skeleton Soldiers
 
-- STRENGTH 3, AGILITY 2
+- **Attributes:** Strength 3, Agility 2
 - **Skills:** Melee 3
 - **Gear:** Broadsword, studded leather
 - **Bony:** Skeletons never take more than 1 point of Damage from STABS and arrows.
 
 ##### Skeleton Bodyguards
 
-- STRENGTH 6, AGILITY 2
+- **Attributes:** Strength 6, Agility 2
 - **Skills:** Melee 3, Might 2
 - **Gear:** Chainmail, large shield, longsword
 - **Bony:** Skeletons never take more than 1 point of Damage from STABS and arrows.
@@ -4635,7 +4638,7 @@ Around the keep are dozens of undead Alderlander soldiers, dead for centuries. W
 
 A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, half-human, this is a creature that was never meant to live. The beast is totally driven by instinct and see all living creatures as potential food. The Scorpion Beast is a monster (see page 73).
 
-- STRENGTH 14, AGILITY 8
+- **Attributes:** Strength 14, Agility 8
 - **Armor:** 5 (carapace)
 - **Two Attacks:** The scorpion beast can act twice every round. Draw two initiative cards at the beginning of combat.
 
@@ -4646,13 +4649,21 @@ A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, 
 
 <!-- p.228 -->
 
-> 3 CHILLING ROAR! The Scorpion Beast lets out an otherworldly scream that makes the adventurers blood freeze. Everyone within NEAR range is exposed to a fear attack rolled with six Base Dice.
+> 3
 >
-> 4 DEATHLY EMBRACE! With a powerful leap, the beast jumps upon an adventurer and embraces her with its demonic claws. Roll for the attack with eight Base Dice and Weapon Damage 1 (blunt force). If the attack hits, the victim is GRAPPLED.
+> **CHILLING ROAR!** The Scorpion Beast lets out an otherworldly scream that makes the adventurers blood freeze. Everyone within NEAR range is exposed to a fear attack rolled with six Base Dice.
 >
-> 5 POISON FANG! The Scorpion Beast’s tail rattles like a cobra before it thrusts against an adventurer, stinging her with its poison. Roll for the attack using seven Base Dice and Weapon Damage 1 (stab wound). This attack is too fast to DODGE. If the victim is hit and suffers 1 point of Damage or more, they are injected with a paralyzing poison with Potency of 9.
+> 4
 >
-> 6 WHIRLWIND ATTACK! The beast lets its tail sweep against all adventurers within ARM’S LENGTH. Roll to hit on each with eight Base Dice and Weapon Damage 2 (slash wound). All adventurers who are hit are also struck to the ground.
+> **DEATHLY EMBRACE!** With a powerful leap, the beast jumps upon an adventurer and embraces her with its demonic claws. Roll for the attack with eight Base Dice and Weapon Damage 1 (blunt force). If the attack hits, the victim is GRAPPLED.
+>
+> 5
+>
+> **POISON FANG!** The Scorpion Beast’s tail rattles like a cobra before it thrusts against an adventurer, stinging her with its poison. Roll for the attack using seven Base Dice and Weapon Damage 1 (stab wound). This attack is too fast to DODGE. If the victim is hit and suffers 1 point of Damage or more, they are injected with a paralyzing poison with Potency of 9.
+>
+> 6
+>
+> **WHIRLWIND ATTACK!** The beast lets its tail sweep against all adventurers within ARM’S LENGTH. Roll to hit on each with eight Base Dice and Weapon Damage 2 (slash wound). All adventurers who are hit are also struck to the ground.
 
 ### Harpies
 
@@ -4873,7 +4884,7 @@ Kalmax of Falender was once a proud and renowned rider in his clan. However, his
 
 After having gambled away his family fortune to the heir of a rival clan, he was exiled by his own and left with a few trusted companions. To restore his honor, he needs <!-- p.241 --> to find silver – lots of silver. He has heard of treasures hidden in the Vale of the Dead, and will do anything to get his hands on it, no matter what the cost.
 
-- STRENGTH 3, AGILITY 4, WITS 3, EMPATHY 3
+- **Attributes:** Strength 3, Agility 4, Wits 3, Empathy 3
 - **Skills:** Endurance 3, Melee 4, Move 2, Scouting 3, Survival 3, Animal Handling 3
 - **Gear:** Short spear, broadsword, leather armor, riding horse
 
@@ -4881,7 +4892,7 @@ After having gambled away his family fortune to the heir of a rival clan, he was
 
 The clanless orcs have been hired by the whiners to keep enemies away. In return, they are receiving food and fermented juice. The orc leader, Horlo, is a scarred battle tested orc from the Isir clan. He was driven away by Eldag the Ravager after an orc woman chose Horlo over the chieftain. Horlo rightly considers himself to have been wrongfully cast out and wants nothing more than to return to the Isir and kill Eldag. He may start negotiations with strangers if he thinks that they can be of use in this endeavour. Horlo and his two Isir companions, Chren and Argana, are the most capable fighters among the orcs and they never get severely drunk. If Horlo becomes angry he will start foaming at the mouth, producing green froth that makes his bite poisonous.
 
-- STRENGTH 5, AGILITY 4, WITS 3, EMPATHY 2
+- **Attributes:** Strength 5, Agility 4, Wits 3, Empathy 2
 - **Skills:** Might 3, Melee 4, Manipulation 2
 - **Gear:** Scimitar, shield, chainmail, D6 copper, necklace with teeth
 
@@ -4889,7 +4900,7 @@ The clanless orcs have been hired by the whiners to keep enemies away. In return
 
 The orcs in the Vale of the Dead are clanless orcs who have been hired for protection by the whiners.
 
-- STRENGTH 4, AGILITY 2, WITS 2, EMPATHY 2
+- **Attributes:** Strength 4, Agility 2, Wits 2, Empathy 2
 - **Skilla:** Melee 2, Might 1
 - **Gear:** Scimitar, studded leather armor
 
@@ -4897,7 +4908,7 @@ The orcs in the Vale of the Dead are clanless orcs who have been hired for prote
 
 The chieftain of the whiners is called Nasura Kak. She and her people want nothing other than to live in peace and quiet inside the mountain. Like all whiners, she and her kin are terrified of tall-folk who want to take them for their sweet-meat. Nasura wants to keep the crumhorn away from Scrome at any cost, since his tunes cause their protective hollow-rock to wither as well as being grating on the sensitive ears of whiners.
 
-- STRENGTH 2, AGILITY 4, WITS 3, EMPATHY 2
+- **Attributes:** Strength 2, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 2, Stealth 2, Manipulation 3
 - **Gear:** Shortsword, knife, studded leather armor
 
@@ -4905,7 +4916,7 @@ The chieftain of the whiners is called Nasura Kak. She and her people want nothi
 
 The whiners living in the caves near the Vale of the Dead are typical of their kin. Short of stature, fleet of foot and skeptical of strangers.
 
-- STRENGTH 1, AGILITY 4, WITS 2, EMPATHY 2
+- **Attributes:** Strength 1, Agility 4, Wits 2, Empathy 2
 - **Skills:** Stealth 2, Melee 1, Survival 1
 - **Gear:** Wooden club
 
@@ -4925,7 +4936,7 @@ Scrome cares for the undead and tries to make them feel at home, among other mea
 
 If Scrome’s second eye is reinserted (see page 144), he becomes a completely different and considerably more dangerous giant.
 
-- STRENGTH 24, AGILITY 2, WITS 3, EMPATHY 2
+- **Attributes:** Strength 24, Agility 2, Wits 3, Empathy 2
 - **Armor:** 3 (skin)
 - **Gear:** Wooden club
 
@@ -4939,9 +4950,10 @@ Harama was once the human servant and chef of Zygofer during his studies in the 
 
 If the adventurers help Harama die, he may give them his magical soup stone as thanks. It is buried in the old herbarium outside the kitchen.
 
-- STRENGTH 6, AGILITY 2, WITS 3, EMPATHY 2
+- **Attributes:** Strength 6, Agility 2, Wits 3, Empathy 2
 - **Skills:** Melee 2, Lore 2, Manipulation 2
-- **Gear:** Cleaver, soup stone HARAMA’S soup stone looks like a piece of shimmering, milky agate shaped like the egg of a goose. Putting it in a soup or stew while cooking will make the food so delicious that anyone who eats it will become temporarily sympathetic to the chef. The chef gets +3 on all rolls for MANIPULATION directed towards people who have eaten of the meal.
+- **Gear:** Cleaver, soup stone
+- **HARAMA’S** soup stone looks like a piece of shimmering, milky agate shaped like the egg of a goose. Putting it in a soup or stew while cooking will make the food so delicious that anyone who eats it will become temporarily sympathetic to the chef. The chef gets +3 on all rolls for MANIPULATION directed towards people who have eaten of the meal.
 
 ## Events
 

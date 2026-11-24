@@ -47,7 +47,7 @@ HEAD_Y, FOOT_Y = 84, 612          # running head art / page number + chapter nam
 MID = 241.5                       # gutter between the two text columns
 DICE = {("Swordlings", "x"): "⚔", ("SkullZ", "l"): "☠"}
 LIGATURES = {"ﬁ": "fi", "ﬂ": "fl", "ﬀ": "ff", "ﬃ": "ffi", "ﬄ": "ffl", "\t": " "}
-BULLETS = "✥•■◆"
+BULLETS = "✥•■◆…"                 # "…" starts hanging list items ("… always makes a lot of noise")
 
 
 @dataclass
@@ -571,6 +571,8 @@ def label_of(spans):
     lab = ""
     for s in spans:
         if not s.bold:
+            if lab.strip() and s.text.lstrip().startswith(":"):   # "KIN TALENT" + ": Adaptive"
+                return lab.strip() + ":"
             break
         lab += s.text
         if lab.rstrip().endswith(":"):
@@ -817,21 +819,24 @@ def box_items(r: Region, vocab):
         first = (l.text.strip().split() or [""])[0]
         cw = (prev.x1 - prev.x0) / max(len(prev.text), 1) if prev else 0
         fits = prev is not None and prev.x1 + (len(first) + 1) * cw < right - 2
-        new_para = (prev is None or lab or bullet or l.y0 - prev.y1 > 7
+        bold_lead = (l.spans[0].bold and l.spans[0].text.strip() and not all(sp.bold for sp in l.spans)
+                     and re.search(r"[A-Z]{3}", l.spans[0].text))      # "HARAMA’S soup stone looks…"
+        new_para = (prev is None or lab or bullet or bold_lead or l.y0 - prev.y1 > 7
                     or re.match(r"\d+\.\s", l.text.strip())
                     or (fits and re.search(r"[.!?:”’)*]$", prev.text.strip()))
                     or (l.x0 - box_left >= 8 and prev.x0 - box_left < 3 and prev.x1 >= right - 15
                         and abs((l.x0 + l.x1) - (prev.x0 + prev.x1)) > 6      # not centred text
                         and not (cur and cur.get("bullet"))))
         if lab:
-            rest = l.text.strip()[len(lab):].strip()
+            rest = re.sub(r"^\s*:\s*", "", l.text.strip()[len(lab) - 1:])   # colon may sit after a space
             cur = {"label": lab.rstrip(":").strip(), "lines": [rest] if rest else []}
             items.append(cur)
         elif bullet:
-            cur = {"label": "", "bullet": True, "lines": [l.text.strip()[1:].strip()]}
+            t = l.text.strip()
+            cur = {"label": "", "bullet": True, "lines": [t if t[0] == "…" else t[1:].strip()]}
             items.append(cur)
         elif new_para and not (cur and cur.get("label") and not cur["lines"]):
-            cur = {"label": "", "lines": [fmt_spans(l.spans)]}
+            cur = {"label": "", "lines": [cell_text(l) if bold_lead else fmt_spans(l.spans)]}
             items.append(cur)
         else:
             cur["lines"].append(fmt_spans(l.spans))
@@ -862,6 +867,8 @@ def box_md(r: Region, vocab) -> str:
 def stats_md(r: Region, vocab) -> str:
     out = []
     for i in box_items(r, vocab):
+        if re.match(r"STRENGTH \d", i):          # unlabelled attribute line of an NPC stat block
+            i = "**Attributes:** " + re.sub(r",(?=\S)", ", ", title_case(i))
         out.append(i if i.startswith("- ") else "- " + i)
     return "\n".join(out)
 
@@ -1065,12 +1072,13 @@ class Writer:
         ital = lambda x: all(sp.italic for sp in x.spans if sp.text.strip())
         if not new and p is not None and p.col == "F" and l.col != "F" and ital(p) != ital(l):
             new = True                                  # centred label line, then column text
-        if not new and p is not None and ital(p) != ital(l) and p.x1 < pright - 10:
+        if not new and p is not None and ital(p) != ital(l) and (
+                p.x1 < pright - 10 or re.search(r"[.!?”’]$", p.text.strip())):
             new = True                                  # short line, then italic flavour text (or back)
         if new and p is not None and re.search(r"[a-z]-$", p.text.strip()) and l.text[:1].islower():
             new = bool(bullet or lab or dc)            # a hyphenated word always continues
         if bullet:
-            body = l.text.strip()[1:].strip()
+            body = l.text.strip() if l.text.strip()[0] == "…" else l.text.strip()[1:].strip()
             m = re.match(r"^([A-Z][A-Z’' ]+?)(?::\s*|\s+)(.*)$", body)
             gl = re.match(r"^([A-Z][A-Z’' &/-]+:)\s*(.*)$", body)
             if gl and not (m and m.group(1).strip() in ("RANK", "RANGE", "DURATION", "INGREDIENT")):
