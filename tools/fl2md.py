@@ -380,6 +380,10 @@ class Region:
     caption: str = ""
     caplines: list = field(default_factory=list)
     table: bool = False
+    single_col: bool = False
+    skip: bool = False
+    intro: object = None
+    headerless: bool = False
 
     @property
     def bbox(self):
@@ -422,7 +426,20 @@ def is_header(unit) -> bool:
             and all(not re.search(r"[a-z]", s.text) for s in spans))
 
 
-def units_of(lines):
+def split_zones(lines):
+    """Vertical ranges with two tables side by side: a pair of captions on one baseline,
+    one on each side of the gutter. Inside them nothing is joined across the gutter."""
+    caps = [l for l in lines if l.branding and is_caption([l])]
+    zones = []
+    for a in caps:
+        for b in caps:
+            if a.x1 <= MID + 4 and b.x0 >= MID - 4 and abs(a.y0 - b.y0) < 3:
+                below = [c.y0 for c in caps if c.y0 > a.y0 + 5 and c.x0 < MID - 4 and c.x1 > MID + 4]
+                zones.append((a.y0 - 2, min(below) - 2 if below else 1e9))
+    return zones
+
+
+def units_of(lines, zones=()):
     """Group lines sharing a baseline and lying close together horizontally."""
     lines = sorted(lines, key=lambda l: (round(l.y0), l.x0))
     units = []
@@ -436,7 +453,9 @@ def units_of(lines):
             margins = sorted([ux0, l.x0])
             if cross and margins[0] < 66 and 243 <= margins[1] <= 257:
                 gap = 999
-        caps = u and all(s.bold and not re.search(r"[a-z]", s.text) for x in u + [l] for s in x.spans)
+        caps = u and all(s.bold and s.size < 8.8 and not re.search(r"[a-z]", s.text) for x in u + [l] for s in x.spans)
+        if u and cross and any(a <= l.y0 <= b for a, b in zones):
+            gap = 999                    # two tables side by side
         if u and abs(u[-1].y0 - l.y0) <= 2.5 and (gap < 45 or (not cross and gap < 150) or (caps and gap < 300)) and gap < 999:
             u.append(l)
         else:
@@ -447,7 +466,8 @@ def units_of(lines):
 def find_regions(lines):
     blines = [l for l in lines if l.branding]
     regions = []
-    for u in units_of(blines):
+    zones = split_zones(blines)
+    for u in units_of(blines, zones):
         ux0, uy0 = min(l.x0 for l in u), min(l.y0 for l in u)
         ux1, uy1 = max(l.x1 for l in u), max(l.y1 for l in u)
         target = None
@@ -457,7 +477,7 @@ def find_regions(lines):
             near = ux0 < x1 + 2 and ux1 > x0 - 2
             if caption_only and not near:      # centred caption over a wider table
                 cx = (x0 + x1) / 2
-                slack = 150 if is_header(u) or all_caps_bold(u) else 20
+                slack = 150 if is_header(u) or (all_caps_bold(u) and max(l.size for l in u) < 8.8) else 20
                 near = ux0 - slack < cx < ux1 + slack
             if near and uy0 - y1 < (40 if r.table else 22) and uy0 >= y0 - 2:
                 target = r
@@ -569,7 +589,7 @@ class Table:
 
     def join_spread(self, other) -> bool:
         """Facing-page table: same rows, more columns on the right-hand page."""
-        if len(self.rows) != len(other.rows) or not self.rows:
+        if not isinstance(other, Table) or len(self.rows) != len(other.rows) or not self.rows:
             return False
         if sum(abs(a - b) < 5 for a, b in zip(self.ys, other.ys)) < 0.8 * len(self.ys):
             return False
@@ -583,7 +603,7 @@ def table_md(r: Region, shaded, vocab):
     # header rows: leading bold units (multi-line headers stack)
     head_units = []
     while units and all_caps_bold(units[0]) and (
-            is_header(units[0]) or any(is_header(u) for u in units[1:3])
+            is_header(units[0]) or any(is_header(u) for u in units[1:3]) or (r.single_col and not head_units)
             or (head_units and units[0][0].y0 - head_units[-1][0].y1 < 4)):
         head_units.append(units.pop(0))
     hlines = [l for u in head_units for l in u]
@@ -597,6 +617,13 @@ def table_md(r: Region, shaded, vocab):
             cols.append({"x0": l.x0, "x1": l.x1, "parts": [l]})
     cols.sort(key=lambda c: c["x0"])
     names = [title_case(" ".join(p.text for p in sorted(c["parts"], key=lambda p: p.y0))) for c in cols]
+    if not cols and r.headerless:               # rows only: columns from the cells' left edges
+        for x in sorted(l.x0 for u in units for l in u):
+            if cols and x - cols[-1]["x1"] < 60:      # centred values start at varying x
+                cols[-1]["x1"] = x
+            else:
+                cols.append({"x0": x, "x1": x, "parts": []})
+        names = [" "] * len(cols)
     body = [l for u in units for l in u]
     # small-print notes under the last row ("Parry without Parrying weapon: −2")
     note = []
@@ -639,8 +666,8 @@ def table_md(r: Region, shaded, vocab):
     # columns that are independent lists with bold sub-headings (List of Talents)
     subheads = [l for l in body if all_caps_bold([l]) and re.search(r"[A-Z]{3}", l.text)]
     named = [n for n in names if n.strip()]
-    period = next((m for m in range(1, len(names)) if len(names) % m == 0 and names[:m] * (len(names) // m) == names),
-                  0)                            # header repeated side by side: A B | A B
+    period = next((m for m in range(1, len(names)) if len(names) % m == 0 and names[:m] * (len(names) // m) == names
+                   and names[0].strip()), 0)                            # header repeated side by side: A B | A B
     if subheads or period == 1:
         return ListTable(cols, names, body, col_of, vocab)
 
@@ -833,7 +860,7 @@ class Holder:
 class TableBlock:
     """A table plus its heading; rows from later pages may still be appended."""
 
-    cont, base = False, ""
+    cont, base, intro = False, "", ""
 
     def __init__(self, heading, table, label):
         self.heading, self.table, self.pages = heading, table, [label]
@@ -845,8 +872,10 @@ class TableBlock:
         out, last, prev_names = [], None, None
         for x in items:
             if isinstance(x, TableBlock):
-                if (x.cont and last is not None and x.table.names == last.table.names
-                        and isinstance(x.table, Table) and (not x.base or norm(x.base) in norm(last.heading))):
+                title = lambda h: norm(re.sub(r"^#+\s*", "", h or ""))
+                same = last is not None and x.heading and title(x.heading) == title(last.heading)  # caption repeated
+                if ((x.cont or same) and last is not None and x.table.names == last.table.names
+                        and isinstance(x.table, Table) and (same or not x.base or norm(x.base) in norm(last.heading))):
                     last.table.rows += x.table.rows
                     last.pages += x.pages
                     continue
@@ -862,7 +891,7 @@ class TableBlock:
         pages = [p for p in self.pages if p]
         rng = f"<!-- p.{pages[0]}–{pages[-1]} -->" if len(set(pages)) > 1 else ""
         head = f"{self.heading} {rng}".strip() if self.heading else rng
-        return "\n\n".join(x for x in (head, self.table.md) if x)
+        return "\n\n".join(x for x in (head, self.intro, self.table.md) if x)
 
     def __bool__(self):
         return True
@@ -927,7 +956,12 @@ class Writer:
         pright = self.prev_right if self.prev is not None else right   # right edge of p's column
         txt = fmt_spans(l.spans)
         if dc:
-            txt = dc + txt.lstrip()
+            first = re.match(r"[A-Za-z’']*", txt.lstrip()).group(0)
+            joined = (dc + first).lower()
+            if dc.isalpha() and dc.lower() in ("a", "i") and joined not in self.vocab.words:
+                txt = dc + " " + txt.lstrip()            # "A" + "roleplaying game" is two words
+            else:
+                txt = dc + txt.lstrip()
         lab = re.match(r"^([A-Z][A-Z’' &]+:)\s", l.text)
         bullet = l.text.strip()[:1] in BULLETS
         p = self.prev
@@ -1033,6 +1067,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
         if p - 1 in pages:
             toc[p - 1].append({"lvl": min(lvl, 4), "title": bookmark_title(t), "used": False})
     w = Writer(vocab)
+    prev_tnames, carry = None, None
     page_tables = collections.defaultdict(list)    # pno -> [[TableBlock, None, joined?]]
     for pno in pages:
         pg = doc[pno]
@@ -1056,9 +1091,34 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
             lines = [l for l in lines if not dropcap(l)]
         for l in lines:
             l.absorbed = False
-        regions = find_regions(lines)
         shaded = [it[1] for d in pg.get_drawings() if d.get("fill") and d["fill"][0] < 0.95
                   and abs(d["fill"][0] - d["fill"][2]) < 0.1 for it in d["items"] if it[0] == "re"]
+        regions = find_regions(lines)
+        # a box made of rows with two or more cells on shaded bands is a table without header
+        for b in regions:
+            if b.kind != "box" or any(label_of(l.spans) for l in b.lines):
+                continue
+            body = [l for l in b.lines if not any(l is c for c in b.caplines)]
+            paired = [l for l in body if any(o is not l and abs(o.y0 - l.y0) < 2 and abs(o.x0 - l.x0) > 40
+                                             for o in body)]
+            bands_in = sum(1 for sh in shaded if sh.x0 < b.x1 and sh.x1 > b.x0 and b.y0 - 2 < sh.y0 < b.y1)
+            if len(body) >= 4 and len(paired) * 10 >= len(body) * 7 and bands_in >= 2:
+                above = [c for c in regions if c is not b and c.kind == "box" and c.caption and not c.skip
+                         and -40 < b.y0 - c.y1 < 6 and c.y0 < b.y0 and c.x0 < b.x1 and c.x1 > b.x0]
+                if above:                        # its caption block also caught the first row
+                    c = above[0]
+                    b.lines = [l for l in c.lines if not any(l is x for x in c.caplines)] + b.lines
+                    b.caplines, b.caption, c.skip = c.caplines, c.caption, True
+                    b.lines += c.caplines
+                b.kind, b.headerless = "table", True
+        # caption + short intro text in its own block, table right below: one captioned table
+        for b in regions:
+            if b.caption and (b.kind == "box" or (b.kind == "stats" and len(b.lines) - len(b.caplines) <= 4)):
+                below = [t for t in regions if t.kind == "table" and not t.caption and not t.skip
+                         and 0 <= t.y0 - b.y1 < 30 and t.x0 < b.x1 and t.x1 > b.x0]
+                if below:
+                    t = min(below, key=lambda t: t.y0)
+                    t.caption, t.intro, b.skip = b.caption, b, True
         prose = [l for l in lines if not l.branding and not l.absorbed]
         prose = [l for l in prose if not art_label(l, prose)]
         right = {c: max([l.x1 for l in prose if l.col == c] or [0]) for c in "LR"}
@@ -1073,23 +1133,45 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                 continue
             merged.append(l)
         elems += [(l.col, l.y0, ("line", l)) for l in merged]
-        actions, dc, last_head = [], "", ""
+        actions, dc, last_head, carry_next = [], "", "", None
         page_heads = {mark_key(l.text) for l in merged if heading_line(l)}
+        page_caps = {norm(r.caption) for r in regions if r.caption}
+        last_y = max([e[1] for e in elems] + [r.y1 for r in regions] + [0])
         for _, _, (kind, obj) in bands(elems):
             if kind == "region":
                 r = obj
+                if r.skip or not re.search(r"\w", " ".join(l.text for l in r.lines)):
+                    continue                     # merged away, or a stray "." from the art
+                if (r.kind == "box" and len(r.caplines) == 1 and r.caplines[0].size < 8.8
+                        and not any(label_of(l.spans) for l in r.lines)
+                        and sum(1 for b in shaded if b.x0 < r.x1 and b.x1 > r.x0 and r.y0 < b.y0 < r.y1) >= 2):
+                    # one-column table (right half of a facing-page table): header + shaded rows
+                    r.kind, r.single_col, r.caplines, r.caption = "table", True, [], ""
                 if r.kind != "table":
                     items = box_items(r, vocab)
                     n_lab = sum(i.startswith("- **") for i in items)
                     r.kind = "stats" if n_lab and n_lab * 2 >= len(items) else "box"
-                heading = region_heading(r, marks, last_head, page_heads)
+                t = table_md(r, shaded, vocab) if r.kind == "table" else None
+                # an uncaptioned table with the same columns as the last one continues it
+                cont_like = t is not None and not r.caption and t.names == prev_tnames
+                carried = None
+                if carry and t is not None and not r.caption and not cont_like and not actions:
+                    carried, r.caption, r.intro = carry, carry["region"].caption, carry["region"]
+                carry = None
+                heading = region_heading(r, marks, last_head, page_heads, cont_like, page_caps)
+                if carried:                      # caption + intro at the foot of the previous page
+                    carried["holder"].md = ""
+                    if carried.get("mark"):
+                        m = carried["mark"]
+                        heading = "#" * m["lvl"] + " " + m["title"]
                 if (r.kind == "stats" and not heading and not r.caption and actions
                         and actions[-1][0] == "block" and actions[-1][2] == "stats"):
                     # stat block continued in the next column
                     actions[-1] = ("block", actions[-1][1] + "\n" + stats_md(r, vocab), "stats")
                     continue
                 if r.kind == "table":
-                    t = table_md(r, shaded, vocab)
+                    if t is not None:
+                        prev_tnames = t.names
                     if t is None:
                         md = box_md(r, vocab)
                     else:
@@ -1101,6 +1183,8 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                                 mate[2] = True
                                 continue
                         block = TableBlock(heading, t, lab)
+                        if r.intro is not None:
+                            block.intro = "\n\n".join(box_items(r.intro, vocab))
                         base = re.sub(r",?\s*\(?cont(inued)?\.?\)?$", "", r.caption, flags=re.I)
                         if not heading:
                             block.cont = True            # may continue the table before it
@@ -1111,7 +1195,12 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                         continue
                 else:
                     md = stats_md(r, vocab) if r.kind == "stats" else box_md(r, vocab)
-                actions.append(("block", "\n\n".join(x for x in (heading, md) if x), r.kind))
+                text = "\n\n".join(x for x in (heading, md) if x)
+                if r.kind == "box" and r.caption and r.y1 >= last_y - 2:
+                    # last thing on the page: maybe the caption + intro of a table on the next page
+                    text = Holder(text)
+                    carry_next = {"region": r, "holder": text}
+                actions.append(("block", text, r.kind))
                 continue
             l = obj
             if dropcap(l):
@@ -1126,6 +1215,12 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                 continue
             actions.append(("prose", l, right.get(l.col, 0), dc, left.get(l.col, 0)))
             dc = ""
+        if carry_next:
+            m = next((m for m in marks if not m["used"] and m["title"].startswith("Table:")
+                      and norm(m["title"].split(":", 1)[1]) == norm(carry_next["region"].caption)), None)
+            if m:
+                m["used"], carry_next["mark"] = True, m
+        carry = carry_next
         # bookmarks whose text wasn't found on the page go to the page top
         for m in marks:
             if not m["used"] and not m["title"].startswith("Map:"):
@@ -1151,7 +1246,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
         coverage(doc, pages, md, cache)
 
 
-def region_heading(r: Region, marks, last_head="", page_heads=()) -> str:
+def region_heading(r: Region, marks, last_head="", page_heads=(), cont_like=False, page_caps=()) -> str:
     kinds = {"table": "Table", "stats": "Stats", "box": "Box"}
     want = kinds[r.kind]
     cap = r.caption
@@ -1161,17 +1256,23 @@ def region_heading(r: Region, marks, last_head="", page_heads=()) -> str:
                     None, norm(m["title"].split(":", 1)[-1]), norm(cap)).ratio() > 0.9:
                 m["title"] = m["title"].split(":", 1)[0] + ": " + cap if ":" in m["title"] else cap
         for m in marks:
+            kind = re.match(r"(Table|Stats|Box): ", m["title"])
+            if kind and kind.group(1) != want and "Table" in (kind.group(1), want):
+                continue                 # a Table bookmark is not for the Box with the same caption
             if not m["used"] and norm(m["title"].split(":", 1)[-1]) == norm(cap):
                 m["used"] = True
                 t = m["title"] if re.match(r"(Table|Stats|Box): ", m["title"]) else f"{want}: {m['title']}"
                 return "#" * m["lvl"] + " " + t
+    if not cap and (cont_like or r.single_col):
+        return ""     # rest of the previous table (next page / facing page): no bookmark of its own
     if not cap:
         cands = [m for m in marks if not m["used"] and m["title"].startswith(want + ":")]
         # a stat block belongs to the heading just above it ("## Bloodling" -> "Stats: Bloodling");
         # never take the bookmark of another creature that has its own heading on the page
         m = next((m for m in cands if last_head and mark_key(m["title"]) == last_head), None)
         if m is None:
-            m = next((m for m in cands if mark_key(m["title"]) not in page_heads), None)
+            m = next((m for m in cands if mark_key(m["title"]) not in page_heads
+                      and norm(m["title"].split(":", 1)[1]) not in page_caps), None)
         if m:
             m["used"] = True
             return "#" * m["lvl"] + " " + m["title"]

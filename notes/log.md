@@ -21,6 +21,10 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
 - Review 2: tables continued over pages joined (heading gets page range); overlay copies matched as
   letter subsequences; calendar wheel figure (`drop y>N` figure mode); letter-by-letter chapter titles
   dropped; bookmark typos for Box captions; hyphenated words kept whole around page anchors.
+- Review 3 (same lens on PHB, then GMG): one-column facing-page halves; header-less 2-column tables
+  (PHB p.176 Defense/Attack Rating: values were detached); side-by-side tables split at the gutter;
+  caption + intro block (or "AGE: …" modifier lines) attached to the table below, also across pages;
+  uncaptioned continuations no longer steal the next table's bookmark; drop-cap "A"/"I" as a word.
 
 ## Commands
 ```

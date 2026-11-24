@@ -1340,7 +1340,7 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 55 | No Eyes | Draw one extra initiative card, discard the best one. |
 | 56–66 Roll twice on this table. | Roll Twice | — |
 
-### Table: The Demon’s Attacks
+### Table: The Demon’s Attacks <!-- p.82–83 -->
 
 | D66 | Attack | Base Dice | Weapon Damage | Range |
 |---|---|---|---|---|
@@ -1348,13 +1348,6 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 16–22 | Teeth | D6+5 | Roll a D6. 1–2: Damage 1, 3–5: Damage 2, 6: Damage 3 | Arm’s Length |
 | 23–26 | Horn | D6+6 | Roll a D6. 1–4: Damage 2, 5–6: Damage 3 | Arm’s Length |
 | 26–32 | Tentacles | D6+4 | Roll a D6. 1–2: Damage 1, 3–6: Damage 2. Then GRAPPLED | Near |
-
-<!-- p.83 -->
-
-### Table: The Demon’s Special Ability
-
-| D66 | Attack | Base Dice | Weapon Damage | Range |
-|---|---|---|---|---|
 | 33–35 | Fire | D6+6 | The victim continues to take 1 point of damage every round until the fire is put out with a MOVE roll. | Near |
 | 36–41 | Cold | D6+5 | The victim also instantly becomes COLD. | Near |
 | 42–45 | Roar | — | Fear attack: strength D3+6 | Near |
@@ -1363,7 +1356,9 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 61–65 | Roll Three Times | — | — | — |
 | 66 | Roll Four Times | — | — | — |
 
-##### Table: The Demon’s Special Ability <!-- p.83–84 -->
+<!-- p.83 -->
+
+### Table: The Demon’s Special Ability <!-- p.83–84 -->
 
 | D66 | Strength | Effect |
 |---|---|---|
@@ -3017,9 +3012,7 @@ While large tracts of the Forbidden Lands are sparsely populated, many villages 
 
 ### Table: The Ruler of the Village
 
-> Roll once and use the whole row or roll twice and combine the results.
-
-### Table: The Problem of the Village
+Roll once and use the whole row or roll twice and combine the results.
 
 | D66 | Oddity | Type |
 |---|---|---|
@@ -3036,7 +3029,7 @@ While large tracts of the Forbidden Lands are sparsely populated, many villages 
 | 61–63 | Secretive | Artisan |
 | 64–66 | Drunkard | Bandit Chief |
 
-##### Table: The Problem of the Village
+### Table: The Problem of the Village
 
 | D66 | Problem |
 |---|---|
@@ -3133,9 +3126,9 @@ While large tracts of the Forbidden Lands are sparsely populated, many villages 
 | 63–64 | Birthday party | Bear stew | Frosty elf |
 | 65–66 | Drunk adventurers | Dwarven strong ale | Scouting thief |
 
-#### Table: The Name of the Inn
+#### Table: The Name of the Inn <!-- p.171–172 -->
 
-> Roll once in each column to create a name, or roll twice in the second column to get a name like “The Swine & the Knight.”
+Roll once in each column to create a name, or roll twice in the second column to get a name like “The Swine & the Knight.”
 
 | D66 | First Word | Second Word |
 |---|---|---|
@@ -3151,13 +3144,6 @@ While large tracts of the Forbidden Lands are sparsely populated, many villages 
 | 24 | The Good | Maid |
 | 25 | The Second | Man |
 | 26 | The Last | Dragon |
-
-<!-- p.172 -->
-
-### Table: Age of the Dungeon
-
-| D66 | First Word | Second Word |
-|---|---|---|
 | 31 | The Prancing | Griffin |
 | 32 | The Happy | Boar |
 | 33 | The Singing | Barrel |
@@ -3183,11 +3169,13 @@ While large tracts of the Forbidden Lands are sparsely populated, many villages 
 | 65 | The Boisterous | Wild Boar |
 | 66 | The Grumpy | Hunter |
 
+<!-- p.172 -->
+
 ## Dungeon
 
 The Forbidden Lands are filled with lairs, caverns, subterranean labyrinths and dark passageways. Adventure sites located underground are called DUNGEONS. Using the tables below, you can quickly and easily create a dungeon as an adventure site, complete with history, inhabitants, rooms and treasure. Use the tables as a starting point for your imagination and change any result so that it better fits your vision.
 
-##### Table: Age of the Dungeon
+### Table: Age of the Dungeon
 
 | D66 | When It Was Built | Actual Age in Years |
 |---|---|---|
@@ -3198,8 +3186,6 @@ The Forbidden Lands are filled with lairs, caverns, subterranean labyrinths and 
 | 65–66 | After the Blood Mist | D6 |
 
 <!-- p.173 -->
-
-> SIZE OF THE DUNGEON CREATOR OF THE DUNGEON Roll once and read the entire row, or roll once for each table and combine the results.
 
 ### Table: SIze of the Dungeon
 
@@ -3223,6 +3209,8 @@ The Forbidden Lands are filled with lairs, caverns, subterranean labyrinths and 
 | 56–66 | Tomb |
 
 ### Table: Creator of the Dungeon
+
+Roll once and read the entire row, or roll once for each table and combine the results.
 
 | D66 | Who Built It | Why |
 |---|---|---|
@@ -3315,24 +3303,34 @@ The Forbidden Lands are filled with lairs, caverns, subterranean labyrinths and 
 
 ### Table: Rooms in the Dungeon
 
-> Use the tables below to quickly create a dungeon on the fly as the adventurers explore it, or use them as inspiration to create a map ahead of time. Use the Oddity table to give an area or a room atmosphere as often as you like. A suggestion is to roll one time for an oddity that affects the whole dungeon, and then use it for specific rooms.
+Use the tables below to quickly create a dungeon on the fly as the adventurers explore it, or use them as inspiration to create a map ahead of time. Use the Oddity table to give an area or a room atmosphere as often as you like. A suggestion is to roll one time for an oddity that affects the whole dungeon, and then use it for specific rooms.
+
+| D6 | Type of Room | Comment |
+|---|---|---|
+| 1–2 | Corridor | — |
+| 3–4 | Room | Roll once on the Room Contents table. |
+| 5 | Hall | Roll twice on the Room Contents table. |
+| 6 | Stairway | — |
 
 #### Table: Doors to the Room
 
-- **D6:** 1–2; 3–4; 5; 6
-- **Type of Room:** Corridor; Room; Hall; Stairway
-- **Comment:** —; Roll once on the Room Contents table.; Roll twice on the Room Contents table.; —
+| D6 | Exit or Door |
+|---|---|
+| 1–2 | One |
+| 3 | Two |
+| 4 | Three |
+| 5 | Four |
+| 6 | No exit |
 
 #### Table: The Door
 
-| D6 | Exit or Door | D6 | Is the Door Locked? |
-|---|---|---|---|
-| 1–2 | One | 1 | The door is wide open. |
-| 3 | Two | 2 | The door is unlocked. |
-| 4 | Three | 3 | The door is unlocked but |
-| 5 | Four | — | blocked by something. |
-| 6 | No exit | 4–5 | The door is locked. |
-| — | — | 6 | The door is locked and has a trap |
+| D6 | Is the Door Locked? |
+|---|---|
+| 1 | The door is wide open. |
+| 2 | The door is unlocked. |
+| 3 | The door is unlocked but blocked by something. |
+| 4–5 | The door is locked. |
+| 6 | The door is locked and has a trap |
 
 #### Table: Room Contents
 
@@ -3342,13 +3340,11 @@ The Forbidden Lands are filled with lairs, caverns, subterranean labyrinths and 
 | 4–5 | Creature | See the Dungeon Inhabitants table. |
 | 6 | Trap | Roll on the Traps in the Dungeon table. |
 
-#### Table: Items in the Room
-
-> Roll a D6 for each room that the adventurers examine. A result of 5–6 means there is an item in the room. Roll on the table below to determine what it is.
-
 <!-- p.176 -->
 
-#### Table: Dungeon Traps
+#### Table: Items in the Room
+
+Roll a D6 for each room that the adventurers examine. A result of 5–6 means there is an item in the room. Roll on the table below to determine what it is.
 
 | D6 | Things |
 |---|---|
@@ -3357,9 +3353,9 @@ The Forbidden Lands are filled with lairs, caverns, subterranean labyrinths and 
 | 3–4 | **SIMPLE FIND:** Roll on the table for SIMPLE finds. |
 | 5–6 | **VALUABLE FIND:** Roll on the table for VALUABLE finds. |
 
-##### Box: Dungeon Traps
+#### Table: Dungeon Traps <!-- p.176–177 -->
 
-> Let the adventurers roll a SCOUTING roll to spot a trap in a room they enter. They can only roll if they actively look for traps.
+Let the adventurers roll a SCOUTING roll to spot a trap in a room they enter. They can only roll if they actively look for traps.
 
 | D66 | Trap | Effect | Who Is Affected |
 |---|---|---|---|
@@ -3372,17 +3368,12 @@ The Forbidden Lands are filled with lairs, caverns, subterranean labyrinths and 
 | 51–54 | Spikes | Attack with six Base Dice, Weapon Damage 2, stab wound | Random adventurer |
 | 55–56 | Water Trap | Make a MOVE (−1) roll to escape. If failed, roll for ENDURANCE every round (no action). Failure means drowning – one point of damage per round. New MOVE roll can be made each round. | All adventurers |
 | 61–62 | Collapsing Walls | Make a MOVE (−1) roll to escape. If failed, suffer attack with ten Base Dice, Weapon Damage 1, blunt force. Attack continues every round until a MOVE roll is made. | All adventurers |
+| 63–65 | Fire | Attack with seven Base Dice, Weapon Damage 1. Clothes catch fire, inflicting the same attack every round until a MOVE roll is made to extinguish it. | Random adventurer |
+| 66 | Roll twice on this table | — | — |
 
 <!-- p.177 -->
 
 #### Table: Dungeon Oddities
-
-| D66 | Trap | Effect | Who Is Affected |
-|---|---|---|---|
-| 63–65 | Fire | Attack with seven Base Dice, Weapon Damage 1. Clothes catch fire, inflicting the same attack every round until a MOVE roll is made to extinguish it. | Random adventurer |
-| 66 | Roll twice on this table | — | — |
-
-##### Table: Dungeon Oddities
 
 | D66 | Oddity |
 |---|---|
@@ -3488,22 +3479,15 @@ More or less unconquerable when at full strength. Original staff: 50–200.
 - DISPLAY POWER: A castle built to show the great power and might of the owner.
 - WAR: A castle that was built as a part of a war or conflict.
 
-### Table: Founder of the Castle
+### Table: Founder of the Castle <!-- p.179–180 -->
 
-> Roll once and read the entire row, or roll once in each column and combine the results.
+Roll once and read the entire row, or roll once in each column and combine the results.
 
 | D66 | Who Built the Castle | Known for |
 |---|---|---|
 | 11–12 | Elf | Bloodthirsty |
 | 13–16 | Dwarf | Vengeance |
 | 21–22 | Trader | Greed |
-
-<!-- p.180 -->
-
-### Table: Condition of the Castle
-
-| D66 | Who Built the Castle | Known for |
-|---|---|---|
 | 23–24 | Treasure Hunter | Stinginess |
 | 25–26 | Priest | Vanity |
 | 31–32 | Sorcerer | Wisdom |
@@ -3511,11 +3495,11 @@ More or less unconquerable when at full strength. Original staff: 50–200.
 | 41–45 | Warrior | Glory |
 | 46–66 | Noble | Cruelty |
 
-##### Stats: Condition of the Castle
+<!-- p.180 -->
+
+### Table: Condition of the Castle
 
 - **Age:** Before the Shift: Modify the roll by −3, Before the Blood Mist: Modify the roll by −2
-
-### Table: History of the Castle
 
 | D6 | Condition |
 |---|---|
@@ -3524,7 +3508,7 @@ More or less unconquerable when at full strength. Original staff: 50–200.
 | 4–5 | Worn |
 | 6 | Well Kept |
 
-##### Table: History of the Castle
+### Table: History of the Castle
 
 | D66 | Event |
 |---|---|
@@ -3670,7 +3654,7 @@ Stats for different types of beings can be found in several locations in this bo
 - Followers of religious orders are located in Chapter 3.
 - Other typical NPCs can be found in the table below.
 
-### Table: Typical NPCs
+### Table: Typical NPCs <!-- p.183–184 -->
 
 | Npc | Attributes | Skills | Equipment |
 |---|---|---|---|
@@ -3678,13 +3662,6 @@ Stats for different types of beings can be found in several locations in this bo
 | Soldier | Strength 4, Agility 3, Wits 3, Empathy 2 | Endurance 1, Melee 2, Marksmanship 2, Survival 1 | Broadsword or battleaxe, spear or long bow or heavy crossbow, large shield, leather armor or chainmail, open helmet, 2D6 copper, SIMPLE find |
 | Rider | Strength 3, Agility 4, Wits 3, Empathy 3 | Melee 2, Survival 1, Animal Handling 3 | Broadsword or shortsword, dagger, studded leather armor, open helmet, SIMPLE find |
 | Thief | Strength 2, Agility 4, Wits 3, Empathy 3 | Stealth 2, Sleight of Hand 3, Move 2, Melee 1, Marksmanship 1 | Dagger, sling, leather armor, D6 silver, VALUABLE find |
-
-<!-- p.184 -->
-
-### Table: Personal Quirks
-
-| Npc | Attributes | Skills | Equipment |
-|---|---|---|---|
 | Hunter | Strength 3, Agility 3, Wits 3, Empathy 3 | Melee 1, Marksmanship 3, Scouting 2, Survival 2, Animal Handling 2 | Dagger, longbow, leather armor, 2D6 copper, SIMPLE find |
 | Priest | Strength 3, Agility 3, Wits 4, Empathy 3 | Lore 2, Manipulation 2, Performance 1, Healing 1 | Staff, D6 silver, VALUABLE find |
 | Trader | Strength 2, Agility 3, Wits 3, Empathy 4 | Lore 1, Insight 2, Manipulation 2 | Dagger or shortsword, 2D6 silver, VALUABLE find |
@@ -3692,7 +3669,9 @@ Stats for different types of beings can be found in several locations in this bo
 | Sorcerer | Strength 2, Agility 2, Wits 4, Empathy 3 | Lore 1, Path of Runes, Stone, Blood or Death 2 (talent) | Staff, grimoire, D6 silver, VALUABLE find |
 | Villager | Strength 3, Agility 3, Wits 3, Empathy 3 | Endurance 1, Crafting 2 | Tools, D6 copper |
 
-##### Table: Personal Quirks <!-- p.184–186 -->
+<!-- p.184 -->
+
+### Table: Personal Quirks <!-- p.184–186 -->
 
 | D66 | Occupation | Characteristic | Quirk |
 |---|---|---|---|
@@ -3809,19 +3788,12 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 65 | Bronze Altar | 5D6 silver | 5 |
 | 66 | Bronze Statue | 6D6 silver | 6 |
 
-### Table: Carried Valuable Finds
+### Table: Carried Valuable Finds <!-- p.188–189 -->
 
 | D66 | Find | Value | Weight |
 |---|---|---|---|
 | 11–31 | 3D6 silver coins | Value of the coins | — |
 | 32 | Silver Box | 2D6 silver | Light |
-
-<!-- p.189 -->
-
-### Table: Valuable Finds in a Lair
-
-| D66 | Find | Value | Weight |
-|---|---|---|---|
 | 33 | Pearl | 2D6 silver | Tiny |
 | 34 | Silver Bowl | 2D6 silver | Light |
 | 35 | Painting | 2D6 silver | Light |
@@ -3845,7 +3817,9 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 65 | Silver Headband | 9D6 silver | Light |
 | 66 | Silver Crown | D6 gold | Normal |
 
-##### Table: Valuable Finds in a Lair
+<!-- p.189 -->
+
+### Table: Valuable Finds in a Lair <!-- p.189–190 -->
 
 | D66 | Find | Value | Weight |
 |---|---|---|---|
@@ -3853,13 +3827,6 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 11–31 | 4D6 silver coins | Value of the coins | — |
 | 32 | Silver Medallion | 3D6 silver | Light |
 | 33 | Small Silver Chest | 3D6 silver | Light |
-
-<!-- p.190 -->
-
-### Table: Carried Precious Finds
-
-| D66 | Find | Value | Weight |
-|---|---|---|---|
 | 35 | Glass Bowl | 3D6 silver | Light |
 | 36 | Beautiful Vase | 3D6 silver | Light |
 | 41 | Silver Brooch | 4D6 silver | Tiny |
@@ -3881,7 +3848,9 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 65 | Silver Altar | 9D6 silver | 6 |
 | 66 | Silver Statue | D6 gold | 6 |
 
-##### Table: Carried Precious Finds
+<!-- p.190 -->
+
+### Table: Carried Precious Finds <!-- p.190–191 -->
 
 | D66 | Find | Value | Weight |
 |---|---|---|---|
@@ -3891,13 +3860,6 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 34 | Golden Bowl | 5D6 silver | Light |
 | 35 | Gold Amulet | 5D6 silver | Tiny |
 | 36 | Gold Mug | 5D6 silver | Light |
-
-<!-- p.191 -->
-
-### Table: Precious Finds in a Lair
-
-| D66 | Find | Value | Weight |
-|---|---|---|---|
 | 41 | Gold Bracelet | 5D6 silver | Tiny |
 | 42 | Gold Ring | 6D6 silver | Tiny |
 | 43 | Gold Necklace | 6D6 silver | Tiny |
@@ -3917,7 +3879,9 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 65 | Golden Crown | 4D6 gold | Light |
 | 66 | Artifact (see page 128) | — | — |
 
-##### Table: Precious Finds in a Lair
+<!-- p.191 -->
+
+### Table: Precious Finds in a Lair <!-- p.191–192 -->
 
 | D66 | Finds | Value | Weight |
 |---|---|---|---|
@@ -3929,13 +3893,6 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 36 | Painting with Golden Frame | 2D6 gold | 3 |
 | 41 | Golden Tray | 3D6 gold | Heavy |
 | 42 | Golden Statue of a Child | 3D6 gold | 4 |
-
-<!-- p.192 -->
-
-### Table: Find Oddities
-
-| D66 | Finds | Value | Weight |
-|---|---|---|---|
 | 43 | Golden Diadem | 3D6 gold | Light |
 | 44 | Ceiling Candelabrum | 3D6 gold | 3 |
 | 45 | Golden Armchair | 3D6 gold | 3 |
@@ -3953,11 +3910,11 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 65 | Golden Statue | 7D6 gold | 8 |
 | 66 | Artifact (page 128) | — | — |
 
-##### Box: Find Oddities
+<!-- p.192 -->
 
-> Some finds are weirder than others, you can choose to use the table below whenever it fits the story or roll a die for each find, a roll of 5+ means that the find has an oddity.
+### Table: Find Oddities <!-- p.192–193 -->
 
-<!-- p.192–193 -->
+Some finds are weirder than others, you can choose to use the table below whenever it fits the story or roll a die for each find, a roll of 5+ means that the find has an oddity.
 
 | D66 | Oddity | Effect |
 |---|---|---|

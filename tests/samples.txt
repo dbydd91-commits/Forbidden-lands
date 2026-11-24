@@ -24,3 +24,4 @@ gmg-overlay       gmg   146             text drawn twice over art (partial copie
 gmg-calendar      gmg   35              figure labels dropped (drop y>N) + transcription
 gmg-vale-opener   gmg   231             letter-by-letter chapter title, centred label line, italic intro
 gmg-encounters-1  gmg   148             Box with bookmark typo, encounter headings
+phb-strong-rating phb   176             header-less two-column tables (caption + shaded rows)

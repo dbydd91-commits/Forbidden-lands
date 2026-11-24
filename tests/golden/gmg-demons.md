@@ -62,7 +62,7 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 55 | No Eyes | Draw one extra initiative card, discard the best one. |
 | 56–66 Roll twice on this table. | Roll Twice | — |
 
-### Table: The Demon’s Attacks
+### Table: The Demon’s Attacks <!-- p.82–83 -->
 
 | D66 | Attack | Base Dice | Weapon Damage | Range |
 |---|---|---|---|---|
@@ -70,13 +70,6 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 16–22 | Teeth | D6+5 | Roll a D6. 1–2: Damage 1, 3–5: Damage 2, 6: Damage 3 | Arm’s Length |
 | 23–26 | Horn | D6+6 | Roll a D6. 1–4: Damage 2, 5–6: Damage 3 | Arm’s Length |
 | 26–32 | Tentacles | D6+4 | Roll a D6. 1–2: Damage 1, 3–6: Damage 2. Then GRAPPLED | Near |
-
-<!-- p.83 -->
-
-### Table: The Demon’s Special Ability
-
-| D66 | Attack | Base Dice | Weapon Damage | Range |
-|---|---|---|---|---|
 | 33–35 | Fire | D6+6 | The victim continues to take 1 point of damage every round until the fire is put out with a MOVE roll. | Near |
 | 36–41 | Cold | D6+5 | The victim also instantly becomes COLD. | Near |
 | 42–45 | Roar | — | Fear attack: strength D3+6 | Near |
@@ -85,7 +78,9 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 61–65 | Roll Three Times | — | — | — |
 | 66 | Roll Four Times | — | — | — |
 
-##### Table: The Demon’s Special Ability
+<!-- p.83 -->
+
+### Table: The Demon’s Special Ability
 
 | D66 | Strength | Effect |
 |---|---|---|

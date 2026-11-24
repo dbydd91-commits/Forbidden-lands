@@ -950,7 +950,7 @@ During the game, your Reputation score will increase. After a game session in wh
 
 *The lava ate his stilts and Berde’s fear didn’t leave him until he reached the ledge. The thief whistled silently to himself, kicked off the smoldering clogs that remained and ventured into the hold as a servant among others, directing his steps without haste towards the treasury.*
 
-Aroleplaying game is a conversation. The Gamemaster describes the scene, you describe how your PCs behave, the GM describes how any NPCs react, you reply, and it goes back and forth. That is how the story is told and progresses. But sooner or later, a decisive situation will arise, a point of no return, a conflict that conversation alone cannot resolve. Then it’s time to break out the dice and use one of your skills.
+A roleplaying game is a conversation. The Gamemaster describes the scene, you describe how your PCs behave, the GM describes how any NPCs react, you reply, and it goes back and forth. That is how the story is told and progresses. But sooner or later, a decisive situation will arise, a point of no return, a conflict that conversation alone cannot resolve. Then it’s time to break out the dice and use one of your skills.
 
 ## Roll the Dice
 
@@ -1068,7 +1068,7 @@ Remember that ones on the Skill Dice never count as ☠ (see above).
 
 ## Table: Chance of Success
 
-> When you roll a lot of dice, it can be hard to predict the chance of success. The table below shows the chance of success when rolling with 1–10 dice. The third column shows the chance of success if you push the roll.
+When you roll a lot of dice, it can be hard to predict the chance of success. The table below shows the chance of success when rolling with 1–10 dice. The third column shows the chance of success if you push the roll.
 
 | Number of Dice | Chance of Success | Pushed Roll |
 |---|---|---|
@@ -4833,11 +4833,15 @@ Each ⚔ rolled means that the Defense or Attack Rating of the opposing side is 
 
 ### Table: Defense Rating
 
-> The PCs take part in the defense
-
-> Every 10 GUARDS in the stronghold (round up)
->
-> The GUARDS are HUNGRY The stronghold has RAMPARTS The stronghold has a PORTCULLIS The stronghold has a GUARD TOWER The stronghold has a MOAT +1 (regardless of number) +1 (to a maximum of +5) −1 +2 +1 +1 +1
+|   |   |
+|---|---|
+| The PCs take part in the defense | +1 (regardless of number) |
+| Every 10 GUARDS in the stronghold (round up) | +1 (to a maximum of +5) |
+| The GUARDS are HUNGRY | −1 |
+| The stronghold has RAMPARTS | +2 |
+| The stronghold has a PORTCULLIS | +1 |
+| The stronghold has a GUARD TOWER | +1 |
+| The stronghold has a MOAT | +1 |
 
 ##### Losses
 
@@ -4855,17 +4859,14 @@ The raw materials remain and can be used to rebuild the RAMPARTS.
 
 ### Table: Attack Rating
 
-> For every 20 attackers (round up)
->
-> The attackers are led by a commander
-
-> The attackers have ladders or grappling hooks
->
-> The attackers have a monster in their force The attackers have a battering ram
->
-> Some of the attackers can fly +1 (to a maximum of +5) +1 +1 +1 +1 per monster +1
-
-> .
+|   |   |
+|---|---|
+| For every 20 attackers (round up) | +1 (to a maximum of +5) |
+| The attackers are led by a commander | +1 |
+| The attackers have ladders or grappling hooks | +1 |
+| The attackers have a battering ram | +1 |
+| The attackers have a monster in their force | +1 per monster |
+| Some of the attackers can fly | +1 |
 
 <!-- p.177 -->
 
@@ -4907,13 +4908,11 @@ The results in the table should primarily be seen as inspiration and will need t
 | 5 | A PC suddenly finds herself face-to-face with the commander of the attackers. Resolve a close combat between them until only one remains standing, preferably in a dramatic location in the stronghold. |
 | 6 | Two PCs confront a powerful enemy together. It can be a monster or the commander of the attackers. |
 
-### Box: Varied Forces
-
 > Combat Rating (rounding up) to get the number of soldiers in a BASE UNIT of defenders. Divide 100 by the Combat Rating (rounding up) to get the number of soldiers in a base unit of attackers. Each base unit gives a +1 to the Defense or Attack Rating of the force. The maximum bonus is still +5. Each point of lost Defense or Attack Rating during the battle means that a number of soldiers equal to one base unit have been Broken.
 >
 > For example, a force of attacking soldiers with Strength 4 and skill level 3 in MELEE (Combat Rating 7) has a base unit size of 15 (100 divided by 7, rounded up). If the force loses 2 points of Attack
 
-##### Box: Varied Forces
+### Box: Varied Forces
 
 > The rules for battles at the stronghold are designed to be fast and easy to use, and therefore make no difference between different types of soldiers. If you prefer a more detailed approach, you can use the following rules.
 >
@@ -5147,59 +5146,34 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Pliers | 2 silver | Uncommon | Light | 1 Iron | One Day | Smith | Forge |
 | Needle and Thread | 3 copper | Common | Tiny | 1/10 Iron, 1/10 Cloth | Quarter Day | Smith, Tailor | Forge |
 
-## Table: Raw Materials
+## Table: Raw Materials <!-- p.192–195 -->
 
-| Raw Material | Price | Shelf Life | Raw Materials | Talent |
-|---|---|---|---|---|
-| Iron Ore | 4 copper | — | — | — |
-| Iron | 1 silver | — | Iron Ore | Smith |
-| Silver | 1 gold | — | — | — |
-| Gold | 10 gold | — | — | — |
-| Stone | 2 copper | — | — | — |
-| Glass | 8 silver | — | Stone | Smith |
-| Wood | 3 copper | — | — | — |
-| Leather | 12 copper | — | Pelt | Tanner |
-| Cloth, Wool | 8 copper | — | Wool | Tailor |
-| Cloth, Silk | 1 gold | — | Can't be found in the Forbidden Lands | Tailor |
-| Wool | 4 copper | One Month | — | — |
-| Grain | 3 copper | One Month | — | — |
-| Meat | 6 copper | One Day | — | — |
-| Pelt | 8 copper | One Week | — | — |
+| Raw Material | Price | Shelf Life | Raw Materials | Talent | Tools |
+|---|---|---|---|---|---|
+| Iron Ore | 4 copper | — | — | — | Mine |
+| Iron | 1 silver | — | Iron Ore | Smith | Forge. It's possible to produce Iron without a Forge, but only 1 unit per Quarter Day. It requires a unit of Iron Ore and a Crafting roll. |
+| Silver | 1 gold | — | — | — | — |
+| Gold | 10 gold | — | — | — | — |
+| Stone | 2 copper | — | — | — | Quarry |
+| Glass | 8 silver | — | Stone | Smith | Forge. One unit of Glass can be produced per Quarter Day. It requires a difficult (–2) Crafting roll. |
+| Wood | 3 copper | — | — | — | Axe. A Quarter Day's work in a Forest or Dark Forest, and a successful Crafting roll, gives a number of units of Wood equal to the number of rolled ⚔ doubled. |
+| Leather | 12 copper | — | Pelt | Tanner | Tannery |
+| Cloth, Wool | 8 copper | — | Wool | Tailor | Tailor Shop |
+| Cloth, Silk | 1 gold | — | Can't be found in the Forbidden Lands | Tailor | Tailor Shop |
+| Wool | 4 copper | One Month | — | — | Sheepfold |
+| Grain | 3 copper | One Month | — | — | Field |
+| Meat | 6 copper | One Day | — | — | Pasture, Pigsty, or Sheepfold |
+| Pelt | 8 copper | One Week | — | — | Read more about hunting on page 151. |
+| Flour | 6 copper | One Month | Grain | — | Mill |
+| Vegetables | 4 copper | One Day | — | — | Garden |
+| Fish | 5 copper | One Day | — | — | Net or hook and line. Read more about fishing on page 153. |
+| Bread | 1 silver | One Week | Flour | — | Bakery |
+| Tallow | 6 copper | — | — | Tanner | A killed or slaughtered animal gives a number of units of Tallow equal to half the number of units of Meat (round down). |
+| Herbs | 2 silver | One Week | — | — | Garden |
 
 <!-- p.193 -->
 
-##### Box: Tools
-
-> Forge. It's possible to produce Iron without a Forge, but only 1 unit per Quarter Day. It
->
-> Forge. One unit of Glass can be produced per Quarter Day. It requires a difficult (–2)
->
-> Axe. A Quarter Day's work in a Forest or Dark Forest, and a successful Crafting roll, gives a number of units of Wood equal to the number of rolled ⚔ doubled.
->
-> Mine
->
-> requires a unit of Iron Ore and a Crafting roll.
->
-> — — Quarry
->
-> Crafting roll.
->
-> Tannery Tailor Shop Tailor Shop
->
-> Sheepfold Field Pasture, Pigsty, or Sheepfold Read more about hunting on page 151.
-
 <!-- p.194 -->
-
-##### Table: Raw Materials, Cont.
-
-| Raw Material | Price | Shelf Life | Raw Materials | Talent |
-|---|---|---|---|---|
-| Flour | 6 copper | One Month | Grain | — |
-| Vegetables | 4 copper | One Day | — | — |
-| Fish | 5 copper | One Day | — | — |
-| Bread | 1 silver | One Week | Flour | — |
-| Tallow | 6 copper | — | — | Tanner |
-| Herbs | 2 silver | One Week | — | — |
 
 ## Table: Buildings
 
@@ -5215,18 +5189,6 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Palace | 10000 gold | 2,000 Wood and 50,000 Stone | Ten Years | Builder | Sledgehammer, pickaxe, saw, hammer |
 
 <!-- p.195 -->
-
-##### Box: Tools
-
-> Net or hook and line. Read more about fishing on page 153.
->
-> A killed or slaughtered animal gives a number of units of Tallow equal to half the numMill Garden
->
-> Bakery
->
-> ber of units of Meat (round down).
->
-> Garden
 
 ## Table: Animals
 
@@ -5325,7 +5287,7 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | — | Non–typical Damage | Yes | D6 days | You remain unconscious until you die or are HEALED. | — |
 | — | Pushed Damage | No | — | None. | — |
 
-# Table: Critical Injuries – Horror
+# Table: Critical Injuries – Horror <!-- p.199–200 -->
 
 | D66 | Trauma | Effect During Healing | Healing Time |
 |---|---|---|---|
@@ -5340,16 +5302,11 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | 46–51 | Claustrophobic | Every turn (15 minutes) in a confined environment, you suffer one point of damage to Wits. | 2D6 |
 | 52 | Mythomania | You cannot stop yourself from lying. About everything. The effect should be roleplayed. | 2D6 |
 | 53–54 | Paranoia | You are certain that someone is out to get you. The effect should be roleplayed. | 2D6 |
-
-<!-- p.200 -->
-
-##### Table: Critical Injuries – Horror
-
-| D66 | Trauma | Effect During Healing | Healing Time |
-|---|---|---|---|
 | 55 | Delusion | You are totally convinced of something that is totally untrue, for example that a certain kin doesn't exist. | 3D6 |
 | 56 | Hallucinations | Make an INSIGHT roll every Quarter Day. If you fail, you suffer a powerful hallucination. The GM determines the details. | 3D6 |
 | 61–62 | Altered personality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed. | Permanent |
 | 63 | Amnesia | You lose all memory, and cannot recollect who you or the other adventurers are. The effect should be roleplayed. | D6 |
 | 64–65 | Catatonic | You stare blankly into oblivion, and do not respond to any stimuli. | D6 |
 | 66 | Heart attack | Your heart stops, and you die of pure fright. | — |
+
+<!-- p.200 -->
