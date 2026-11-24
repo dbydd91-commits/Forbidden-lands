@@ -20,7 +20,9 @@ Maps (GMG p.46–47, 198–199, 218–219, 234–235) are replaced by `**[Figure
 - **Never Read a whole source file.** grep → `Read offset/limit` around the hit.
 - Outline: `grep -n '^#\{1,4\} ' sources/<book>.md` (`#`–`####` = PDF bookmarks; `#####` = other in-page headings).
 - Blocks: `grep -n 'Table: \|Stats: \|Box: ' sources/<book>.md`
-  - `Table: X` = GFM table, one row per line. Facing-page tables are joined into one.
+  - `Table: X` = GFM table, one row per line. Facing-page tables and tables continued on the next
+    page(s) are joined into one; the heading then ends with the page range, e.g. `<!-- p.12–15 -->`.
+    `Table: (continued)` = continuation that could not be joined (text in between).
   - `Stats: X` = `- **Key:** value` list (monster/NPC stat boxes, kin info).
   - `Box: X` = sidebar as `>` quote, placed at the next paragraph break.
 - Page anchors `<!-- p.N -->` = printed page N (matches the books' "see page N"); may sit inline when a paragraph crosses pages.

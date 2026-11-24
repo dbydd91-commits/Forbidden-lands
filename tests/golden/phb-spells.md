@@ -67,7 +67,7 @@ You can bind the spell in whatever manner you wish. You decide how the spell is 
 - **Duration:** Immediate
 - **Ingredient:** A drop of your blood
 
-You can use this spell to steal Willpower Points from others or to give your WP to someone else. The base cost to cast the spell is one WP, and you can then take or give as many WP as you want. If your target opposes the TRANSFER, it is not so easy – in this case, you can trans- <!-- p.123 --> fer no more WP than the Power Level of the TRANSFER. The WP used to cast TRANSFER are spent and are not transferred.
+You can use this spell to steal Willpower Points from others or to give your WP to someone else. The base cost to cast the spell is one WP, and you can then take or give as many WP as you want. If your target opposes the TRANSFER, it is not so easy – in this case, you can transfer no more WP than the Power Level of the <!-- p.123 --> TRANSFER. The WP used to cast TRANSFER are spent and are not transferred.
 
 ## Healing
 

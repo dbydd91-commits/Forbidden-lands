@@ -28,7 +28,8 @@ Usage:
     --pages A-B : PDF pages to convert (1-based, inclusive)
     --check     : report words present in the PDF but missing from the output
     --figures F : hand transcriptions appended to (or, with `replace`, replacing) a printed
-                  page; blocks start with `<!-- fig p.N -->` or `<!-- fig p.N replace -->`
+                  page; blocks start with `<!-- fig p.N -->`, `<!-- fig p.N replace -->` or
+                  `<!-- fig p.N drop y>300 -->` (drop page text below y=300, e.g. figure labels)
 """
 import argparse
 import collections
@@ -121,6 +122,12 @@ def join_spans(spans) -> str:
         out += t
         prev = s
     return re.sub(r" {2,}", " ", out)
+
+
+def subseq(a: str, b: str) -> bool:
+    """a's letters appear in b in order ("Z rtorm" in "Zertorme")."""
+    it = iter(b)
+    return all(c in it for c in a if not c.isspace())
 
 
 def page_lines(pg) -> list:
@@ -216,11 +223,11 @@ def page_lines(pg) -> list:
     # ... also when the copy starts mid-line: same baseline, inside the full line, a substring of it
     for l in lines:
         t = l.text.strip().rstrip("-").strip()
-        if id(l) in drop or (len(t) < 4 and l.text.strip() != "-"):
+        if id(l) in drop:
             continue
         for o in lines:
             if o is not l and id(o) not in drop and abs(o.y0 - l.y0) < 1 and o.x0 - 1 <= l.x0 \
-                    and l.x1 <= o.x1 + 1 and len(o.text) > len(l.text) and t in o.text:
+                    and l.x1 <= o.x1 + 1 and len(o.text) > len(l.text) and subseq(t, o.text):
                 drop.add(id(l))
                 break
     lines = [l for l in lines if id(l) not in drop]
@@ -282,14 +289,23 @@ class Vocab:
             return a + b
         if w2[0].isupper() and m2.group(1)[0].isupper() and not m2.group(1).isupper():
             return a + b                                    # "Half-Elf"
+        if re.match(r"[A-Za-z]+-[a-z]", b):
+            return a + b                                    # "well-" + "to-do"
         return a[:-1] + b
 
 
 def join_lines(texts, vocab) -> str:
-    out = ""
+    out, held = "", []
     for t in texts:
         t = t.strip()
         if not t:
+            continue
+        if t.startswith("<!-- p") and out.endswith("-"):
+            held.append(t)                   # don't split a hyphenated word with a page anchor
+            continue
+        if held and not t.startswith("<!--"):
+            out = join_lines([out, t], vocab) + " " + " ".join(held)
+            held = []
             continue
         if not out:
             out = t
@@ -299,6 +315,8 @@ def join_lines(texts, vocab) -> str:
             out = vocab.join(out, t)
         else:
             out += " " + t
+    if held:
+        out += " " + " ".join(held)
     return re.sub(r"(?<=[\w,.;:!?’”)])\* \*(?=[\w‘“(])", " ", out)
 
 
@@ -812,6 +830,44 @@ class Holder:
         return bool(str(self))
 
 
+class TableBlock:
+    """A table plus its heading; rows from later pages may still be appended."""
+
+    cont, base = False, ""
+
+    def __init__(self, heading, table, label):
+        self.heading, self.table, self.pages = heading, table, [label]
+
+    @staticmethod
+    def merge(items):
+        """Join a table continued on the next page(s) into one: same columns, only page
+        anchors in between, and either no heading or a "<caption>, Cont." heading."""
+        out, last, prev_names = [], None, None
+        for x in items:
+            if isinstance(x, TableBlock):
+                if (x.cont and last is not None and x.table.names == last.table.names
+                        and isinstance(x.table, Table) and (not x.base or norm(x.base) in norm(last.heading))):
+                    last.table.rows += x.table.rows
+                    last.pages += x.pages
+                    continue
+                if x.cont and not x.heading and x.table.names == prev_names:
+                    x.heading = "##### Table: (continued)"   # same table, but text in between
+                last, prev_names = x, x.table.names
+            elif not (isinstance(x, str) and re.fullmatch(r"<!-- p\.\S+ -->", x.strip())):
+                last = None
+            out.append(x)
+        return out
+
+    def __str__(self):
+        pages = [p for p in self.pages if p]
+        rng = f"<!-- p.{pages[0]}–{pages[-1]} -->" if len(set(pages)) > 1 else ""
+        head = f"{self.heading} {rng}".strip() if self.heading else rng
+        return "\n\n".join(x for x in (head, self.table.md) if x)
+
+    def __bool__(self):
+        return True
+
+
 class Writer:
     """Accumulates markdown; keeps a paragraph open across columns and pages."""
 
@@ -848,6 +904,8 @@ class Writer:
             self.out.append(md)
 
     def anchor(self, a):
+        if self.pending_anchor:          # previous page had no new content (e.g. joined table)
+            self.place_anchor(inline=True)
         self.pending_anchor = a
 
     def place_anchor(self, inline: bool):
@@ -884,6 +942,11 @@ class Writer:
                or (self.para and self.para[0].startswith("- ") and l.col == p.col
                    and abs(l.x0 - self.item_x) > 2.5
                    and p.x1 < pright - 15 and re.search(r"[.!?:”’*]$", p.text.strip())))
+        ital = lambda x: all(sp.italic for sp in x.spans if sp.text.strip())
+        if not new and p is not None and p.col == "F" and l.col != "F" and ital(p) != ital(l):
+            new = True                                  # centred label line, then column text
+        if not new and p is not None and ital(p) != ital(l) and p.x1 < pright - 10:
+            new = True                                  # short line, then italic flavour text (or back)
         if new and p is not None and re.search(r"[a-z]-$", p.text.strip()) and l.text[:1].islower():
             new = bool(bullet or lab or dc)            # a hyphenated word always continues
         if bullet:
@@ -914,6 +977,7 @@ class Writer:
     def text(self):
         self.place_anchor(inline=False)
         self.flush()
+        self.out = TableBlock.merge(self.out)
         md = "\n\n".join(str(x) for x in self.out if str(x))
         md = re.sub(r"\n{3,}", "\n\n", md)
         md = re.sub(r"(?m)^(- .*)\n\n(?=- )", r"\1\n", md)
@@ -946,15 +1010,16 @@ def bands(elements):
     return out
 
 
-FIG_RE = re.compile(r"^<!-- fig p\.(\d+)( replace)? -->\n", re.M)
+FIG_RE = re.compile(r"^<!-- fig p\.(\d+)( replace| drop y>\d+)? -->\n", re.M)
 
 
 def load_figures(path: str) -> dict:
-    """Hand transcriptions: {printed_page: (replace_page?, markdown)}."""
+    """Hand transcriptions: {printed_page: (mode, markdown)}; mode "" (append),
+    "replace" (drop the page text) or "drop y>N" (drop text below y=N, e.g. figure labels)."""
     if not path:
         return {}
     parts = FIG_RE.split(open(path, encoding="utf-8").read())
-    return {parts[i]: (bool(parts[i + 1]), parts[i + 2].strip()) for i in range(1, len(parts), 3)}
+    return {parts[i]: ((parts[i + 1] or "").strip(), parts[i + 2].strip()) for i in range(1, len(parts), 3)}
 
 
 def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
@@ -968,21 +1033,27 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
         if p - 1 in pages:
             toc[p - 1].append({"lvl": min(lvl, 4), "title": bookmark_title(t), "used": False})
     w = Writer(vocab)
-    prev_names = None
-    page_tables = collections.defaultdict(list)    # pno -> [[Table, Holder, joined?]]
+    page_tables = collections.defaultdict(list)    # pno -> [[TableBlock, None, joined?]]
     for pno in pages:
         pg = doc[pno]
         lab = printed_label(pg)
         w.anchor(f"<!-- p.{lab} -->" if lab else f"<!-- pdf {pno + 1} -->")
         marks = toc.get(pno, [])
         fig = figs.pop(lab, None)
-        if fig and fig[0]:                       # page replaced by a hand transcription
+        if fig and fig[0] == "replace":          # page replaced by a hand transcription
             for m in marks:
                 if not m["title"].startswith("Map:"):
                     w.heading("#" * m["lvl"] + " " + m["title"])
             w.block(fig[1])                     # waits for the paragraph running round it
             continue
         lines = cache[pno]
+        if fig and fig[0].startswith("drop"):    # figure labels replaced by the transcription
+            lim = float(fig[0].split(">")[1])
+            lines = [l for l in lines if l.y0 <= lim]
+        # big title set letter by letter ("T","H","E","VA"...) on chapter openers: decoration
+        big = [l for l in lines if dropcap(l)]
+        if len(big) > 2:
+            lines = [l for l in lines if not dropcap(l)]
         for l in lines:
             l.absorbed = False
         regions = find_regions(lines)
@@ -1024,16 +1095,19 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     else:
                         if not heading and not r.caption:
                             mate = next((x for x in page_tables.get(pno - 1, [])
-                                         if not x[2] and x[0].join_spread(t)), None)
-                            if mate:
-                                mate[1].md, mate[2] = mate[0].md, True
+                                         if not x[2] and x[0].table.join_spread(t)), None)
+                            if mate:                         # facing-page columns
+                                mate[0].pages.append(lab)
+                                mate[2] = True
                                 continue
-                        holder = Holder(t.md)
-                        page_tables[pno].append([t, holder, False])
-                        if not heading and t.names == prev_names:
-                            heading = "##### Table: (continued)"
-                        prev_names = list(t.names)
-                        actions.append(("block", Holder.join(heading, holder), "table"))
+                        block = TableBlock(heading, t, lab)
+                        base = re.sub(r",?\s*\(?cont(inued)?\.?\)?$", "", r.caption, flags=re.I)
+                        if not heading:
+                            block.cont = True            # may continue the table before it
+                        elif r.caption and base != r.caption:
+                            block.cont, block.base = True, base
+                        page_tables[pno].append([block, None, False])
+                        actions.append(("block", block, "table"))
                         continue
                 else:
                     md = stats_md(r, vocab) if r.kind == "stats" else box_md(r, vocab)
@@ -1082,6 +1156,10 @@ def region_heading(r: Region, marks, last_head="", page_heads=()) -> str:
     want = kinds[r.kind]
     cap = r.caption
     if cap:
+        for m in marks:                  # tolerate a typo in the bookmark ("Reoccuring")
+            if not m["used"] and norm(m["title"].split(":", 1)[-1]) != norm(cap) and difflib.SequenceMatcher(
+                    None, norm(m["title"].split(":", 1)[-1]), norm(cap)).ratio() > 0.9:
+                m["title"] = m["title"].split(":", 1)[0] + ": " + cap if ":" in m["title"] else cap
         for m in marks:
             if not m["used"] and norm(m["title"].split(":", 1)[-1]) == norm(cap):
                 m["used"] = True

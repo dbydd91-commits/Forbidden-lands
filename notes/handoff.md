@@ -6,6 +6,5 @@ Limit: 2,000 characters (see CLAUDE.md). Rewrite only at session end; next task 
    Fix in the tool, run `tools/regress.py`, accept intended diffs, regenerate.
 2. Legends & Adventurers (pdf p.2–40): no page labels; printed page numbers come from the footer.
 3. Raven's Purge: different layout, no typed bookmarks — inspect fonts first, add samples.
-Known open points: anchor of a facing page joined into the previous page's table is dropped;
-long d66 tables are split per page as `Table: (continued)`; GMG p.52 "Box: Elven Saying" bookmark
-has no Branding box (italic quote), so its heading sits at the page top.
+Known open point: GMG p.52 "Box: Elven Saying" bookmark has no Branding box (italic quote), so its
+heading sits at the page top.

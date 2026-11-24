@@ -16,7 +16,7 @@ You are the Gamemaster. Your role is to depict the Forbidden Lands for the playe
 
 *Forbidden Lands* doesn’t demand much preparation from you. There is no predetermined plot, instead you and your players create your shared story together with the help of the tools of the game and your own imagination, during the course of the game.
 
-This chapter begins with a description of the seven principles of the game, the linchpins for playing in the Forbidden Lands, and then explains the tools that you as GM have at your disposal. The end of the chapter also offers advice on how to start your first game session of *Forbidden Lands*, suggestions on <!-- p.6 --> how to create and manage your NPCs, and advice on what to do when the adventurers fail their actions.
+This chapter begins with a description of the seven principles of the game, the linchpins for playing in the Forbidden Lands, and then explains the tools that you as GM have at your disposal. The end of the chapter also offers advice on how to start your first game session of *Forbidden Lands*, suggestions on <!-- p.5 --> <!-- p.6 --> how to create and manage your NPCs, and advice on what to do when the adventurers fail their actions.
 
 ## Box: For the GM’s Eyes Only
 
@@ -163,17 +163,12 @@ Only roll when the stronghold is guarded, by the adventurers themselves or their
 >
 > - Re-roll or choose another.
 
-### Table: Events at the Stronghold
+### Table: Events at the Stronghold <!-- p.12–15 -->
 
 | D66 | Event |
 |---|---|
 | 11–26 | **NOTHING**. Everything is calm and quiet at the stronghold. |
 | 31–32 | **REFUGEES**. A miserable group of hungry and frozen refugees knock on the gates of the stronghold and ask to stay the night. There are some twenty humans, of all ages, all of them HUNGRY and COLD. They have stats like typical villagers (see page 184) and have fled from Rust Brothers, some local lord, or a raging monster (the GM decides the details). If the adventurers allow the refugees to come inside and give them FOOD they will be very grateful and tell them one or several legends. They will remain as long as they are allowed to, and may even take up work as servants. If the adventurers refuse to let them in, they will stand outside the gates for D6 days before giving up. |
-
-##### Table: (continued)
-
-| D66 | Event |
-|---|---|
 | 33–34 | **THIEVES IN THE NIGHT**. D6 thieves (see page 183 for stats) break into the stronghold at night. The adventurers or a GUARD can discover them. If the thieves get away, they will steal all valuables that they can find. The GM decides exactly what is stolen. |
 | 35–36 | **SHABBY ADVENTURERS**. A party of shabby and poor adventurers (stats like typical bandits, see page 183) arrive and ask to stay the night in the stronghold. They tell one or several legends by the fire, but also sneak greedy glances at the player characters’ treasures... |
 | 41–42 | **ORCS ATTACK**. 2D6 roving orcs (see page 64 for stats) attack the stronghold. They kill as many as they can and steal what they can get their hands on. If half of them are Broken, the rest will flee. |
@@ -182,21 +177,11 @@ Only roll when the stronghold is guarded, by the adventurers themselves or their
 | 45 | **THE RIDERS**. 2D6 Aslenes (see page 49 for stats) come riding up to the stronghold. They are nomad Galdanes and claim that the adventurers’ stronghold lies on their land. They demand that the adventurers leave and threaten to return in greater numbers if they refuse. |
 | 46 | **MONSTER ATTACKS**. A roving monster suddenly attacks the stronghold. Pick a monster from Chapter 5 or use the random table on page 74. The monster flees if it loses half its Strength, but may return later on. |
 | 51 | **PEDDLER**. A traveling peddler arrives at the stronghold. She can offer most of everything from the equipment lists in Chapter 9 of the *Player’s Handbook,* with the caveat of the normal rules for availability. If the adventurers have something to sell she is also interested in buying or trading. |
-
-##### Table: (continued)
-
-| D66 | Event |
-|---|---|
 | 52 | **RAVEN SISTER**. A company of Raven Sisters, D6 in number, knock on the gates of the stronghold and ask for housing for the night. They can pay for the hospitality and may tell one or several legends if they are allowed to come inside. A couple of hours later, a band of Rust Brothers, 2D6 in number under the leadership of an Iron Guard, on the hunt for the Raven Sisters arrive. They demand to be allowed inside to search. If they find the Raven Sisters, they will shackle them and take them away with them. If the adventurers refuse to cooperate, the Rust Brothers will become violent, but retreat if half of their number become Broken. They may return in greater numbers later. Stats for Raven Sisters and Rust Brothers can be found in Chapter 3. |
 | 53 | **REDRUNNERS**. D6 Redrunners (see page 56) are searching for a lost elven ruby, and arrive at the stronghold seeking shelter. They are very arrogant and treat the adventurers like lesser beings. If the adventurers can stand them, however, the Redrunners may impart several legends, perhaps even one about one of the four artifacts mentioned in the campaign book, *Raven’s Purge.* |
 | 54 | **SPY**. A lone wanderer knocks on the gates of the stronghold. She says that she is going to a nearby village (the GM decides which one) and asks for shelter. She can pay for herself and can share legends, but she also asks increasingly in-depth questions about the adventurers, their stronghold and their treasures. The woman is a spy sent by the Rust Brothers or some local lord, tasked with finding out everything she can about the adventurers. She may even try to steal something valuable. |
 | 55 | **DESERTERS**. A patrol of D6+2 disheveled and tired soldiers (see page 183 for stats) arrive at the stronghold. They have deserted from a local lord in the area. The GM decides the details. The soldiers are HUNGRY and seek food and shelter. If the adventurers let them in, they may try to seize the stronghold through force. It is also possible that the lord sends soldiers to the stronghold to find the deserters. |
 | 56 | **ORACLE**. The Elvenspring Nuala, druid and oracle, arrives at the stronghold late at night, asking for shelter. If the adventurers let her in, she can share several legends (see page 6 in the *Player’s Handbook*). She is skilled in the magical discipline of Awareness and can, in exchange for food and shelter, offer the use of her powers to the adventurers. She may also ask the adventurers for help. |
-
-##### Table: (continued)
-
-| D66 | Event |
-|---|---|
 | 61 | **SLAVE TRADER**. A slave trader arrives at the stronghold. If it fits the campaign, it’s Misela Ferrumar from the village of Grindbone (see the *Raven’s Purge* campaign book). As an entourage, the slaver has D6 guards (stats as per typical bandits, see page 183) and 2D6 pitiful slaves in chains. The latter are offered to the adventurers at a low rate. During the visit, a couple of the slaves attempt to escape and seek shelter in the stronghold. The slave trader demands her “merchandise” be returned and is prepared to get violent. |
 | 62 | **LOOKING FOR HELP**. A group of people from a nearby village (the GM decides which one) arrive at the stronghold and ask the adventurers to help them deal with a monster, a band of robbers, Rust Brothers, or some other threat against their village. The GM decides the details. The visitors are 2D6 in number and have stats as per typical villagers (see page 184). |
 | 63 | **MINSTRELS**. A traveling theatre company arrives and wants to spend the night in the stronghold. If they are allowed inside, and are given free food and lodging, they will be very grateful and entertain the inhabitants of the stronghold with a performance – all player characters receive one Willpower Point. The minstrels may also share a legend or two. If they are turned away, they will instead spread rumors about the unkind adventurers – their Reputation score counts as two steps higher in next week’s roll for events at the stronghold. |
@@ -294,7 +279,7 @@ In Alderland, an area beyond the mountains that no one in Ravenland really thoug
 
 Once the spies had brought back reports of fair and spacious lands beyond the Divide, Algamar wanted to gather an army to expand the territory of the humans to the north. However, Alderland was tired of war after years of fighting their western neighbors in Aslene, a threat that still remained. The nobility was reluctant to send troops on such a fleeting mission, at the same time leaving the homeland undefended.
 
-At this time, Alderlanders worshipped the god Rust, whom the Rust Church claimed was the true manifestation of the creator god Wyrm. The Ferrale Teramalda presented the king with a vision the god had shown her, how she would conquer the lands beyond the moun- <!-- p.23 --> tains with the god’s help and convert those that lived there to the true faith. She claimed the god Rust and his wife Heme had brought humankind to this land in ancient times, but that the Ailanders, allied with treacherous elves and dwarves, had tricked them and so stolen half of the land that had been promised. After she had been given Algamar’s blessing, she began courting the rich and powerful of the kingdom to gather support for her crusade. Many priests in the Congregation of the Serpent urged caution and spoke of an ancient compact of peace between the kin, but Teramalda had them thrown in prison and killed as heretics and traitors. When the king allowed this to go unpunished, the Rust Church grew in numbers.
+At this time, Alderlanders worshipped the god Rust, whom the Rust Church claimed was the true manifestation of the creator god Wyrm. The Ferrale Teramalda presented the king with a vision the god had shown her, how she would conquer the lands beyond the mountains with the god’s help and convert those that <!-- p.23 --> lived there to the true faith. She claimed the god Rust and his wife Heme had brought humankind to this land in ancient times, but that the Ailanders, allied with treacherous elves and dwarves, had tricked them and so stolen half of the land that had been promised. After she had been given Algamar’s blessing, she began courting the rich and powerful of the kingdom to gather support for her crusade. Many priests in the Congregation of the Serpent urged caution and spoke of an ancient compact of peace between the kin, but Teramalda had them thrown in prison and killed as heretics and traitors. When the king allowed this to go unpunished, the Rust Church grew in numbers.
 
 In 800 AS, Teramalda led three thousand men north across the mountains. They carried with them enormous effigies of the god Rust and his wife Heme.
 
@@ -336,8 +321,6 @@ Among the elven delegates was a woman called Martea, who was wise in the ways of
 
 While Zygofer and Martea were busy with each other, Alvagard’s diplomats hid weapons and talismans in the luggage of their guests. The delegation was then accused of conspiracy to assassinate their counterparts, thrown in prison and interrogated and tortured to give up information about their country’s defenses. Most of them were then executed. Zygofer secured mercy for Martea and she was so blinded by love that she believed the accusations were true and decided to stay with her love in Alderstone. They married and honeymooned together in the hidden valley of the dead, where Martea taught her husband the art of necromancy – to speak with the dead. In 834 AS Martea gave birth to a son, who was named Zertorme – “the chosen one.”
 
-Z rtorm th chos n on .
-
 <!-- p.27 -->
 
 ### 833–845 AS: The Third Alder War
@@ -378,11 +361,11 @@ Zygofer said, after his family had fled, that peace would only last in Ravenland
 
 ### 869 AS: Falender is Burned
 
-After being gone for ten years, it was said that Zygofer’s son, Zertorme, turned to the Elvenspring in Vivend and offered them his services as well as information about his father and his secrets. Once this rumor spread, many huhu mans from Harga joined Zertorme. In return for participating in the purge of the Alderland warlords ravaging the plains, they were given land on the plains of Margelda. Margelda was liberated, but many soldiers from the west remained as bandits in the area, and they burned the wooden city of Falender to the ground before they dispersed.
+After being gone for ten years, it was said that Zygofer’s son, Zertorme, turned to the Elvenspring in Vivend and offered them his services as well as information about his father and his secrets. Once this rumor spread, many humans from Harga joined Zertorme. In return for participating in the purge of the Alderland warlords ravaging the plains, they were given land on the plains of Margelda. Margelda was liberated, but many soldiers from the west remained as bandits in the area, and they burned the wooden city of Falender to the ground before they dispersed.
 
 ### 869–874 AS: The Misgrown Gather
 
-Zygofer’s request for more troops and weapons to cleanse Ravenland of elves and dwarves was rejected by the king, since the resources were needed to rebuild the war-torn western parts of the country. Lacking troops, Zygofer intensified his demonic research with the help of his remaining daughter, Therania, who was now an accomplished sorceress, and the bard, Merigall. They called on creatures not of this world to aid them and experimented on criminals and captured enemies. Crossbreeds between humans and animals with demonic features appeared, and animals with demonic featuresappeared such as minotaurs, harpies and manticores. They were sent into battle, but many were unruly and fled into the wilderness where they hunted any prey they could find, regardless of whether they were friend or foe. Zygofer’s dedicated supporters moved to Alderstone and allowed him to infuse them with demonic powers, while others, filled with disgust and despair, made their way further from the city to find healthier places to live in the wild or return to Alderland. At the same time, Therania made progress in the art of raising the dead and soon they were sent into battle. It was said that Merigall had sent her teachers from the realm of death itself.
+Zygofer’s request for more troops and weapons to cleanse Ravenland of elves and dwarves was rejected by the king, since the resources were needed to rebuild the war-torn western parts of the country. Lacking troops, Zygofer intensified his demonic research with the help of his remaining daughter, Therania, who was now an accomplished sorceress, and the bard, Merigall. They called on creatures not of this world to aid them and experimented on criminals and captured enemies. Crossbreeds between humans and animals with demonic features appeared, such as minotaurs, harpies and manticores. They were sent into battle, but many were unruly and fled into the wilderness where they hunted any prey they could find, regardless of whether they were friend or foe. Zygofer’s dedicated supporters moved to Alderstone and allowed him to infuse them with demonic powers, while others, filled with disgust and despair, made their way further from the city to find healthier places to live in the wild or return to Alderland. At the same time, Therania made progress in the art of raising the dead and soon they were sent into battle. It was said that Merigall had sent her teachers from the realm of death itself.
 
 Dwarves and elves pulled back in horror from these ungodly battles and left their servants, the <!-- p.30 --> orcs, to defend the land against the humans and their horrible creations. Zygofer’s troops conquered and devastated the elven city of Varassa in Arina Forest in a terrifying bloodbath.
 
@@ -416,7 +399,7 @@ Forced to fight desperate battles with the demons in Aslene, the Galdane rider c
 
 ### 877 AS: The Nexus is sealed
 
-With the demonic horde occupied in the west, Zygofer and Merigall sealed the nexus and strangled the flow of ether through the passage, a flow that kept the demons alive. The beasts weakened and many perished, but Aslene was already a ruined wasteland and has since this time been called the Ashen Vale. When the i b ll d h h V l h h demon lord Krasylla realized the danger it was too late; he returned with his remaining servants to try to seize the nexus, but was faced with the defenders’ amassed troops and sorcery. The road was closed for all intents and purposes and a contract was drawn up in blood <!-- p.32 --> and phlegm. Krasylla was to remain in Ravenland, allied with the new rulers of the land, to possess and watch the old dwarven stronghold of Vond. In return, Krasylla would receive a number of human sacrifices to enslave or feed upon every year.
+With the demonic horde occupied in the west, Zygofer and Merigall sealed the nexus and strangled the flow of ether through the passage, a flow that kept the demons alive. The beasts weakened and many perished, but Aslene was already a ruined wasteland and has since this time been called the Ashen Vale. When the demon lord Krasylla realized the danger it was too late; he returned with his remaining servants to try to seize the nexus, but was faced with the defenders’ amassed troops and sorcery. The road was closed for all intents and purposes and a contract was drawn up in blood <!-- p.32 --> and phlegm. Krasylla was to remain in Ravenland, allied with the new rulers of the land, to possess and watch the old dwarven stronghold of Vond. In return, Krasylla would receive a number of human sacrifices to enslave or feed upon every year.
 
 Therania had grown tired of the cold embrace of the dead king Algarod and suggested that the reanimated corpse should be sent to command the fortress at Weatherstone, and so he was.
 
@@ -460,21 +443,19 @@ The Rust Brothers soon learned that the Mist was not of uniform thickness. It co
 
 The beautiful demon Merigall feeds off feelings and spectacle, and soon tired of the wet blanket the Blood Mist left over the Forbidden Lands. Merigall soon learned that the Mist consisted of demons that were usually gaseous but that solidified and took shape when they intended to eat their prey. Merigall slowly learned how to speak with the creatures and learned they were called bloodlings and that they read emotions. In their own world, the bloodlings attack and remove sick creatures or those who are unhappy in life. In the Forbidden Lands, the bloodlings interpreted humans’ fear and unease due to being in a foreign place as a deathwish. Humans who were happy in their homes were left alone. Merigall understood that the Rust Brothers could walk in the Mist because they believed it was the breath of the goddess Heme, and so believed it was their own domain.
 
-Once Merigall won the trust of the bloodlings, the bard began praising their homeworld with song and stories, full of sympathy for the loss of their homeland. With beautiful words infused with magic, the demon managed to plant a seed of homesickness in the bloodlings, so they began devouring each other. Such was their kill- <!-- p.35 --> er instinct that they could not refrain from cannibalism. The mist slowly disappeared over the next few years as Merigall’s songs spread through the land. As the mist disappeared, so did the influence of the Rust Brothers in the villages. Today, there are only a few stubborn bloodlings left in the Forbidden Lands, with no intention of ever going home, as well as a few fearful gas demons hiding from their stronger brethren.
+Once Merigall won the trust of the bloodlings, the bard began praising their homeworld with song and stories, full of sympathy for the loss of their homeland. With beautiful words infused with magic, the demon managed to plant a seed of homesickness in the bloodlings, so they began devouring each other. Such was their killer instinct that they could not refrain from can- <!-- p.35 --> nibalism. The mist slowly disappeared over the next few years as Merigall’s songs spread through the land. As the mist disappeared, so did the influence of the Rust Brothers in the villages. Today, there are only a few stubborn bloodlings left in the Forbidden Lands, with no intention of ever going home, as well as a few fearful gas demons hiding from their stronger brethren.
 
 ### 1165 AS: Now
 
-In the aftermath of war, demonic invasions and the curse of the Blood Mist, humans, dwarves, orcs and elves can finally once again roam free in the Forbidden Lands. Most of what was once known of Ravenland, however, has faded into myth and fractured memories.
-
-##### Fallturn
+In the aftermath of war, demonic invasions and the curse of the Blood Mist, humans, dwarves, orcs and elves can finally once again
 
 ## The Calendar
 
 In the calendar used by the humans of the Forbidden Lands, the year is divided into eight phases, split up by eight festivals. The calendar does not follow the moon, but phases with two full moons are considered stronger and have a more significant impact on events of the year.
 
-Every phase is 45 or 46 days long. During the Midwinter celebration, the most prominent servants of the gods decree when the different festivals will be celebrated during the year. Since the Forbidden Lands have several religions and the commandments about the festivals do not reach every part of the land, they are often celebrated on different days in different places.
+Every phase is 45 or 46 days long. During the Midwinter celebration, the most prominent servants of the gods decree when the different festivals will be celebrated during the year. Since the Forbidden Lands have several religions and the commandments about the festivals do not reach every part of
 
-##### Springturn
+**[Figure — calendar wheel]** The year as a wheel of eight festivals (capitals) and the phases between them, in order starting at the top: MIDWINTER – Winterwane – AWAKENING DAY – Springrise – SPRINGTURN – Springwane – LUSHDAY – Summerrise – MIDSUMMER – Summerwane – HARVEST DAY – Fallrise – FALLTURN – Fallwane – ROT DAY – Winterrise – (MIDWINTER).
 
 <!-- p.36 -->
 
@@ -575,7 +556,7 @@ The Shardmaiden was Clay’s prophet, a female elf who lived during the Shift. A
 
 ## Wail
 
-Wail is the air goddess that the Raven sisters believe is the wife of the Protector god, Ra- <!-- p.42 --> ven. She carries the bird god and all other birds through the sky. Wail is also the goddess of weather and is honored in this capacity by all elves, Elvenspring and the humans in the villages.
+Wail is the air goddess that the Raven sisters believe is the wife of the Protector god, Raven. She carries the bird god and all other <!-- p.42 --> birds through the sky. Wail is also the goddess of weather and is honored in this capacity by all elves, Elvenspring and the humans in the villages.
 
 ### Box: The Maha Language
 
@@ -836,11 +817,11 @@ Redrunners hunt and retrieve elven rubies that have been lost. They work as an i
 
 ## Dwarves
 
-The dwarves claim they were created by the god Huge to fill the void of space with matter. They claim that since the age of myth, they have built and expanded the bones of the world, a sphere so large you can barely see it curving at the horizon. The sun and stars are hearths in faraway forges the god has placed to entice the builders until they can use them when they have <!-- p.57 --> built their way there. The dwarves believe in rere incarnation as tools of Huge, if not in the same me shape as they were before. Just like the dwarves ves themselves use the parts of broken tools to forge rge new ones, they believe the god grants his batat tered servants new life in a more able-bodied ied shape, in this or some higher world.
+The dwarves claim they were created by the god Huge to fill the void of space with matter. They claim that since the age of myth, they have built and expanded the bones of the world, a sphere so large you can barely see it curving at the horizon. The sun and stars are hearths in faraway forges the god has placed to entice the builders until they can use them when they have <!-- p.57 --> built their way there. The dwarves believe in reincarnation as tools of Huge, if not in the same shape as they were before. Just like the dwarves themselves use the parts of broken tools to forge new ones, they believe the god grants his battered servants new life in a more able-bodied shape, in this or some higher world.
 
-Dwarves can forge stone seemingly out out of nothing in enormous underground workrkshops, stone that is carried to the surface to to expand the world. There are massive ruins ins across the Forbidden Lands, seemingly useseless constructions the dwarves claim are the he foundation for the next layer of the world. In In this worldview, the elves take care of the growwing adornments on the surface. The dwarves ves view the world between the void of space and nd the sturdy bones of the ground as a zone of of unchecked growth. Hence, the elves are not not enemies but still strange, naive and lazy, zy, yet they are essential to the god’s plan. The h dwarves believe themselves relatives of granite and malleable limestone, while the god Huge created the elves from the rubies from which their flesh has grown. That is why the elves are beautiful, vain and dreamers, but little use when it comes to hard labor or constructions on a larger or grander scale. Legends often tell of how their cunning forefathers tricked elves into performing useful feats such as raising trees from lesser herbs to support layers of earth with their roots or be shaped into pillars or scaffolding. The dwarves have the ability to shape old, dead but sturdy trees into stone pillars, an art which is not appreciated by the elves. Mining for rare minerals is considered paramount, and dwarves cultivate troll excrement to extract rare minerals.
+Dwarves can forge stone seemingly out of nothing in enormous underground workshops, stone that is carried to the surface to expand the world. There are massive ruins across the Forbidden Lands, seemingly useless constructions the dwarves claim are the foundation for the next layer of the world. In this worldview, the elves take care of the growing adornments on the surface. The dwarves view the world between the void of space and the sturdy bones of the ground as a zone of unchecked growth. Hence, the elves are not enemies but still strange, naive and lazy, yet they are essential to the god’s plan. The dwarves believe themselves relatives of granite and malleable limestone, while the god Huge created the elves from the rubies from which their flesh has grown. That is why the elves are beautiful, vain and dreamers, but little use when it comes to hard labor or constructions on a larger or grander scale. Legends often tell of how their cunning forefathers tricked elves into performing useful feats such as raising trees from lesser herbs to support layers of earth with their roots or be shaped into pillars or scaffolding. The dwarves have the ability to shape old, dead but sturdy trees into stone pillars, an art which is not appreciated by the elves. Mining for rare minerals is considered paramount, and dwarves cultivate troll excrement to extract rare minerals.
 
-Dwarves distrust open spaces and are rarely di d l comfortable without a roof over their heads. They are often pale, and find sunlight hard on both eyes and skin. Some have been trained to move around in the Upperworld where planning and preparatory work are necessary. The Upperworld must also be supervised and often defended, especially from humans during the past few centuries. Dwarves sometimes view the humans as a test from the god Huge, sent to harden the dwarves just like iron is hardened under the hammer on the anvil.
+Dwarves distrust open spaces and are rarely comfortable without a roof over their heads. They are often pale, and find sunlight hard on both eyes and skin. Some have been trained to move around in the Upperworld where planning and preparatory work are necessary. The Upperworld must also be supervised and often defended, especially from humans during the past few centuries. Dwarves sometimes view the humans as a test from the god Huge, sent to harden the dwarves just like iron is hardened under the hammer on the anvil.
 
 ##### The Dwarven Clans
 
@@ -918,9 +899,9 @@ The ogres of the Forbidden Lands are offspring of dwarves and humans, descendant
 
 Most ogres are prone to thunderous laughter, often at the expense of others, and <!-- p.61 --> live for their own cravings and lusts. They have little desire to conquer land or achieve some level of respect amongst their own kind. Ogres love violent music, to which they howl and pound various objects, especially during thunderstorms. They adorn themselves with crude baubles over roughly cut clothes of untanned leather that they have blackened over fire. Large ears and a large nose are signs of status among them. They often push metal through their ears and nose to weigh them down and stretch them further, and scar their limbs using branding irons.
 
-Ogres love their freedom and celebrate life and are as erratic as they are curious. They are also brutal beasts who take whatever they want using brute strength. For entertainment, they might rip the arms of a prisoner, let him go free, and then wager stolen kegs of beer on how far the unarmed prisoner can run before bleeding to death. It is just as likely that an ogre may “adopt” someone they have grown fond of but cut their tendons so they cannot escape. Ogres may join a group or enter someone’s service if it amuses them, but they really have no loyalties and follow no moral or written laws. They have powerful bodies and a resilience to magic that is so so strong that neither Zytera’s followers nor other forces have been able to subdue them.
+Ogres love their freedom and celebrate life and are as erratic as they are curious. They are also brutal beasts who take whatever they want using brute strength. For entertainment, they might rip the arms of a prisoner, let him go free, and then wager stolen kegs of beer on how far the unarmed prisoner can run before bleeding to death. It is just as likely that an ogre may “adopt” someone they have grown fond of but cut their tendons so they cannot escape. Ogres may join a group or enter someone’s service if it amuses them, but they really have no loyalties and follow no moral or written laws. They have powerful bodies and a resilience to magic that is so strong that neither Zytera’s followers nor other forces have been able to subdue them.
 
-All offspring from the union of humans and dwarves are not ogres or unruly, and some stay y with the dwarves as blacksmiths s and craftsmen.
+All offspring from the union of humans and dwarves are not ogres or unruly, and some stay with the dwarves as blacksmiths and craftsmen.
 
 ### Stats: Typical Ogre
 
@@ -929,7 +910,6 @@ All offspring from the union of humans and dwarves are not ogres or unruly, and 
 - **Talents:** —
 - **Gear:** Large wooden club
 - **Magic Resilience:** The Power Level of any spell cast against an ogre is automatically decreased by D6, due to the ogres’ natural resilience to magic.
-- g
 
 <!-- p.62 -->
 
@@ -1154,7 +1134,7 @@ Some halflings feel smothered by the idyllic life in the villages, grow restless
 
 Goblins live in nomadic groups that hunt and gather in the forests. They often breed wolves to ride, making them very mobile and efficient hunters. Goblins are known for their cunning and adaptability and are often hired by orcs or humans to track, act as couriers, or hunt. They have a very liberal view of ownership, and take what they want and need, which has given them a well-deserved reputation as thieves. Since goblins act however they want in the forests without respect to nature, they are disliked by elves and druids and the fact that they view any intelligent creatures except halflings as prey has done nothing to improve that. Since goblins have <!-- p.72 --> no social facade to defend, they are less apprehensive than halflings when it comes to discussing their blood relations and feel a degree of responsibility, however reluctantly, for their sillier brethren. It is not uncommon for goblins to watch over halflings and come to their aid if they are in danger, while the opposite is very uncommon.
 
-Goblins can see in the dark, but strong g daylight hurts their eyes. Therefore, they prefer the night, especially when the moon, their ally in the sky, has risen.
+Goblins can see in the dark, but strong daylight hurts their eyes. Therefore, they prefer the night, especially when the moon, their ally in the sky, has risen.
 
 ### Stats: Typical Goblin
 
@@ -1232,11 +1212,11 @@ Monsters don’t become weaker when they are wounded – a wounded monster can b
 
 **SPECIAL ABILITIES:** Many monsters have special abilities in addition to their monster attacks. These are explained in the description of each monster.
 
-**SKILLS:** Some monsters also have skills. If a monster has the attribute that the skill is based upon, roll Skill Dice and Base Dice as normal. However, if if the monster lacks the he relevant attribute, , only roll Skill Dice.
+**SKILLS:** Some monsters also have skills. If a monster has the attribute that the skill is based upon, roll Skill Dice and Base Dice as normal. However, if the monster lacks the relevant attribute, only roll Skill Dice.
 
 ## Box: More Challenging Monsters
 
-> By default, a monster can attack once every round. Draw d D initiative for the monster normally. However, if you find that er, if you fnd that your players defeat monsters too easily, you can increase the challenge by letting a monster act twice or even three times per round. In this case, draw two or three initiative cards for the monster at the beginning of combat.
+> By default, a monster can attack once every round. Draw initiative for the monster normally. However, if you find that your players defeat monsters too easily, you can increase the challenge by letting a monster act twice or even three times per round. In this case, draw two or three initiative cards for the monster at the beginning of combat.
 
 <!-- p.76 -->
 
@@ -1383,7 +1363,7 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 61–65 | Roll Three Times | — | — | — |
 | 66 | Roll Four Times | — | — | — |
 
-##### Table: The Demon’s Special Ability
+##### Table: The Demon’s Special Ability <!-- p.83–84 -->
 
 | D66 | Strength | Effect |
 |---|---|---|
@@ -1394,13 +1374,6 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 33–34 | Immune to physical attacks | Physical attacks are ineffective. |
 | 35–36 | Parasite | By touching its victim, the demon can take control over it. This works as the PUPPETEER spell with Power Level 3. |
 | 41–43 | Regenerative | Regains D3 Strength every round. |
-
-<!-- p.84 -->
-
-##### Table: (continued)
-
-| D66 | Strength | Effect |
-|---|---|---|
 | 44–45 | Paralyzing | A victim touched by the demon is affected by a paralyzing poison with Potency D6+5. |
 | 46–51 | Poisonous | A victim touched by the demon is affected by a lethal poison with Potency D6+5. |
 | 52–54 | Shapeshifter | Can change shape into any creature. The copy is perfect except for one small detail (such as eye color). |
@@ -1409,7 +1382,9 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 63–64 | Teleportation | Can instantly teleport to anywhere within LONG range every other round. |
 | 65–66 | Roll twice on this table | — |
 
-### Table: The Demon’s Weakness
+<!-- p.84 -->
+
+### Table: The Demon’s Weakness <!-- p.84–85 -->
 
 | D66 | Weakness | Effect |
 |---|---|---|
@@ -1421,18 +1396,13 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 32–33 | Gold | Takes double damage from weapons made of gold. |
 | 34–35 | Children | Cannot stand the sight of children and must move away from them. If unable to do so, the demon takes D3 damage every round. |
 | 36–41 | Elves | Cannot stand the sight of elves and must move away from them. If unable to do so, the demon takes D3 damage every round. |
-
-<!-- p.85 -->
-
-##### Table: (continued)
-
-| D66 | Weakness | Effect |
-|---|---|---|
 | 42–43 | Dwarves | Cannot stand the sight of dwarves and must move away from them. If unable to do so, the demon takes D3 damage every round. |
 | 44–52 | Holy Symbols | Cannot stand the sight of holy symbols and must move away from them. If unable to do so, the demon takes D3 damage every round. |
 | 53–56 | Music | Cannot stand the sound of music or melodies and must move away from the sound. If unable to do so, the demon takes D3 damage every round. |
 | 61–63 | Soil | Takes D3 damage from contact with soil. |
 | 64–66 | Wood | Takes double damage from weapons made of wood. |
+
+<!-- p.85 -->
 
 ##### Box: Skills
 
@@ -1506,7 +1476,7 @@ By “small” dragons, one refers to those who weigh no more than four oxen. Ev
 
 There are many stories of how lone wanderers have met drakewyrms in craggy areas littered with caves. These creatures are said to have shimmering scales and are allegedly very vain, but also intelligent enough to master simple human speech. The wyrms are even said to have a primitive religion in which they regard the rainbow as their god and ancestor, Tincturus.
 
-Drakewyrms have voracious appetites and gladly gobble down both humans and animals, but when they’ve had their fill, it is possible to speak with them and even earn their friendship and aid through flattery, whereupon they may leave cadavers and glittering objects as gifts. Stories say that the wizard Var- <!-- p.91 --> leyman of Byard had a Drakewyrm for a mount. Angry drakewyrms can claw, bite and wrap themselves around their victims to crush them. Some are said to have corrosive breath.
+Drakewyrms have voracious appetites and gladly gobble down both humans and animals, but when they’ve had their fill, it is possible to speak with them and even earn their friendship and aid through flattery, whereupon they may leave cadavers and glittering objects as gifts. Stories say that the wizard Varleyman of Byard had a Drakewyrm for a mount. <!-- p.91 --> Angry drakewyrms can claw, bite and wrap themselves around their victims to crush them. Some are said to have corrosive breath.
 
 A Drakewyrm can’t stand competing with anyone when it comes to its brilliance, and will furiously attack anything brightly colored or with a reflecting surface. When the rainbow appears in the heavens all drakewyrms charge towards it, so as to be the first to meet Tincturus.
 
@@ -1790,6 +1760,8 @@ The Insectoid community consists of workers, drones, a queen and soldiers. The s
 - **Armor Rating:** 6
 - **Bite:** Damage 2 (slash wound), lethal poison with Potency 8
 
+<!-- p.109 -->
+
 <!-- p.110 -->
 
 ## Manticore
@@ -1933,7 +1905,7 @@ Trolls eat basically anything that they can chew. Their favorite food is fresh i
 
 Trolls aren’t entirely unintelligent. They can use simple weapons and tools and can communicate through grunts, but appear to lack any form of selfpreservation or fear. The creatures are very strong and robust, with thick and leathery skin and incomparable regeneration that allows them to heal even critical injuries in a couple of minutes. They are, however, sensitive to glaring light and avoid direct sunlight.
 
-Some Trolls gorge themselves until they are so large and round that they more often than not resemble rolling stone boulders rath- <!-- p.121 --> er than living creatures. The dwarves are said to extract rare minerals from the feces and tissue they leave behind and that they might even herd them like cattle. Vicious rumors say that the dwarves lure these Troll boulders to human villages with music, since certain especially rare minerals only form when the Trolls have eaten human flesh.
+Some Trolls gorge themselves until they are so large and round that they more often than not resemble rolling stone boulders rather than living creatures. The dwarves are said <!-- p.121 --> to extract rare minerals from the feces and tissue they leave behind and that they might even herd them like cattle. Vicious rumors say that the dwarves lure these Troll boulders to human villages with music, since certain especially rare minerals only form when the Trolls have eaten human flesh.
 
 ### Stats: Troll
 
@@ -2446,7 +2418,7 @@ Wyrm’s Key gives a D12 Artifact Die to all attempts to pick locks using the SL
 
 *Himeon leaned in to poke the fire, casually grabbing his bow in the process.*
 
-*“Something watches us and hungers,” he said. Sanarda looked around while drinking from her flask. Hairy spider legs clambered among the darkening foliage overhead. I “I wasn’t tired anyway.”*
+*“Something watches us and hungers,” he said. Sanarda looked around while drinking from her flask. Hairy spider legs clambered among the darkening foliage overhead. “I wasn’t tired anyway.”*
 
 This chapters details a number of random encounters that you can use during the adventurers’ journeys across the Forbidden Lands.
 
@@ -2462,7 +2434,7 @@ Failing the SCOUTING roll means that the threat is up close and personal before 
 
 ## 0: No Encounter
 
-Time passes without any significant encoun- <!-- p.147 --> ter. Describe the surrounding nature – the rustle of leaves in the forest, the howling winds across the plains, the mist in mountain valleys, or the soft rain against the adventurer’s faces. For the moment, they are alone in their journey across the Forbidden Lands.
+Time passes without any significant encounter. Describe the surrounding nature – the <!-- p.147 --> rustle of leaves in the forest, the howling winds across the plains, the mist in mountain valleys, or the soft rain against the adventurer’s faces. For the moment, they are alone in their journey across the Forbidden Lands.
 
 ## Table: Random Encounters
 
@@ -2492,13 +2464,9 @@ Time passes without any significant encoun- <!-- p.147 --> ter. Describe the sur
 
 ## 1: The Blood Mist
 
-*It all happens almost imperceptibly. At first, all sounds die down and the only thing that can be heard is your own small talk. Then you get the feeling that the hair on the backs of your necks rises up, as if the air is filled with some strange*
+*It all happens almost imperceptibly. At first, all sounds die down and the only thing that can be heard is your own small talk. Then you get the feeling that the hair on the backs of your necks rises up, as if the air is filled with some strange* <!-- p.148 --> *energy. Finally, you see it, the crimson mist, slowly flowing above the ground towards you. The Blood Mist.*
 
-<!-- p.148 -->
-
-## Box: Reoccurring Encounters
-
-##### Box: Reoccuring Encounters
+## Box: Reoccuring Encounters
 
 > Sooner or later, you will roll an encounter that you have already rolled before. When this happens, choose one of the options below:
 >
@@ -2509,8 +2477,6 @@ Time passes without any significant encoun- <!-- p.147 --> ter. Describe the sur
 > - Change the encounter. The adventurers meet a similar creature or person, but it’s different in some way.
 >
 > - Re-roll.
-
-*energy. Finally, you see it, the crimson mist, slowly flowing above the ground towards you. The Blood Mist.*
 
 The adventurers have walked into a pocket of living Blood Mist. It comes from everywhere and forms a ring around the party. If the lookout spots it in time, the adventurers can each make a MOVE roll to get away by climbing a tree or something similar. If the lookout fails the roll, the adventurer is caught in the Blood Mist. If the adventurer can make the MOVE roll but fails, the adventurer is also stuck in the Blood Mist. Either way, the adventurer can make another MOVE roll each round to escape.
 
@@ -2602,11 +2568,6 @@ The adventurers have found a ruin that is suitable as a safe place to make camp.
 |---|---|---|
 | 11–16 | Cabin | An old couple |
 | 21–24 | Mill | A miller, buried in the back yard |
-
-##### Table: (continued)
-
-| D66 | Ruin | Who Lived Here |
-|---|---|---|
 | 25–32 | Guard Post | Scout, fallen on duty |
 | 33–35 | Temple | Murdered raven sisters |
 | 36–46 | Farm | A rich merchant, long since dead |
@@ -2785,7 +2746,7 @@ The adventurers meet the woman Engsle and her daughter. They make a particular t
 
 *The smell of smoke hits you as a deer rushes by. Over the trees you see black smoke. The wind turns, and the fire is coming your way.*
 
-A forest fire is raging. Animals are trying to get away, treetops catch fire and suffocating smoke spreads through the forest. The fire is moving fast. The adventurers must succeed with a roll against SURVIVAL to escape. If they fail, they will be attacked by flames, roll for the attack against each adventurer using six Base Dice (Weapon Damage 1). The adventures can then roll SURVIVAL again to escape. If they fail again, the fire attacks with seven Base Dice. This cycle continues, with another Base Die added to the fire at- <!-- p.159 --> tacks each time, until the adventurers escape or are Broken.
+A forest fire is raging. Animals are trying to get away, treetops catch fire and suffocating smoke spreads through the forest. The fire is moving fast. The adventurers must succeed with a roll against SURVIVAL to escape. If they fail, they will be attacked by flames, roll for the attack against each adventurer using six Base Dice (Weapon Damage 1). The adventures can then roll SURVIVAL again to escape. If they fail again, the fire attacks with seven Base Dice. This cycle continues, with another Base Die added to the fire attacks each time, until the adventurers escape <!-- p.159 --> or are Broken.
 
 Don’t forget to ask the players to describe their actions, and tell them how the flames surround them, how their lungs fill with smoke and burning trees crash to the ground in front of them.
 
@@ -2995,7 +2956,9 @@ The elf Bluefeather and her bounty hunters have found the Ylendidra family, that
 
 # 8. Adventure Sites
 
-*Only the spires of the submerged temple were visible. A cracked temple bell dejectedly clanked with the swell. “Where’s the entrance?” “Who knows?” the fisherman said. “We seldom have reason to come here. Not even the crabs like the place.”* Using the large map in the *Forbidden Lands* game box, the adventurers are free to explore the Forbidden Lands and uncover its secrets. On the map, three categories of adventure sites are marked: VILLAGES, CASTLES and DUNGEONS.
+*Only the spires of the submerged temple were visible. A cracked temple bell dejectedly clanked with the swell. “Where’s the entrance?” “Who knows?” the fisherman said. “We seldom have reason to come here. Not even the crabs like the place.”*
+
+Using the large map in the *Forbidden Lands* game box, the adventurers are free to explore the Forbidden Lands and uncover its secrets. On the map, three categories of adventure sites are marked: VILLAGES, CASTLES and DUNGEONS.
 
 It’s up to you as the GM to decide which specific adventure site that a particular symbol on the map represents. You can choose a pre– written adventure site – there are three later in this book, and many more in *Raven’s Purge* and other supplements for *Forbidden Lands –* or create your own adventure site for the adventurers to explore.
 
@@ -3003,7 +2966,7 @@ This chapter provides the tools to create your own unique adventure sites, using
 
 ##### Playing Adventure Sites
 
-An adventure site is not a scenario in the tradi- <!-- p.168 --> tional sense. It has locations, NPCs and events – but it does not provide a pre-determined narrative for the adventurers to follow. Instead, they can interact with an adventure site in many different ways – even turning it into their own stronghold, if they can claim it for themselves.
+An adventure site is not a scenario in the traditional sense. It has locations, NPCs and events <!-- p.168 --> – but it does not provide a pre-determined narrative for the adventurers to follow. Instead, they can interact with an adventure site in many different ways – even turning it into their own stronghold, if they can claim it for themselves.
 
 ## Box: Legends
 
@@ -3144,11 +3107,6 @@ While large tracts of the Forbidden Lands are sparsely populated, many villages 
 | 56–62 | Militia |
 | 63–64 | Tavern |
 | 65–66 | Stable |
-
-##### Table: (continued)
-
-| D66 | Institution |
-|---|---|
 | 11–16 | Nothing |
 | 21–26 | Inn |
 | 31–35 | Mill |
@@ -3185,11 +3143,6 @@ While large tracts of the Forbidden Lands are sparsely populated, many villages 
 | 12 | The Little | Swine |
 | 13 | The Red | Wheel |
 | 14 | The Misty | Stoop |
-
-##### Table: (continued)
-
-| D66 | First Word | Second Word |
-|---|---|---|
 | 15 | The Bloody | Sparrow |
 | 16 | The Old | Goat |
 | 21 | The Golden | Arrow |
@@ -3739,7 +3692,7 @@ Stats for different types of beings can be found in several locations in this bo
 | Sorcerer | Strength 2, Agility 2, Wits 4, Empathy 3 | Lore 1, Path of Runes, Stone, Blood or Death 2 (talent) | Staff, grimoire, D6 silver, VALUABLE find |
 | Villager | Strength 3, Agility 3, Wits 3, Empathy 3 | Endurance 1, Crafting 2 | Tools, D6 copper |
 
-##### Table: Personal Quirks
+##### Table: Personal Quirks <!-- p.184–186 -->
 
 | D66 | Occupation | Characteristic | Quirk |
 |---|---|---|---|
@@ -3747,13 +3700,6 @@ Stats for different types of beings can be found in several locations in this bo
 | 12 | Fortune Seeker | Fluffy hair | Skilled at gambling. Booted from three villages. |
 | 13 | Bandit | Scarred face | Haunted by dreams of a family dying in a fire. Sometimes hallucinates. |
 | 14 | Slave Trader | Severed ear | Chewing on narcotic leaves, staring glare and foul mood. |
-
-<!-- p.185 -->
-
-##### Table: (continued)
-
-| D66 | Occupation | Characteristic | Quirk |
-|---|---|---|---|
 | 15 | Treasure Hunter | Eye patch | Very enthusiastic. Has a treasure map but no surviving friends. |
 | 16 | Beggar | Missing teeth | Alder spy in disguise. Will not hesitate to kill. |
 | 21 | Actor | Graceful | Too sensitive for this cruel world. |
@@ -3774,13 +3720,6 @@ Stats for different types of beings can be found in several locations in this bo
 | 44 | Druid | Tattooed | Likes to scare people. |
 | 45 | Baker | Constantly eating | Believes self to be of royal lineage. |
 | 46 | Refugee | Desperate | Wants revenge more than anything. |
-
-<!-- p.186 -->
-
-##### Table: (continued)
-
-| D66 | Occupation | Characteristic | Quirk |
-|---|---|---|---|
 | 51 | Assassin | Hateful | Interested in poetry. |
 | 52 | Smith | Sweaty | A notorious cheat. |
 | 53 | Gravedigger | Drunk | Knows a lot about people. Gossipy. |
@@ -3794,11 +3733,15 @@ Stats for different types of beings can be found in several locations in this bo
 | 65 | Miner | Wiry | Swears all the time. |
 | 66 | Academic | Unkempt eyebrows | Has a theory about the world. Wants to tell everyone about it. |
 
+<!-- p.185 -->
+
+<!-- p.186 -->
+
 ## Treasure and Finds
 
 Most adventurers will hunt for treasure and gold, so as to acquire enough wealth to build their own stronghold and make their mark on the Forbidden Lands. There are two categories of treasure in the game: finds and artifacts. This section deals with finds, which can be anything from valuable items to weapons and armor to coins and treasure. Artifacts are unique and powerful items and have their own chapter on page 128.
 
-Finds are divided into three categories: SIMPLE, VALUABLE and PRECIOUS. What category a particular find belongs to is generally described in the text of an adventure site or decid- <!-- p.187 --> ed by you as the GM. Keep in mind that SIMPLE finds are much more common than VALUABLE ones, which in turn can be found more often than the elusive PRECIOUS finds.
+Finds are divided into three categories: SIMPLE, VALUABLE and PRECIOUS. What category a particular find belongs to is generally described in the text of an adventure site or decided by you as the GM. Keep in mind that SIMPLE <!-- p.187 --> finds are much more common than VALUABLE ones, which in turn can be found more often than the elusive PRECIOUS finds.
 
 ### Box: Carrying Treasure
 
@@ -4014,6 +3957,8 @@ The tables are divided into two categories: “carried finds” and “finds in 
 
 > Some finds are weirder than others, you can choose to use the table below whenever it fits the story or roll a die for each find, a roll of 5+ means that the find has an oddity.
 
+<!-- p.192–193 -->
+
 | D66 | Oddity | Effect |
 |---|---|---|
 | 11–12 | Smells bad | −1 MANIPULATE |
@@ -4023,13 +3968,6 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 22–23 | Burnt | Halved value |
 | 24–25 | Bitemarks | Halved value |
 | 26–31 | Bent | Halved value |
-
-<!-- p.193 -->
-
-##### Table: (continued)
-
-| D66 | Oddity | Effect |
-|---|---|---|
 | 32–33 | Scratched | Halved value |
 | 34–35 | Actually a toy | Halved value |
 | 36–41 | Weird inscriptions | — |
@@ -4045,11 +3983,15 @@ The tables are divided into two categories: “carried finds” and “finds in 
 | 65 | Haunted by unhappy ghost | Roll a die everytime the adventurer strikes camp, a six means that the ghost manifests. |
 | 66 | Part of dragon’s treasure | The find used to belong to a dragon’s personal treasure hoard. Roll D66 everytime the adventurer strikes camp on a roll of 66 the dragon has located the treasure and is very angry. |
 
+<!-- p.193 -->
+
 <!-- p.194 -->
 
 # 9. The Hollows
 
-**TYPE OF ADVENTURE SITE:** : Village *The village is a welcome sight. A bunch of wellto-do houses are standing close together, slightly obscured by billowing chimney smoke. You hear the sounds of kids playing and catch the smell of fresh bread. When you get closer, you can see a low stone wall, encircling the small settlement that is guarded by a few simple stone towers. You see a wooden sign, planted next to the road, with the written words: “Welcome to The Hollows –* *drink from our tankards, eat from our bowls, but honor the dead, walking by our sides.”*
+**TYPE OF ADVENTURE SITE:** Village
+
+*The village is a welcome sight. A bunch of well-to-do houses are standing close together, slightly obscured by billowing chimney smoke. You hear the sounds of kids playing and catch the smell of fresh bread. When you get closer, you can see a low stone wall, encircling the small settlement that is guarded by a few simple stone towers. You see a wooden sign, planted next to the road, with the written words: “Welcome to The Hollows –* *drink from our tankards, eat from our bowls, but honor the dead, walking by our sides.”*
 
 ## Background
 
@@ -4093,7 +4035,7 @@ The Hollows was built on the ruins of an old burial ground, southeast of a hillo
 
 *A low and badly worn stone wall, half as tall as a man, snakes around the parts of the village that aren’t facing the hillock. The entire wall is covered by winding rose and rose hip bushes, giving it a pungent but pleasant smell.*
 
-Climbing the wall is a prickly experience re- <!-- p.198 --> <!-- p.200 --> quiring a roll against MOVE to avoid suffering one point of damage.
+Climbing the wall is a prickly experience requiring a roll against MOVE to avoid suffering <!-- p.198 --> <!-- p.199 --> <!-- p.200 --> one point of damage.
 
 ##### Table: (continued)
 
@@ -4216,8 +4158,6 @@ The blacksmith Ness makes and repairs the tools of the village. If necessary, he
 Gamekeeper Vike provides the villagers with game and wildfowl. He slaughters the animals and tan the skins if there is need for it. Inside the the cabin, aside from Vike’s bunk, is a large, brick stove to cure and salt meat.
 
 - CREATURES: Gamekeeper Vike.
-
-p
 
 ### 16. The Fisherman’s House
 
@@ -4424,15 +4364,12 @@ The adventurers will sooner rather than later discover the crypt in the hillside
 
 - The villagers can impart that the temple site is haunted and warn the adventurers about venturing there. They can say that a mighty count is buried somewhere in the hillock.
 - Those who examine the site are attacked or harassed by the undead. None of the <!-- p.214 --> safeguards that the villagers use against ghosts and wraiths work here.
+- If they find the entrance to the count’s grave, they have to dig their way in.
+- Once inside the count’s crypt, they can talk to the countess.
 
-.
+She tries to persuade the adventurers to avenge her husband and child. She tells of how the evil sorcerer Zygofer buried them alive in the crypt. The GM may choose to impart any information about Zygofer that she deems suitable for her campaign.
 
-- If they find the entrance to the he count’s grave, they have to dig g their way in.
-- Once inside the count’s crypt, , they can talk to the countess.
-
-She tries to persuade the adventurers to avenge her husband and child. She tells of of how the evil sorcerer Zygofer buried them alive in the crypt. The GM may choose to impart any information about Zygofer that she deems suitable for her campaign.
-
-Ursula will not reveal her betrayal of her husband to the adventurers. Her time locked in the crypt as one of the undead has made her quite insane. She attempts to convince the adventurers not to open her husband’s sarcophagus, threatening them m with his wrath.
+Ursula will not reveal her betrayal of her husband to the adventurers. Her time locked in the crypt as one of the undead has made her quite insane. She attempts to convince the adventurers not to open her husband’s sarcophagus, threatening them with his wrath.
 
 - Should the adventurers still choose to open Nepola’s sarcophagus, the count will manifest as a spectral phantasm. The count will accuse his wife of betraying him, at the same time as she accuses him of his prideful nature being responsible for their son’s death. The adventurers may choose sides in the conflict or battle both of the undead.
 - By extinguishing the green flame, they free the count and send his spirit to its eternal rest.
@@ -4442,7 +4379,9 @@ Ursula will not reveal her betrayal of her husband to the adventurers. Her time 
 
 # 10. Weatherstone
 
-**TYPE OF ADVENTURE SITE:** E: Castle *Fog drifts like shredded souls through the windswept mountain pass you traverse. As the fog disperses for a moment, you see the crumbling stronghold Weatherstone rise against the northern side of the mountain pass, surrounded by a moat filled with muddy water. The landscape is barren, only thorny bushes and sharp grass survive in these lands. It is quiet, apart from singing and strange animal sounds the likes of which you have never heard before. Bones from horses and humans are strewn along the road to the stronghold. A fire burns in the watchtower in front of the castle and the smell of food drifts on the wind.*
+**TYPE OF ADVENTURE SITE:** Castle
+
+*Fog drifts like shredded souls through the windswept mountain pass you traverse. As the fog disperses for a moment, you see the crumbling stronghold Weatherstone rise against the northern side of the mountain pass, surrounded by a moat filled with muddy water. The landscape is barren, only thorny bushes and sharp grass survive in these lands. It is quiet, apart from singing and strange animal sounds the likes of which you have never heard before. Bones from horses and humans are strewn along the road to the stronghold. A fire burns in the watchtower in front of the castle and the smell of food drifts on the wind.*
 
 ## Background
 
@@ -4484,7 +4423,7 @@ The watchtower’s withered and cracked stones are overgrown with rust-colored, 
 
 The old bard, Dalb, has struck camp in the tower and is in the midst of cooking a rabbit over the fire. He invites the adventurers to eat with him around the fire. After the meal, he lights his pipe and tells them the legend of Weatherstone (see above). Then he continues:
 
-*“You are not the first to ask about Weatherstone this evening. The treasure hunter Esgar Farthing and his followers shared these very quarters just* <!-- p.218 --> <!-- p.220 --> *recently. They seek the weapon of king Algarod, the mighty sword Rustbite. Esgar is an impatient man and they left for the stronghold immediately. But there is something I never told them, something that you might find of interest…”*
+*“You are not the first to ask about Weatherstone this evening. The treasure hunter Esgar Farthing and his followers shared these very quarters just* <!-- p.218 --> <!-- p.219 --> <!-- p.220 --> *recently. They seek the weapon of king Algarod, the mighty sword Rustbite. Esgar is an impatient man and they left for the stronghold immediately. But there is something I never told them, something that you might find of interest…”*
 
 ### Box: Who is Dalb?
 
@@ -4762,7 +4701,7 @@ As soon as an adventurer (or one of the NPC treasure hunters) touches Rustbite, 
 
 ### The Bard’s Song
 
-This event is best used late in the adventure to ramp up pressure on the adventurers. Regardless of whether the undead have woken up or not, the adventurers will suddenly hear a strange sound from out- <!-- p.230 --> side the keep. If they find a window and look out, they will see the bard Dalb standing on the other side of the moat, singing a song in an archaic language while raising his arms to the sky. Once he stops singing everything is silent for a moment. Then an unearthly scream is heard from everywhere inside Weatherstone. If the undead have not awakened, they do so now. If they already have, they start roaming the keep in packs looking for intruders to slay.
+This event is best used late in the adventure to ramp up pressure on the adventurers. Regardless of whether the undead have woken up or not, the adventurers will suddenly hear a strange sound from outside the keep. If they find a window and look <!-- p.230 --> out, they will see the bard Dalb standing on the other side of the moat, singing a song in an archaic language while raising his arms to the sky. Once he stops singing everything is silent for a moment. Then an unearthly scream is heard from everywhere inside Weatherstone. If the undead have not awakened, they do so now. If they already have, they start roaming the keep in packs looking for intruders to slay.
 
 What has really happened is that Dalb/ Merigall has decided to make things a little more interesting with a spell. He sees this as an amusing experiment more than anything else.
 
@@ -4778,9 +4717,9 @@ If Algarod is not destroyed once and for all, he will sooner or later leave Weat
 
 # 11. The Vale of the Dead
 
-##### Vade
+**TYPE OF ADVENTURE SITE:** Dungeon
 
-**TYPE OF ADVENTURE SITE:** : Dungeon *The legends hinted of ancient temple ruins and the imposing tombs of kings, but instead you reach a stinking wound that delves into the guts of the wilderness itself. There is no majesty here, no monuments, only ragged rocks, carelessly chopped stumps and half-devoured cadavers of animals that came here by chance. Where is the history? Where is the giant who was supposed to guard the Temple of Silence? Would he even fit into theses cramped canyons? That’s when you catch a glimpse of ancient marble draped in greenery. You have found the site!*
+*The legends hinted of ancient temple ruins and the imposing tombs of kings, but instead you reach a stinking wound that delves into the guts of the wilderness itself. There is no majesty here, no monuments, only ragged rocks, carelessly chopped stumps and half-devoured cadavers of animals that came here by chance. Where is the history? Where is the giant who was supposed to guard the Temple of Silence? Would he even fit into theses cramped canyons? That’s when you catch a glimpse of ancient marble draped in greenery. You have found the site!*
 
 ## Background
 
@@ -4818,7 +4757,7 @@ The most important sites of the Vale of the Dead are described below.
 
 *A fresh stench mars the pastoral impression of the canyon. Beyond the fallen watchtower lies another one, primitively hewn from fresh, debarked timber, around which filth has amassed: the remains of slaughtered animals, fruit peel and offal. Crude ladders descend into a ravine. Clamoring voices can be heard from below, possibly song of some sort. The light of campfires flickers in the deep.*
 
-The valley is hard to reach, situated high up in the mountains beyond overgrown trails. At this site, one finds a temple pagoda in ruins, so dilapidated that there isn’t even anything to rummage through. Snoring sounds hi h h S i d can, however, be heard from a new, shoddily raised wooden watchtower. Around the tower lie left-overs, fruit peels and offal. Atop the tower is a sleeping, intoxicated orc. There is a chance that he’ll wake up if someone tries to climb up (make an opposed roll with the adventurer’s STEALTH against the orc’s SCOUTING), in which case he’ll sound the alarm on a metal bell that is actually the shoe of a suit of plate armor.
+The valley is hard to reach, situated high up in the mountains beyond overgrown trails. At this site, one finds a temple pagoda in ruins, so dilapidated that there isn’t even anything to rummage through. Snoring sounds can, however, be heard from a new, shoddily raised wooden watchtower. Around the tower lie left-overs, fruit peels and offal. Atop the tower is a sleeping, intoxicated orc. There is a chance that he’ll wake up if someone tries to climb up (make an opposed roll with the adventurer’s STEALTH against the orc’s SCOUTING), in which case he’ll sound the alarm on a metal bell that is actually the shoe of a suit of plate armor.
 
 - CREATURES: The orc Xugg.
 - TREASURES: The bell/shoe is worth no more than D6 copper pieces.
@@ -4826,6 +4765,8 @@ The valley is hard to reach, situated high up in the mountains beyond overgrown 
 <!-- p.234 -->
 
 **[Figure — map of the Vale of the Dead (p.234–235)]** Map with numbered locations; the numbers match the keyed location sections that follow.
+
+<!-- p.235 -->
 
 <!-- p.236 -->
 
@@ -5023,7 +4964,7 @@ Something is broken in the Vale of the Dead. Ever since the disappearance of the
 
 ### Captured!
 
-There is a terrible commotion among the whiners due to the bounty hunters managing to capture a young and careless whiner in a trap. They are celebrating in Highvale at this very moment. Nasura Kak reluctantly, but desperately, contacts the adventurers if they haven’t proven hostile. She asks for help and tells them of the horrible fate that awaits the prisoner if they decline. In return, the adven- <!-- p.245 --> turers will become the whiners’ friends. They may even give them Scrome’s crumhorn back. The orcs will protest this, since it means no more hooch. Oralda and her dwarves can, however, solve everything by making a new cooling pipe for the orcs as well as adjusting the crumhorn so that the harmful notes are blocked. This will gain them the trust of the whiners. A certain amount of diplomacy is required to stitch this solution together in a manner that is pleasing to all parties, obviously.
+There is a terrible commotion among the whiners due to the bounty hunters managing to capture a young and careless whiner in a trap. They are celebrating in Highvale at this very moment. Nasura Kak reluctantly, but desperately, contacts the adventurers if they haven’t proven hostile. She asks for help and tells them of the horrible fate that awaits the prisoner if they decline. In return, the adventurers will become the whiners’ friends. They <!-- p.244 --> <!-- p.245 --> may even give them Scrome’s crumhorn back. The orcs will protest this, since it means no more hooch. Oralda and her dwarves can, however, solve everything by making a new cooling pipe for the orcs as well as adjusting the crumhorn so that the harmful notes are blocked. This will gain them the trust of the whiners. A certain amount of diplomacy is required to stitch this solution together in a manner that is pleasing to all parties, obviously.
 
 ### Kalmax and the Treasure
 

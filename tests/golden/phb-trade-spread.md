@@ -8,7 +8,7 @@ pdf_pages: 188-191 of 212
 
 <!-- p.184 -->
 
-##### Table: Trade Goods, Cont.
+##### Table: Trade Goods, Cont. <!-- p.184–187 -->
 
 | Item | Price | Supply | Weight | Raw Materials | Time | Talent | Tools | Effect |
 |---|---|---|---|---|---|---|---|---|
@@ -36,13 +36,6 @@ pdf_pages: 188-191 of 212
 | Hourglass | 12 silver | Rare | Light | 1 Stone | One Week | Builder | Forge | Can be used as ingredient in spells. |
 | Scales | 3 silver | Uncommon | Normal | 1/2 Iron | One Day | Smith | Forge | Can be used as ingredient in spells. |
 | Flute | 15 copper | Common | Light | 1/2 Wood | One Day | Path of the Song | Knife | Gear Bonus +1 to Performance. |
-
-<!-- p.186 -->
-
-##### Table: Trade Goods, Cont.
-
-| Item | Price | Supply | Weight | Raw Materials | Time | Talent | Tools | Effect |
-|---|---|---|---|---|---|---|---|---|
 | Horn | 3 silver | Common | Normal | 1 Wood or animal horn | One Day | Path of the Song | Knife | Gear Bonus +1 to Performance. |
 | Lyre | 5 silver | Uncommon | Normal | 1 Wood, 1/4 Cloth | One Week | Path of the Song | Knife | Gear Bonus +1 to Performance. |
 | Harp | 8 silver | Rare | Heavy | 2 Wood, 1/2 Cloth | Two Weeks | Path of the Song | Knife | Gear Bonus +2 to Performance. |
@@ -52,7 +45,11 @@ pdf_pages: 188-191 of 212
 | Sleeping Poison/ Antidote | 3 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 | Hallucinogenic Poison/Antidote | 4 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 
-## Table: Melee Weapons
+<!-- p.185 -->
+
+<!-- p.186 -->
+
+## Table: Melee Weapons <!-- p.186–187 -->
 
 | Weapon | Price | Supply | Weight | Raw Materials | Time | Talent | Tools |
 |---|---|---|---|---|---|---|---|

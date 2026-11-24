@@ -21,3 +21,6 @@ phb-gear-rules    phb   180-181         run-in labels in both columns on the sam
 gmg-npcs          gmg   225-226         small-caps NPC name headings, NPC stat lines
 gmg-hollows       gmg   202-203         keyed locations, numbered bookmarks with typos, Box
 gmg-overlay       gmg   146             text drawn twice over art (partial copies), drop cap
+gmg-calendar      gmg   35              figure labels dropped (drop y>N) + transcription
+gmg-vale-opener   gmg   231             letter-by-letter chapter title, centred label line, italic intro
+gmg-encounters-1  gmg   148             Box with bookmark typo, encounter headings

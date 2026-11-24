@@ -3,6 +3,9 @@
 Hand-made from page renders. `tools/fl2md.py --figures` appends each block to its printed page
 (`replace` = the page's extracted text is dropped; bookmark headings are kept).
 
+<!-- fig p.35 drop y>300 -->
+**[Figure — calendar wheel]** The year as a wheel of eight festivals (capitals) and the phases between them, in order starting at the top: MIDWINTER – Winterwane – AWAKENING DAY – Springrise – SPRINGTURN – Springwane – LUSHDAY – Summerrise – MIDSUMMER – Summerwane – HARVEST DAY – Fallrise – FALLTURN – Fallwane – ROT DAY – Winterrise – (MIDWINTER).
+
 <!-- fig p.46 replace -->
 **[Figure — map of kin homelands, west half (p.46–47 form one map); positions approximate]** North is up.
 

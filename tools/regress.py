@@ -81,8 +81,19 @@ def main():
             print(f"  {'accepted' if old else 'created '} {name}")
         else:
             print(f"  CHANGED  {name}")
-            diff = difflib.unified_diff(old.splitlines(), new.splitlines(), "golden", "now", n=0, lineterm="")
-            for d in list(diff)[2:80]:
+            diff = list(difflib.unified_diff(old.splitlines(), new.splitlines(), "golden", "now", n=0, lineterm=""))[2:]
+            for i, d in enumerate(diff[:80]):
+                nxt = diff[i + 1] if i + 1 < len(diff) else ""
+                if d.startswith("-") and nxt.startswith("+") and len(d) > 200:
+                    # long changed line: show only the part that differs
+                    sm = difflib.SequenceMatcher(None, d[1:], nxt[1:])
+                    for op, a0, a1, b0, b1 in sm.get_opcodes():
+                        if op != "equal":
+                            print(f"     ~ …{d[1:][max(0, a0 - 50):a1 + 30]}…")
+                            print(f"     ~ →…{nxt[1:][max(0, b0 - 50):b1 + 30]}…")
+                    continue
+                if d.startswith("+") and i and diff[i - 1].startswith("-") and len(diff[i - 1]) > 200:
+                    continue
                 print("     " + d[:200])
     print(f"{changed} sample(s) differ" + (" (accepted)" if a.accept else ""))
 

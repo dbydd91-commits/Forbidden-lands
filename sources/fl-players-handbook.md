@@ -22,7 +22,7 @@ O*nce, Zygofer the Spellbinder was one of us, leading the passage through the mo
 
 ## Forbidden Lands
 
-Welcome to *Forbidden Lands*. In this tabletop roleplaying game, you are not heroes sent on missions dictated by others – instead, you are raiders and rogues bent on making your own mark on a cursed world. You will wander the wild lands, discover lost tombs, fight mon- <!-- p.5 --> sters, and, if you live long enough, build your own stronghold to defend. During your adventures, you will uncover the secrets of dark powers lurking in the shadows and, in the end, you can be the ones to decide the fate of the *Forbidden Lands.*
+Welcome to *Forbidden Lands*. In this tabletop roleplaying game, you are not heroes sent on missions dictated by others – instead, you are raiders and rogues bent on making your own mark on a cursed world. You will wander the wild lands, discover lost tombs, fight monsters, and, if you live long enough, build your <!-- p.5 --> own stronghold to defend. During your adventures, you will uncover the secrets of dark powers lurking in the shadows and, in the end, you can be the ones to decide the fate of the *Forbidden Lands.*
 
 ##### The Players
 
@@ -154,7 +154,7 @@ If you have made your way here without knowing what a roleplaying game is, congr
 
 The strength of roleplaying games is also a challenge – the freedom to create the story yourselves can be overwhelming. But *Forbidden Lands* contains plenty of exciting events, places and people you can populate your story with, and very specific tools for the GM to use. If you need advice or ideas, there is a forum for *Forbidden Lands* as well as our other games on our website, freeleaguepublishing.com.
 
-Welcome!
+Welcome! <!-- p.13 -->
 
 <!-- p.14 -->
 
@@ -1271,8 +1271,6 @@ When you are going to jump, climb, move fast, or perform any other action that r
 
 <!-- p.54 -->
 
-#### Box: Groups Scouting
-
 ### Sleight of Hand (agility)
 
 When you are trying to steal the queen’s jewel unnoticed, pick a lock, or perform any other action that requires fine motor skills, you roll SLEIGHT OF HAND.
@@ -1291,7 +1289,7 @@ You can also use this skill when you see something or someone at a distance, and
 
 > The SCOUTING skill is not used to find hidden things like secret doors or hidden clues. If you describe how your PC searches the right place, the GM should simply let you discover what you are looking for if it is possible to find.
 
-##### Box: Group Scouting
+#### Box: Group Scouting
 
 > When you and other adventurers SCOUT at the same time, you do not roll separately. Instead, only one PC rolls. You decide together who should roll. Helping is not allowed. The result applies to the whole group.
 
@@ -1313,7 +1311,7 @@ You can also use this skill to determine an NPC’s state of mind. You must be c
 
 ### Manipulation (empathy)
 
-Life in the Forbidden Lands is bloody, but you can often reach your goals without violence, through charm, threats, or sensible reasoning. There are many methods to make another person see things your way. Make an opposed roll (see page 49) with your MANIPULATION against your adversary’s INSIGHT. Your chances are af- <!-- p.56 --> fected both by your bargaining position and your Reputation (see page 40).
+Life in the Forbidden Lands is bloody, but you can often reach your goals without violence, through charm, threats, or sensible reasoning. There are many methods to make another person see things your way. Make an opposed roll (see page 49) with your MANIPULATION against your adversary’s INSIGHT. Your chances are affected both by your bargaining position and <!-- p.56 --> your Reputation (see page 40).
 
 #### Box: Not Mind Control
 
@@ -1433,7 +1431,7 @@ Dwarves are far more stubborn than others, and can fight on when other kin have 
 
 ### The Halfling Talent: Hard to Catch
 
-Halflings are notoriously hard to get a grip on, and they can easily evade even the most tena- <!-- p.63 --> cious of pursuers. You can spend Willpower Points in combat to avoid being hit by physical attacks (see Chapter 5). Every WP spent eliminates one ⚔ the attacker rolls.
+Halflings are notoriously hard to get a grip on, and they can easily evade even the most tenacious of pursuers. You can spend Willpower <!-- p.63 --> Points in combat to avoid being hit by physical attacks (see Chapter 5). Every WP spent eliminates one ⚔ the attacker rolls.
 
 ### The Wolfkin Talent: Hunting Instincts
 
@@ -2351,7 +2349,7 @@ When you attack in close combat, you use the MELEE skill. Close combat usually h
 
 ##### Reactive Actions
 
-When you attack an aware opponent in close combat, they can DODGE or PARRY to avoid being hit. The defender must declare if they are going to DODGE or PARRY before you roll for your attack. DODGE and PARRY are called *reactive actions*, since they are performed immediately, and they break the normal initiative order in the round. However, they do count to- <!-- p.92 --> ward your two available actions in the round (one slow and one fast action). For every reactive action you perform, you get one less action when it is your turn, and once you have used both your actions during the round, you can no longer DODGE or PARRY (talents can modify this, however). DODGING and PARRYING in close combat are technically *not* opposed rolls (see page 49), and they can be pushed.
+When you attack an aware opponent in close combat, they can DODGE or PARRY to avoid being hit. The defender must declare if they are going to DODGE or PARRY before you roll for your attack. DODGE and PARRY are called *reactive actions*, since they are performed immediately, and they break the normal initiative order in the round. However, they do count toward your two available actions in the round <!-- p.92 --> (one slow and one fast action). For every reactive action you perform, you get one less action when it is your turn, and once you have used both your actions during the round, you can no longer DODGE or PARRY (talents can modify this, however). DODGING and PARRYING in close combat are technically *not* opposed rolls (see page 49), and they can be pushed.
 
 ##### Slow Actions
 
@@ -2570,7 +2568,7 @@ GRIP indicates if you need one or two hands to wield the weapon. A two-handed we
 
 BONUS indicates how many Gear Dice you can roll when using the weapon. Remember that the Gear Bonus can be reduced if you push your roll – the bonus decreases by one for every ☠ you have rolled (see page 50). If the Gear Bonus is reduced to zero, the weapon breaks and needs to be fixed using the CRAFTING skill.
 
-DAMAGE indicates your base Weapon Damage, i.e., how many points of damage to Strength your opponent suffers if your attack is successful. If you roll extra ⚔, you deal additional damage. <!-- p.101 --> <!-- p.103 --> <!-- p.104 --> RANGE indicates the maximum range at which the weapon can be used.
+DAMAGE indicates your base Weapon Damage, i.e., how many points of damage to Strength your opponent suffers if your attack is successful. If you roll extra ⚔, you deal additional damage. <!-- p.101 --> <!-- p.102 --> <!-- p.103 --> <!-- p.104 --> RANGE indicates the maximum range at which the weapon can be used.
 
 ### Table: Melee Weapons
 
@@ -3066,7 +3064,7 @@ You can bind the spell in whatever manner you wish. You decide how the spell is 
 - **Duration:** Immediate
 - **Ingredient:** A drop of your blood
 
-You can use this spell to steal Willpower Points from others or to give your WP to someone else. The base cost to cast the spell is one WP, and you can then take or give as many WP as you want. If your target opposes the TRANSFER, it is not so easy – in this case, you can trans- <!-- p.123 --> fer no more WP than the Power Level of the TRANSFER. The WP used to cast TRANSFER are spent and are not transferred.
+You can use this spell to steal Willpower Points from others or to give your WP to someone else. The base cost to cast the spell is one WP, and you can then take or give as many WP as you want. If your target opposes the TRANSFER, it is not so easy – in this case, you can transfer no more WP than the Power Level of the <!-- p.123 --> TRANSFER. The WP used to cast TRANSFER are spent and are not transferred.
 
 ## Healing
 
@@ -3222,7 +3220,7 @@ You can meld your mind with that of a hawk and gain its inhuman sight. You can s
 - **Duration:** One turn (15 minutes)
 - **Ingredient:** Claw or tooth
 
-You can bend animals, both wild and tame, to your will. The animal can, for example, break off an attack, track down an enemy, run to where you want it to and deliver a message, allow you to ride on it, or even attack your op- <!-- p.127 --> ponents. You cannot control an animal with a Strength higher than twice the Power Level. The Power Level must be one step higher if the animal is agitated, scared or in combat. If you force an animal to act in a way that is outside its normal behavior – like make it perform tricks, for example – the Power Level needs to be one step higher. You can only control one animal at a time. This spell cannot be used against monsters.
+You can bend animals, both wild and tame, to your will. The animal can, for example, break off an attack, track down an enemy, run to where you want it to and deliver a message, allow you to ride on it, or even attack your opponents. You cannot control an animal with a <!-- p.127 --> Strength higher than twice the Power Level. The Power Level must be one step higher if the animal is agitated, scared or in combat. If you force an animal to act in a way that is outside its normal behavior – like make it perform tricks, for example – the Power Level needs to be one step higher. You can only control one animal at a time. This spell cannot be used against monsters.
 
 ### Bear’s Claw
 
@@ -3495,7 +3493,7 @@ The spell blows a thick cloud of rock dust from the ground to cover the Zone you
 - **Duration:** Immediate
 - **Ingredient:** Horn
 
-Your mighty voice is so strong that people <!-- p.135 --> around you are stunned. Your song causes 1 point of damage to Agility per Power Level. You can distribute the damage across as many opponents as you want. The targets may attempt to resist the effect by rolling for INSIGHT – each ⚔ rolled negates 1 point of damage. No effect against monsters.
+Your mighty voice is so strong that people <!-- p.134 --> <!-- p.135 --> around you are stunned. Your song causes 1 point of damage to Agility per Power Level. You can distribute the damage across as many opponents as you want. The targets may attempt to resist the effect by rolling for INSIGHT – each ⚔ rolled negates 1 point of damage. No effect against monsters.
 
 ### Voice of the Mountain
 
@@ -3810,7 +3808,7 @@ The map of the Forbidden Lands found in the game box is the focus of the game wh
 
 The Forbidden Lands are divided into ten types of terrain. Each hexagon on the map has a certain type of terrain that is used to determine how difficult it is to move in the hexagon as well as what kind of random encounters can be faced. See the table on page 145.
 
-RIVERS are not a type of terrain in and of themselves, but they function as borders between hex- <!-- p.144 --> es on the map. Fords and bridges can be used to pass over a river. If there are none, you need a raft or boat to cross a river, or swim across it. Read more about journeys on lakes and rivers below.
+RIVERS are not a type of terrain in and of themselves, but they function as borders between hexes on the map. Fords and bridges can be used to <!-- p.144 --> pass over a river. If there are none, you need a raft or boat to cross a river, or swim across it. Read more about journeys on lakes and rivers below.
 
 ### Box: Other Maps
 
@@ -3919,7 +3917,7 @@ During every Quarter Day of your journey, you should also designate one adventur
 | Evening | Dark | Light | Dark | Dark |
 | Nighttime | Dark | Dark | Dark | Dark |
 
-### Table: Leading the Way Mishaps
+### Table: Leading the Way Mishaps <!-- p.148–149 -->
 
 | D66 | Mishap | Effect |
 |---|---|---|
@@ -3930,11 +3928,6 @@ During every Quarter Day of your journey, you should also designate one adventur
 | 33–34 | Torn Clothes | Your clothes are damaged. Your boots break or your robe rips on thorny plants or sharp rocks. You must roll for the effects of cold. Your clothes can be mended by making a successful CRAFTING roll. |
 | 35–36 | Landslide | You are walking in rough terrain when the ground suddenly opens beneath your feet. You must roll MOVE – if you fail, you suffer an attack with four Base Dice and Weapon Damage 1 (blunt trauma). |
 | 41–45 | Downpour | A massive rainfall or snow storm (depending on the time of year) catches you unawares. You must roll for the effects of cold (page 111). You must also seek shelter until the storm has passed and won’t make any progress on the map during this Quarter Day. |
-
-##### Table: (continued)
-
-| D66 | Mishap | Effect |
-|---|---|---|
 | 46–52 | Fog | You are caught unawares by a thick fog. The distance you cover this Quarter Day is decreased by one hex. In difficult terrain, you’re stuck in the hex you started. In addition, each adventurer suffers one point of damage to Empathy from the gloomy mist. |
 | 53–54 | Wasps’ Nest | You step right into a nest of wasps. An angry swarm attack the entire group. Each adventurer must make a MOVE roll or suffer an attack with four Base Dice, causing damage to Agility. |
 | 55–61 | Mosquito Swarm | A large swarm of mosquitoes or gnats attacks you, driving you crazy with their biting and buzzing. They attack with four Base Dice, causing damage to Empathy. |
@@ -3991,7 +3984,7 @@ If your FORAGE roll fails, you don’t find any food or water and you suffer a m
 
 Another way to find food during a journey is to HUNT. You cannot HIKE at the same time as you HUNT. However, several people can HUNT at the same time. If you want to roll separately you cannot HUNT in the same location, which means that any mishaps will affect you individually. An option is that one of you HUNTS and the others help.
 
-You need some form of gear to HUNT – ei- <!-- p.152 --> ther a ranged weapon or a hunting trap of some type (see the table on page 184). First, you must find your prey, which you can do by making a SURVIVAL roll (see the MASTER OF THE HUNT and HUNTING INSTINCTS talents in Chapter 4).
+You need some form of gear to HUNT – either a ranged weapon or a hunting trap of some <!-- p.152 --> type (see the table on page 184). First, you must find your prey, which you can do by making a SURVIVAL roll (see the MASTER OF THE HUNT and HUNTING INSTINCTS talents in Chapter 4).
 
 ### Table: Hunt
 
@@ -4048,7 +4041,7 @@ If your roll fails, you don’t catch any FISH and you also suffer a mishap. Rol
 
 ## Make Camp
 
-When the journey of the day is over, it’s time to MAKE CAMP. Finding a good loca- <!-- p.155 --> tion for a camp, making a fire, and preparing where to SLEEP takes a whole Quarter Day – usually the Evening. Only one person rolls to MAKE CAMP, but others can help her (see page 48).
+When the journey of the day is over, it’s time to MAKE CAMP. Finding a good location for a camp, making a fire, and prepar- <!-- p.155 --> ing where to SLEEP takes a whole Quarter Day – usually the Evening. Only one person rolls to MAKE CAMP, but others can help her (see page 48).
 
 ### Table: Making Camp Mishaps
 
@@ -4180,7 +4173,7 @@ It’s less common that a stronghold already has hirelings when it’s establish
 
 ##### Building Functions
 
-To build or create a function in your strong- <!-- p.161 --> hold, you generally need to make a CRAFTING roll (see page 51). Just like normal items, some functions are ADVANCED and require specific talents to be built.
+To build or create a function in your stronghold, you generally need to make a CRAFTING <!-- p.161 --> roll (see page 51). Just like normal items, some functions are ADVANCED and require specific talents to be built.
 
 Which tools and raw materials are needed to build the function, and how long time it takes to do so, are listed under each function below. The build time assumes that the work is carried out for at least two Quarter Days per day. Some functions also require that other functions are already present in the stronghold.
 
@@ -4290,7 +4283,7 @@ Below, the functions you can build in your stronghold are listed.
 
 ### Bakery
 
-A bakery will feed many hungry mouths and spreads a welcoming smell across the strong- <!-- p.166 --> hold. Your stronghold can have several bakeries.
+A bakery will feed many hungry mouths and spreads a welcoming smell across the stronghold. Your stronghold can have several bak- <!-- p.166 --> eries.
 
 ### Table: List of Functions
 
@@ -4836,7 +4829,7 @@ The Attack Rating of the attackers is measured against the Defense Rating of you
 
 The battle is resolved in several turns. In each turn, the players roll dice for the defense, and the GM rolls for the attackers. Roll as many Base Dice as the Defense or Attack Rating. Each ⚔ means that the side inflicts losses (see below) on the opposing side. All players and the GM can help out to describe what happens in the battle!
 
-Each ⚔ rolled means that the Defense or Attack Rating of the opposing side is decreased by one. When a turn is over, each side must decide whether to give up or keep fight- <!-- p.176 --> ing. To fight on, a force must have at least 1 left in the Defense or Attack Rating. If the battle continues, roll again as per above, turn after turn, until one side surrenders or is completely defeated (its Defense or Attack Rating hits zero).
+Each ⚔ rolled means that the Defense or Attack Rating of the opposing side is decreased by one. When a turn is over, each side must decide whether to give up or keep fighting. To fight on, a force must have at least 1 <!-- p.176 --> left in the Defense or Attack Rating. If the battle continues, roll again as per above, turn after turn, until one side surrenders or is completely defeated (its Defense or Attack Rating hits zero).
 
 ### Table: Defense Rating
 
@@ -4983,7 +4976,7 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 
 <!-- p.182 -->
 
-## Table: Trade Goods
+## Table: Trade Goods <!-- p.182–187 -->
 
 | Item | Price | Supply | Weight | Raw Materials | Time | Talent | Tools | Effect |
 |---|---|---|---|---|---|---|---|---|
@@ -5008,13 +5001,6 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Flint and Steel | 2 copper | Common | Tiny | 1/10 Iron, 1/4 Stone | Quarter Day | — | — | Gear Bonus +1 to Making Camp during journeys. |
 | Lockpicks | 1 gold | Uncommon | Tiny | 1/4 Iron | One Day | Smith, Lockpicker | Forge | Gear Bonus +1 to Sleight of Hand when picking locks. |
 | Field Rations | 1 silver | Common | Normal | 1 Meat, Fish or Vegetables | Quarter Day | Chef | Fire | One unit of Food. Increases the Food Resource Die one step. |
-
-<!-- p.184 -->
-
-##### Table: Trade Goods, Cont.
-
-| Item | Price | Supply | Weight | Raw Materials | Time | Talent | Tools | Effect |
-|---|---|---|---|---|---|---|---|---|
 | Field Kitchen | 4 silver | Uncommon | Heavy | 2 Iron | One Day | Chef, Smith | Forge | Lets a Chef cook 2D6 units of Food in a Quarter Day. |
 | Cauldron | 18 copper | Common | Normal | 1 Iron | One Day | Chef, Smith | Forge | Lets Chef cook D6+2 Food units per Quarter Day. |
 | Metal Chalice | 7 copper | Uncommon | Light | 1/2 Iron | One Day | Smith | Forge | — |
@@ -5039,13 +5025,6 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Hourglass | 12 silver | Rare | Light | 1 Stone | One Week | Builder | Forge | Can be used as ingredient in spells. |
 | Scales | 3 silver | Uncommon | Normal | 1/2 Iron | One Day | Smith | Forge | Can be used as ingredient in spells. |
 | Flute | 15 copper | Common | Light | 1/2 Wood | One Day | Path of the Song | Knife | Gear Bonus +1 to Performance. |
-
-<!-- p.186 -->
-
-##### Table: Trade Goods, Cont.
-
-| Item | Price | Supply | Weight | Raw Materials | Time | Talent | Tools | Effect |
-|---|---|---|---|---|---|---|---|---|
 | Horn | 3 silver | Common | Normal | 1 Wood or animal horn | One Day | Path of the Song | Knife | Gear Bonus +1 to Performance. |
 | Lyre | 5 silver | Uncommon | Normal | 1 Wood, 1/4 Cloth | One Week | Path of the Song | Knife | Gear Bonus +1 to Performance. |
 | Harp | 8 silver | Rare | Heavy | 2 Wood, 1/2 Cloth | Two Weeks | Path of the Song | Knife | Gear Bonus +2 to Performance. |
@@ -5055,7 +5034,15 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Sleeping Poison/ Antidote | 3 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 | Hallucinogenic Poison/Antidote | 4 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 
-## Table: Melee Weapons
+<!-- p.183 -->
+
+<!-- p.184 -->
+
+<!-- p.185 -->
+
+<!-- p.186 -->
+
+## Table: Melee Weapons <!-- p.186–189 -->
 
 | Weapon | Price | Supply | Weight | Raw Materials | Time | Talent | Tools |
 |---|---|---|---|---|---|---|---|
@@ -5071,13 +5058,6 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Battleaxe | 6 silver | Uncommon | Heavy | 1 Iron, 1 Wood | One Day | Smith | Forge |
 | Two-Handed Axe | 24 silver | Uncommon | Heavy | 2 Iron, 2 Wood | One Week | Smith | Forge |
 | Mace | 4 silver | Common | Normal | 1 Iron, 1 Wood | One Day | Smith | Forge |
-
-<!-- p.188 -->
-
-##### Table: Melee Weapons, Cont.
-
-| Weapon | Price | Supply | Weight | Raw Materials | Time | Talent | Tools |
-|---|---|---|---|---|---|---|---|
 | Morningstar | 8 silver | Uncommon | Normal | 1 Iron, 1 Wood | Two Days | Smith | Forge |
 | Warhammer | 12 silver | Uncommon | Normal | 1 Iron, 1 Wood | Two Days | Smith | Forge |
 | Flail | 16 silver | Uncommon | Normal | 2 Iron, 1 Wood | One Week | Smith | Forge |
@@ -5091,7 +5071,11 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Halberd | 3 gold | Rare | Heavy | 1 Iron, 2 Wood | One Week | Smith | Forge |
 | Trident | 6 silver | Rare | Normal | 1 Iron, 1 Wood | Two Days | Smith | Forge |
 
-## Table: Ranged Weapons
+<!-- p.187 -->
+
+<!-- p.188 -->
+
+## Table: Ranged Weapons <!-- p.188–189 -->
 
 | Weapon | Price | Supply | Weight | Raw Materials | Time | Talent | Tools |
 |---|---|---|---|---|---|---|---|
@@ -5104,20 +5088,13 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Light Crossbow | 24 silver | Uncommon | Normal | 1/2 Iron, 1 Wood, 1 Leather | One Week | Smith, Bowyer | Forge |
 | Heavy Crossbow | 4 gold | Rare | Heavy | 1 Iron, 2 Wood, 1 Leather | Two Weeks | Smith, Bowyer | Forge |
 
-## Table: Shields & Armor
+## Table: Shields & Armor <!-- p.188–191 -->
 
 | Item | Price | Supply | Weight | Raw Materials | Time | Talent | Tools |
 |---|---|---|---|---|---|---|---|
 | Small Shield | 6 silver | Common | Light | 1/2 Iron, 1/2 Wood, 1 Leather | Quarter Day | Smith, Tanner | Forge |
 | Large Shield | 15 silver | Uncommon | Normal | 1 Iron, 1 Wood, 2 Leather | One Day | Smith, Tanner | Forge |
 | Leather | 4 silver | Common | Light | 2 Leather | One Day | Tanner | Knife, needle and thread |
-
-<!-- p.190 -->
-
-##### Table: Shields & Armor, Cont.
-
-| Item | Price | Supply | Weight | Raw Materials | Time | Talent | Tools |
-|---|---|---|---|---|---|---|---|
 | Studded Leather | 6 silver | Uncommon | Normal | 1/2 Iron, 2 Leather | Two Days | Smith, Tanner | Forge, knife, needle and thread |
 | Chainmail | 24 silver | Uncommon | Heavy | 3 Iron | One Week | Smith | Forge |
 | Plate Armor | 8 gold | Rare | Heavy | 6 Iron | Two Weeks | Smith | Forge |
@@ -5126,7 +5103,11 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Closed Helmet | 18 silver | Uncommon | Normal | 2 Iron | Two Days | Smith | Forge |
 | Great Helm | 3 gold | Rare | Normal | 3 Iron | One Week | Smith | Forge |
 
-## Table: Clothes
+<!-- p.189 -->
+
+<!-- p.190 -->
+
+## Table: Clothes <!-- p.190–191 -->
 
 | Garment | Price | Supply | Raw Materials | Time | Talent | Tools | Effect |
 |---|---|---|---|---|---|---|---|
@@ -5139,7 +5120,7 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Boots | 3 silver | Uncommon | 2 Leather | One Day | Tanner | Needle and thread | Gear Bonus +1 when force marching (page 146). |
 | Silver Buckle | 8 silver | Uncommon | 1/2 Silver | One Day | Smith | Forge | Gear Bonus +1 to Manipulation. |
 
-## Table: Means of Transportation
+## Table: Means of Transportation <!-- p.190–191 -->
 
 | Vehicle | Price | Supply | Raw Materials | Time | Talent | Tools | Effect |
 |---|---|---|---|---|---|---|---|
@@ -5149,9 +5130,11 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Rowing Boat | 15 silver | Common | 20 Wood | Two Days | Builder, Sailor | Saw and hammer | Can carry four people and 50 items. |
 | Sailing Boat | 4 gold | Uncommon | 60 Wood, 10 Cloth | One Week | Builder, Sailor | Saw and hammer | Can carry six people and 200 items. |
 
+<!-- p.191 -->
+
 <!-- p.192 -->
 
-## Table: Tools
+## Table: Tools <!-- p.192–193 -->
 
 | Tools | Price | Supply | Weight | Raw Materials | Time | Talent | Tools |
 |---|---|---|---|---|---|---|---|

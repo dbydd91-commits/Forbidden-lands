@@ -18,6 +18,9 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
   (partial copies); encounter number badges; small-caps NPC headings; Stats bookmark goes to the heading
   above; side-by-side table halves; table footnotes → `*Note:*`. Also fixed: PHB crit tables had a bogus
   empty first column since review 1 (caught by the samples).
+- Review 2: tables continued over pages joined (heading gets page range); overlay copies matched as
+  letter subsequences; calendar wheel figure (`drop y>N` figure mode); letter-by-letter chapter titles
+  dropped; bookmark typos for Box captions; hyphenated words kept whole around page anchors.
 
 ## Commands
 ```

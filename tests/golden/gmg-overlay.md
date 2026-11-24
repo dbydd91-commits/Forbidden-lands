@@ -12,7 +12,7 @@ pdf_pages: 150-150 of 268
 
 *Himeon leaned in to poke the fire, casually grabbing his bow in the process.*
 
-*“Something watches us and hungers,” he said. Sanarda looked around while drinking from her flask. Hairy spider legs clambered among the darkening foliage overhead. I “I wasn’t tired anyway.”*
+*“Something watches us and hungers,” he said. Sanarda looked around while drinking from her flask. Hairy spider legs clambered among the darkening foliage overhead. “I wasn’t tired anyway.”*
 
 This chapters details a number of random encounters that you can use during the adventurers’ journeys across the Forbidden Lands.
 
