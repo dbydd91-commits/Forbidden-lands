@@ -126,8 +126,6 @@ A set of dice specifically created for *Forbidden Lands* is available for purcha
 
 ##### Custom Cards
 
-Another valuable accessory for *Forbidden Lands* is a unique deck of cards, sold separately. The deck contains cards describing powerful artifacts, mounts, initiative in combat, and maneuvers in close combat. Read more about how to use the cards in combat in Chapter 5. The cards <!-- p.11 --> <!-- p.12 --> are not necessary to play *Forbidden Lands*, but they will make the game run more smoothly.
-
 ## Box: Start Playing!
 
 > You can start playing *Forbidden Lands* quickly. The Gamemaster should familiarize herself with both the *Player’s Handbook* and the *Gamemaster’s Guide*, but for the players it is enough to familiarize themselves with the basics in this book.
@@ -138,13 +136,21 @@ Another valuable accessory for *Forbidden Lands* is a unique deck of cards, sold
 >
 > When both these steps are completed, you can start playing!
 
+Another valuable accessory for *Forbidden Lands* is a unique deck of cards, sold separately. The deck contains cards describing powerful artifacts, mounts, initiative in combat, and maneuvers in close combat. Read more about how to use the cards in combat in Chapter 5. The cards <!-- p.11 --> <!-- p.12 --> are not necessary to play *Forbidden Lands*, but they will make the game run more smoothly.
+
 ## Box: A Typical Game Session
 
 > A game session in *Forbidden Lands* can differ from time to time, but this is the most common sequence of events.
 >
-> 1. Get the map, your character sheets, dice, and the custom cards if you are using them. 2. Summarize the last session. 3. Play your characters. Live their lives and act as if they were actual people – but play daringly and push the limits of your character! Close the session at an appropriate moment.
+> 1. Get the map, your character sheets, dice, and the custom cards if you are using them.
 >
-> 4. Finish with a discussion about the session. Discuss which of your actions are worthy of awarding Experience Points for (see page 39). 5. Decide if you want to change your relationships to other characters, and if you want to change your character’s Dark Secret (see page 36).
+> 2. Summarize the last session.
+>
+> 3. Play your characters. Live their lives and act as if they were actual people – but play daringly and push the limits of your character! Close the session at an appropriate moment.
+>
+> 4. Finish with a discussion about the session. Discuss which of your actions are worthy of awarding Experience Points for (see page 39).
+>
+> 5. Decide if you want to change your relationships to other characters, and if you want to change your character’s Dark Secret (see page 36).
 >
 > A typical game session lasts 3–4 hours. Longer games of 5 hours or more should be divided into two parts with a break – every shorter part counts as a separate game session.
 
@@ -154,7 +160,9 @@ If you have made your way here without knowing what a roleplaying game is, congr
 
 The strength of roleplaying games is also a challenge – the freedom to create the story yourselves can be overwhelming. But *Forbidden Lands* contains plenty of exciting events, places and people you can populate your story with, and very specific tools for the GM to use. If you need advice or ideas, there is a forum for *Forbidden Lands* as well as our other games on our website, freeleaguepublishing.com.
 
-Welcome! <!-- p.13 -->
+Welcome!
+
+<!-- p.13 -->
 
 <!-- p.14 -->
 
@@ -178,9 +186,7 @@ Your choice of kin affects your attributes. Every kin also has a unique kin tale
 
 ## Box: How to Create Your Player Character
 
-> How you create your player character is explained in detail in this chapter. The summary below is a helpful overview.
->
-> Grab a character sheet, a pencil, and follow these steps:
+> How you create your player character is explained in detail in this chapter. The summary below is a helpful overview. Grab a character sheet, a pencil, and follow these steps:
 >
 > 1. Choose your kin.
 >
@@ -190,13 +196,17 @@ Your choice of kin affects your attributes. Every kin also has a unique kin tale
 >
 > 4. Spend points on your attributes.
 >
-> 5. Spend points on your skills. 6. Choose your starting talents.
+> 5. Spend points on your skills.
+>
+> 6. Choose your starting talents.
 >
 > 7. Determine your Pride.
 >
 > 8. Choose a Dark Secret.
 >
-> 9. Define your relationships to the other player characters. 10. Pick your gear.
+> 9. Define your relationships to the other player characters.
+>
+> 10. Pick your gear.
 >
 > 11. Decide your appearance.
 >
@@ -293,11 +303,11 @@ Orcs are an ancient and free kin, but the elves and dwarves of Ravenland enslave
 
 ### Goblin
 
-The elders say you are the dark brothers of the halflings. Like you give a shit! All you know is that you live while the lardbags don’t even try. What do halflings know about howling with wolves, licking blood off drippertrees under a full moon or making love among nettles? If you didn’t keep nightwatch over their pretty villages, trolls and wolfkin would have torn them apart a long time ago. You say enough and be gone with that! The world’s out there, swollen with smells and flavor and silver and thrills. You’ll be taking off into the dark, fingers dug deep into your wolf ’s fur, <!-- p.22 --> froth washing your face. The night’s alive and you’re the ones living it!
-
 #### Box: Playing an Orc
 
 > Orcs are feared and hated by most other kin. Playing an orc will therefore present unique challenges to you and your group. If you want to play an orc, it’s a good idea to discuss it with your group first.
+
+The elders say you are the dark brothers of the halflings. Like you give a shit! All you know is that you live while the lardbags don’t even try. What do halflings know about howling with wolves, licking blood off drippertrees under a full moon or making love among nettles? If you didn’t keep nightwatch over their pretty villages, trolls and wolfkin would have torn them apart a long time ago. You say enough and be gone with that! The world’s out there, swollen with smells and flavor and silver and thrills. You’ll be taking off into the dark, fingers dug deep into your wolf ’s fur, <!-- p.22 --> froth washing your face. The night’s alive and you’re the ones living it!
 
 - **Key Attribute:** Agility
 - **Kin Talent:** Nocturnal
@@ -988,25 +998,11 @@ If you don’t have the skill required for the particular action you want to per
 
 If you roll no ⚔ something goes wrong. For some reason, you failed to achieve your goal. Feel free to elaborate on why with the help of the GM. She might even let a failed roll have further consequences to move the story forward in a dramatic way.
 
-Failure must not stop the story completely. Even when you fail, there must be a way <!-- p.44 --> forward – perhaps at the cost of time, risk, or silver, but still a way. The GM has the final say on the consequences of failure in that particular situation.
-
 ## Box: The 16 Skills
 
-> Might (STRENGTH)
+> Might (STRENGTH) Endurance (STRENGTH) Melee (STRENGTH) Crafting (STRENGTH) Stealth (AGILITY)
 >
-> Endurance (STRENGTH)
->
-> Melee (STRENGTH)
->
-> Crafting (STRENGTH)
->
-> Stealth (AGILITY)
->
-> Sleight of Hand (AGILITY) Move (AGILITY)
->
-> Marksmanship (AGILITY)
->
-> Scouting (WITS)
+> Sleight of Hand (AGILITY) Move (AGILITY) Marksmanship (AGILITY) Scouting (WITS)
 >
 > Lore (WITS)
 >
@@ -1014,13 +1010,11 @@ Failure must not stop the story completely. Even when you fail, there must be a 
 >
 > Insight (WITS)
 >
-> Manipulation (EMPATHY)
->
-> Performance (EMPATHY)
->
-> Healing (EMPATHY)
+> Manipulation (EMPATHY) Performance (EMPATHY) Healing (EMPATHY)
 >
 > Animal Handling (EMPATHY)
+
+Failure must not stop the story completely. Even when you fail, there must be a way <!-- p.44 --> forward – perhaps at the cost of time, risk, or silver, but still a way. The GM has the final say on the consequences of failure in that particular situation.
 
 You have one last chance if you really want to succeed – you can push the roll.
 
@@ -1060,9 +1054,7 @@ Remember that ones on the Skill Dice never count as ☠ (see above).
 
 ## Box: Describe Your Action
 
-> You create a story together in *Forbidden Lands*. A dice roll is a dramatic peak – first you should describe what you are trying to achieve, so that everyone knows what is at stake. Then you roll your dice. Interpret the result and describe what happens.
->
-> Describe what you do, what you say, or what you are thinking. If you push your roll, describe how. Do it yourself, don’t wait for the GM – the GM should only stop you if you go beyond the results you have rolled.
+> You create a story together in *Forbidden Lands*. A dice roll is a dramatic peak – first you should describe what you are trying to achieve, so that everyone knows what is at stake. Then you roll your dice. Interpret the result and describe what happens. Describe what you do, what you say, or what you are thinking. If you push your roll, describe how. Do it yourself, don’t wait for the GM – the GM should only stop you if you go beyond the results you have rolled.
 
 <!-- p.46 -->
 
@@ -2174,8 +2166,6 @@ When it is your turn to act, you can perform *one slow action and one fast actio
 
 ##### Describe Your Actions
 
-When it’s your turn, state which actions you <!-- p.86 --> wish to perform and roll dice as needed. Some actions will let your opponent perform a *reactive action* – see Close Combat and Ranged Combat.
-
 ### Box: Non-Player Characters
 
 > In typical conflicts, the GM draws one initiative card per NPC. If there are a lot of NPCs and the number of combatants is above ten, the GM will split the NPCs into groups. All the NPCs with identical stats will form a single group, and the GM will draw one initiative card per group instead of one per individual. All the NPCs in a group act at the same time in the turn order. In what order they act individually within the group is up to the GM.
@@ -2183,6 +2173,8 @@ When it’s your turn, state which actions you <!-- p.86 --> wish to perform and
 ### Box: Monsters
 
 > The kind of horrible creatures that are commonly called monsters don’t act as regular enemies in combat. Monsters draw initiative normally, but then follow their own rules. Read more in Chapter 5 of the *Gamemaster’s Guide.*
+
+When it’s your turn, state which actions you <!-- p.86 --> wish to perform and roll dice as needed. Some actions will let your opponent perform a *reactive action* – see Close Combat and Ranged Combat.
 
 ### Table: Slow Actions
 
@@ -2254,7 +2246,7 @@ Zones can have various features, which affect actions performed in the zone.
 
 **OPEN:** The zone is open and flat, which is ideal for mounted combatants. Read more below.
 
-DARK/FOGGY: Ranged attacks into the zone are modified by –2 and can’t pass through the zone.
+**DARK/FOGGY:** Ranged attacks into the zone are modified by –2 and can’t pass through the zone.
 
 ##### Borders and Lines of Sight
 
@@ -2357,7 +2349,7 @@ When you attack an aware opponent in close combat, they can DODGE or PARRY to av
 
 **STAB:** You attempt to impale your opponent. Requires a weapon with the POINTED feature. Roll MELEE plus the weapon’s Gear Bonus. Can be DODGED or PARRIED. A target who PARRIES with a weapon gets a –2 penalty, while parrying with a shield gives a +2 bonus. If you hit, your opponent takes Weapon Damage on his Strength. If you roll multiple ⚔, the damage increases by one for each additional ⚔. If the enemy suffers a critical injury, roll on the table for stab wounds.
 
-PUNCH/KICK/BITE: Does not require a weapon. Roll for MELEE. Can be DODGED or PARRIED, and any attempt to PARRY gets a +2 bonus. If you hit, your opponent takes 1 point of damage to his Strength. If you roll multiple ⚔, the damage increases by one for each additional ⚔. If the enemy suffers a critical injury, roll on the table for blunt force wounds (unless you have fangs – in that case, use the table for slash wounds).
+**PUNCH/KICK/BITE:** Does not require a weapon. Roll for MELEE. Can be DODGED or PARRIED, and any attempt to PARRY gets a +2 bonus. If you hit, your opponent takes 1 point of damage to his Strength. If you roll multiple ⚔, the damage increases by one for each additional ⚔. If the enemy suffers a critical injury, roll on the table for blunt force wounds (unless you have fangs – in that case, use the table for slash wounds).
 
 **GRAPPLE:** You grab hold of your opponent. Roll for MELEE, as no weapon can be used. Can be DODGED or PARRIED. If the attack succeeds, both you and your opponent fall to the ground. The opponent drops any weapon they were holding, and cannot move. The only action they can perform is BREAK FREE – which is a slow action and requires them winning an opposed MELEE against you. While you are grappling, the only action you can perform is a GRAPPLE ATTACK. It works like PUNCH/KICK/BITE, but is a fast action and cannot be DODGED or PARRIED.
 
@@ -2379,8 +2371,6 @@ PUNCH/KICK/BITE: Does not require a weapon. Roll for MELEE. Can be DODGED or PAR
 
 **FEINT:** You trade initiative cards with an opponent at ARM’S LENGTH (or NEAR, if your close combat weapon can reach that far). The new initiative order takes effect the next round. No roll is required.
 
-**RETREAT:** This action must be used instead of RUN if you have an active enemy at ARM’S <!-- p.94 --> LENGTH. Brings you to NEAR range. Roll for MOVE. If you fail, you move but your enemy gets a free attack against you – a SLASH, STAB or PUNCH that doesn’t count toward their actions in the round and which you can’t PARRY or DODGE.
-
 ### Table: Attack & Defense
 
 |   | Slash | Stab | Punch/kick |
@@ -2390,6 +2380,8 @@ PUNCH/KICK/BITE: Does not require a weapon. Roll for MELEE. Can be DODGED or PAR
 | Dodge | +2 | — | — |
 
 *Note:* Parry without Parrying weapon: −2 Dodge without going prone: −2
+
+**RETREAT:** This action must be used instead of RUN if you have an active enemy at ARM’S <!-- p.94 --> LENGTH. Brings you to NEAR range. Roll for MOVE. If you fail, you move but your enemy gets a free attack against you – a SLASH, STAB or PUNCH that doesn’t count toward their actions in the round and which you can’t PARRY or DODGE.
 
 **Example:** *The fight between the adventurers and the orcs begins. Orc 1 uses his two actions to RUN toward Tyrgar, first from SHORT to NEAR distance, then to ARM’S LENGTH. Orc 2 does the same, but approaches Nirmena. Then it’s Tyrgar’s turn. His axe is already drawn, so he uses his fast action to SHOVE Orc 1 to the ground, which succeeds.*
 
@@ -2568,7 +2560,9 @@ GRIP indicates if you need one or two hands to wield the weapon. A two-handed we
 
 BONUS indicates how many Gear Dice you can roll when using the weapon. Remember that the Gear Bonus can be reduced if you push your roll – the bonus decreases by one for every ☠ you have rolled (see page 50). If the Gear Bonus is reduced to zero, the weapon breaks and needs to be fixed using the CRAFTING skill.
 
-DAMAGE indicates your base Weapon Damage, i.e., how many points of damage to Strength your opponent suffers if your attack is successful. If you roll extra ⚔, you deal additional damage. <!-- p.101 --> <!-- p.102 --> <!-- p.103 --> <!-- p.104 --> RANGE indicates the maximum range at which the weapon can be used.
+DAMAGE indicates your base Weapon Damage, i.e., how many points of damage to Strength your opponent suffers if your attack is successful. If you roll extra ⚔, you deal additional damage.
+
+<!-- p.101 -->
 
 ### Table: Melee Weapons
 
@@ -2600,6 +2594,10 @@ DAMAGE indicates your base Weapon Damage, i.e., how many points of damage to Str
 | Halberd | 2H | +2 | 2 | Near | 30 | Heavy, Pointed, Edged, Hook |
 | Trident | 2H | +1 | 2 | Near | 6 | Pointed, Hook |
 
+<!-- p.102 -->
+
+<!-- p.103 -->
+
 ### Table: Ranged Weapons
 
 | Weapon | Grip | Bonus | Damage | Range | Cost | Features |
@@ -2613,6 +2611,10 @@ DAMAGE indicates your base Weapon Damage, i.e., how many points of damage to Str
 | Longbow | 2H | +2 | 1 | Long | 12 | — |
 | Light Crossbow | 2H | +1 | 2 | Long | 24 | Loading is slow action. |
 | Heavy Crossbow | 2H | +1 | 3 | Long | 40 | Heavy, Loading is a slow action. |
+
+<!-- p.104 -->
+
+RANGE indicates the maximum range at which the weapon can be used.
 
 COST indicates the weapon’s typical price in silver coins. The actual price can vary depending on the supply and demand at the location.
 
@@ -2656,7 +2658,7 @@ All helmets also have an extra effect: If you suffer one of the critical injurie
 
 ##### Cover
 
-When enemies are shooting at you, hunkering down behind cover – preferably something solid – can save your life. Taking cover behind something counts as a fast action. Cover has an Armor Rating and works like armor – but only against ranged attacks. As opposed to armor, cover is not degraded. Cover can be combined with armor – roll for cover first, then armor. <!-- p.106 -->
+When enemies are shooting at you, hunkering down behind cover – preferably something solid – can save your life. Taking cover behind something counts as a fast action. Cover has an Armor Rating and works like armor – but only against ranged attacks. As opposed to armor, cover is not degraded. Cover can be combined with armor – roll for cover first, then armor.
 
 ### Table: Typical Cover
 
@@ -2667,6 +2669,8 @@ When enemies are shooting at you, hunkering down behind cover – preferably som
 | Tree Trunk | 5 |
 | Wooden Wall | 6 |
 | Stone Wall | 8 |
+
+<!-- p.106 -->
 
 ### Table: Shields
 
@@ -2742,21 +2746,25 @@ Each critical injury has a specific effect that <!-- p.109 --> you suffer during
 
 For some types of damage (for example from fire), the normal critical injury tables don’t apply. If you’re Broken by such a non-typical type of damage, use the table Critical Injuries – Others on page 199.
 
-**CONDITIONS:** Some conditions, such as HUNGRY and THIRSTY, can Break you (below). <!-- p.110 --> The effects of this are specified by each condition. Don’t roll for a critical injury in this case.
+**CONDITIONS:** Some conditions, such as HUNGRY and THIRSTY, can Break you (below).
 
 ## Box: Kin Weapons
 
 > Among weapon illustrations, you’ll find designs created by the various kin of the Forbidden Lands. The kin designs normally don’t affect the stats of the weapon, the differences are only cosmetic.
 
+<!-- p.110 -->
+
+The effects of this are specified by each condition. Don’t roll for a critical injury in this case.
+
 ##### Pushed Damage
 
 There is one case where you don’t risk any critical injury when Broken: when you push a roll so hard that you break yourself. This is very rare, but it can happen. This means you can never kill yourself by pushing a roll.
 
-**Example:** *Poor Tyrgar was hurt before the savage strike by the minotaur, and is now Broken. He rolls 52 on the critical injury table for slash wounds, and thus suffers a bleeding gut. He rolls a D6 and gets a 5, meaning he will die in five hours unless HEALED before he bleeds out. Nirmena is not around, so Tyrgar rolls another D6 to see how long it will take him to get back on his feet without help. He rolls a 2. After two hours on* <!-- p.111 --> *the cold ground he comes to. He tries to HEAL himself but fails. He now has three hours to find Nirmena or someone else who can HEAL him before he dies from his injuries.*
-
 ## Box: Broken NPCs
 
 > NPCs can be Broken in the same ways as PCs. An NPC can HEAL a PC and vice versa. However, dice are usually not rolled when an NPC HEALS another NPC – instead, the GM decides what happens. The GM can also decide that a minor NPC whose Strength is Broken simply dies.
+
+**Example:** *Poor Tyrgar was hurt before the savage strike by the minotaur, and is now Broken. He rolls 52 on the critical injury table for slash wounds, and thus suffers a bleeding gut. He rolls a D6 and gets a 5, meaning he will die in five hours unless HEALED before he bleeds out. Nirmena is not around, so Tyrgar rolls another D6 to see how long it will take him to get back on his feet without help. He rolls a 2. After two hours on* <!-- p.111 --> *the cold ground he comes to. He tries to HEAL himself but fails. He now has three hours to find Nirmena or someone else who can HEAL him before he dies from his injuries.*
 
 ## Conditions
 
@@ -2980,7 +2988,9 @@ Casting a spell requires a great deal of mental exertion and requires that you s
 
 ### Box: Grimoires
 
-> You don’t need your spells written down to cast them, but it makes it easier to get it right. Grimoires are highly soughtafter artifacts among sorcerers. If you cast a spell from a book or a scroll, its rank is considered one step lower than usual. In combat, you must spend a fast action readying your grimoire before you can cast the spell. Writing down a spell requires you to first cast it once (chance casting doesn’t count). Then, you must spend a Quarter Day with quill in hand and make a LORE roll. Writing down a ritual takes two Quarter Days.
+> You don’t need your spells written down to cast them, but it makes it easier to get it right. Grimoires are highly soughtafter artifacts among sorcerers. If you cast a spell from a book or a scroll, its rank is considered one step lower than usual. In combat, you must spend a fast action readying your grimoire before you can cast the spell.
+>
+> Writing down a spell requires you to first cast it once (chance casting doesn’t count). Then, you must spend a Quarter Day with quill in hand and make a LORE roll. Writing down a ritual takes two Quarter Days.
 
 ##### Npcs & Spellcasting
 
@@ -3367,8 +3377,6 @@ You can also use this spell to send your own thoughts to another person. In that
 
 The discipline of Symbolism uses runes, esoteric signs and symbols that reflect the underlying patterns of the world. It takes advantage of the forces unleashed by a broad spectrum of laws that are stretched, broken or twisted by the influence of these symbols. The signs of Symbolism can be carved, drawn, or simply formed in the air by the hands of a sorcerer. In any case, the Sorcerer needs at least one free hand.
 
-**DRAW OR CARVE:** Symbolism requires no ingredients apart from the symbols themselves. If they are carved or drawn in any way, they count as ingredients from a rule standpoint, meaning that the Power Level is increased by one. Drawing a symbol takes a few minutes and cannot be done in the heat of battle. Carving a symbol into stone takes one Quarter Day or <!-- p.131 --> more. The Sorcerer decides when the symbol is activated. Even a drawn or carved symbol only works once.
-
 ### Table: Symbolism
 
 | Spell | Rank |
@@ -3382,6 +3390,8 @@ The discipline of Symbolism uses runes, esoteric signs and symbols that reflect 
 | Puppeteer | 3 |
 | Power Rune | 3 |
 | Portal | 3 |
+
+**DRAW OR CARVE:** Symbolism requires no ingredients apart from the symbols themselves. If they are carved or drawn in any way, they count as ingredients from a rule standpoint, meaning that the Power Level is increased by one. Drawing a symbol takes a few minutes and cannot be done in the heat of battle. Carving a symbol into stone takes one Quarter Day or <!-- p.131 --> more. The Sorcerer decides when the symbol is activated. Even a drawn or carved symbol only works once.
 
 ### Entice
 
@@ -3812,9 +3822,7 @@ RIVERS are not a type of terrain in and of themselves, but they function as bord
 
 ### Box: Other Maps
 
-> The map of the Forbidden Lands is just the beginning.
->
-> More game maps of other areas will be published by Free League Publishing in the future. If you want to play in another fantasy world, perhaps even one of your own making, all you need to do is draw the map on an empty hexagon map and fill in the different types of terrain. Then you’re ready to play!
+> The map of the Forbidden Lands is just the beginning. More game maps of other areas will be published by Free League Publishing in the future. If you want to play in another fantasy world, perhaps even one of your own making, all you need to do is draw the map on an empty hexagon map and fill in the different types of terrain. Then you’re ready to play!
 
 **HIGH MOUNTAINS:** Hexagons with the terrain type HIGH MOUNTAINS block movement. It is impossible to move into these hexagons, and so they form a barrier around the Forbidden Lands.
 
@@ -3869,7 +3877,7 @@ Short breaks are included in the specified time, but if you stop for more than a
 
 ### Table: Hiking Distance
 
-| Terrain | On Foot | On Horse- Back |
+| Terrain | On Foot | On Horseback |
 |---|---|---|
 | Open | 2 Hexagons /Quarter | 3 Hexagons /Quarter |
 | Difficult | 1 Hexagon /Quarter | 1 Hexagon /Quarter |
@@ -3906,18 +3914,7 @@ If you return to a hex on the map where you have been before, you don’t need t
 
 ## Keep Watch
 
-During every Quarter Day of your journey, you should also designate one adventurer in your group who is responsible for scouting <!-- p.148 --> <!-- p.149 --> for threats and enemies. The *lookout* can KEEP WATCH and HIKE at the same time, but cannot LEAD THE WAY while doing so. A lookout is useful during every Quarter Day, even after you MAKE CAMP. You don’t need to have a lookout if you don’t want to, but without one you have no chance to spot threats before they are upon you.
-
-### Table: Light & Darkness
-
-|   | Spring | Summer | Autumn | Winter |
-|---|---|---|---|---|
-| Morning | Light | Light | Light | Dark |
-| Daytime | Light | Light | Light | Light |
-| Evening | Dark | Light | Dark | Dark |
-| Nighttime | Dark | Dark | Dark | Dark |
-
-### Table: Leading the Way Mishaps <!-- p.148–149 -->
+### Table: Leading the Way Mishaps
 
 | D66 | Mishap | Effect |
 |---|---|---|
@@ -3928,17 +3925,31 @@ During every Quarter Day of your journey, you should also designate one adventur
 | 33–34 | Torn Clothes | Your clothes are damaged. Your boots break or your robe rips on thorny plants or sharp rocks. You must roll for the effects of cold. Your clothes can be mended by making a successful CRAFTING roll. |
 | 35–36 | Landslide | You are walking in rough terrain when the ground suddenly opens beneath your feet. You must roll MOVE – if you fail, you suffer an attack with four Base Dice and Weapon Damage 1 (blunt trauma). |
 | 41–45 | Downpour | A massive rainfall or snow storm (depending on the time of year) catches you unawares. You must roll for the effects of cold (page 111). You must also seek shelter until the storm has passed and won’t make any progress on the map during this Quarter Day. |
+
+### Table: Light & Darkness
+
+|   | Spring | Summer | Autumn | Winter |
+|---|---|---|---|---|
+| Morning | Light | Light | Light | Dark |
+| Daytime | Light | Light | Light | Light |
+| Evening | Dark | Light | Dark | Dark |
+| Nighttime | Dark | Dark | Dark | Dark |
+
+During every Quarter Day of your journey, you should also designate one adventurer in your group who is responsible for scouting <!-- p.148 --> <!-- p.149 --> for threats and enemies. The *lookout* can KEEP WATCH and HIKE at the same time, but cannot LEAD THE WAY while doing so. A lookout is useful during every Quarter Day, even after you MAKE CAMP. You don’t need to have a lookout if you don’t want to, but without one you have no chance to spot threats before they are upon you.
+
+| D66 | Mishap | Effect |
+|---|---|---|
 | 46–52 | Fog | You are caught unawares by a thick fog. The distance you cover this Quarter Day is decreased by one hex. In difficult terrain, you’re stuck in the hex you started. In addition, each adventurer suffers one point of damage to Empathy from the gloomy mist. |
 | 53–54 | Wasps’ Nest | You step right into a nest of wasps. An angry swarm attack the entire group. Each adventurer must make a MOVE roll or suffer an attack with four Base Dice, causing damage to Agility. |
 | 55–61 | Mosquito Swarm | A large swarm of mosquitoes or gnats attacks you, driving you crazy with their biting and buzzing. They attack with four Base Dice, causing damage to Empathy. |
 | 62–64 | Savage Animal | A wolf, bear or other wild animal feels threatened, and attacks you. The GM chooses an animal from the table on page 126 of the *Gamemaster’s Guide.* |
 | 65–66 | Persistent Animal | A squirrel, bird or other small animal follows you around and doesn’t leave you alone. The animal causes trouble, described by the GM – it might make a noise at some inappropriate time, eat your food or steal something. |
 
-The scout comes into play when the GM rolls for a random encounter or introduces some other kind of threat. Tables for random encounters, based on which type of terrain <!-- p.150 --> dominates the hexagon where the characters find themselves, can be found in Chapter 7 of the *Gamemaster’s Guide.*
-
 ## Box: Hiking Alone
 
 > If you journey alone in the Forbidden Lands, you may LEAD THE WAY and KEEP WATCH at the same time. This is an exception to the rule that says these two actions cannot be combined.
+
+The scout comes into play when the GM rolls for a random encounter or introduces some other kind of threat. Tables for random encounters, based on which type of terrain <!-- p.150 --> dominates the hexagon where the characters find themselves, can be found in Chapter 7 of the *Gamemaster’s Guide.*
 
 The rule of thumb is that the GM rolls on the random encounter table once every Quarter Day while you HIKE, and once per day if you remain in the same hexagon. Sometimes, the GM can choose to roll more or less frequently.
 
@@ -4020,8 +4031,6 @@ If your first SURVIVAL roll fails, you suffer a mishap. Roll on the table to the
 
 ## Fish
 
-If you are in a hexagon by a river or lake or by the ocean you can FISH. If you are on foot, you cannot HIKE while FISHING, but you can FISH from a moving boat. Several people can FISH at the same time. If you want to roll separately you cannot FISH in the same location, which means that any <!-- p.154 --> mishaps will affect you individually. Alternatively, one of you FISHES and the others help.
-
 ### Table: Fishing Mishaps
 
 | D6 | Mishap | Effect |
@@ -4033,6 +4042,8 @@ If you are in a hexagon by a river or lake or by the ocean you can FISH. If you 
 | 5 | Splash! | You lose your balance and fall into the water. See rules for swimming and drowning on page 113. |
 | 6 | Attacked | A vicious fish or eel attacks you, causing a nasty bleeding wound. You suffer one point of damage to Strength. |
 
+If you are in a hexagon by a river or lake or by the ocean you can FISH. If you are on foot, you cannot HIKE while FISHING, but you can FISH from a moving boat. Several people can FISH at the same time. If you want to roll separately you cannot FISH in the same location, which means that any <!-- p.154 --> mishaps will affect you individually. Alternatively, one of you FISHES and the others help.
+
 To FISH, you need fishing gear (see the table on page 184). Make a SURVIVAL roll modified by the FISHER talent and any Gear Bonus from your fishing gear.
 
 Success means you catch a number of units of FISH equal to the number of ⚔ you rolled. The FISH can be cooked by a CHEF (see page 74) or at an INN (see page 168), and is then turned into an equal amount of FOOD. You can eat FISH raw – you then consume a unit of FISH instead of rolling your Resource Die for FOOD. You need to do this within a day, or the FISH will be spoiled.
@@ -4040,8 +4051,6 @@ Success means you catch a number of units of FISH equal to the number of ⚔ you
 If your roll fails, you don’t catch any FISH and you also suffer a mishap. Roll on the table on the previous page.
 
 ## Make Camp
-
-When the journey of the day is over, it’s time to MAKE CAMP. Finding a good location for a camp, making a fire, and prepar- <!-- p.155 --> ing where to SLEEP takes a whole Quarter Day – usually the Evening. Only one person rolls to MAKE CAMP, but others can help her (see page 48).
 
 ### Table: Making Camp Mishaps
 
@@ -4054,6 +4063,8 @@ When the journey of the day is over, it’s time to MAKE CAMP. Finding a good lo
 | 33–36 | Fire Dies | The firewood is wet, and your campfire goes out. Everyone in the group must roll for the effects of cold (see page 111). |
 | 41–42 | Fire! | Suddenly, the flames from your campfire spread out of control. Your tents, sleeping furs and other gear catch fire. Each adventurer suffers an attack with five Base Dice (Weapon Damage 1). Each adventurer must also make a MOVE roll to save her gear. Failure means that one piece of equipment (the GM decides which) is lost in the fire. |
 
+When the journey of the day is over, it’s time to MAKE CAMP. Finding a good location for a camp, making a fire, and prepar- <!-- p.155 --> ing where to SLEEP takes a whole Quarter Day – usually the Evening. Only one person rolls to MAKE CAMP, but others can help her (see page 48).
+
 Make a SURVIVAL roll, modified by the QUARTERMASTER talent. If your roll succeeds, you find a sheltered and comfortable place to spend the night, where you can all rest up before the next day’s journey.
 
 If your roll fails, your camp is less pleasant. You still set up a camp where you can REST and SLEEP, but the GM makes a hidden roll on the mishap table below. The GM can spring this mishap on you anytime she wants while you are in the camp.
@@ -4061,8 +4072,6 @@ If your roll fails, your camp is less pleasant. You still set up a camp where yo
 **STANDING GUARD:** The wilderness is a dangerous place and even while you are in your camp, you need a sentry to stay awake to KEEP WATCH (see above). You need to choose who stands guard during the Night, and let this person SLEEP during some other Quarter Day (usually the Evening).
 
 ## Rest
-
-Resting by the campfire is a good opportunity to recover from damage. Read more about recovery on page 108. If your REST is interrupted by something dramatic, like <!-- p.156 --> combat or other similar activity, your activity during the Quarter Day no longer counts as REST.
 
 ##### Table: (continued)
 
@@ -4074,6 +4083,8 @@ Resting by the campfire is a good opportunity to recover from damage. Read more 
 | 55–56 | Savage Animal | A wolf, bear or other wild animal feels threatened, and attacks you. The GM chooses an animal from the table on page 124 of the *Gamemaster’s Guide.* |
 | 61–63 | Lost Gear | A randomly selected adventurer has lost a piece of gear. The GM decides what was lost, and if it can be found. |
 | 64–66 | Broken Gear | An item belonging to a randomly selected adventurer is broken. The GM decides what item it is. The item can be repaired with a CRAFTING roll. |
+
+Resting by the campfire is a good opportunity to recover from damage. Read more about recovery on page 108. If your REST is interrupted by something dramatic, like <!-- p.156 --> combat or other similar activity, your activity during the Quarter Day no longer counts as REST.
 
 ## Sleep
 
@@ -4138,7 +4149,9 @@ A stronghold has two base effects:
 
 ### Box: The Stronghold Sheet
 
-> To keep track of the features of your stronghold, use the stronghold sheet found at the back of this book. You can draw a map of your stronghold if you like, but it’s not required in the rules.
+> To keep track of the features of your stronghold, use the
+>
+> stronghold sheet found at the back of this book. You can draw a map of your stronghold if you like, but it’s not required in the rules.
 
 - Each adventurer in your group gains one Willpower Point (see page 46) when you arrive home to your stronghold and spend at least one day there. You can only gain one WP each per session in this way.
 
@@ -4212,13 +4225,11 @@ Once a suitable candidate is found, you need to make a MANIPULATION roll and pay
 
 **WORK HOURS:** As a general rule, a hireling will work for two Quarter Days per day. They can work a third Quarter Day, if given double pay. These are just general guidelines – the GM is free to make her own assessment, depending on the situation.
 
-**PAYING SALARIES:** A salary is generally paid in coins. In the Forbidden Lands, it is common for servants at a castle to get paid in goods or services – or simply protection – rather than in coin. In these rules, all salaries are given in coin to simplify things. If you’d rather pay <!-- p.163 --> in goods, it’s usually fine. Use the price lists (Chapter 9) as a guide. The GM has final say.
-
 ### Box: Several Strongholds?
 
-> Nothing stops you from having several strongholds. On the contrary, it can be very useful to have several strongholds across the Forbidden Lands.
->
-> All the strongholds must be guarded, however (see above).
+> Nothing stops you from having several strongholds. On the contrary, it can be very useful to have several strongholds across the Forbidden Lands. All the strongholds must be guarded, however (see above).
+
+**PAYING SALARIES:** A salary is generally paid in coins. In the Forbidden Lands, it is common for servants at a castle to get paid in goods or services – or simply protection – rather than in coin. In these rules, all salaries are given in coin to simplify things. If you’d rather pay <!-- p.163 --> in goods, it’s usually fine. Use the price lists (Chapter 9) as a guide. The GM has final say.
 
 If you leave the stronghold to go adventuring, hirelings will expect to get paid in advance for the time you expect to be gone. If you don’t pay a hireling what you have promised them, it will mean trouble. Roll on the table to the left.
 
@@ -4230,11 +4241,11 @@ If you have the MASTER BUILDER hireling in your stronghold, you can have him bui
 
 **Example:** *Nirmena and Tyrgar are working on their stronghold, and start out with building RAMPARTS, a FIREPLACE, and a SCRIPTORIUM. Tyrgar has skill level 4 in CRAFTING and the BUILDER talent (level 1), and Nirmena helps out. Tyrgar spends four times the required amount of time on the work. In total, this gives Tyrgar a +4 modifier to all rolls. All three rolls succeed and, after 44 days, the functions are all complete.*
 
-*Next, Nirmena and Tyrgar hire a HANDYMAN and GUARD, as they are about to go on another journey. They pay one week’s* <!-- p.164 --> *salary in advance, but end up staying away longer. After one week, the players must roll on the table for non-payment (see above). They roll a 6 and a 2 – the HANDYMAN stays on, but the GUARD leaves her post and steals a barrel of mead as she goes.*
-
 ### Box: New Functions and Hirelings
 
 > The lists of functions and hirelings are extensive, but they don’t cover everything you might want to do with your stronghold. You are free to make up new functions and hirelings. It is up to the GM to determine the effect of such functions and hirelings, as well as what is required to build or hire them.
+
+*Next, Nirmena and Tyrgar hire a HANDYMAN and GUARD, as they are about to go on another journey. They pay one week’s* <!-- p.164 --> *salary in advance, but end up staying away longer. After one week, the players must roll on the table for non-payment (see above). They roll a 6 and a 2 – the HANDYMAN stays on, but the GUARD leaves her post and steals a barrel of mead as she goes.*
 
 ### Table: Unguarded Stronghold
 
@@ -4389,7 +4400,11 @@ The Forbidden Lands are a harsh place, and execution is a common punishment for 
 - TOOLS: Saw, hammer
 - TIME: One day
 - REPUTATION: +1
-- EFFECT: A PC or the EXECUTIONER hireling can execute people at the GALLOWS. <!-- p.168 --> In this case, a defenseless person can be killed without requiring a coup de grace (see page 108). After a public execution, the risk of unwelcome visitors to your stronghold decreases. Your Reputation score counts as two steps lower for the next roll for events at the stronghold.
+- EFFECT: A PC or the EXECUTIONER hireling can execute people at the GALLOWS.
+
+<!-- p.168 -->
+
+In this case, a defenseless person can be killed without requiring a coup de grace (see page 108). After a public execution, the risk of unwelcome visitors to your stronghold decreases. Your Reputation score counts as two steps lower for the next roll for events at the stronghold.
 
 Read more on page 12 in the *Gamemaster’s Guide.*
 
@@ -4895,8 +4910,6 @@ The results in the table should primarily be seen as inspiration and will need t
 
 *In the first turn of the battle, the players roll one ⚔ while the GM rolls two. The GM chooses to have 20 orcs be cut down, decreasing the number of remaining attackers to 70 and the Attack Rating to 6. The players choose to have the RAMPARTS damaged and then breached, reducing the Defense Rating to 3.*
 
-*The first turn is over, and it’s time to see what happens to Tyrgar and Nirmena themselves. The GM rolls a five, and lets the event happen to Nirmena. She suddenly finds her-* <!-- p.178 --> *self face-to-face with Geldad himself on the ramparts! If she defeats the orc chieftain, she might turn the tide of the battle and save the stronghold from destruction…*
-
 ### Table: Events During the Battle
 
 | D6 | Event |
@@ -4917,6 +4930,8 @@ The results in the table should primarily be seen as inspiration and will need t
 > The rules for battles at the stronghold are designed to be fast and easy to use, and therefore make no difference between different types of soldiers. If you prefer a more detailed approach, you can use the following rules.
 >
 > Add the Strength rating to the skill level in MELEE or MARKSMANSHIP (whichever is higher) of a typical soldier in the force. The sum is the soldier’s Combat Rating. Divide 50 by the Rating, 30 soldiers are Broken.
+
+*The first turn is over, and it’s time to see what happens to Tyrgar and Nirmena themselves. The GM rolls a five, and lets the event happen to Nirmena. She suddenly finds her-* <!-- p.178 --> *self face-to-face with Geldad himself on the ramparts! If she defeats the orc chieftain, she might turn the tide of the battle and save the stronghold from destruction…*
 
 <!-- p.179 -->
 
@@ -4948,8 +4963,6 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 
 **TALENTS:** Items are classified as ADVANCED if they require a specific talent to be crafted. This is indicated in the Talent column. If no talent is listed, the item is SIMPLE and can be crafted by anyone.
 
-**TOOLS:** Many items require specific tools to be crafted. Such requirements are listed in the Tools column. Some items even require certain functions, such as a FORGE, to be made. Read more about functions in Chapter 8. Functions <!-- p.181 --> don’t only exist in strongholds – the adventurers can find them in villages and other locations in the Forbidden Lands as well.
-
 ## Table: Common Services
 
 | Service | Price | Supply | Comment |
@@ -4970,6 +4983,8 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Flagon of Ale | 2 copper | Common | Covers the daily need of Water. |
 | Chalice of Wine | 4 copper | Uncommon | Covers the daily need of Water. |
 | Teacher | 1 silver per day or more | Uncommon | Read more about teachers on page 40. |
+
+**TOOLS:** Many items require specific tools to be crafted. Such requirements are listed in the Tools column. Some items even require certain functions, such as a FORGE, to be made. Read more about functions in Chapter 8. Functions <!-- p.181 --> don’t only exist in strongholds – the adventurers can find them in villages and other locations in the Forbidden Lands as well.
 
 **PRICE:** The cost of an item can vary greatly from place to place.
 

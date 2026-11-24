@@ -12,6 +12,7 @@ reliably. Stage 1 = faithful extraction (`sources/`); no rules rewriting yet. Pr
 | `sources/fl-legends-and-adventurers.md` | Legends & Adventurers (5th printing), whole booklet, ~16k tokens |
 | `tools/fl2md.py` | PDF → Markdown converter (conventions in its docstring) |
 | `tools/regress.py`, `tests/` | Regression check: sample pages (`tests/samples.txt`) vs `tests/golden/` |
+| `tools/verify.py` | Page check of a whole book: word share per page segment, missing numbers/dice codes |
 | `notes/` | `handoff.md` (next task), `log.md` (what's done) |
 
 Planned: Raven's Purge. Map & Stickers is image-only.
@@ -37,7 +38,9 @@ PDFs are not committed (`.gitignore`). `pip install pymupdf`, then the commands 
 ## Changing the converter
 - After every change run `python tools/regress.py --pdf-dir DIR` (~10 s), not whole books.
   Review each CHANGED diff; `--accept` only intended changes. Add a sample when a new page type is fixed.
-- Regenerate whole books (~15 s each) only once the samples look right, then diff against the committed `sources/`.
+- Regenerate whole books (~15 s each) only once the samples look right, then diff against the committed `sources/`
+  and run `tools/verify.py` (expected: ≥95% word share within ±1 page except art/map pages; no missing numbers
+  except GMG map pages).
 - Fix what the user asked first; list other problems found and ask before widening the scope.
 
 ## Git

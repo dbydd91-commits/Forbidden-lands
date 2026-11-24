@@ -18,11 +18,15 @@ you suffer during the healing time indicated – measured in days.
 
 For some types of damage (for example from fire), the normal critical injury tables don’t apply. If you’re Broken by such a non-typical type of damage, use the table Critical Injuries – Others on page 199.
 
-**CONDITIONS:** Some conditions, such as HUNGRY and THIRSTY, can Break you (below). <!-- p.110 --> The effects of this are specified by each condition. Don’t roll for a critical injury in this case.
+**CONDITIONS:** Some conditions, such as HUNGRY and THIRSTY, can Break you (below).
 
 ## Box: Kin Weapons
 
 > Among weapon illustrations, you’ll find designs created by the various kin of the Forbidden Lands. The kin designs normally don’t affect the stats of the weapon, the differences are only cosmetic.
+
+<!-- p.110 -->
+
+The effects of this are specified by each condition. Don’t roll for a critical injury in this case.
 
 ##### Pushed Damage
 

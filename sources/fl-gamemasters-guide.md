@@ -16,11 +16,11 @@ You are the Gamemaster. Your role is to depict the Forbidden Lands for the playe
 
 *Forbidden Lands* doesn’t demand much preparation from you. There is no predetermined plot, instead you and your players create your shared story together with the help of the tools of the game and your own imagination, during the course of the game.
 
-This chapter begins with a description of the seven principles of the game, the linchpins for playing in the Forbidden Lands, and then explains the tools that you as GM have at your disposal. The end of the chapter also offers advice on how to start your first game session of *Forbidden Lands*, suggestions on <!-- p.5 --> <!-- p.6 --> how to create and manage your NPCs, and advice on what to do when the adventurers fail their actions.
-
 ## Box: For the GM’s Eyes Only
 
 > This book is for the Gamemaster only. It contains the tools that the GM needs to manage his role, but also detailed information on the secrets of the *Forbidden Lands* and several complete adventure sites. If you are not the GM and read this now, you are robbing yourself of the pleasure of discovering the secrets in-game.
+
+This chapter begins with a description of the seven principles of the game, the linchpins for playing in the Forbidden Lands, and then explains the tools that you as GM have at your disposal. The end of the chapter also offers advice on how to start your first game session of *Forbidden Lands*, suggestions on <!-- p.5 --> <!-- p.6 --> how to create and manage your NPCs, and advice on what to do when the adventurers fail their actions.
 
 ## Principles of the Game
 
@@ -143,7 +143,11 @@ A recommendation is to let the availability fluctuate. Allow the player characte
 
 When the player characters succeed in their rolls, it is up to the players to describe how. When they fail, it is up to you to decide what happens. The basic rule is that a failure should have a consequence that drives the game forward. Avoid letting a failure grind the action to a halt, instead allow it to push the story in a new direction or place the adventurers in even more dire straits. This principle is called to “fail forward.”
 
-**COMBAT:** In combat it is a sufficient consequence of a failure to let the turn pass to the opponent. <!-- p.12 --> But you may also subject the player character to further complications. Let the situation decide.
+**COMBAT:** In combat it is a sufficient consequence of a failure to let the turn pass to the opponent.
+
+<!-- p.12 -->
+
+But you may also subject the player character to further complications. Let the situation decide.
 
 ## Events at the Stronghold
 
@@ -151,7 +155,7 @@ The *Player’s Handbook* describes how the adventurers can build their own stro
 
 The GM first rolls a number of D6s equal to the highest Reputation score in the group, but at least one die should be rolled. The highest die becomes the tens digit in a D66 roll on the table below. Roll a separate D6 for the ones digit.
 
-Only roll when the stronghold is guarded, by the adventurers themselves or their militia. There is a table for unguarded strongholds on page 164 in the *Player’s Handbook*. Certain functions in the stronghold, like GALLOWS, can affect the event roll, as well as some results from the table for non-payment of salaries (page 162 in the *Player’s Handbook.* <!-- p.13 --> <!-- p.14 --> <!-- p.15 -->
+Only roll when the stronghold is guarded, by the adventurers themselves or their militia. There is a table for unguarded strongholds on page 164 in the *Player’s Handbook*. Certain functions in the stronghold, like GALLOWS, can affect the event roll, as well as some results from the table for non-payment of salaries (page 162 in the *Player’s Handbook.*
 
 ### Box: Once Again?
 
@@ -188,6 +192,12 @@ Only roll when the stronghold is guarded, by the adventurers themselves or their
 | 64 | **RUST BROTHERS**. A band of D6 Rust Brothers (see page 40 for stats) knocks on the gates and wants to inspect the stronghold. They demand D6 gold in tribute to the god Rust and that a SHRINE be built in honor of the god. If the adventurers throw the Rust Brothers out, they will return in greater numbers later on. |
 | 65 | **THE LORD’S TRIBUTE**. A local lord (the GM decides who) deems that the stronghold lies on his land. A patrol of 2D6 men-at-arms (stats as per typical soldiers, see page 183) pound on the gates and demand that the adventurers pay 2D6 gold in tax and swear fealty to the lord. If they refuse, the lord will attack the stronghold at some later time in a large assault. The GM decides the details. |
 | 66 | **THE ORC CHIEFTAIN**. An orc chieftain in the area (the GM decides who) deems that the stronghold lies on his land. He leads a force of approximately 50 orc warriors to the stronghold and demands that the adventurers pay 4D6 gold in tax and swear fealty to him. If they refuse, the orcs will lay siege to the stronghold and attack when the time is right. |
+
+<!-- p.13 -->
+
+<!-- p.14 -->
+
+<!-- p.15 -->
 
 <!-- p.16 -->
 
@@ -453,9 +463,9 @@ In the aftermath of war, demonic invasions and the curse of the Blood Mist, huma
 
 In the calendar used by the humans of the Forbidden Lands, the year is divided into eight phases, split up by eight festivals. The calendar does not follow the moon, but phases with two full moons are considered stronger and have a more significant impact on events of the year.
 
-Every phase is 45 or 46 days long. During the Midwinter celebration, the most prominent servants of the gods decree when the different festivals will be celebrated during the year. Since the Forbidden Lands have several religions and the commandments about the festivals do not reach every part of
-
 **[Figure — calendar wheel]** The year as a wheel of eight festivals (capitals) and the phases between them, in order starting at the top: MIDWINTER – Winterwane – AWAKENING DAY – Springrise – SPRINGTURN – Springwane – LUSHDAY – Summerrise – MIDSUMMER – Summerwane – HARVEST DAY – Fallrise – FALLTURN – Fallwane – ROT DAY – Winterrise – (MIDWINTER).
+
+Every phase is 45 or 46 days long. During the Midwinter celebration, the most prominent servants of the gods decree when the different festivals will be celebrated during the year. Since the Forbidden Lands have several religions and the commandments about the festivals do not reach every part of
 
 <!-- p.36 -->
 
@@ -556,13 +566,11 @@ The Shardmaiden was Clay’s prophet, a female elf who lived during the Shift. A
 
 ## Wail
 
-Wail is the air goddess that the Raven sisters believe is the wife of the Protector god, Raven. She carries the bird god and all other <!-- p.42 --> birds through the sky. Wail is also the goddess of weather and is honored in this capacity by all elves, Elvenspring and the humans in the villages.
-
 ### Box: The Maha Language
 
-> The druids use the Maha language for their magic rituals. It is a written language consisting of pictograms without any spoken component. Maha is not used to communicate, but to formulate statements. These statements either say something about reality or create what they state through magic rituals. At the druid temples, Maha is used in more everyday contexts such as education.
->
-> The signs are often carved into clay tablets that are fired and then combined to form magic statements.
+> The druids use the Maha language for their magic rituals. It is a written language consisting of pictograms without any spoken component. Maha is not used to communicate, but to formulate statements. These statements either say something about reality or create what they state through magic rituals. At the druid temples, Maha is used in more everyday contexts such as education. The signs are often carved into clay tablets that are fired and then combined to form magic statements.
+
+Wail is the air goddess that the Raven sisters believe is the wife of the Protector god, Raven. She carries the bird god and all other <!-- p.42 --> birds through the sky. Wail is also the goddess of weather and is honored in this capacity by all elves, Elvenspring and the humans in the villages.
 
 ## Flow
 
@@ -610,7 +618,11 @@ Alderland is inaccessible, hidden behind the Iron Lock to the south. That’s th
 
 Alderlanders make up the majority of the villagers in the northern lands. Some remained after the Alder Wars, some deserted and some made their way east to Margelda. A few are Frailer sorcerers, half-elves seldom looked kindly upon by the Elvenspring, their blood relatives in the Forbidden Lands. Others have joined bands of marauders that ravaged Margelda during Zygofer’s glory days and now eke out a living raiding or as militia for the villages.
 
-The heraldry of Alderland takes the appearance of swords and branches from the <!-- p.46 --> <!-- p.47 --> <!-- p.48 --> alder tree. Alderlanders honor the alder tree as sacred and decorate themselves with branches from the tree during celebrations and festivals.
+**[Figure — map of kin homelands, east half; positions approximate]**
+
+- **North:** Stillelves and Elves (Dankwood, north-west); Crombe Dwarves (north centre); Elvenspring (two labels, centre); Saurians (by Anger Bay); Maidenholm and Far Vivend (north-east).
+- **Centre:** Ailanders (two labels: Margelda and west of it, Moldena); Quard Aslenes (east of Margelda); Meromannian Dwarves and Alderlanders (west edge).
+- **South:** Galdane Aslenes (Yendra, south-east); Goblins (two labels, The Shroud and south of it); Wolfkin (south-west, Bangwood); Halflings (Belifar, south).
 
 **[Figure — map of kin homelands, west half (p.46–47 form one map); positions approximate]** North is up.
 
@@ -618,11 +630,7 @@ The heraldry of Alderland takes the appearance of swords and branches from the <
 - **Centre-west:** Ogres in Harmsmoor (west); Urhur Orcs (centre, Fearlmark, two labels); Roka Orcs (east of them, by Arina Forest); Isir Orcs (south of Arina Forest, and again in the south-east).
 - **South-west:** Alderlanders (two labels, around Harga); Demons (south-west, by Shadowgate Pass); Misgrown (south-west, toward the Iron Lock); Wolfkin (south-east corner, by Begrand and the Groveland Woods).
 
-**[Figure — map of kin homelands, east half; positions approximate]**
-
-- **North:** Stillelves and Elves (Dankwood, north-west); Crombe Dwarves (north centre); Elvenspring (two labels, centre); Saurians (by Anger Bay); Maidenholm and Far Vivend (north-east).
-- **Centre:** Ailanders (two labels: Margelda and west of it, Moldena); Quard Aslenes (east of Margelda); Meromannian Dwarves and Alderlanders (west edge).
-- **South:** Galdane Aslenes (Yendra, south-east); Goblins (two labels, The Shroud and south of it); Wolfkin (south-west, Bangwood); Halflings (Belifar, south).
+The heraldry of Alderland takes the appearance of swords and branches from the <!-- p.46 --> <!-- p.47 --> <!-- p.48 --> alder tree. Alderlanders honor the alder tree as sacred and decorate themselves with branches from the tree during celebrations and festivals.
 
 **AILANDERS:** The Ailanders were the first group of humans who found their way north to Ravenland from Alderland. They fled religious persecution seven hundred years ago. The Ailanders worship the Protector under the name Raven and were led during their exodus by the priesthood of the Raven Sisters. Many Alderlanders believe Ailanders in general and Raven Sisters in particular are heretics and traitors since the Rust Brothers claim the raven worshippers, backed by the elves and dwarves, tried to take control of Ravenland using trickery. The Ailanders keep a low profile and often want to live simple lives in peace with others. They have the same appearance as Alderlanders, but deviate when it comes to equality, striving for peace and living in accordance with the will of the gods. Many of them have fled east to the coastal plains of the Forbidden Lands, but rumors speak of the hidden village of Koracia, supposedly housing a shrine honoring the Raven god.
 
@@ -1498,7 +1506,11 @@ A Drakewyrm can’t stand competing with anyone when it comes to its brilliance,
 
 ## Ent
 
-The enormous living trees that traverse the northern forests of the Forbidden Lands are called Ents. Many of them have no interest in anything but the greenery of the lands, which they care for tenderly, while others are curious about visitors and enjoy music. <!-- p.93 --> It sometimes comes to pass that Ents leave their forests, mostly to avenge wicked deeds against trees, and it is said that entire villages have been crushed following careless forest burnings.
+The enormous living trees that traverse the northern forests of the Forbidden Lands are called Ents. Many of them have no interest in anything but the greenery of the lands, which they care for tenderly, while others are curious about visitors and enjoy music.
+
+<!-- p.93 -->
+
+It sometimes comes to pass that Ents leave their forests, mostly to avenge wicked deeds against trees, and it is said that entire villages have been crushed following careless forest burnings.
 
 The legends claim that the god Clay himself originally created all life, animals as well as plants, with mobility and intelligence, but when the god woke the Ents – the first living trees – it soon realized that they had become so powerful that they threatened to destroy the rest of creation. Clay then decided to instead create plants peaceful and rooted. The Ents were, however, allowed to remain as their protectors.
 
@@ -1534,8 +1546,7 @@ Sometimes, ghosts possess statues or other inanimate objects, bringing them to l
 
 - **Attributes:** Strength 8, Agility 3, Wits 3, Empathy 2
 - **Movement:** 1
-- **Armor Rating:** Ghosts are immaterial and can only be hurt by fire or magic.
-- Even if a ghost is defeated, it will only be banished for a Quarter Day and will then return. The only way to truly destroy a ghost is to use the PURGE UNDEAD spell on it.
+- **Armor Rating:** Ghosts are immaterial and can only be hurt by fire or magic. Even if a ghost is defeated, it will only be banished for a Quarter Day and will then return. The only way to truly destroy a ghost is to use the PURGE UNDEAD spell on it.
 
 ### Table: Monster Attacks
 
@@ -1669,7 +1680,11 @@ Gryphons hunt anything that moves within their territory and can become a great 
 
 Harpies are notoriously sly and evil birds of prey with the heads of women, who appear in flocks all over the Forbidden Lands. Since they gladly attack lonesome men and steal small children who are left unsupervised, some believe that they may be cursed, hateful mothers who murdered their own children.
 
-The more general opinion is that Zygofer and the Rust Brothers create harpies from captured Raven Sisters after having corrupted the minds of these women through torture and magic, since death is considered all too lenient for these heretics. The intention was to fuse the head and torso to the bodies of ravens to mock the beliefs of the Raven Sisters, but since the raven is too weak to support such a weight they had to choose the larger bodies of birds of prey. <!-- p.105 --> The creature has been joined with the demon substance mog. Harpies aren’t very powerful in open combat, but on the other hand, they prefer to act in secrecy through betrayal.
+The more general opinion is that Zygofer and the Rust Brothers create harpies from captured Raven Sisters after having corrupted the minds of these women through torture and magic, since death is considered all too lenient for these heretics. The intention was to fuse the head and torso to the bodies of ravens to mock the beliefs of the Raven Sisters, but since the raven is too weak to support such a weight they had to choose the larger bodies of birds of prey.
+
+<!-- p.105 -->
+
+The creature has been joined with the demon substance mog. Harpies aren’t very powerful in open combat, but on the other hand, they prefer to act in secrecy through betrayal.
 
 ### Stats: Harpies
 
@@ -1771,8 +1786,7 @@ The scholars of the Forbidden Lands believe that the first Manticores were demon
 - **Skills:** Scout 4
 - **Movement:** 2
 - **Armor Rating:** 5
-- **Sensitive Tail:** A BLUNT weapon hit on the tip of a Manticore’s tail (−3 to hit)
-- that causes three points of damage or more will crush its poison glands, inflicting one point of damage to Agility per round of combat.
+- **Sensitive Tail:** A BLUNT weapon hit on the tip of a Manticore’s tail (−3 to hit) that causes three points of damage or more will crush its poison glands, inflicting one point of damage to Agility per round of combat.
 
 ### Table: Monster Attacks
 
@@ -1791,7 +1805,7 @@ The scholars of the Forbidden Lands believe that the first Manticores were demon
 
 Minotaurs are semi-intelligent and brutal flesh-eating crossbreeds between humans and bovines. They ravage alone or in small groups, but are also hired as guardians or as thugs in gangs of robbers. When not assaulting humans they may harass goats, sheep or horses, appearing to find pleasure in goring and beating as many as possible to a pulp. Minotaurs are strong and hardy beasts that you’d do best to run from.
 
-Some say that the whisperer Zygofer as a youthful hermit received his first unspeakable teachings among demons and undead sorcerers. For nourishment in these barren lands, he brought a cow for milking. However, possessed by the lust and rage of the demons he abused, the poor creature became pregnant and gave birth to the first Minotaurs. The creatures were so brazen and unruly that they, still sticky with fetal membrane, ran to the woods and gave rise to their own kin. <!-- p.113 -->
+Some say that the whisperer Zygofer as a youthful hermit received his first unspeakable teachings among demons and undead sorcerers. For nourishment in these barren lands, he brought a cow for milking. However, possessed by the lust and rage of the demons he abused, the poor creature became pregnant and gave birth to the first Minotaurs. The creatures were so brazen and unruly that they, still sticky with fetal membrane, ran to the woods and gave rise to their own kin.
 
 ### Table: Monster Attacks
 
@@ -1803,6 +1817,8 @@ Some say that the whisperer Zygofer as a youthful hermit received his first unsp
 | 4 | **CLEAVING CHOP!** The beast swings its weapon above its head and brings it down with maximum force. The adventurer suffers an attack using ten Base Dice (Weapon Damage according to the weapon), ignoring three points of armor. The attack may be PARRIED. |
 | 5 | **SWEEPING ATTACK!** Roaring, the Minotaur sweeps its weapon in a wide arc, hitting everyone within ARM’S LENGTH. Roll for an attack using eight Base Dice (Weapon Damage according to the weapon) against each victim. |
 | 6 | **STOMPING ATTACK!** The Minotaur jumps high in the air, landing hard on top of the adventurer. The victim is felled to the ground if hit. The attack is performed using twelve Base Dice and Weapon Damage 1 (blunt force). |
+
+<!-- p.113 -->
 
 ### Stats: Minotaur
 
@@ -1873,8 +1889,6 @@ Legends tell of how the pirate Scarda was attacked by three Sea Serpents but man
 
 Like many of the strange beasts of the Forbidden Lands, the Strangling Vines are believed to be escaped experiments from some demonological laboratory. These flesh-eating plants are difficult to combat since they usually hide among peaceful greenery and seem to possess a certain degree of intelligence. The plant often waits in a sunny glade for some unsuspecting victim to settle down nearby, and then attacks with a number of barbed vines to attempt to trap and strangle it. The vines, strong and tough enough to break limbs, originate from a central pumpkin-like trunk that is often found to have buried itself into the ground. A few beautiful violet flowers in constant bloom serve as the plant’s sensory organs, letting it know what’s going on.
 
-The vines drag the dead prey to the trunk, which extends growths similar to suction feet that attach to the dead corpse, dissolving it with its fluids and sucking out <!-- p.119 --> all nourishment. It is believed that the plant can draw up its roots and slowly wander to a new location.
-
 ### Table: Monster Attacks
 
 | D6 | Attack |
@@ -1885,6 +1899,8 @@ The vines drag the dead prey to the trunk, which extends growths similar to suct
 | 4 | **DEADLY EMBRACE!** A tangle of vines ensnares an adventurer within NEAR range. Roll for the attack with eight Base Dice and Weapon Damage 1 (blunt force). If the attack hits, the adventurer is GRAPPLED. |
 | 5 | **PENETRATING ATTACK!** A vine tries to force its way into a body cavity (such as the mouth, the eyes or the ears) of an adventurer within NEAR range. Roll for the attack with ten Base Dice and Weapon Damage 2 (slash wound). The attack damages both STRENGTH and EMPATHY due to the horrifying experience. |
 | 6 | **POISONOUS CLOUD!** The creature’s purple flowers open up and emit a cloud of spores that affects all adventurers within NEAR range. All suffer the effects of a paralyzing poison with Potency 8. |
+
+The vines drag the dead prey to the trunk, which extends growths similar to suction feet that attach to the dead corpse, dissolving it with its fluids and sucking out <!-- p.119 --> all nourishment. It is believed that the plant can draw up its roots and slowly wander to a new location.
 
 ### Stats: Starngling Vine
 
@@ -1929,7 +1945,7 @@ Some Trolls gorge themselves until they are so large and round that they more of
 
 The living dead are a natural phenomenon in the villages since the deceased often tend to keep walking about in a state of confusion before finding their final rest. They are treated with respectful courtesy. The Rust Brothers’ venture of magically creating servants and warriors from these restless dead is disliked by most.
 
-For the most part, they wander around and perform their chores in more or less broken or decomposed forms, eventually as skeletons, but some become ghouls who draw power from other bodies to fuel their mockery of life. Especially powerful dead can become Death Knights. <!-- p.123 -->
+For the most part, they wander around and perform their chores in more or less broken or decomposed forms, eventually as skeletons, but some become ghouls who draw power from other bodies to fuel their mockery of life. Especially powerful dead can become Death Knights.
 
 ### Stats: Restless Dead
 
@@ -1950,6 +1966,8 @@ For the most part, they wander around and perform their chores in more or less b
 - **Skills:** Melee 3, Scout 3
 - **Bite:** 2 (Virulence 4)
 
+<!-- p.123 -->
+
 ### Box: Monster Attacks
 
 > The rules for monsters in combat don’t apply to Undead. Instead, they act like normal fighters. As they lack Wits and Empathy, however, they are immune to spells that damage these attributes, as well as to the MANIPULATION skill.
@@ -1964,7 +1982,7 @@ The creatures prefer to live in crags near wetlands and can attack in flocks, te
 
 The best defense against Wyverns is to attempt to get them down on the ground, where they are clumsy and practically defenseless. Villages in afflicted areas often use weapons with barbed chains that get caught in the leathery wings of the beasts, tearing them to shreds.
 
-The Wyverns have a very thin but energyladen layer of blubber under their skin that keeps them warm even during winter. Skilled tailors can sew warm winter clothes from the skin and the blubber is both flavorful and nutritious and as such it is popular as a provision. <!-- p.126 --> <!-- p.127 -->
+The Wyverns have a very thin but energyladen layer of blubber under their skin that keeps them warm even during winter. Skilled tailors can sew warm winter clothes from the skin and the blubber is both flavorful and nutritious and as such it is popular as a provision.
 
 ### Stats: Wyvern
 
@@ -1984,6 +2002,8 @@ The Wyverns have a very thin but energyladen layer of blubber under their skin t
 | 5 | **SHAKE ATTACK!** The Wyvern tries to bite and violently shake an adventurer. Roll for the attack with nine Base Dice and Weapon Damage 2 (slash wound). If the attack hits, the victim is thrown to NEAR distance from the Wyvern, and lands prone. |
 | 6 | **FALL FROM THE SKY!** The beast grabs an adventurer within NEAR range and lifts her up into the sky. Roll for the attack with eight Base Dice. If the attack hits, the Wyvern and its victim both ascend to SHORT range from the ground. The next round, the victim is dropped and suffers the effects of a fall from 2D6+10 meters (see page 113 in the *Player’s Handbook).* |
 
+<!-- p.126 -->
+
 ## Table: Animals
 
 | Animal | Strength | Agility | Skills | Movement | Weapon | Damage | Type |
@@ -1998,6 +2018,8 @@ The Wyverns have a very thin but energyladen layer of blubber under their skin t
 | Donkey | 3 | 3 | Move 2, Endurance 2, Scout 3 | 2 | Kick | 1 | Blunt |
 | Canide War Hound | 5 | 3 | Move 2, Melee 3, Scout 3 | 2 | Bite | 1 | Slash |
 | Crocodile | 4 | 2 | Melee 3, Scout 3 | 1 | Bite | 2 | Slash |
+
+<!-- p.127 -->
 
 ## Box: Swarms
 
@@ -2433,7 +2455,7 @@ Time passes without any significant encounter. Describe the surrounding nature �
 
 ## Table: Random Encounters
 
-| D66 | Plains | Forest | Dark Forest | Hills | Moun- Tains | Lake | Marsh- Lands | Quag- Mire | Ruins |
+| D66 | Plains | Forest | Dark Forest | Hills | Mountains | Lake | Marshlands | Quagmire | Ruins |
 |---|---|---|---|---|---|---|---|---|---|
 | 11–36 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 41 | 1 | 1 | 1 | 1 | 1 | 0 | 1 | 1 | 1 |
@@ -2465,9 +2487,7 @@ Time passes without any significant encounter. Describe the surrounding nature �
 
 > Sooner or later, you will roll an encounter that you have already rolled before. When this happens, choose one of the options below:
 >
-> - Continue the encounter.
->
-> The adventurers meet the same people or creature again.
+> - Continue the encounter. The adventurers meet the same people or creature again.
 >
 > - Change the encounter. The adventurers meet a similar creature or person, but it’s different in some way.
 >
@@ -2693,7 +2713,11 @@ The Ents are carrying a dead relative towards the Stillmist in a burial processi
 
 ## 21: The Vengeful Spirit
 
-*Quiet! Can you hear it? A scream? A voice? You look at each other, but the landscape is deserted. Then suddenly, you feel an ice-cold wind blowing through your souls. A gray, shimmering shape forms in the middle of your party, with a once human face twisted in an unnatural scream.* <!-- p.157 --> *You have heard the stories around the campfires before. A lost soul, a spirit unable to come to rest.*
+*Quiet! Can you hear it? A scream? A voice? You look at each other, but the landscape is deserted. Then suddenly, you feel an ice-cold wind blowing through your souls. A gray, shimmering shape forms in the middle of your party, with a once human face twisted in an unnatural scream.*
+
+<!-- p.157 -->
+
+*You have heard the stories around the campfires before. A lost soul, a spirit unable to come to rest.*
 
 The adventurers meet the ghost of the long dead Alderlander commander Garmagol. During a campaign four hundred years ago, he was lured into a trap by his war-weary men and murdered by his own troops. Since then, Garmagol has wandered the land seeking revenge. As the Alderlander soldiers are long gone, anyone with a weapon is fair game. If the adventurers are observant, they can see that the ghost has a shimmering dagger stuck between his shoulder blades. The adventurers might be able to reason with the ghost if they talk about the dagger and Garmagol’s death.
 
@@ -2961,13 +2985,11 @@ This chapter provides the tools to create your own unique adventure sites, using
 
 ##### Playing Adventure Sites
 
-An adventure site is not a scenario in the traditional sense. It has locations, NPCs and events <!-- p.168 --> – but it does not provide a pre-determined narrative for the adventurers to follow. Instead, they can interact with an adventure site in many different ways – even turning it into their own stronghold, if they can claim it for themselves.
-
 ## Box: Legends
 
-> The pre-written adventure sites each have a *legend* – a rumor or story about the place. You can let the adventurers hear legends during their journeys, or make LORE rolls to remember them.
->
-> These legends are available as handouts that can be downloaded from the Free League website. When you create your own adventure site, you’ll need to make up your own legend for it.
+> The pre-written adventure sites each have a *legend* – a rumor or story about the place. You can let the adventurers hear legends during their journeys, or make LORE rolls to remember them. These legends are available as handouts that can be downloaded from the Free League website. When you create your own adventure site, you’ll need to make up your own legend for it.
+
+An adventure site is not a scenario in the traditional sense. It has locations, NPCs and events <!-- p.168 --> – but it does not provide a pre-determined narrative for the adventurers to follow. Instead, they can interact with an adventure site in many different ways – even turning it into their own stronghold, if they can claim it for themselves.
 
 ##### Turns
 
@@ -3724,11 +3746,11 @@ Stats for different types of beings can be found in several locations in this bo
 
 Most adventurers will hunt for treasure and gold, so as to acquire enough wealth to build their own stronghold and make their mark on the Forbidden Lands. There are two categories of treasure in the game: finds and artifacts. This section deals with finds, which can be anything from valuable items to weapons and armor to coins and treasure. Artifacts are unique and powerful items and have their own chapter on page 128.
 
-Finds are divided into three categories: SIMPLE, VALUABLE and PRECIOUS. What category a particular find belongs to is generally described in the text of an adventure site or decided by you as the GM. Keep in mind that SIMPLE <!-- p.187 --> finds are much more common than VALUABLE ones, which in turn can be found more often than the elusive PRECIOUS finds.
-
 ### Box: Carrying Treasure
 
 > Finds use the rules for encumbrance found on page 37 in the *Player’s Handbook.* Some items are very bulky and need to be carried by several adventurers. These items have a number listed in the Weight column, indicating how many normal items that this find counts as when it comes to encumbrance.
+
+Finds are divided into three categories: SIMPLE, VALUABLE and PRECIOUS. What category a particular find belongs to is generally described in the text of an adventure site or decided by you as the GM. Keep in mind that SIMPLE <!-- p.187 --> finds are much more common than VALUABLE ones, which in turn can be found more often than the elusive PRECIOUS finds.
 
 The tables are divided into two categories: “carried finds” and “finds in a lair.” The former category is used for all types of items that an adventurer may carry on them. “Finds in a lair” is used for items stored somewhere.
 
@@ -3978,11 +4000,13 @@ Note that The Hollows must be located in a map hexagon next to a river.
 
 ## Legend
 
-*The Hollows… Have you ever been to that dump?* <!-- p.196 --> *It’s a village at the back of beyond. Cowards and milksops hid from the Blood Mist in that sorry excuse for a village, waiting for better times. They were unaware of one thing, however… that their peaceful village was built on a site of blood and death.*
+*The Hollows… Have you ever been to that dump?*
+
+<!-- p.196 -->
+
+*It’s a village at the back of beyond. Cowards and milksops hid from the Blood Mist in that sorry excuse for a village, waiting for better times. They were unaware of one thing, however… that their peaceful village was built on a site of blood and death.*
 
 ## Locations
-
-The Hollows was built on the ruins of an old burial ground, southeast of a hillock covered by sharp rocks. The village has spread all the way down to the river, and is surrounded by a low <!-- p.197 --> stone wall. There are two sturdy wooden gates, one to the east and one to the south. Fields with rye, grain, turnips and various vegetables surround the village. A path leads from each gate towards the wilderness. After a few hundred meters, the paths turn into animal tracks and soon disappear completely. The paths and roads in the village are usually bordered by red-painted stones.
 
 ## Table: Strange Events in the Hollows
 
@@ -3992,11 +4016,13 @@ The Hollows was built on the ruins of an old burial ground, southeast of a hillo
 | 2 | The Gravedigger | A ghostly apparition is whistling a song and at the same time “digging” at the earth with a spade that looks like it’s dancing in thin air. This is the ghost of Ulm, the gravedigger, dead for three centuries, continuing the task of burying his fallen comrades. When the adventurers approach, he stops whistling, freezes in mid-movement and looks straight at them with his black eyes. “Have you been sent by the King?” he asks in a muddled voice. If the adventurers say that they have, Ulm will attack them in the form of a ghoul. If not, he will keep on digging. |
 | 3 | Dead Man’s Hand | One of the party stumbles and falls to the ground and then all the others feel that something is pulling on their shoes and breeches. Terrified, they realize that the earth around them has been pierced by grey hands, trying to drag them into the underworld. Let them all make a roll for STRENGTH in order to break free. Anyone who fails is temporarily dragged into the earth, and will suffer a fear attack using six dice. |
 
+The Hollows was built on the ruins of an old burial ground, southeast of a hillock covered by sharp rocks. The village has spread all the way down to the river, and is surrounded by a low <!-- p.197 --> stone wall. There are two sturdy wooden gates, one to the east and one to the south. Fields with rye, grain, turnips and various vegetables surround the village. A path leads from each gate towards the wilderness. After a few hundred meters, the paths turn into animal tracks and soon disappear completely. The paths and roads in the village are usually bordered by red-painted stones.
+
 ### 1. The Wall
 
 *A low and badly worn stone wall, half as tall as a man, snakes around the parts of the village that aren’t facing the hillock. The entire wall is covered by winding rose and rose hip bushes, giving it a pungent but pleasant smell.*
 
-Climbing the wall is a prickly experience requiring a roll against MOVE to avoid suffering <!-- p.198 --> <!-- p.199 --> <!-- p.200 --> one point of damage.
+**[Figure — map of the Hollows (p.198–199)]** Village map with numbered locations 1–20; the numbers match the keyed location sections that follow.
 
 ##### Table: (continued)
 
@@ -4006,7 +4032,7 @@ Climbing the wall is a prickly experience requiring a roll against MOVE to avoid
 | 5 | The Duel | A harsh and wordless shout breaks the silence of the evening. A knight in full armor strides out of the darkness, brandishing a broadsword and a shield. A couple of arrows are sticking out from his side, and a twisted skeleton face can dimly be seen under the helmet. The undead warrior points with his sword at the adventurer with the highest Strength, and then bangs his sword and shield together in a gesture that can’t be interpreted as anything other than a challenge. The ghoul is going to fight whether the adventurer accepts the challenge or not, but instead of being hit by the weapon, the target will be thrown to the ground or forcefully kicked into a building. If the adventurer pulls out one of the arrows, the knight will get down on his knees and then slowly fade away. |
 | 6 | The Funeral Feast | Elrand the miller died in an accident some twenty years ago, but his ghost hasn’t accepted his fate yet and still visits Dead Man’s Hand once a week for a tankard of beer that runs straight through his ethereal body, forming a small puddle on the floor. The regulars are amusing themselves by telling newcomers to ask the lonely man at the bar something, and then wait for their reaction when the newcomers discover the hideous face of the ghost. The victim will suffer a fear attack using four dice. |
 
-**[Figure — map of the Hollows (p.198–199)]** Village map with numbered locations 1–20; the numbers match the keyed location sections that follow.
+Climbing the wall is a prickly experience requiring a roll against MOVE to avoid suffering <!-- p.198 --> <!-- p.199 --> <!-- p.200 --> one point of damage.
 
 ### 2. The Watchtowers
 
@@ -4094,13 +4120,13 @@ This is the burial site of the villagers. The small building is dedicated to the
 
 ### 13. Chapel
 
-*At one end of the square is a chapel. A pointed roof of painted tiles is built on top of a circle of wooden columns. On the columns are carved beautiful* <!-- p.204 --> *reliefs of birds. The stone floor of the temple is covered with dried flowers, copper coins, crops and animal bones.*
-
 ### Box: Who does What?
 
 > Most of the inhabitants of The Hollows grow their own beets, bake their own bread and repair their own things, but they often turn to the blacksmith, the matron, the gamekeeper, or the brewmaster to repair complex items or bulk up their stock of food and drink.
 >
 > The adventurers can purchase most everything in the village. For provisions they can turn to the matron. For tools they’d go to the gamekeeper or the fisherman. When it comes to weapons and armor, the blacksmith Ness might need a little time, since he only stocks spears and arrows. The prices adhere to the list on page 182 in the *Player’s Handbook.*
+
+*At one end of the square is a chapel. A pointed roof of painted tiles is built on top of a circle of wooden columns. On the columns are carved beautiful* <!-- p.204 --> *reliefs of birds. The stone floor of the temple is covered with dried flowers, copper coins, crops and animal bones.*
 
 Once a month and on holy days, Olm conducts a ceremony at the chapel. During the ceremony, the gods Wail, Flow and the Nightwalker are worshipped. The villagers pray for bountiful harvests and uncomplicated births, and honor their dead. Small offerings of animals and crops are left for the gods at the chapel.
 
@@ -4275,8 +4301,6 @@ The undead that haunt The Hollows take many shapes. Some are just ethereal ghost
 
 ## Events
 
-When the adventurers arrive at the village for the first time, the villagers will be averse towards them. The people here haven’t really become used to strangers yet and will treat them with suspicion. People will close their <!-- p.211 --> shutters, keep their children close and make signs to the gods when passing them in the street, but the adventurers are always welcome at the tavern of Dead Man’s Hand or at the Three Skulls Tavern. Let them struggle to get a hold of food, equipment and information. If the adventurers act good-naturedly, however, they will soon be accepted and <!-- p.212 --> sooner or later embroiled in the conflicts in the village. Below are described a couple of possible events.
-
 ### Table: Other NPCs
 
 | Name | Profession | Attributes | Skills | Other |
@@ -4288,6 +4312,8 @@ When the adventurers arrive at the village for the first time, the villagers wil
 | Ness | Blacksmith | Strength 4, Agility 2, Wits 3, Empathy 3 | Might 2, Melee 2, Crafting 3 | Warhammer |
 | Tolme | Fisherman | Strength 1, Agility 2, Wits 3, Empathy 3 | Crafting 2, Lore 2 | Knife |
 | — | Militia guard | Strength 3, Agility 3, Wits 2, Empathy 2 | Melee 1, Marksmanship 1 | Spear or axe, leather armor, some have short bows |
+
+When the adventurers arrive at the village for the first time, the villagers will be averse towards them. The people here haven’t really become used to strangers yet and will treat them with suspicion. People will close their <!-- p.211 --> shutters, keep their children close and make signs to the gods when passing them in the street, but the adventurers are always welcome at the tavern of Dead Man’s Hand or at the Three Skulls Tavern. Let them struggle to get a hold of food, equipment and information. If the adventurers act good-naturedly, however, they will soon be accepted and <!-- p.212 --> sooner or later embroiled in the conflicts in the village. Below are described a couple of possible events.
 
 ### The Beer War
 
@@ -4384,7 +4410,7 @@ The watchtower’s withered and cracked stones are overgrown with rust-colored, 
 
 The old bard, Dalb, has struck camp in the tower and is in the midst of cooking a rabbit over the fire. He invites the adventurers to eat with him around the fire. After the meal, he lights his pipe and tells them the legend of Weatherstone (see above). Then he continues:
 
-*“You are not the first to ask about Weatherstone this evening. The treasure hunter Esgar Farthing and his followers shared these very quarters just* <!-- p.218 --> <!-- p.219 --> <!-- p.220 --> *recently. They seek the weapon of king Algarod, the mighty sword Rustbite. Esgar is an impatient man and they left for the stronghold immediately. But there is something I never told them, something that you might find of interest…”*
+**[Figure — map of Weatherstone (p.218–219)]** Map with numbered locations; the numbers match the keyed location sections that follow.
 
 ### Box: Who is Dalb?
 
@@ -4392,11 +4418,9 @@ The old bard, Dalb, has struck camp in the tower and is in the midst of cooking 
 >
 > Esgar Farthing and his men are indeed entering the stronghold. There is a demon beast in the laboratory. King Algarod’s sword Rustbite is indeed magical. But the sword is also the very item that is the key to the dormant curse over Algarod and his undead men. Whoever touches the sword activates the curse once again, and wakes the king and his soldiers from their rest.
 >
-> Dalb/Merigall has no further role in this adventure. He will leave the tower before the adventurers exit Weatherstone. But this won’t be the last time that he crosses path with the adventurers.
->
-> More about that in the *Raven’s Purge* campaign book.
+> Dalb/Merigall has no further role in this adventure. He will leave the tower before the adventurers exit Weatherstone. But this won’t be the last time that he crosses path with the adventurers. More about that in the *Raven’s Purge* campaign book.
 
-**[Figure — map of Weatherstone (p.218–219)]** Map with numbered locations; the numbers match the keyed location sections that follow.
+*“You are not the first to ask about Weatherstone this evening. The treasure hunter Esgar Farthing and his followers shared these very quarters just* <!-- p.218 --> <!-- p.219 --> <!-- p.220 --> *recently. They seek the weapon of king Algarod, the mighty sword Rustbite. Esgar is an impatient man and they left for the stronghold immediately. But there is something I never told them, something that you might find of interest…”*
 
 Dalb inhales deeply from the pipe and looks at the adventurers over the crackling fire.
 
@@ -4412,15 +4436,13 @@ A muddy moat runs around Weatherstone into which a foul creature from the labora
 
 *You reach a gloomy hall, once a place for sumptuous feasts. Now it is only home to death and decay. The remains of rotting flesh and moldy tapestries spread an odor thick enough to make any living visitor gag. In old wooden chairs and on the cold stone floor are the remains of what once must have been the king’s Alderlander soldiers. It is as if they had fallen during a final supper.*
 
-A large, somewhat intact house close to the gate contains the main feast hall surrounded by an audience hall, guest quarters, kitchen and servant’s quarters. Each room is one zone for the purposes of combat. The soldiers’ corpses still have mummified flesh on them. <!-- p.221 -->
+A large, somewhat intact house close to the gate contains the main feast hall surrounded by an audience hall, guest quarters, kitchen and servant’s quarters. Each room is one zone for the purposes of combat. The soldiers’ corpses still have mummified flesh on them.
 
 #### Box: When the Undead have Risen
 
-> *Where once silence reigned, now a macabre feast is taking place. A dozen soldiers sit at the tables and a dozen more move around in the hall. The food on the tables are rocks and the liquid in whatever jugs remain whole has been scooped up directly from the moat. The guests move slowly, only emitting a rustling like thousands of rats running across dry leaves. Then, they spot you.*
->
-> *Their rotting throats emitting a dry*
+> *Where once silence reigned, now a macabre feast is taking place. A dozen soldiers sit at the tables and a dozen more move around in the hall. The food on the tables are rocks and the liquid in whatever jugs remain whole has been scooped up directly from the moat. The guests move slowly, only emitting a rustling like thousands of rats running across dry leaves. Then, they spot you. Their rotting throats emitting a dry gurgling sound, they draw their rusty blades and attack.*
 
-> *gurgling sound, they draw their rusty blades and attack.*
+<!-- p.221 -->
 
 - CREATURES: None, unless the undead are awake (see #9). If so, two dozen skeletons.
 - TREASURE: In the mess, there are D6 silver jugs worth D6 silver coins each. If the undead are awake, the jugs have owners that are unwilling to part with them.
@@ -4482,15 +4504,17 @@ The guard post consists of barracks and an armory. The rest of this building is 
 
 #### Box: When the Undead have Risen
 
-> *The cacophony of a score of undead marching back and forth in the barren, curved room resounds off its walls.*
->
-> *They turn after loudly slamming into the far wall. The sun is shining in through the many arrow slits, spearing through the dust torn up by the soldiers. Archers watch the lower parts of the stronghold from the slits. When undead see you, they turn their skeletal visages heads against you, eager to kill.*
+> *The cacophony of a score of undead marching back and forth in the barren, curved room resounds off its walls. They turn after loudly slamming into the far wall. The sun is shining in through the many arrow slits, spearing through the dust torn up by the soldiers. Archers watch the lower parts of the stronghold from the slits. When undead see you, they turn their skeletal visages heads against you, eager to kill.*
 
 ### 9. Algarod’s Tower
 
 *The chamber at the top of the tower is quiet and smells of mold and perfume. A large four-poster bed stands against the far wall, flanked by suits of armor. On the bed rests the remains of a man in full plate armor with a helmet and a crown. King Algarod of Alderland in his eternal rest. On his chest, the king’s gloved hands clutch a large, beautifully crafted sword. A huge painting of a young woman, with a stern face and dressed in a regal gown, hangs on the wall next to the bed. You get the eerie feeling that the woman is watching you.*
 
-The tower is furnished for the former lord of the stronghold, and holds a large combined bed chamber and observatory at the top of the tower. Here rests King Algarod. His three bodyguards can be found in an adjoining chamber. <!-- p.224 --> The portrait of the woman has the words “Queen Therania” inscribed on the frame. If a player makes a LORE roll, reveal the story of Therania, daughter of the vile demon-king Zygofer, and how it is said that she killed King Algarod and took him as his undead lover. If you are playing *Raven’s Purge*, you might even let the player who makes the LORE roll recall the legend of Zytera at this time.
+The tower is furnished for the former lord of the stronghold, and holds a large combined bed chamber and observatory at the top of the tower. Here rests King Algarod. His three bodyguards can be found in an adjoining chamber.
+
+<!-- p.224 -->
+
+The portrait of the woman has the words “Queen Therania” inscribed on the frame. If a player makes a LORE roll, reveal the story of Therania, daughter of the vile demon-king Zygofer, and how it is said that she killed King Algarod and took him as his undead lover. If you are playing *Raven’s Purge*, you might even let the player who makes the LORE roll recall the legend of Zytera at this time.
 
 The painting was enchanted by Therania and contains a sliver of her soul, still controlling the undead king. If the adventurers approach, the portrait suddenly comes to life and screams at the top of her lungs (a fear attack with eight Base Dice against everyone in the room).
 
@@ -4507,9 +4531,7 @@ Controlled by Therania, King Algarod will immediately attack anyone laying hands
 
 #### Box: Rustbite, Magical Longsword
 
-> Heavy, Weapon Bonus +2, Weapon Damage 2, Artifact Die D8 (D10 against demons and demon-tainted creatures), ignores three points of metal armor.
->
-> Each time the user causes an enemy to be Broken with the sword, she suffers 1 point of damage to Empathy.
+> Heavy, Weapon Bonus +2, Weapon Damage 2, Artifact Die D8 (D10 against demons and demon-tainted creatures), ignores three points of metal armor. Each time the user causes an enemy to be Broken with the sword, she suffers 1 point of damage to Empathy.
 
 The crown is a simple one made of silver and worth 3D6 silver coins. If you want to introduce Stanengist here (see *Raven’s Purge*), it can be the king’s crown instead. You can also let Algarod have the Nekhaka spire here.
 
@@ -4581,7 +4603,11 @@ In fact, Dyndria is a thief and assassin hired by the rulers of Alderland, south
 
 ### King Algarod
 
-The once mighty King Algarod wears chainmail and carries the sword Rustbite (until the adventurers steal it). He is tall and regal, with scars from crudely sewn wounds across his face. <!-- p.227 --> His is a melancholy existence, dictated by Therania’s commands. If her portrait above the bed in the top room of the tower is destroyed, Therania loses her power over him. He will fly into a rage and may attempt to take back his royal power, negotiate with his liberators, or even destroy himself forever – for example, by leaping from the ramparts or asking the adventurers to find an urn with his embalmed heart which is hidden in the laboratory. In the latter case, they will be rewarded with his war chest which he believes is still in the wagons in the ravine.
+The once mighty King Algarod wears chainmail and carries the sword Rustbite (until the adventurers steal it). He is tall and regal, with scars from crudely sewn wounds across his face.
+
+<!-- p.227 -->
+
+His is a melancholy existence, dictated by Therania’s commands. If her portrait above the bed in the top room of the tower is destroyed, Therania loses her power over him. He will fly into a rage and may attempt to take back his royal power, negotiate with his liberators, or even destroy himself forever – for example, by leaping from the ramparts or asking the adventurers to find an urn with his embalmed heart which is hidden in the laboratory. In the latter case, they will be rewarded with his war chest which he believes is still in the wagons in the ravine.
 
 - STRENGTH 8, AGILITY 3, WITS 3, EMPATHY 2 King Algarod is a Death Knight, a powerful undead being. Death Knights are described in detail on page 86.
 - **Gear:** Chainmail, great helm, the Rustbite longsword. If you want to introduce the *Nekhaka* spire or even the *Stanengist* crown itself (see *Raven’s Purge*), you can let Algarod have them in his chamber.
@@ -4607,7 +4633,7 @@ Around the keep are dozens of undead Alderlander soldiers, dead for centuries. W
 
 ### The Scorpion Beast
 
-A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, halfhuman, this is a creature that was never meant to live. The beast is totally driven by instinct and see all living creatures as potential food. The Scorpion Beast is a monster (see page 73). <!-- p.228 -->
+A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, halfhuman, this is a creature that was never meant to live. The beast is totally driven by instinct and see all living creatures as potential food. The Scorpion Beast is a monster (see page 73).
 
 - STRENGTH 14, AGILITY 8
 - **Armor:** 5 (carapace)
@@ -4617,6 +4643,8 @@ A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, 
 |---|---|
 | 1 | **WHIPPING TAIL!** A lightning quick attack with the beast’s tail hits one adventurer. Perform an attack with ten Base Dice and Weapon Damage 2 (slash wound). If it hits, the victim is thrown to the ground. |
 | 2 | **CLAW TOSS!** With a roar, the beast grabs an adventurer with its giant claw. Roll for the attack with eight Base Dice and Weapon Damage 2 (slash wound). If it hits, the beast locks its claw around the victim and shakes the adventurer violently. The adventurer must make an opposed Strength roll against the beast (not an action). If the roll fails, the adventurer is thrown to NEAR distance and lands prone. |
+
+<!-- p.228 -->
 
 > 3 CHILLING ROAR! The Scorpion Beast lets out an otherworldly scream that makes the adventurers blood freeze. Everyone within NEAR range is exposed to a fear attack rolled with six Base Dice.
 >
@@ -4684,7 +4712,11 @@ If Algarod is not destroyed once and for all, he will sooner or later leave Weat
 
 ## Background
 
-The bottom of the gorge once held the Temple of Silence, dedicated to the dead in the burial vale within. The temple has been abandoned for several ages, but has become the settlement of a tribe of whiners. The timid creatures have contracted the help of a couple of “drifters” – exiled orcs (see page 66) – to keep others away. In return, the guards receive food and drink. The Vale of the Dead beyond the caves was in ages long past a beautiful place where many lay buried, and other dead wandered in pursuit of a peace they could not find. The temple priests cultivated berries and fruits in the valley and the dead aided them in concordance with their interests and abilities. The orchards have since gone to ruin and spread wildly, but an abundance of edible plants still grow in the valley, harvested by the whiners at night. The fruits and berries are completely harmless to ingest. <!-- p.232 --> The one-eyed giant, Scrome, is the vale’s guardian. He used to keep the restless dead in harmonious spirits by playing on an old crumhorn, but it was stolen by the whiners because they couldn’t stand the sound, and the tune caused their hollow-rock to crumble. The orcs now use it as a cooling pipe for their improvised moonshine still. The whiners have covered the cave entrance to the vale with hollow-rock to prevent anyone from leaving the valley in search of the instrument.
+The bottom of the gorge once held the Temple of Silence, dedicated to the dead in the burial vale within. The temple has been abandoned for several ages, but has become the settlement of a tribe of whiners. The timid creatures have contracted the help of a couple of “drifters” – exiled orcs (see page 66) – to keep others away. In return, the guards receive food and drink. The Vale of the Dead beyond the caves was in ages long past a beautiful place where many lay buried, and other dead wandered in pursuit of a peace they could not find. The temple priests cultivated berries and fruits in the valley and the dead aided them in concordance with their interests and abilities. The orchards have since gone to ruin and spread wildly, but an abundance of edible plants still grow in the valley, harvested by the whiners at night. The fruits and berries are completely harmless to ingest.
+
+<!-- p.232 -->
+
+The one-eyed giant, Scrome, is the vale’s guardian. He used to keep the restless dead in harmonious spirits by playing on an old crumhorn, but it was stolen by the whiners because they couldn’t stand the sound, and the tune caused their hollow-rock to crumble. The orcs now use it as a cooling pipe for their improvised moonshine still. The whiners have covered the cave entrance to the vale with hollow-rock to prevent anyone from leaving the valley in search of the instrument.
 
 Zygofer visited the valley frequently with his wife Martea three-hundred years ago in order to learn more about necromancy, but earned the ire of Scrome and has not been welcome in the valley since that time. The ruins of Zygofer’s house and the remnants of his experiments still remain.
 

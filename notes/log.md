@@ -14,6 +14,9 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
 - Text: overlay copies over art removed (letter subsequence), paragraph rules (indent, list items, spell
   stat lines, italic flavour), hyphenation via vocabulary, small-caps NPC headings, encounter badges,
   letter-spaced titles, bookmark typos (fuzzy), Stats bookmarks to the heading above.
+- Review 4 (verification): `tools/verify.py` per-page word share + numbers. Found and fixed: tables
+  waiting for a paragraph end drifted pages (PHB p.101–103 weapons, p.147, GMG p.197/217); hyphenated
+  table headers; sidebars continued over a page; box paragraphs by word-fit test; numbered steps in boxes.
 - Known leftovers: `--check` misses ~200/150/40 words (PHB/GMG/L&A): art labels, map labels and dropped
   repeated table headers. GMG p.52 Box: Elven Saying heading sits at the page top.
 

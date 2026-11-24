@@ -12,9 +12,7 @@ pdf_pages: 152-152 of 268
 
 > Sooner or later, you will roll an encounter that you have already rolled before. When this happens, choose one of the options below:
 >
-> - Continue the encounter.
->
-> The adventurers meet the same people or creature again.
+> - Continue the encounter. The adventurers meet the same people or creature again.
 >
 > - Change the encounter. The adventurers meet a similar creature or person, but it’s different in some way.
 >

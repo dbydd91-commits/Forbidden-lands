@@ -10,8 +10,6 @@ pdf_pages: 184-185 of 212
 
 **TALENTS:** Items are classified as ADVANCED if they require a specific talent to be crafted. This is indicated in the Talent column. If no talent is listed, the item is SIMPLE and can be crafted by anyone.
 
-**TOOLS:** Many items require specific tools to be crafted. Such requirements are listed in the Tools column. Some items even require certain functions, such as a FORGE, to be made. Read more about functions in Chapter 8. Functions <!-- p.181 --> don’t only exist in strongholds – the adventurers can find them in villages and other locations in the Forbidden Lands as well.
-
 ## Table: Common Services
 
 | Service | Price | Supply | Comment |
@@ -32,5 +30,7 @@ pdf_pages: 184-185 of 212
 | Flagon of Ale | 2 copper | Common | Covers the daily need of Water. |
 | Chalice of Wine | 4 copper | Uncommon | Covers the daily need of Water. |
 | Teacher | 1 silver per day or more | Uncommon | Read more about teachers on page 40. |
+
+**TOOLS:** Many items require specific tools to be crafted. Such requirements are listed in the Tools column. Some items even require certain functions, such as a FORGE, to be made. Read more about functions in Chapter 8. Functions <!-- p.181 --> don’t only exist in strongholds – the adventurers can find them in villages and other locations in the Forbidden Lands as well.
 
 **PRICE:** The cost of an item can vary greatly from place to place.

@@ -645,7 +645,8 @@ def table_md(r: Region, shaded, vocab):
         else:
             cols.append({"x0": l.x0, "x1": l.x1, "parts": [l]})
     cols.sort(key=lambda c: c["x0"])
-    names = [title_case(" ".join(p.text for p in sorted(c["parts"], key=lambda p: p.y0))) for c in cols]
+    names = [title_case(join_lines([p.text for p in sorted(c["parts"], key=lambda p: p.y0)], vocab))
+             for c in cols]                     # "MOUN-" + "TAINS" -> Mountains
     if r.single_head and cols:                  # columns right of the only header cell are unnamed
         extra = sorted(l.x0 for u in units for l in u if l.x0 > cols[-1]["x1"] + 4)
         for x in extra:
@@ -796,11 +797,21 @@ def box_items(r: Region, vocab):
     body.sort(key=lambda l: (l.col if r.col == "F" else "", round(l.y0), l.x0))
     items, cur, prev = [], None, None
     right = max(l.x1 for l in body) if body else 0
+    box_left = min(l.x0 for l in body) if body else 0
     for l in body:
         lab = label_of(l.spans)
         bullet = l.text.strip()[:1] in BULLETS
+        # box text is ragged-right: the previous line ended its paragraph if the next line's first
+        # word would have fitted on it (and it ends a sentence); numbered steps; gaps; indents
+        first = (l.text.strip().split() or [""])[0]
+        cw = (prev.x1 - prev.x0) / max(len(prev.text), 1) if prev else 0
+        fits = prev is not None and prev.x1 + (len(first) + 1) * cw < right - 2
         new_para = (prev is None or lab or bullet or l.y0 - prev.y1 > 7
-                    or (prev.x1 < right - 12 and re.search(r"[.!?:”’)]$", prev.text.strip())))
+                    or re.match(r"\d+\.\s", l.text.strip())
+                    or (fits and re.search(r"[.!?:”’)*]$", prev.text.strip()))
+                    or (l.x0 - box_left >= 8 and prev.x0 - box_left < 3 and prev.x1 >= right - 15
+                        and abs((l.x0 + l.x1) - (prev.x0 + prev.x1)) > 6      # not centred text
+                        and not (cur and cur.get("bullet"))))
         if lab:
             rest = l.text.strip()[len(lab):].strip()
             cur = {"label": lab.rstrip(":").strip(), "lines": [rest] if rest else []}
@@ -906,8 +917,20 @@ class TableBlock:
     def merge(items):
         """Join a table continued on the next page(s) into one: same columns, only page
         anchors in between, and either no heading or a "<caption>, Cont." heading."""
+        items = [str(x) if isinstance(x, Holder) else x for x in items]
+        items = [x for x in items if not (isinstance(x, str) and not x.strip())]
         out, last, prev_names = [], None, None
+        box_at = None                    # index in out of the last sidebar (box) block
         for x in items:
+            if (isinstance(x, str) and x.startswith("> ") and box_at is not None
+                    and not re.search(r"[.!?”’)]\*?$", out[box_at].rstrip())):
+                # a sidebar running on over the page break: one box
+                out[box_at] = join_lines([out[box_at].rstrip(), x[2:]], None)
+                continue
+            if isinstance(x, str) and (x.startswith("> ") or re.match(r"#+ Box: .*\n\n> ", x)):
+                box_at = len(out)
+            elif not (isinstance(x, str) and re.fullmatch(r"<!-- p\.\S+ -->", x.strip())):
+                box_at = None
             if isinstance(x, TableBlock):
                 title = lambda h: norm(re.sub(r"^#+\s*", "", h or ""))
                 same = last is not None and x.heading and title(x.heading) == title(last.heading)  # caption repeated
@@ -952,6 +975,7 @@ class Writer:
         self.floats = []          # blocks waiting for a paragraph break
         self.pending_anchor = None
         self.prev_right = 0
+        self.para_start = 0
 
     def flush(self):
         if self.para:
@@ -978,6 +1002,12 @@ class Writer:
     def anchor(self, a):
         if self.pending_anchor:          # previous page had no new content (e.g. joined table)
             self.place_anchor(inline=True)
+        if self.para and self.prev is not None and re.search(r"[.!?”]$", self.prev.text.strip()):
+            self.flush()                 # page ends on a full stop: close the paragraph, and let
+                                         # waiting tables/boxes land on their own page
+        elif self.para and self.floats:  # paragraph runs on: put the waiting blocks before it,
+            self.out[self.para_start:self.para_start] = self.floats    # not pages later
+            self.floats = []
         self.pending_anchor = a
 
     def place_anchor(self, inline: bool):
@@ -1005,7 +1035,7 @@ class Writer:
                 txt = dc + " " + txt.lstrip()            # "A" + "roleplaying game" is two words
             else:
                 txt = dc + txt.lstrip()
-        lab = re.match(r"^([A-Z][A-Z’' &]+:)\s", l.text)
+        lab = re.match(r"^([A-Z][A-Z’' &/-]+:)\s", l.text)
         bullet = l.text.strip()[:1] in BULLETS
         p = self.prev
         new = (p is None or bullet or lab or dc
@@ -1035,6 +1065,7 @@ class Writer:
                 body = f"**{key} {n.group(1)}:** {n.group(2)}" if n else f"**{key}:** {val}"
             self.place_anchor(inline=False)
             self.flush()
+            self.para_start = len(self.out)
             self.para = ["- " + body]                         # wrapped lines continue the item
             self.item_strict = bool(m and m.group(1).strip() in ("RANK", "RANGE", "DURATION", "INGREDIENT")
                                     and not re.match(r"\d+:", m.group(2)))   # spell stat line
@@ -1046,6 +1077,7 @@ class Writer:
         if new:
             self.place_anchor(inline=False)
             self.flush() if (self.para or self.floats) else None
+            self.para_start = len(self.out)
         else:
             self.place_anchor(inline=True)
         self.para.append(txt)
