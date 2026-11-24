@@ -881,7 +881,7 @@ The things you learn during the game are measured in Experience Points (XP). You
 
 The GM has the final word when it comes to how much XP each character should get. Write down the XP on your character sheet.
 
-##### Spending Xp
+##### Spending XP
 
 You can use your XP to improve your skills and talents, or to learn new ones. You can only spend XP during a Quarter Day when you REST or SLEEP (see page 155).
 
@@ -2706,7 +2706,7 @@ When an attribute score reaches zero, you are *Broken*. This means that you are 
 
 **WITS:** You’re paralyzed by fear or confusion. Roll for a critical injury on the horror table (see page 200) – *except* if you Broke yourself by pushing a roll. If you remain conscious, you can RUN to a safe place, but you can’t perform any other actions or roll for any skills.
 
-**EMPATHY:** You break down in despair or selfpity. You must either explode in a violent outburst, kicking and breaking everything around you, or withdraw from everyone around you. In either case, you’re uncommunicative until you’ve recovered a point of Empathy.
+**EMPATHY:** You break down in despair or self-pity. You must either explode in a violent outburst, kicking and breaking everything around you, or withdraw from everyone around you. In either case, you’re uncommunicative until you’ve recovered a point of Empathy.
 
 <!-- p.108 -->
 
@@ -2839,25 +2839,25 @@ Poisons are measured by Potency. A weak poison has Potency 3, a strong poison ha
 
 ##### Lethal Poison
 
-- FULL EFFECT: You take one point of damage to Strength each round until you are Broken. Your critical injury counts as non-typical. If you drink an antidote in time, the effect of the poison is halted.
-- LIMITED EFFECT: You take one point of damage to Strength.
+- **FULL EFFECT:** You take one point of damage to Strength each round until you are Broken. Your critical injury counts as non-typical. If you drink an antidote in time, the effect of the poison is halted.
+- **LIMITED EFFECT:** You take one point of damage to Strength.
 
 ##### Paralyzing Poison
 
-- FULL EFFECT: You take one point of damage to Agility each round until you are Broken. If you drink an antidote in time, the effect of the poison is halted.
-- LIMITED EFFECT: You take one point of damage to Agility.
+- **FULL EFFECT:** You take one point of damage to Agility each round until you are Broken. If you drink an antidote in time, the effect of the poison is halted.
+- **LIMITED EFFECT:** You take one point of damage to Agility.
 
 <!-- p.114 -->
 
 ##### Sleeping Poison
 
-- FULL EFFECT: You take one point of damage to Wits each round until you are Broken, at which time you fall unconscious for D6 hours. You don’t suffer a critical injury. If you drink an antidote in time, the effect of the poison is halted.
-- LIMITED EFFECT: You take one point of damage to Wits.
+- **FULL EFFECT:** You take one point of damage to Wits each round until you are Broken, at which time you fall unconscious for D6 hours. You don’t suffer a critical injury. If you drink an antidote in time, the effect of the poison is halted.
+- **LIMITED EFFECT:** You take one point of damage to Wits.
 
 ##### Hallucinogenic Poison
 
-- FULL EFFECT: You take one point of damage to Empathy each round until you are Broken. If you drink an antidote in time, the effect of the poison is halted.
-- LIMITED EFFECT: You take one point of damage to Empathy.
+- **FULL EFFECT:** You take one point of damage to Empathy each round until you are Broken. If you drink an antidote in time, the effect of the poison is halted.
+- **LIMITED EFFECT:** You take one point of damage to Empathy.
 
 ## Disease
 
@@ -2992,7 +2992,7 @@ Casting a spell requires a great deal of mental exertion and requires that you s
 >
 > Writing down a spell requires you to first cast it once (chance casting doesn’t count). Then, you must spend a Quarter Day with quill in hand and make a LORE roll. Writing down a ritual takes two Quarter Days.
 
-##### Npcs & Spellcasting
+##### NPCS & Spellcasting
 
 NPCs don’t have pools of Willpower Points. Instead, when an NPC casts a spell, the GM may simply choose a base Power Level up to the caster’s rank in the magic discipline used, plus one if an ingredient is used. Roll normally to determine any overcharging or magic mishap.
 
@@ -4006,14 +4006,16 @@ You need some form of gear to HUNT – either a ranged weapon or a hunting trap 
 | 3 | Rabbit | +1 | Weapon or trap | 2 | 1 |
 | 4 | Fox | −1 | Weapon or trap | 3 | 1 |
 | 5 | Boar | −1* | Weapon | 4 | 2 |
-| 6 *Boars attack you if you fail. | Deer | 0 | Weapon | 5 | 3 |
+| 6 | Deer | 0 | Weapon | 5 | 3 |
+
+*Note:* *Boars attack you if you fail.
 
 ### Table: Hunting Mishaps
 
 | D6 | Mishap | Effect |
 |---|---|---|
 | 1 | Sprained ankle | You fall or twist your ankle and suffer a critical injury, equivalent to result 25–26 in the table for blunt trauma on page 197. |
-| 2 | Lost gear/ weapon | You lose some of your hunting gear or a weapon. The GM decides which. |
+| 2 | Lost gear/weapon | You lose some of your hunting gear or a weapon. The GM decides which. |
 | 3 | Torn Clothes | Your clothes are damaged. Your boots break or your robe rips on thorny plants or sharp rocks. You must roll for for the effects of cold. Your clothes can be mended by making a successful CRAFTING roll. |
 | 4 | Trap | You step into another hunter’s trap. It could be a snare, a net, or a covered pit. You suffer one point of damage to Strength and must make a MOVE roll to get out of the trap. |
 | 5 | Savage Animal | A wolf, bear or other wild animal feels threatened, and attacks you. The GM chooses an animal from the table on page 124 of the *Gamemaster’s Guide.* |
@@ -4239,11 +4241,11 @@ If you leave the stronghold to go adventuring, hirelings will expect to get paid
 
 If you have the MASTER BUILDER hireling in your stronghold, you can have him build new functions instead of doing it yourselves. A MASTER BUILDER automatically succeeds at all CRAFTING rolls (with one ⚔), no dice are rolled. The downside is that MASTER BUILDERS are expensive!
 
-**Example:** *Nirmena and Tyrgar are working on their stronghold, and start out with building RAMPARTS, a FIREPLACE, and a SCRIPTORIUM. Tyrgar has skill level 4 in CRAFTING and the BUILDER talent (level 1), and Nirmena helps out. Tyrgar spends four times the required amount of time on the work. In total, this gives Tyrgar a +4 modifier to all rolls. All three rolls succeed and, after 44 days, the functions are all complete.*
-
 ### Box: New Functions and Hirelings
 
 > The lists of functions and hirelings are extensive, but they don’t cover everything you might want to do with your stronghold. You are free to make up new functions and hirelings. It is up to the GM to determine the effect of such functions and hirelings, as well as what is required to build or hire them.
+
+**Example:** *Nirmena and Tyrgar are working on their stronghold, and start out with building RAMPARTS, a FIREPLACE, and a SCRIPTORIUM. Tyrgar has skill level 4 in CRAFTING and the BUILDER talent (level 1), and Nirmena helps out. Tyrgar spends four times the required amount of time on the work. In total, this gives Tyrgar a +4 modifier to all rolls. All three rolls succeed and, after 44 days, the functions are all complete.*
 
 *Next, Nirmena and Tyrgar hire a HANDYMAN and GUARD, as they are about to go on another journey. They pay one week’s* <!-- p.164 --> *salary in advance, but end up staying away longer. After one week, the players must roll on the table for non-payment (see above). They roll a 6 and a 2 – the HANDYMAN stays on, but the GUARD leaves her post and steals a barrel of mead as she goes.*
 
@@ -4285,12 +4287,12 @@ You can hire a HANDYMAN to manage the upkeep of your stronghold. They don’t ne
 
 Below, the functions you can build in your stronghold are listed.
 
-- REQUIREMENT: Talents needed to build the function or other functions that must already exist in the stronghold before this function can be built.
-- RAW MATERIALS: The number of units of raw materials that are used up when building the function.
-- TOOLS: The tools that are needed to build the function.
-- TIME: How long it takes to build the function, assuming work is done for at least two Quarter Days per day.
-- REPUTATION: The increase to the Reputation score of all PCs once the function is completed, if applicable.
-- EFFECT: The effect of the function.
+- **REQUIREMENT:** Talents needed to build the function or other functions that must already exist in the stronghold before this function can be built.
+- **RAW MATERIALS:** The number of units of raw materials that are used up when building the function.
+- **TOOLS:** The tools that are needed to build the function.
+- **TIME:** How long it takes to build the function, assuming work is done for at least two Quarter Days per day.
+- **REPUTATION:** The increase to the Reputation score of all PCs once the function is completed, if applicable.
+- **EFFECT:** The effect of the function.
 
 ### Bakery
 
@@ -4332,75 +4334,75 @@ A bakery will feed many hungry mouths and spreads a welcoming smell across the s
 | Vault | 200 Stone, 100 Wood, 10 Iron |
 | Well | 50 Stone |
 
-- REQUIREMENT: FIREPLACE, the BUILDER talent
-- RAW MATERIALS: 200 STONE, 40 WOOD
-- TOOLS: Sledgehammer, saw
-- TIME: One week
-- EFFECT: Each Quarter Day that the BAKERY is staffed by a PC or NPC with the CHEF talent, or by the BAKER hireling, up to a dozen units of FLOUR can be converted into an equal number of units of FOOD (bread).
+- **REQUIREMENT:** FIREPLACE, the BUILDER talent
+- **RAW MATERIALS:** 200 STONE, 40 WOOD
+- **TOOLS:** Sledgehammer, saw
+- **TIME:** One week
+- **EFFECT:** Each Quarter Day that the BAKERY is staffed by a PC or NPC with the CHEF talent, or by the BAKER hireling, up to a dozen units of FLOUR can be converted into an equal number of units of FOOD (bread).
 
 ### Dovecote
 
 Homing pigeons are useful for quickly sending messages home to the stronghold from other parts of the Forbidden Lands.
 
-- REQUIREMENT: A successful ANIMAL HANDLING roll to catch and tame the pigeons.
-- RAW MATERIALS: 30 WOOD
-- TOOLS: Saw, hammer
-- TIME: One day
-- REPUTATION: +1
-- EFFECT: The DOVECOTE contains about a dozen pigeons. These can be transported <!-- p.167 --> in cages during journeys. When a homing pigeon is released, it flies home to the DOVECOTE in the stronghold.
+- **REQUIREMENT:** A successful ANIMAL HANDLING roll to catch and tame the pigeons.
+- **RAW MATERIALS:** 30 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** One day
+- **REPUTATION:** +1
+- **EFFECT:** The DOVECOTE contains about a dozen pigeons. These can be transported <!-- p.167 --> in cages during journeys. When a homing pigeon is released, it flies home to the DOVECOTE in the stronghold.
 
 ### Dungeon
 
 A dark and damp place where you can lock up miscreants and other displeasing individuals. Your stronghold can have several dungeons.
 
-- REQUIREMENT: —
-- RAW MATERIALS: 50 STONE and 20 IRON
-- TOOLS: Sledgehammer, saw, hammer
-- TIME: One week
-- REPUTATION: +1
-- EFFECT: Holds up to four prisoners securely locked away. As long as a PC or the JAILER hireling watches the prisoners, they have slim chances of escape.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** 50 STONE and 20 IRON
+- **TOOLS:** Sledgehammer, saw, hammer
+- **TIME:** One week
+- **REPUTATION:** +1
+- **EFFECT:** Holds up to four prisoners securely locked away. As long as a PC or the JAILER hireling watches the prisoners, they have slim chances of escape.
 
 ### Field
 
 In an agricultural field, you can grow crops for your own use or to sell. Your stronghold can have several fields, but they must be located outside of the stronghold itself.
 
-- REQUIREMENT: —
-- RAW MATERIALS: —
-- TOOLS: Pickaxe and shovel
-- TIME: One month
-- EFFECT: At one occasion during the FALL, you can harvest 300 units of GRAIN. The work takes one week and can be done by a PC or a FARMER hireling. Several people can share the work.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** —
+- **TOOLS:** Pickaxe and shovel
+- **TIME:** One month
+- **EFFECT:** At one occasion during the FALL, you can harvest 300 units of GRAIN. The work takes one week and can be done by a PC or a FARMER hireling. Several people can share the work.
 
 ### Fireplace
 
 A warm fire will chase away the darkness and the cold from your stronghold.
 
-- REQUIREMENT: —
-- RAW MATERIALS: 20 STONE
-- TOOLS: —
-- TIME: One day
-- EFFECT: Eliminates the effects of cold (see page 111) and darkness (see page 112) in the stronghold.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** 20 STONE
+- **TOOLS:** —
+- **TIME:** One day
+- **EFFECT:** Eliminates the effects of cold (see page 111) and darkness (see page 112) in the stronghold.
 
 ### Forge
 
 The noise and the smoke from a smithy is a sure sign that your stronghold is ready to defend itself.
 
-- REQUIREMENT: FIREPLACE, the BUILDER talent
-- RAW MATERIALS: 60 IRON and 400 STONE
-- TOOLS: Sledgehammer, hammer
-- TIME: One week
-- REPUTATION: +1
-- EFFECT: Each Quarter Day during which the FORGE is staffed by a PC or an NPC with the SMITH talent, or the hireling of the same name, up to a dozen units of IRON ORE can be turned into the same number of units of IRON.
+- **REQUIREMENT:** FIREPLACE, the BUILDER talent
+- **RAW MATERIALS:** 60 IRON and 400 STONE
+- **TOOLS:** Sledgehammer, hammer
+- **TIME:** One week
+- **REPUTATION:** +1
+- **EFFECT:** Each Quarter Day during which the FORGE is staffed by a PC or an NPC with the SMITH talent, or the hireling of the same name, up to a dozen units of IRON ORE can be turned into the same number of units of IRON.
 
 ### Gallows
 
 The Forbidden Lands are a harsh place, and execution is a common punishment for even lesser crimes.
 
-- REQUIREMENT: —
-- RAW MATERIALS: 20 WOOD
-- TOOLS: Saw, hammer
-- TIME: One day
-- REPUTATION: +1
-- EFFECT: A PC or the EXECUTIONER hireling can execute people at the GALLOWS.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** 20 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** One day
+- **REPUTATION:** +1
+- **EFFECT:** A PC or the EXECUTIONER hireling can execute people at the GALLOWS.
 
 <!-- p.168 -->
 
@@ -4412,75 +4414,75 @@ Read more on page 12 in the *Gamemaster’s Guide.*
 
 In a garden, you can grow vegetables for your own use or to sell. Your stronghold can have several gardens.
 
-- REQUIREMENT: —
-- RAW MATERIALS: —
-- TOOLS: Pickaxe and shovel
-- TIME: One month
-- EFFECT: During the Summer and Spring, you can harvest 10 units of VEGETABLES or HERBS per week from the GARDEN. The work takes one Quarter Day and can be carried out by a PC or a FARMER.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** —
+- **TOOLS:** Pickaxe and shovel
+- **TIME:** One month
+- **EFFECT:** During the Summer and Spring, you can harvest 10 units of VEGETABLES or HERBS per week from the GARDEN. The work takes one Quarter Day and can be carried out by a PC or a FARMER.
 
 ### Guard Tower
 
 An elevated vantage point is useful for spotting enemies approaching your stronghold.
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 200 WOOD or 400 STONE
-- TOOLS: Saw and hammer (sledgehammer and pickaxe if built of STONE)
-- TIME: Two weeks
-- EFFECT: Gives +2 to SCOUTING and increases the Defense Rating of the stronghold by +1 (see page 175).
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 200 WOOD or 400 STONE
+- **TOOLS:** Saw and hammer (sledgehammer and pickaxe if built of STONE)
+- **TIME:** Two weeks
+- **EFFECT:** Gives +2 to SCOUTING and increases the Defense Rating of the stronghold by +1 (see page 175).
 
 ### Inn
 
 A warm and friendly tavern in your stronghold can draw guests from near and far.
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 250 WOOD or 500 STONE
-- TOOLS: Saw and hammer (sledgehammer and pickaxe if built of STONE)
-- TIME: One week
-- REPUTATION: +1
-- EFFECT: Each Quarter Day during which the INN is staffed by a PC or the INNKEEPER hireling, up to a dozen units of MEAT or VEGETABLES can be turned into an equal number of units of FOOD.
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 250 WOOD or 500 STONE
+- **TOOLS:** Saw and hammer (sledgehammer and pickaxe if built of STONE)
+- **TIME:** One week
+- **REPUTATION:** +1
+- **EFFECT:** Each Quarter Day during which the INN is staffed by a PC or the INNKEEPER hireling, up to a dozen units of MEAT or VEGETABLES can be turned into an equal number of units of FOOD.
 
 ### Library
 
 A collection of books and scrolls from far and near.
 
-- REQUIREMENT: A sizable collection of books (GM’s determination)
-- RAW MATERIALS: 100 WOOD
-- TOOLS: Saw, hammer
-- TIME: One week
-- REPUTATION: +1
-- EFFECT: Gives Gear Bonus +2 to LORE during a visit.
+- **REQUIREMENT:** A sizable collection of books (GM’s determination)
+- **RAW MATERIALS:** 100 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** One week
+- **REPUTATION:** +1
+- **EFFECT:** Gives Gear Bonus +2 to LORE during a visit.
 
 ### Marketplace
 
 An area with market stands, where peddlers from near and far can come and sell their wares.
 
-- REQUIREMENT: —
+- **REQUIREMENT:** —
 - RAW Materials: 60 WOOD
-- TOOLS: Saw, hammer
-- TIME: One week
-- REPUTATION: +1
-- EFFECT: The traders in your stronghold <!-- p.169 --> can offer all kinds of goods. The supply is the same as in a normal VILLAGE (see page 179). You don’t need to pay any salary to the peddlers.
+- **TOOLS:** Saw, hammer
+- **TIME:** One week
+- **REPUTATION:** +1
+- **EFFECT:** The traders in your stronghold <!-- p.169 --> can offer all kinds of goods. The supply is the same as in a normal VILLAGE (see page 179). You don’t need to pay any salary to the peddlers.
 
 ### Mill
 
 If you want to make your own flour in the stronghold, you’ll need a mill. These can be powered manually, by animals, by wind, or by water. Your stronghold can have several mills.
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 400 WOOD, 10 STONE
-- TOOLS: Saw, hammer
-- TIME: Two weeks
-- EFFECT: The MILL converts up to a dozen units of GRAIN to FLOUR each Quarter Day, assuming it’s staffed by a PC or a MILLER.
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 400 WOOD, 10 STONE
+- **TOOLS:** Saw, hammer
+- **TIME:** Two weeks
+- **EFFECT:** The MILL converts up to a dozen units of GRAIN to FLOUR each Quarter Day, assuming it’s staffed by a PC or a MILLER.
 
 ### Mine
 
 Digging into the ground to extract iron ore is a large, tedious and cumbersome project, but it can be very lucrative. Your stronghold can have several MINES.
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 60 WOOD (for tunnel supports)
-- TOOLS: Sledgehammer, pickaxe, shovel
-- TIME: One month
-- REPUTATION: +1
-- EFFECT: Up to a dozen people can work in the MINE at the same time. Each miner produces two units of IRON ORE per Quarter Day. Roll one Gear Die for each week of work. If you roll a ☠, there is a tunnel collapse. Roll another Gear Die for each worker in the mine. Another ☠ means that the worker is trapped in the collapse. Trapped NPCs are automatically killed.
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 60 WOOD (for tunnel supports)
+- **TOOLS:** Sledgehammer, pickaxe, shovel
+- **TIME:** One month
+- **REPUTATION:** +1
+- **EFFECT:** Up to a dozen people can work in the MINE at the same time. Each miner produces two units of IRON ORE per Quarter Day. Roll one Gear Die for each week of work. If you roll a ☠, there is a tunnel collapse. Roll another Gear Die for each worker in the mine. Another ☠ means that the worker is trapped in the collapse. Trapped NPCs are automatically killed.
 
 For each PC, the GM rolls for an attack using ten Base Dice (Weapon Damage 1, blunt force). If the PC survives, she must make a MIGHT roll to dig herself out. A failed roll means that the PC suffocates, unless she gets help from the outside.
 
@@ -4488,32 +4490,32 @@ For each PC, the GM rolls for an attack using ten Base Dice (Weapon Damage 1, bl
 
 Digging a water-filled trench around the entire stronghold is heavy work, but provides extra protection against attackers.
 
-- REQUIREMENT: RAMPARTS, the BUILDER talent
-- RAW MATERIALS: —
-- TOOLS: Pickaxe and shovel
-- TIME: One month
-- REPUTATION: +1
-- EFFECT: Increases the Defense Rating of the stronghold by +1.
+- **REQUIREMENT:** RAMPARTS, the BUILDER talent
+- **RAW MATERIALS:** —
+- **TOOLS:** Pickaxe and shovel
+- **TIME:** One month
+- **REPUTATION:** +1
+- **EFFECT:** Increases the Defense Rating of the stronghold by +1.
 
 ### Pasture
 
 A tract of land grazed by cattle, which can provide both meat and milk. Your stronghold can have several pastures.
 
-- REQUIREMENT: Up to a dozen cows, which must be bought or stolen separately
-- RAW MATERIALS: 20 WOOD
-- TOOLS: —
-- TIME: One day
-- EFFECT: The cows need to be tended to daily. Once per day, a PC or a FARMER can milk the cows. This takes a Quarter Day and gives one unit of FOOD per cow. You can slaughter cows at any time, and this provides eight <!-- p.170 --> units of MEAT per cow. If you have a bull, D6 calves are born in the PASTURE each year.
+- **REQUIREMENT:** Up to a dozen cows, which must be bought or stolen separately
+- **RAW MATERIALS:** 20 WOOD
+- **TOOLS:** —
+- **TIME:** One day
+- **EFFECT:** The cows need to be tended to daily. Once per day, a PC or a FARMER can milk the cows. This takes a Quarter Day and gives one unit of FOOD per cow. You can slaughter cows at any time, and this provides eight <!-- p.170 --> units of MEAT per cow. If you have a bull, D6 calves are born in the PASTURE each year.
 
 ### Pigsty
 
 A pen with pigs is a good source of food for the inhabitants of the stronghold. Your stronghold can have several pigsties.
 
-- REQUIREMENT: Up to a dozen pigs, which must be bought or stolen separately
-- RAW MATERIALS: 50 WOOD
-- TOOLS: Saw, hammer
-- TIME: One day
-- EFFECT: You can slaughter the pigs at any time. This gives six units of MEAT per pig.
+- **REQUIREMENT:** Up to a dozen pigs, which must be bought or stolen separately
+- **RAW MATERIALS:** 50 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** One day
+- **EFFECT:** You can slaughter the pigs at any time. This gives six units of MEAT per pig.
 
 2D6 piglets are born in the PIGSTY each year.
 
@@ -4521,42 +4523,42 @@ A pen with pigs is a good source of food for the inhabitants of the stronghold. 
 
 A sturdy metal barrier in the gate to your castle is useful for keeping unwelcome guests out.
 
-- REQUIREMENT: RAMPARTS, FORGE, the BUILDER talent
-- RAW MATERIALS: 100 IRON
-- TOOLS: —
-- TIME: One week
-- EFFECT: Increases the Defense Rating of the stronghold by +1 (see page 175).
+- **REQUIREMENT:** RAMPARTS, FORGE, the BUILDER talent
+- **RAW MATERIALS:** 100 IRON
+- **TOOLS:** —
+- **TIME:** One week
+- **EFFECT:** Increases the Defense Rating of the stronghold by +1 (see page 175).
 
 ### Quarry
 
 Stone is needed to build many different functions in the stronghold. Breaking stone is hard work, but not very complicated. Your stronghold can have several quarries.
 
-- REQUIREMENT: —
-- RAW MATERIALS: —
-- TOOLS: Sledgehammer, pickaxe, shovel
-- TIME: One day
-- EFFECT: Up to a dozen people can work in the QUARRY at the same time. Each worker produces two units of STONE per Quarter Day.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** —
+- **TOOLS:** Sledgehammer, pickaxe, shovel
+- **TIME:** One day
+- **EFFECT:** Up to a dozen people can work in the QUARRY at the same time. Each worker produces two units of STONE per Quarter Day.
 
 ### Ramparts
 
 Solid stone walls with parapets, crenellations, and arrow slits are very useful to keep enemies at bay when your stronghold is attacked.
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 600 STONE
-- TOOLS: —
-- TIME: One month
-- REPUTATION: +1
-- EFFECT: Increases the Defense Rating of the stronghold by +2.
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 600 STONE
+- **TOOLS:** —
+- **TIME:** One month
+- **REPUTATION:** +1
+- **EFFECT:** Increases the Defense Rating of the stronghold by +2.
 
 ### Root Cellar
 
 A dark and chilly cellar is the best place to store food to keep it from spoiling.
 
-- REQUIREMENT: The BUILDER talent
+- **REQUIREMENT:** The BUILDER talent
 - RAW Materials: 200 STONE
-- TOOLS: Sledgehammer, pickaxe
-- TIME: One week
-- EFFECT: In the ROOT CELLAR, GRAIN, FLOUR, MEAT, and VEGETABLES can be stored ten times longer without spoiling (see page 192).
+- **TOOLS:** Sledgehammer, pickaxe
+- **TIME:** One week
+- **EFFECT:** In the ROOT CELLAR, GRAIN, FLOUR, MEAT, and VEGETABLES can be stored ten times longer without spoiling (see page 192).
 
 ### Scriptorium
 
@@ -4564,53 +4566,53 @@ Sorcerers and other learned adventurers need a secluded place in the stronghold 
 
 <!-- p.171 -->
 
-- REQUIREMENT: Ink and feather, the BUILDER talent
-- RAW MATERIALS: 100 WOOD
-- TOOLS: Saw, hammer
-- TIME: One week
-- REPUTATION: +1
-- EFFECT: Gives Gear Bonus +2 to a magic user who writes down a spell in a grimoire (see page 120).
+- **REQUIREMENT:** Ink and feather, the BUILDER talent
+- **RAW MATERIALS:** 100 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** One week
+- **REPUTATION:** +1
+- **EFFECT:** Gives Gear Bonus +2 to a magic user who writes down a spell in a grimoire (see page 120).
 
 ### Sheepfold
 
 A pen for sheep, which can provide both wool and meat to the inhabitants of the stronghold. Your stronghold can have several sheepfolds.
 
-- REQUIREMENT: Up to a dozen sheep, which must be bought or stolen separately.
-- RAW MATERIALS: 20 WOOD
-- TOOLS: —
-- TIME: One day
-- EFFECT: Twice per year, the sheep can be sheared by a PC or a FARMER. This takes one Quarter Day and gives two units of WOOL per sheep in the herd. You can slaughter the sheep at any time. This gives you five units of MEAT per sheep. D6 lambs are born in the SHEEPFOLD each year.
+- **REQUIREMENT:** Up to a dozen sheep, which must be bought or stolen separately.
+- **RAW MATERIALS:** 20 WOOD
+- **TOOLS:** —
+- **TIME:** One day
+- **EFFECT:** Twice per year, the sheep can be sheared by a PC or a FARMER. This takes one Quarter Day and gives two units of WOOL per sheep in the herd. You can slaughter the sheep at any time. This gives you five units of MEAT per sheep. D6 lambs are born in the SHEEPFOLD each year.
 
 ### Shooting Range
 
 An open area where you can practice your skills with bows and other ranged weapons.
 
-- REQUIREMENT: —
+- **REQUIREMENT:** —
 - RAW Materials: 20 WOOD
-- TOOLS: Saw, hammer
-- TIME: One day
-- EFFECT: If you practice on the SHOOTING RANGE for a Quarter Day, you gain one extra XP that can only be used to increase your MARKSMANSHIP skill level. Mark this XP next to the MARKSMANSHIP skill on your character sheet. You can only gain one such bonus XP between each skill level increase.
+- **TOOLS:** Saw, hammer
+- **TIME:** One day
+- **EFFECT:** If you practice on the SHOOTING RANGE for a Quarter Day, you gain one extra XP that can only be used to increase your MARKSMANSHIP skill level. Mark this XP next to the MARKSMANSHIP skill on your character sheet. You can only gain one such bonus XP between each skill level increase.
 
 ### Shrine
 
 A small temple dedicated to Rust, Heme or some other god of the Forbidden Lands can give you solace and attract visitors from near and far.
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 80 WOOD or 80 STONE
-- TOOLS: Saw and hammer (sledgehammer and pickaxe if built of STONE)
-- TIME: One week
-- REPUTATION: +1
-- EFFECT: Gives each PC one additional Willpower Point when you return to your stronghold from a journey.
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 80 WOOD or 80 STONE
+- **TOOLS:** Saw and hammer (sledgehammer and pickaxe if built of STONE)
+- **TIME:** One week
+- **REPUTATION:** +1
+- **EFFECT:** Gives each PC one additional Willpower Point when you return to your stronghold from a journey.
 
 ### Stables
 
 A place to keep your riding animals safe from rain, wind and predators.
 
-- REQUIREMENT: —
-- RAW MATERIALS: 400 WOOD
-- TOOLS: Saw, hammer
-- TIME: Two days
-- EFFECT: Protects and feeds all riding animals in the stronghold.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** 400 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** Two days
+- **EFFECT:** Protects and feeds all riding animals in the stronghold.
 
 ### Tailor Shop
 
@@ -4618,51 +4620,51 @@ In a tailor shop, you can turn wool into cloth, and sew clothes from the cloth.
 
 <!-- p.172 -->
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 100 WOOD
-- TOOLS: Saw, hammer
-- TIME: Two days
-- EFFECT: Can turn up to a dozen units of WOOL into an equal number of units of CLOTH per Quarter Day, assuming the TAILOR SHOP is staffed by a PC or an NPC with the TAILOR talent or the hireling of the same name. Also gives a Gear Bonus +2 to CRAFTING clothes and other cloth items.
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 100 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** Two days
+- **EFFECT:** Can turn up to a dozen units of WOOL into an equal number of units of CLOTH per Quarter Day, assuming the TAILOR SHOP is staffed by a PC or an NPC with the TAILOR talent or the hireling of the same name. Also gives a Gear Bonus +2 to CRAFTING clothes and other cloth items.
 
 ### Tannery
 
 Here, artisans can create leather from skin and fur, and use leather to fashion armor and clothes. Your stronghold can have several tanneries.
 
-- REQUIREMENT: —
-- RAW MATERIALS: 100 WOOD
-- TOOLS: Saw, hammer
-- TIME: Two days
-- EFFECT: In each Quarter Day in which the TANNERY is staffed by a PC or NPC with the TANNER talent, or a hireling of the same same name, up to a dozen units of PELTS can be converted into an equal amount of LEATHER.
+- **REQUIREMENT:** —
+- **RAW MATERIALS:** 100 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** Two days
+- **EFFECT:** In each Quarter Day in which the TANNERY is staffed by a PC or NPC with the TANNER talent, or a hireling of the same same name, up to a dozen units of PELTS can be converted into an equal amount of LEATHER.
 
 ### Training Grounds
 
 An open field were you can hone your close combat skills, practicing against each other or against wooden figures.
 
-- REQUIREMENT: —
+- **REQUIREMENT:** —
 - RAW Materials: 40 WOOD
-- TOOLS: Saw, hammer
-- TIME: Two days
-- EFFECT: If you practice on the TRAINING GROUNDS for a Quarter Day, you gain one extra XP that can only be used to increase your MELEE skill level. Mark this XP next to the MELEE skill on your character sheet. You can only gain one such bonus XP between each skill level increase.
+- **TOOLS:** Saw, hammer
+- **TIME:** Two days
+- **EFFECT:** If you practice on the TRAINING GROUNDS for a Quarter Day, you gain one extra XP that can only be used to increase your MELEE skill level. Mark this XP next to the MELEE skill on your character sheet. You can only gain one such bonus XP between each skill level increase.
 
 ### Vault
 
 Once you have gathered valuable treasures from the ruins of the Forbidden Lands, you’ll need a place to keep them safe.
 
-- REQUIREMENT: The BUILDER talent
-- RAW MATERIALS: 200 STONE, 100 WOOD, 10 IRON
-- TOOLS: Sledgehammer, pickaxe, saw, hammer
-- TIME: Two weeks
-- EFFECT: In the VAULT, valuables can be stored safely. The ironclad wooden door has Armor Rating 12 and can take 50 points of damage before giving in.
+- **REQUIREMENT:** The BUILDER talent
+- **RAW MATERIALS:** 200 STONE, 100 WOOD, 10 IRON
+- **TOOLS:** Sledgehammer, pickaxe, saw, hammer
+- **TIME:** Two weeks
+- **EFFECT:** In the VAULT, valuables can be stored safely. The ironclad wooden door has Armor Rating 12 and can take 50 points of damage before giving in.
 
 ### Well
 
 With a well in the stronghold, you’ll never go thirsty.
 
-- REQUIREMENT: —
+- **REQUIREMENT:** —
 - RAW Materials: 50 STONE
-- TOOLS: Sledgehammer, shovel
-- TIME: Two weeks
-- EFFECT: Everyone in the stronghold has free access to WATER and can fill their waterskins to Resource Die D12 at any time.
+- **TOOLS:** Sledgehammer, shovel
+- **TIME:** Two weeks
+- **EFFECT:** Everyone in the stronghold has free access to WATER and can fill their waterskins to Resource Die D12 at any time.
 
 <!-- p.173 -->
 
@@ -4674,7 +4676,7 @@ Below, a range of different types of hirelings are listed. Salary indicates how 
 
 Staffs the BAKERY.
 
-- SALARY: 6 copper
+- **SALARY:** 6 copper
 
 ### Table: List of Hirelings
 
@@ -4699,35 +4701,35 @@ Staffs the BAKERY.
 | Tanner | 6 copper |
 | Tailor | 8 copper |
 
-- SUPPLY: Common
+- **SUPPLY:** Common
 
 ### Bowyer
 
 Can craft arrows, bows, slings and crossbows for you. A BOWYER’S CRAFTING rolls succeed automatically, with one ⚔.
 
-- SALARY: 1 silver
-- SUPPLY: Uncommon
+- **SALARY:** 1 silver
+- **SUPPLY:** Uncommon
 
 ### Carpenter
 
 Can craft items and functions made from WOOD. A CARPENTER’S CRAFTING rolls succeed automatically, with one ⚔.
 
-- SALARY: 7 copper
-- SUPPLY: Uncommon
+- **SALARY:** 7 copper
+- **SUPPLY:** Uncommon
 
 ### Executioner
 
 Executes prisoners at the GALLOWS.
 
-- SALARY: 1 silver per execution
-- SUPPLY: Common
+- **SALARY:** 1 silver per execution
+- **SUPPLY:** Common
 
 ### Farmer
 
 Staffs the SHEEPFOLD, GARDENS and FIELDS.
 
-- SALARY: 5 copper
-- SUPPLY: Common
+- **SALARY:** 5 copper
+- **SUPPLY:** Common
 
 ### Guard
 
@@ -4735,78 +4737,78 @@ An armed guard who watches your stronghold. Stats as for a typical soldier (see 
 
 <!-- p.174 -->
 
-- SALARY: 1 silver
-- SUPPLY: Common
+- **SALARY:** 1 silver
+- **SUPPLY:** Common
 
 ### Handyman
 
 Handles the general upkeep of the stronghold (see page 164).
 
-- SALARY: 3 copper
-- SUPPLY: Common
+- **SALARY:** 3 copper
+- **SUPPLY:** Common
 
 ### Hunter
 
 Produces one unit of MEAT and PELT per Quarter Day’s work in the wilderness. Roll one Base Die for each HUNTER each week. If you roll a ☠, the hunter is attacked by a wild beast. Roll the die again – if you roll ☠, the HUNTER is killed.
 
-- SALARY: 6 copper
-- SUPPLY: Common
+- **SALARY:** 6 copper
+- **SUPPLY:** Common
 
 ### Innkeeper
 
 Staffs the INN.
 
-- SALARY: 12 copper
-- SUPPLY: Uncommon
+- **SALARY:** 12 copper
+- **SUPPLY:** Uncommon
 
 ### Jailer
 
 Guards the DUNGEON.
 
-- SALARY: 8 copper
-- SUPPLY: Common
+- **SALARY:** 8 copper
+- **SUPPLY:** Common
 
 ### Lumberjack
 
 Produces two units of WOOD per Quarter Day’s work in the FOREST or DARK FOREST terrain types.
 
-- SALARY: 4 copper
-- SUPPLY: Common
+- **SALARY:** 4 copper
+- **SUPPLY:** Common
 
 ### Master Builder
 
 The MASTER BUILDER can build functions in the stronghold, so you don’t have to do it yourselves. The MASTER BUILDER has the BUILDER talent (see page 74) and access to all of the tools on page 192. The MASTER BUILDER automatically succeeds at building a function. No dice are rolled.
 
-- SALARY: 2 silver
-- SUPPLY: Uncommon
+- **SALARY:** 2 silver
+- **SUPPLY:** Uncommon
 
 ### Miller
 
 Staffs the MILL.
 
-- SALARY: 8 copper
-- SUPPLY: Common
+- **SALARY:** 8 copper
+- **SUPPLY:** Common
 
 ### Miner
 
 Works in the MINE.
 
-- SALARY: 4 copper
-- SUPPLY: Common
+- **SALARY:** 4 copper
+- **SUPPLY:** Common
 
 ### Quarry Worker
 
 Works in the QUARRY.
 
-- SALARY: 3 copper
-- SUPPLY: Common
+- **SALARY:** 3 copper
+- **SUPPLY:** Common
 
 ### Smith
 
 Staffs the FORGE. Can also craft weapons, armor and other iron items. A SMITH’S CRAFTING rolls succeed automatically, with one ⚔.
 
-- SALARY: 1 silver
-- SUPPLY: Uncommon
+- **SALARY:** 1 silver
+- **SUPPLY:** Uncommon
 
 <!-- p.175 -->
 
@@ -4814,15 +4816,15 @@ Staffs the FORGE. Can also craft weapons, armor and other iron items. A SMITH’
 
 Staffs the TANNERY. Can also craft leather armor and other leather items. A TANNER’S CRAFTING rolls succeed automatically, with one ⚔.
 
-- SALARY: 6 copper
-- SUPPLY: Uncommon
+- **SALARY:** 6 copper
+- **SUPPLY:** Uncommon
 
 ### Tailor
 
 Staffs the TAILOR SHOP. Can also sew clothes and other items made from cloth. A TAILOR’S CRAFTING rolls succeed automatically, with one ⚔.
 
-- SALARY: 8 copper
-- SUPPLY: Common
+- **SALARY:** 8 copper
+- **SUPPLY:** Common
 
 ## Events at the Stronghold
 
@@ -4906,10 +4908,6 @@ At least once per turn, the GM rolls on the table on the next page. It is up to 
 
 The results in the table should primarily be seen as inspiration and will need to be adapted to the situation. The GM is also allowed to disregard the table and make up her own challenges for her adventurers during the battle at the stronghold.
 
-**Example:** *Nirmena’s and Tyrgar’s stronghold is attacked by some 90 savage orcs led by the chieftain, Geldad. The stronghold has RAMPARTS and 20 GUARDS, which gives a total Defense Rating of 5 (one for the adventurers, +2 for the RAMPARTS and +2 for the GUARDS). The attackers have a battering ram and thus get Attack Rating 7 (5 for the number of attackers, +1 for the ram and +1 for Geldad himself).*
-
-*In the first turn of the battle, the players roll one ⚔ while the GM rolls two. The GM chooses to have 20 orcs be cut down, decreasing the number of remaining attackers to 70 and the Attack Rating to 6. The players choose to have the RAMPARTS damaged and then breached, reducing the Defense Rating to 3.*
-
 ### Table: Events During the Battle
 
 | D6 | Event |
@@ -4930,6 +4928,10 @@ The results in the table should primarily be seen as inspiration and will need t
 > The rules for battles at the stronghold are designed to be fast and easy to use, and therefore make no difference between different types of soldiers. If you prefer a more detailed approach, you can use the following rules.
 >
 > Add the Strength rating to the skill level in MELEE or MARKSMANSHIP (whichever is higher) of a typical soldier in the force. The sum is the soldier’s Combat Rating. Divide 50 by the Rating, 30 soldiers are Broken.
+
+**Example:** *Nirmena’s and Tyrgar’s stronghold is attacked by some 90 savage orcs led by the chieftain, Geldad. The stronghold has RAMPARTS and 20 GUARDS, which gives a total Defense Rating of 5 (one for the adventurers, +2 for the RAMPARTS and +2 for the GUARDS). The attackers have a battering ram and thus get Attack Rating 7 (5 for the number of attackers, +1 for the ram and +1 for Geldad himself).*
+
+*In the first turn of the battle, the players roll one ⚔ while the GM rolls two. The GM chooses to have 20 orcs be cut down, decreasing the number of remaining attackers to 70 and the Attack Rating to 6. The players choose to have the RAMPARTS damaged and then breached, reducing the Defense Rating to 3.*
 
 *The first turn is over, and it’s time to see what happens to Tyrgar and Nirmena themselves. The GM rolls a five, and lets the event happen to Nirmena. She suddenly finds her-* <!-- p.178 --> *self face-to-face with Geldad himself on the ramparts! If she defeats the orc chieftain, she might turn the tide of the battle and save the stronghold from destruction…*
 
@@ -5043,9 +5045,9 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 | Lyre | 5 silver | Uncommon | Normal | 1 Wood, 1/4 Cloth | One Week | Path of the Song | Knife | Gear Bonus +1 to Performance. |
 | Harp | 8 silver | Rare | Heavy | 2 Wood, 1/2 Cloth | Two Weeks | Path of the Song | Knife | Gear Bonus +2 to Performance. |
 | Drum | 18 copper | Common | Normal | 1 Wood, 1/2 Leather | One Day | Path of the Song | Knife | Gear Bonus +1 to Performance. |
-| Lethal Poison/ Antidote | 5 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
+| Lethal Poison/Antidote | 5 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 | Paralyzing Poison/Antidote | 4 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
-| Sleeping Poison/ Antidote | 3 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
+| Sleeping Poison/Antidote | 3 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 | Hallucinogenic Poison/Antidote | 4 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 
 <!-- p.183 -->

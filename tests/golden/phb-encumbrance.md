@@ -89,7 +89,7 @@ The things you learn during the game are measured in Experience Points (XP). You
 
 The GM has the final word when it comes to how much XP each character should get. Write down the XP on your character sheet.
 
-##### Spending Xp
+##### Spending XP
 
 You can use your XP to improve your skills and talents, or to learn new ones. You can only spend XP during a Quarter Day when you REST or SLEEP (see page 155).
 

@@ -17,6 +17,9 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
 - Review 4 (verification): `tools/verify.py` per-page word share + numbers. Found and fixed: tables
   waiting for a paragraph end drifted pages (PHB p.101–103 weapons, p.147, GMG p.197/217); hyphenated
   table headers; sidebars continued over a page; box paragraphs by word-fit test; numbered steps in boxes.
+- Review 5 (visual sampling, ~12 table/stat pages): table values all matched. Fixed: "*" table
+  footnotes, "gear/ weapon", kept hyphens (half-, two-, -like), NPC/XP acronyms, italic-colon labels,
+  bold labels in bullets (CREATURES:, REQUIREMENT:), sidebars no longer split an italic example.
 - Known leftovers: `--check` misses ~200/150/40 words (PHB/GMG/L&A): art labels, map labels and dropped
   repeated table headers. GMG p.52 Box: Elven Saying heading sits at the page top.
 

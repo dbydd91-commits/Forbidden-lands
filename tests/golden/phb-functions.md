@@ -46,19 +46,19 @@ pdf_pages: 170-170 of 212
 
 hold. Your stronghold can have several bakeries.
 
-- REQUIREMENT: FIREPLACE, the BUILDER talent
-- RAW MATERIALS: 200 STONE, 40 WOOD
-- TOOLS: Sledgehammer, saw
-- TIME: One week
-- EFFECT: Each Quarter Day that the BAKERY is staffed by a PC or NPC with the CHEF talent, or by the BAKER hireling, up to a dozen units of FLOUR can be converted into an equal number of units of FOOD (bread).
+- **REQUIREMENT:** FIREPLACE, the BUILDER talent
+- **RAW MATERIALS:** 200 STONE, 40 WOOD
+- **TOOLS:** Sledgehammer, saw
+- **TIME:** One week
+- **EFFECT:** Each Quarter Day that the BAKERY is staffed by a PC or NPC with the CHEF talent, or by the BAKER hireling, up to a dozen units of FLOUR can be converted into an equal number of units of FOOD (bread).
 
 ### Dovecote
 
 Homing pigeons are useful for quickly sending messages home to the stronghold from other parts of the Forbidden Lands.
 
-- REQUIREMENT: A successful ANIMAL HANDLING roll to catch and tame the pigeons.
-- RAW MATERIALS: 30 WOOD
-- TOOLS: Saw, hammer
-- TIME: One day
-- REPUTATION: +1
-- EFFECT: The DOVECOTE contains about a dozen pigeons. These can be transported
+- **REQUIREMENT:** A successful ANIMAL HANDLING roll to catch and tame the pigeons.
+- **RAW MATERIALS:** 30 WOOD
+- **TOOLS:** Saw, hammer
+- **TIME:** One day
+- **REPUTATION:** +1
+- **EFFECT:** The DOVECOTE contains about a dozen pigeons. These can be transported

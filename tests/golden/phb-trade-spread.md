@@ -40,9 +40,9 @@ pdf_pages: 188-191 of 212
 | Lyre | 5 silver | Uncommon | Normal | 1 Wood, 1/4 Cloth | One Week | Path of the Song | Knife | Gear Bonus +1 to Performance. |
 | Harp | 8 silver | Rare | Heavy | 2 Wood, 1/2 Cloth | Two Weeks | Path of the Song | Knife | Gear Bonus +2 to Performance. |
 | Drum | 18 copper | Common | Normal | 1 Wood, 1/2 Leather | One Day | Path of the Song | Knife | Gear Bonus +1 to Performance. |
-| Lethal Poison/ Antidote | 5 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
+| Lethal Poison/Antidote | 5 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 | Paralyzing Poison/Antidote | 4 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
-| Sleeping Poison/ Antidote | 3 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
+| Sleeping Poison/Antidote | 3 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 | Hallucinogenic Poison/Antidote | 4 silver | Rare | Tiny | 1 Herbs | Quarter Day | Poisoner | Cauldron, fire | Potency 3. Each increase in Potency doubles the price. Antidote costs the base price. |
 
 <!-- p.185 -->

@@ -267,6 +267,11 @@ def extract_lines(pdf: str, pages, jobs: int) -> dict:
 WORD_RE = re.compile(r"[A-Za-z’']+(?:-[A-Za-z’']+)*")
 
 
+HYPH_FIRST = {"half", "self", "well", "twenty", "thirty", "forty", "fifty", "sixty", "seventy",
+              "eighty", "ninety", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
+HYPH_SECOND = {"like", "laden", "shaped", "sized", "eyed", "haired", "legged"}   # never a plain suffix
+
+
 class Vocab:
     """Decides whether a line-end hyphen is a real hyphen ("two-handed")."""
 
@@ -292,6 +297,8 @@ class Vocab:
             return a + b                                    # "Half-Elf"
         if re.match(r"[A-Za-z]+-[a-z]", b):
             return a + b                                    # "well-" + "to-do"
+        if (w1 + w2) not in self.words and (w1 in HYPH_FIRST or w2 in HYPH_SECOND):
+            return a + b                                    # "half-" + "human", "energy-" + "laden"
         return a[:-1] + b
 
 
@@ -314,6 +321,8 @@ def join_lines(texts, vocab) -> str:
             out = vocab.join(out[:-1], t[1:])          # *Forbid-* *den Lands* -> *Forbidden Lands*
         elif out.endswith("-") and not out.endswith(" -") and t[:1].isalpha():
             out = vocab.join(out, t)
+        elif out.endswith("/") and t[:1].isalpha():
+            out += t                             # "gear/" + "weapon"
         else:
             out += " " + t
     if held:
@@ -353,7 +362,7 @@ def title_case(t: str) -> str:
     t = re.sub(r"\s+", " ", t).strip()
     words = []
     for w in t.split(" "):
-        if re.fullmatch(r"[A-Z]?\d*D\d+.*|[IVX]+", w):   # D66, 2D6, roman numerals
+        if re.fullmatch(r"[A-Z]?\d*D\d+.*|[IVX]+|NPCS?|PCS?|GMS?|XP|WP", w):   # D66, 2D6, roman numerals, NPC
             words.append(w)
         else:
             words.append(string.capwords(w.lower(), "-") if w.isupper() else w)
@@ -669,8 +678,10 @@ def table_md(r: Region, shaded, vocab):
         bsize = collections.Counter(round(l.size) for l in body).most_common(1)[0][0]
         while body:
             last = max(body, key=lambda l: l.y0)
-            if last.size < bsize - 0.5 and not any(o.y0 > last.y0 - 3 and o is not last and o.size >= bsize - 0.5
-                                                   for o in body):
+            starred = last.text.strip().startswith("*") and not any(
+                o is not last and abs(o.y0 - last.y0) < 3 for o in body)       # "*Boars attack you…"
+            if starred or (last.size < bsize - 0.5 and not any(
+                    o.y0 > last.y0 - 3 and o is not last and o.size >= bsize - 0.5 for o in body)):
                 note.insert(0, last)
                 body.remove(last)
             else:
@@ -977,20 +988,22 @@ class Writer:
         self.prev_right = 0
         self.para_start = 0
 
-    def flush(self):
+    def flush(self, keep_floats=False):
         if self.para:
             txt = join_lines(self.para, self.vocab)
             self.out.append(txt)
             self.para = []
-        self.out.extend(self.floats)
-        self.floats = []
+        if not keep_floats:
+            self.out.extend(self.floats)
+            self.floats = []
         self.prev = None
 
     def block(self, md, floating=True):
         if not md:
             return
         p = self.prev
-        if p and p.x1 < self.prev_right - 10 and re.search(r"[.!?:”’)]$", p.text.strip()):
+        example = p is not None and all(sp.italic for sp in p.spans if sp.text.strip())
+        if p and p.x1 < self.prev_right - 10 and re.search(r"[.!?:”’)]$", p.text.strip()) and not example:
             floating = False                       # the open paragraph has visibly ended
         self.place_anchor(inline=floating)
         if floating and self.para:
@@ -1059,6 +1072,9 @@ class Writer:
         if bullet:
             body = l.text.strip()[1:].strip()
             m = re.match(r"^([A-Z][A-Z’' ]+?)(?::\s*|\s+)(.*)$", body)
+            gl = re.match(r"^([A-Z][A-Z’' &/-]+:)\s*(.*)$", body)
+            if gl and not (m and m.group(1).strip() in ("RANK", "RANGE", "DURATION", "INGREDIENT")):
+                body = f"**{gl.group(1)}** {gl.group(2)}"          # "- **CREATURES:** Olm, …"
             if m and m.group(1).strip() in ("RANK", "RANGE", "DURATION", "INGREDIENT"):
                 key, val = title_case(m.group(1).strip()), m.group(2)
                 n = re.match(r"(\d+):\s*(.*)$", val)          # talent "RANK 1: text"
@@ -1073,11 +1089,17 @@ class Writer:
             self.prev, self.prev_right = l, right
             return
         if lab:
-            txt = f"**{lab.group(1)}** " + txt[len(lab.group(1)):].lstrip()
+            word = lab.group(1)[:-1]
+            rest = txt[len(word):] if txt.startswith(word) else txt[len(lab.group(1)):]
+            rest = re.sub(r"^\s*(\*?)\s*:\s*", r"\1", rest)      # "CORRIDOR *: A dark…*" (italic colon)
+            txt = f"**{lab.group(1)}** " + rest.lstrip()
         if new:
             self.place_anchor(inline=False)
-            self.flush() if (self.para or self.floats) else None
-            self.para_start = len(self.out)
+            # an italic example running on in a new paragraph: sidebars wait until it ends
+            in_example = p is not None and ital(p) and ital(l) and not dc and not bullet
+            self.flush(keep_floats=in_example) if (self.para or self.floats) else None
+            if not in_example:
+                self.para_start = len(self.out)  # (an example's paragraphs count as one block)
         else:
             self.place_anchor(inline=True)
         self.para.append(txt)

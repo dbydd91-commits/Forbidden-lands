@@ -199,7 +199,7 @@ You may also, at the Gamemaster’s discretion, use some of the tables below but
 | 3 | **CHILD OF THE FOREST.** Ever since you were a child, you’ve been drawn to the fruits of the forests, to flowers, herbs, and lakes. You learned everything you could from the clan’s herbalist, the scent of every flower and which plants nurtured life – or ended it. | Strength 3, Agility 4, Wits 4, Empathy 4 | Lore 2, Scouting 1, Survival 3 |
 | 4 | **HARD STUDIES.** A learned man or woman took you under his/her wing and set you to studying the elder writings. The days were long, the learning hard, but in the end, you found that knowledge was the key to the world. | Strength 3, Agility 3, Wits 5, Empathy 4 | Crafting 1, Lore 3, Insight 1, Manipulation 1 |
 | 5 | **WANDERER.** You had no fixed place in life, the road was your home, and you learned to find shelter from the Blood Mist every night. Already as a child, you had seen more of the land than most. | Strength 4, Agility 4, Wits 3, Empathy 4 | Endurance 1, Melee 1, Scouting 1, Survival 2, Animal Handling 1 |
-| 6 | **DRUID’S APPRENTICE.** You were apprenticed to a druid, and learned everything you could of the holy mysteries, of rituals and sorcery. Your master is long dead or dissapeared, but you still remember his/ her words. | Strength 3, Agility 4, Wits 5, Empathy 3 | Scouting 1, Lore 1, Survival 2, Healing 1, Animal Handling 1 |
+| 6 | **DRUID’S APPRENTICE.** You were apprenticed to a druid, and learned everything you could of the holy mysteries, of rituals and sorcery. Your master is long dead or dissapeared, but you still remember his/her words. | Strength 3, Agility 4, Wits 5, Empathy 3 | Scouting 1, Lore 1, Survival 2, Healing 1, Animal Handling 1 |
 
 <!-- p.15 -->
 
@@ -728,7 +728,9 @@ Roll D3 times on the table below.
 | 1–2 | Claws | 3+Agility | Roll a D6. 1–2: Damage 1, 3–5: Damage 2, 6: Damage 3 | Arm’s Length |
 | 3–4 | Fangs | 4+Agility | Roll a D6. 1–2: Damage 1, 3–5: Damage 2, 6: Damage 3 | Arm’s Length |
 | 5 | Horns/Headbutt | 5+Agility | Roll a D6. 1–4: Damage 2/1*, 5–6: Damage 3/2* | Arm’s Length |
-| 6 * The second value applies for attacks from creatures that lack horns. | Roar | — | Fear attack: Strength D3+6 | Near |
+| 6 | Roar | — | Fear attack: Strength D3+6 | Near |
+
+*Note:* * The second value applies for attacks from creatures that lack horns.
 
 <!-- p.38 -->
 
@@ -757,7 +759,7 @@ To create unique tables for random monster attacks lies outside the capabilities
 | Crushing Attack | Strength 5+ | The beast grips an adventurer and attempts to crush her to bits. Perform an attack with X Base Dice and Weapon Damage X (blunt force). |
 | Sweeping Attack | Agility 3+ | The beast sweeps its claws (or similar weapons) across two adventurers within Near distance. Perform an attack with X Base Dice and Weapon Damage X (slash wound). Victims that are hit are also knocked prone. |
 | Slashing Attack | Claws | The beast slashes across an adventurer’s body with its sharp claws. Perform an attack with X Base Dice and Weapon Damage X (slash wound). |
-| Tail Attack/ Whip Attack | Tail or Tentacles | The beast whips the tip of its tail/tentacle at an adventurer within Near distance. Perform an attack with X Base Dice and Weapon Damage X (blunt force). If the attack hits, the victim is thrown to the ground. |
+| Tail Attack/Whip Attack | Tail or Tentacles | The beast whips the tip of its tail/tentacle at an adventurer within Near distance. Perform an attack with X Base Dice and Weapon Damage X (blunt force). If the attack hits, the victim is thrown to the ground. |
 | Roar | Strength 6+ | The beast utters a deafening roar that causes all adventurers within Near distance to suffer a fear attack with X Base Dice. |
 | Devouring Attack | Strength 14+ | The beast selects an adventurer and attempts to devour her. Roll for the attack with X Base Dice and Weapon Damage X (slash wound). If the attack succeeds the victim is swallowed whole. The adventurer can continue to attack the beast from the inside where the beast lacks armor. The victim is freed when the beast dies. The victim suffers 1 point of damage each round in the belly of the beast. |
 | Acid Attack | Acid Glands | The beast opens its jaws and sprays a cloud of corrosive acid over the adventurers. All adventurers within Near distance suffer an attack with X Base Dice (Weapon Damage X). Victims that are hit continue to take 1 point of damage each round for D3 rounds. |

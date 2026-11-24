@@ -29,3 +29,4 @@ gmg-village       gmg   170             table halves under one caption, notes ab
 gmg-dungeon-rooms gmg   175-176         caption + intro + table, side-by-side captioned tables, intro carried to next page
 la-legend         la    28-29           one header cell ("D66") with unnamed columns, 2x2 side-by-side tables
 la-monster        la    32              side-by-side tables without captions (paired "D66" headers)
+phb-hunt          phb   152             table footnote starting with *, two tables per page

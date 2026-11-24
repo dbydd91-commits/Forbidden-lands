@@ -109,7 +109,7 @@ Avoid preparing too much – the risk is that your plans may become difficult to
 
 You command everything between dragons and demons, but your best tool to create drama is often your NPCs. Stats for several typical NPCs can be found in Chapter 4 on Kin and in Chapter 8 about adventure sites, and a large number of specific NPCs are described in the complete adventure sites in Chapters 9, 10 and 11.
 
-##### Handling Npcs
+##### Handling NPCS
 
 Technically, the NPCs function like player characters. They need food and water, perform actions and sustain damage in the same way. But in practice, you should disregard all rulecrunching for an NPC if it doesn’t directly affect a player character. Don’t keep track of food for every NPC that travels with the adventurers – instead, have their food run out at the dramatically appropriate time. You don’t need to roll the dice for actions performed by an NPC unless they are attacking or healing a player character. You can roll for the NPCs in other situations if it enhances the drama, but most of the time you can skip it.
 
@@ -313,7 +313,7 @@ After a few skirmishes, the dwarves were victorious, and a violent celebration b
 
 King Algamar fell in battle against Aslene in Alderland. His son, Alvagard, sat on the throne after a shameful peace had been signed with Aslene. Once the members of the Rust Church came slinking back after their failed invasion of Ravenland, Alvagard’s interest was roused. Alderland had been forced to cede a mining district to Aslene as payment for a holy city that had been razed to the ground. The tales of Lumra’s iron mines and the gold mines of Glethra beyond the mountain drew the king like a bee to honey.
 
-This time, the nobility was eager to fill their empty coffers with plunder, and happily sent troops. In 825 AS, Alvagard led a wellequipped army of seven thousand men and an equal number of support troops across the mountains. The sorcerers’ guild sent a group of war sorcerers to support the army, among them the young and excessively power hungry Zygofer the Whisperer, who claimed he could hear voices from beyond the world and the night. Since these Frailer sorcerers were descended from the elves of Ravenland, they believed they were entitled to the land beyond the mountains. They assumed the betrayal of the Raven Sisters had robbed them of their heritage.
+This time, the nobility was eager to fill their empty coffers with plunder, and happily sent troops. In 825 AS, Alvagard led a well-equipped army of seven thousand men and an equal number of support troops across the mountains. The sorcerers’ guild sent a group of war sorcerers to support the army, among them the young and excessively power hungry Zygofer the Whisperer, who claimed he could hear voices from beyond the world and the night. Since these Frailer sorcerers were descended from the elves of Ravenland, they believed they were entitled to the land beyond the mountains. They assumed the betrayal of the Raven Sisters had robbed them of their heritage.
 
 The army was met with little resistance, and what little there was, was destroyed swiftly. In 825 AS, Alvagard’s army secured the Harga Plains beyond the pass in three days, and conquered the dwarves fortress of Vond. They made camp at Teramalda’s abandoned campsite at Alderstone, where the king’s banner, stitched with the images of crossed swords and branches of alder wood, was raised.
 
@@ -1914,7 +1914,7 @@ It is known that Trolls are born underground, but often journey to the surface a
 
 Trolls eat basically anything that they can chew. Their favorite food is fresh innards and flesh, but also carrion that even foxes won’t touch anymore slides down their gullet, along with produce and refuse from the farms, including the latrine. Not unexpectedly, they are surrounded by a stench that carries far on the wind.
 
-Trolls aren’t entirely unintelligent. They can use simple weapons and tools and can communicate through grunts, but appear to lack any form of selfpreservation or fear. The creatures are very strong and robust, with thick and leathery skin and incomparable regeneration that allows them to heal even critical injuries in a couple of minutes. They are, however, sensitive to glaring light and avoid direct sunlight.
+Trolls aren’t entirely unintelligent. They can use simple weapons and tools and can communicate through grunts, but appear to lack any form of self-preservation or fear. The creatures are very strong and robust, with thick and leathery skin and incomparable regeneration that allows them to heal even critical injuries in a couple of minutes. They are, however, sensitive to glaring light and avoid direct sunlight.
 
 Some Trolls gorge themselves until they are so large and round that they more often than not resemble rolling stone boulders rather than living creatures. The dwarves are said <!-- p.121 --> to extract rare minerals from the feces and tissue they leave behind and that they might even herd them like cattle. Vicious rumors say that the dwarves lure these Troll boulders to human villages with music, since certain especially rare minerals only form when the Trolls have eaten human flesh.
 
@@ -1982,7 +1982,7 @@ The creatures prefer to live in crags near wetlands and can attack in flocks, te
 
 The best defense against Wyverns is to attempt to get them down on the ground, where they are clumsy and practically defenseless. Villages in afflicted areas often use weapons with barbed chains that get caught in the leathery wings of the beasts, tearing them to shreds.
 
-The Wyverns have a very thin but energyladen layer of blubber under their skin that keeps them warm even during winter. Skilled tailors can sew warm winter clothes from the skin and the blubber is both flavorful and nutritious and as such it is popular as a provision.
+The Wyverns have a very thin but energy-laden layer of blubber under their skin that keeps them warm even during winter. Skilled tailors can sew warm winter clothes from the skin and the blubber is both flavorful and nutritious and as such it is popular as a provision.
 
 ### Stats: Wyvern
 
@@ -2036,7 +2036,7 @@ The Wyverns have a very thin but energyladen layer of blubber under their skin t
 | Raven | 1 | 3 | Move 3, Scout 4 | 2 | Beak | 1 | Slash |
 | Eagle | 3 | 5 | Move 3, Melee 3, Scout 5 | 3 | Claws | 1 | Slash |
 | Snake | 1 | 3 | Melee 3, Scout 4 | 1 | Bite | Lethal poison, Potency 4 | — |
-| Scorpion/ Spider | 1 | 3 | Move 3, Melee 2, Scout 3 | 1 | Tail | Paralyzing poison, Potency 6 | — |
+| Scorpion/Spider | 1 | 3 | Move 3, Melee 2, Scout 3 | 1 | Tail | Paralyzing poison, Potency 6 | — |
 
 <!-- p.128 -->
 
@@ -2053,6 +2053,8 @@ In this chapter, 18 unique artifacts are described in detail, including legends,
 ## Arrows of the Fire Wyrm
 
 *It is said that the volcano god Horn first awoke when the demons that Zygofer let loose had already laid waste to Aslene. So awful was his rage that magma and ash were spewed across the heavens. Brought before the god were three snakes, who had bitten three prophets to death. These prophets had seen the coming of the demon flood, and had wanted to warn the people and wake Horn. The snakes groveled before Horn and opined that they had not intended the desolation of the land, that they had only followed their nature as the gods had created them. When Horn’s priests still wanted to punish the reptiles by throwing them into the magma, they writhed,* <!-- p.129 --> *cried out and begged to atone for their crime by bringing vengeance to those who were truly responsible.*
+
+*Horn listened to them and called his servant from the magma depths of the volcano, the mighty fire wyrm, Erinya. She breathed on her lesser kin, whereupon they turned into arrows. These arrows would, when shot from a bow, mark the butchers of Aslene so that Erinya could find and devour them.*
 
 ## Table: Artifacts
 
@@ -2076,8 +2078,6 @@ In this chapter, 18 unique artifacts are described in detail, including legends,
 | 61–62 | Wail’s Horn |
 | 63–64 | Well of Tears |
 | 65–66 | Wyrm’s Key |
-
-*Horn listened to them and called his servant from the magma depths of the volcano, the mighty fire wyrm, Erinya. She breathed on her lesser kin, whereupon they turned into arrows. These arrows would, when shot from a bow, mark the butchers of Aslene so that Erinya could find and devour them.*
 
 ##### Appearance
 
@@ -2687,9 +2687,9 @@ The house is home to Melkar, a stout Halfling with a thin red beard. After he wa
 
 Melkar uses his oven to bake pastry creatures made of dough. His plan is to use them as servants and warriors. One batch is already done. Chests, pots and cabinets hide twenty pastry creatures armed with small spears and knifes Melkar will invite the adventurers to tea and pastries, that are not alive. If the adventurers discover a pastry creature Melkar tells them that he has the ability to create life, and that he wants to live in peace with his creation. If the adventurers attack he will call upon all the pastry creatures. In a wooden chest there is a diamond jewel (worth 1 gold) that Melkar stole from the village chieftain of Pernty. If the adventurers try to bake their own pastries, the demon living in the rocks will try to corrupt them.
 
-- DEMONIC PASTRIES: Melkar’s demonic pastries are handled as a single creature. It only has the Strength attribute, which is equal to the number of pastries divided by 5 (round up). The pastries have no skills. Their attacks have Weapon Damage 1 (stab wound).
-- SECOND ENCOUNTER: The next time the adventurers visit Melkar, he is surrounded by 70 demonic pastries that are engaged in producing weapons and baking new pastry creatures. They serve Melkar, who sits comfortable in his armchair, feasting on ill-behaved bread and buns, screaming in agony as the demon baker devours them. The Halfling now shows his true personality, he acts superior and even threatening.
-- THIRD ENCOUNTER: The third time the adventurers visit the site, the house is empty. Melkar has taken two hundred demonic pastries to the village of Pernty. The villagers in Pernty cast out Melkar because he stole a piece of jewelry. Melkar has his revenge by letting his troops burn down the village and taking its inhabitants as slaves. If the adventurers remain in the house, he will return within a few hours with a lot of halflings in chains.
+- **DEMONIC PASTRIES:** Melkar’s demonic pastries are handled as a single creature. It only has the Strength attribute, which is equal to the number of pastries divided by 5 (round up). The pastries have no skills. Their attacks have Weapon Damage 1 (stab wound).
+- **SECOND ENCOUNTER:** The next time the adventurers visit Melkar, he is surrounded by 70 demonic pastries that are engaged in producing weapons and baking new pastry creatures. They serve Melkar, who sits comfortable in his armchair, feasting on ill-behaved bread and buns, screaming in agony as the demon baker devours them. The Halfling now shows his true personality, he acts superior and even threatening.
+- **THIRD ENCOUNTER:** The third time the adventurers visit the site, the house is empty. Melkar has taken two hundred demonic pastries to the village of Pernty. The villagers in Pernty cast out Melkar because he stole a piece of jewelry. Melkar has his revenge by letting his troops burn down the village and taking its inhabitants as slaves. If the adventurers remain in the house, he will return within a few hours with a lot of halflings in chains.
 
 **TERRAIN TYPES:** Forest, Dark Forest, Marshlands, Quagmire
 
@@ -2803,10 +2803,10 @@ The attackers have game statistics like typical skeletons, see page 122.
 
 The walking armor is the strange undead creature Teramalda, who wanders through the Forbidden Lands looking for revenge ever since the dwarves burned her alive in her armor 350 years ago. The Rust Brothers regard her as the champion of their god Rust, as the breastplate carries the sign of their god, and she primarily kills dwarves. Teramalda is kept alive by a magical iron spike that has been driven through the Ferrale’s chest inside the armor. She is practically invulnerable and will not answer if spoken to. Meeting Teramalda will be different each time:
 
-- FIRST MEETING: Teramalda will just stand and look at the adventurers for a while until she decides that they are not interesting enough. If the adventurers attack her, go directly to the third meeting.
-- SECOND MEETING: Teramalda will attack any dwarves in the party.
-- THIRD MEETING: Teramalda classifies the adventurers as enemies and attack them. She will not pursue them if they flee.
-- FOURTH MEETING: Teramalda sees the adventurers as sworn enemies and pursues them. She walks slowly and can be heard some distance away but will never give up. She will find her enemies as long as they carry any iron.
+- **FIRST MEETING:** Teramalda will just stand and look at the adventurers for a while until she decides that they are not interesting enough. If the adventurers attack her, go directly to the third meeting.
+- **SECOND MEETING:** Teramalda will attack any dwarves in the party.
+- **THIRD MEETING:** Teramalda classifies the adventurers as enemies and attack them. She will not pursue them if they flee.
+- **FOURTH MEETING:** Teramalda sees the adventurers as sworn enemies and pursues them. She walks slowly and can be heard some distance away but will never give up. She will find her enemies as long as they carry any iron.
 
 ### Stats: Teramalda
 
@@ -3460,16 +3460,16 @@ Roll on the tables below one by one or use them freely as inspiration to create 
 | 53–62 | Fortress | Large |
 | 63–66 | Palace | Large |
 
-- OUTPOST: A simple watchpost consisting of a smaller main building defended by a palisade, often made of wood. Original staff: 5–10.
-- BLOCKHOUSE: A solid, timbered or stone house made up of at least two floors. Its thick walls make it easily defended, but the absence of outer walls provides no protection for the surrounding lands. Original staff: 10–20.
-- TOWER: A tower made of stone (or in some cases, wood) with three or more floors. From its top one can watch far away over the lands. Original staff: 5–20.
-- FORT: A smaller set of buildings, often two or three, protected by a palisade or a wall. Original staff: 15–40.
-- KEEP: A number of buildings and towers defended by a thick stone wall. Original staff: 25–100.
-- FORTRESS: Multiple reinforced buildings and towers, protected by thick walls and a moat with a falling bridge.
+- **OUTPOST:** A simple watchpost consisting of a smaller main building defended by a palisade, often made of wood. Original staff: 5–10.
+- **BLOCKHOUSE:** A solid, timbered or stone house made up of at least two floors. Its thick walls make it easily defended, but the absence of outer walls provides no protection for the surrounding lands. Original staff: 10–20.
+- **TOWER:** A tower made of stone (or in some cases, wood) with three or more floors. From its top one can watch far away over the lands. Original staff: 5–20.
+- **FORT:** A smaller set of buildings, often two or three, protected by a palisade or a wall. Original staff: 15–40.
+- **KEEP:** A number of buildings and towers defended by a thick stone wall. Original staff: 25–100.
+- **FORTRESS:** Multiple reinforced buildings and towers, protected by thick walls and a moat with a falling bridge.
 
 More or less unconquerable when at full strength. Original staff: 50–200.
 
-- PALACE: A grand building, often constructed by a noble to project power and wealth. Sometimes heavily reinforced, but some palaces function more as luxurious living quarters. Original staff: 50–300.
+- **PALACE:** A grand building, often constructed by a noble to project power and wealth. Sometimes heavily reinforced, but some palaces function more as luxurious living quarters. Original staff: 50–300.
 
 ### Box: Castle Versus Stronghold
 
@@ -3498,12 +3498,12 @@ More or less unconquerable when at full strength. Original staff: 50–200.
 | 35–43 | Display Power |
 | 44–66 | War |
 
-- LIVING QUARTERS: The castle was built to serve as a living space for someone.
-- TRADE: The castle was constructed to create a safe place to trade or guard an important trade route.
-- GUARD RESOURCE: The castle was built to guard an important resource (this could be a mine, a river or something else, for example).
-- PRISON: The castle was constructed to serve as a prison for someone – or something. Its size and power says something about who it once kept within its walls.
-- DISPLAY POWER: A castle built to show the great power and might of the owner.
-- WAR: A castle that was built as a part of a war or conflict.
+- **LIVING QUARTERS:** The castle was built to serve as a living space for someone.
+- **TRADE:** The castle was constructed to create a safe place to trade or guard an important trade route.
+- **GUARD RESOURCE:** The castle was built to guard an important resource (this could be a mine, a river or something else, for example).
+- **PRISON:** The castle was constructed to serve as a prison for someone – or something. Its size and power says something about who it once kept within its walls.
+- **DISPLAY POWER:** A castle built to show the great power and might of the owner.
+- **WAR:** A castle that was built as a part of a war or conflict.
 
 ### Table: Founder of the Castle <!-- p.179–180 -->
 
@@ -3576,7 +3576,7 @@ Roll once and read the entire row, or roll once in each column and combine the r
 
 #### Table: Who has Moved in?
 
-| D66 | Who or What | How Many (small/ Medium/large) | Go to |
+| D66 | Who or What | How Many (small/medium/large) | Go to |
 |---|---|---|---|
 | 11–14 | Bandits | D6/2D6/4D6 | Page 183. |
 | 15–16 | Traders | D6/2D6/4D6 | Page 184. |
@@ -3667,7 +3667,7 @@ Roll once and read the entire row, or roll once in each column and combine the r
 
 An important part of most adventure sites are the creatures and people that live there. Below, you’ll find a table of typical NPCs to use whenever needed. Use the Personal Quirks table to give an NPC some personality.
 
-##### Create Your Own Npcs
+##### Create Your Own NPCS
 
 You can easily create your own NPCs from scratch. A typical human being has 3 in all attributes, so use this as a baseline and increase or decrease attributes as you see fit.
 
@@ -3682,7 +3682,7 @@ Stats for different types of beings can be found in several locations in this bo
 
 ### Table: Typical NPCs <!-- p.183–184 -->
 
-| Npc | Attributes | Skills | Equipment |
+| NPC | Attributes | Skills | Equipment |
 |---|---|---|---|
 | Bandit | Strength 3, Agility 3, Wits 2, Empathy 2 | Melee 2, Marksmanship 1, Survival 2 | Broadsword or axe, sling or short bow, leather armor, D6 copper, SIMPLE find |
 | Soldier | Strength 4, Agility 3, Wits 3, Empathy 2 | Endurance 1, Melee 2, Marksmanship 2, Survival 1 | Broadsword or battleaxe, spear or long bow or heavy crossbow, large shield, leather armor or chainmail, open helmet, 2D6 copper, SIMPLE find |
@@ -4040,7 +4040,7 @@ Climbing the wall is a prickly experience requiring a roll against MOVE to avoid
 
 The watchtowers are really just high cairns of stacked debris from the ruins, placed at strategic locations for keeping watch over the area. You reach the top by way of a ladder on the inside of the wall. Mrs. Pollmor has decided that the three towers should be manned around the clock, but in practice this is rarely the case. The militia guards prefer to quench their thirst at one of the village’s two inns, or they climb down to talk to a villager passing by. The north watchtower between the new and the old burial grounds is naturally not a very popular assignment. The militia guards usually draw lots over it, and the tower stands unmanned most of the time.
 
-- CREATURES: One militia guard.
+- **CREATURES:** One militia guard.
 
 ### 3. The Gates
 
@@ -4086,7 +4086,7 @@ After dark, the villagers loyal to Mrs. Pollmor gather around the large open fir
 
 The mead served at the Dead Man’s Hand is watery and tasteless, but if you ask for something else to drink, Olm can offer a good wine from a barrel he bought from a merchant passing through the village. When Mrs. Pollmor isn’t around, Olm brings out a barrel of Yawim’s delicious beer. Wild boar, mutton and game birds are being grilled on the open fire. The meat is served with turnips and carrots. Visitors short on silver can get a stew of turnips and bacon rinds.
 
-- CREATURES: Olm, various guests.
+- **CREATURES:** Olm, various guests.
 
 ### 9. The Three Skulls Tavern, Brewery and Mill
 
@@ -4096,7 +4096,7 @@ The mill (9a) belongs to the dwarven brewmaster Yawim who, due to a bitter histo
 
 Seeds are milled in the mill and then transported to the nearby brewery (#9b). There, the widely renowned dwarven beer is brewed. Travelers gladly make a detour to drink a tankard at Yawim’s Three Skulls Tavern (#9c), where the mood is always merry. Yawim welcomes most but will shoot daggers at richly bearded people and wolfkin. People of dwarven heritage are invariably ousted. If anyone points out to Yawim that he himself is a dwarf, the entire place falls silent and what happens next is anyone’s guess.
 
-- CREATURES: Brewmaster Yawim, D6 guests in the daytime, 2D6 guests in the evening. There are D6 workers in the brewery and the mill.
+- **CREATURES:** Brewmaster Yawim, D6 guests in the daytime, 2D6 guests in the evening. There are D6 workers in the brewery and the mill.
 
 ### 10. House of the Village Elder
 
@@ -4104,7 +4104,7 @@ Seeds are milled in the mill and then transported to the nearby brewery (#9b). T
 
 Mrs. Pollmor’s great-grandmother had an impressive longhouse built into the hillside facing the river. When the village elder’s husband was alive they held grandiose feasts here once each quarter, but now the dust lies thick on tables and benches in the great hall. Mrs. Pollmor <!-- p.203 --> only furnishes the bedchamber, the study and the kitchen. The smith’s daughter, Delia, helps her with her household chores, arriving at the house at dawn and leaving long after dark.
 
-- CREATURES: Mrs. Pollmor and Delia.
+- **CREATURES:** Mrs. Pollmor and Delia.
 
 ### 11. The Old Cemetery
 
@@ -4136,7 +4136,7 @@ Once a month and on holy days, Olm conducts a ceremony at the chapel. During the
 
 The blacksmith Ness makes and repairs the tools of the village. If necessary, he can repair and make weapons and armor. The blacksmith lives with his wife Vira and three children in a wing on the back side of the smithy.
 
-- CREATURES: The blacksmith Ness, Vira.
+- **CREATURES:** The blacksmith Ness, Vira.
 
 ### 15. The Gamekeeper’s Cabin
 
@@ -4144,7 +4144,7 @@ The blacksmith Ness makes and repairs the tools of the village. If necessary, he
 
 Gamekeeper Vike provides the villagers with game and wildfowl. He slaughters the animals and tan the skins if there is need for it. Inside the the cabin, aside from Vike’s bunk, is a large, brick stove to cure and salt meat.
 
-- CREATURES: Gamekeeper Vike.
+- **CREATURES:** Gamekeeper Vike.
 
 ### 16. The Fisherman’s House
 
@@ -4152,7 +4152,7 @@ Gamekeeper Vike provides the villagers with game and wildfowl. He slaughters the
 
 The old fisherman Tolme and his wife Lita have provided the village with fish for over fifty years. They miss their son, Brenn, who left <!-- p.205 --> the village seeking adventure in the Forbidden Lands when the Blood Mist lifted, and would love to hear from him again.
 
-- CREATURES: The fisherman Tolme and his wife Lita.
+- **CREATURES:** The fisherman Tolme and his wife Lita.
 
 ### 17. The Estate
 
@@ -4160,7 +4160,7 @@ The old fisherman Tolme and his wife Lita have provided the village with fish fo
 
 The matron, Gremla, keeps cows, hens and pigs in these buildings. Her husband, Beidor, performs miracles in the estate’s small bakery. They live here together with their six children, the work horse Ferga and the dog Ruts.
 
-- CREATURES: Gremla and Beidor with their children.
+- **CREATURES:** Gremla and Beidor with their children.
 
 ### 18. The House of the Rust Brother
 
@@ -4172,7 +4172,7 @@ The Rust Brother Sturkas spends most of his time in the cabin. Every afternoon h
 
 > At night, the streets of The Hollow crawl with ghosts and wraiths. The villagers have learned to live with it. To the right of every door on every building in the village is a small brass bell. Anyone going out after dark would be wise to ring the bell and speak the words: “I come in peace and amity in the hour of the dead.” This is to warn the restless dead of one’s arrival. In addition, one should preferably walk only along the paths lined with red-painted stones. Anyone who deviates from these rituals risks arousing the curiosity of the undead. The villagers have a habit of intentionally “forgetting” to explain this to newcomers, viewing it as an amusing prank.
 
-- CREATURES: The Rust Brother Sturkas.
+- **CREATURES:** The Rust Brother Sturkas.
 
 <!-- p.206 -->
 
@@ -4182,7 +4182,7 @@ The Rust Brother Sturkas spends most of his time in the cabin. Every afternoon h
 
 In the house lives the midwife and herbalist, Nirvea. She helps the villagers with delivering children and provides medicinal treatments for the sick. All in exchange for alms and help with manual labor.
 
-- CREATURES: The midwife Nirvea.
+- **CREATURES:** The midwife Nirvea.
 
 ### 20. Enclosure
 
@@ -4196,16 +4196,16 @@ The matron Gremla keeps her animals in the enclosures.
 
 The stone gate has to be unearthed and opened with a crowbar or similar tool. Succeeding in this requires a successful roll for MIGHT. There is room for three people to help each other. If the roll fails, the stone disk falls on someone’s foot (attack with four dice, Weapon Damage 1) or rolls down the hillside, crashing into a building. Inside, a short tunnel leads to a burial chamber.
 
-**CORRIDOR:** : A dark corridor is excavated into the side of the hillock. The ceiling of the corridor is supported by stone columns adorned with reliefs depicting skulls and demonic faces. A green light flickers from a chamber a couple of meters further into the hillock. From the chamber you can hear a woman sobbing.*
+**CORRIDOR:** A dark corridor is excavated into the side of the hillock. The ceiling of the corridor is supported by stone columns adorned with reliefs depicting skulls and demonic faces. A green light flickers from a chamber a couple of meters further into the hillock. From the chamber you can hear a woman sobbing.*
 
-**BURIAL CHAMBER:** : The corridor ends in a circular chamber, about six meters wide. Standing sarcophagi, hewn from rock, are placed in three alcoves. The sarcophagus opposite the entrance of the chamber is adorned with reliefs, the ones to the right and left are smooth. The left one is considerably smaller than the others and most likely belongs to a deceased child or halfling. In the middle of the chamber is a brazier, in which burns a green fire. At the base of the smaller sarcophagus, on the dusty stone floor, sits a woman dressed in a dress of black and blue. Her figure is semi-transparent and flickers slightly in the green glow from the brazier. She sobs and murmurs softly in an incomprehensible language.*
+**BURIAL CHAMBER:** The corridor ends in a circular chamber, about six meters wide. Standing sarcophagi, hewn from rock, are placed in three alcoves. The sarcophagus opposite the entrance of the chamber is adorned with reliefs, the ones to the right and left are smooth. The left one is considerably smaller than the others and most likely belongs to a deceased child or halfling. In the middle of the chamber is a brazier, in which burns a green fire. At the base of the smaller sarcophagus, on the dusty stone floor, sits a woman dressed in a dress of black and blue. Her figure is semi-transparent and flickers slightly in the green glow from the brazier. She sobs and murmurs softly in an incomprehensible language.*
 
 The woman on the floor is the undead countess, Ursula. She mourns her son, who was killed by Zygofer, and has done so for the last 300 years. She was placed here by Zygofer to make sure that the spirit of Count Nepola remains in its sarcophagus. Should the adventurers communicate with her, she will lament her child’s death at the hand of the evil sorcerer, and try to convince them to avenge her and the child. For more information, see the section on Events below.
 
 <!-- p.207 -->
 
-- CREATURES: The undead countess Ursula and the count Nepola.
-- TREASURES: The countess has a comb of silver set with sapphires (worth 2D6 gold coins). She is, however, loathe to part with it. The count has an old circlet of gold with inscriptions describing the heroic deeds of his family (worth D6 gold coins). In the boy’s sarcophagus is a gilded toy rattle (worth D6 silver coins).
+- **CREATURES:** The undead countess Ursula and the count Nepola.
+- **TREASURES:** The countess has a comb of silver set with sapphires (worth 2D6 gold coins). She is, however, loathe to part with it. The count has an old circlet of gold with inscriptions describing the heroic deeds of his family (worth D6 gold coins). In the boy’s sarcophagus is a gilded toy rattle (worth D6 silver coins).
 
 ## Monsters and NPCs
 
@@ -4414,7 +4414,7 @@ The old bard, Dalb, has struck camp in the tower and is in the midst of cooking 
 
 ### Box: Who is Dalb?
 
-> The Bard who calls himself Dalb is in reality the demon Merigall. He is allied with the sorcerer Zytera and looks upon the Forbidden Lands as his playground, where he performs more or less cruel pranks on the simple inhabitants. The tale that Dalb/ Merigall tells the adventurers is only partially true.
+> The Bard who calls himself Dalb is in reality the demon Merigall. He is allied with the sorcerer Zytera and looks upon the Forbidden Lands as his playground, where he performs more or less cruel pranks on the simple inhabitants. The tale that Dalb/Merigall tells the adventurers is only partially true.
 >
 > Esgar Farthing and his men are indeed entering the stronghold. There is a demon beast in the laboratory. King Algarod’s sword Rustbite is indeed magical. But the sword is also the very item that is the key to the dormant curse over Algarod and his undead men. Whoever touches the sword activates the curse once again, and wakes the king and his soldiers from their rest.
 >
@@ -4444,8 +4444,8 @@ A large, somewhat intact house close to the gate contains the main feast hall su
 
 <!-- p.221 -->
 
-- CREATURES: None, unless the undead are awake (see #9). If so, two dozen skeletons.
-- TREASURE: In the mess, there are D6 silver jugs worth D6 silver coins each. If the undead are awake, the jugs have owners that are unwilling to part with them.
+- **CREATURES:** None, unless the undead are awake (see #9). If so, two dozen skeletons.
+- **TREASURE:** In the mess, there are D6 silver jugs worth D6 silver coins each. If the undead are awake, the jugs have owners that are unwilling to part with them.
 
 ### 4. The Ravine
 
@@ -4455,7 +4455,7 @@ A deep ravine splits Weatherstone into western and eastern parts. Two drawbridge
 
 At the bottom of the ravine, the rotting shells of two old wagons can be seen. There are chests emblazoned with an old symbol on the chests – a LORE roll will reveal it to be the heraldry of Alderland. These chests are the remains of king Algarod’s warchest. They are locked, but empty aside from a few coins and the excrement of harpies. The harpies in the Theater Tower (#6) have stolen most of the treasure and hid it in a crevice close to their nest a long time ago.
 
-- TREASURE: D6 copper coins, D6 silver coins, and one VALUABLE find in the chests at the bottom of the ravine.
+- **TREASURE:** D6 copper coins, D6 silver coins, and one VALUABLE find in the chests at the bottom of the ravine.
 
 ### 5. The Laboratory
 
@@ -4463,9 +4463,9 @@ At the bottom of the ravine, the rotting shells of two old wagons can be seen. T
 
 The lord of the stronghold lived in the building beyond the ravine, along with his family and his closest knights. Zygofer used the buildings as a laboratory until the stronghold was abandoned.
 
-- CREATURES: An incomplete hybrid of human and scorpion is crawling around, looking for its missing body parts. It is very aggressive and wants to take parts from any intruders. See page 227.
+- **CREATURES:** An incomplete hybrid of human and scorpion is crawling around, looking for its missing body parts. It is very aggressive and wants to take parts from any intruders. See page 227.
 - If you like, one of Esgar’s companions is lying in a corner, critically injured by the scorpion beast and left to die by Esgar. If the adventurers help the dying treasure hunter, they may have won an ally.
-- TREASURE: D6 urns containing weird experiments (body parts, eyes, a brain, <!-- p.222 --> a strange insect). Worth D6 silver coins apiece to the right death magician.
+- **TREASURE:** D6 urns containing weird experiments (body parts, eyes, a brain, <!-- p.222 --> a strange insect). Worth D6 silver coins apiece to the right death magician.
 
 ### 6. The Theater Tower and the Harpies’ Nest
 
@@ -4477,7 +4477,7 @@ The harpies have hidden most of what remains of Algarod’s war chest in a crevi
 
 A small number of coins are loaded in the still functioning catapult on the terrace, which is primed and aimed over the edge of the cliff to the east. The catapult seems to be loaded with coins, but underneath the top layer is crushed pyrite – pebbles that appear to be metallic from a distance. If some intrepid treasure hunter approaches, the harpies will fire the catapult, scattering the coins across the landscape unless they get what they want (see Events). There are three skeletons in the harpies’ nest from infants they have stolen from a village, along with a few improvised toys and the remains of rats they attempted to feed the children with.
 
-- TREASURE: In the catapult there are 2D6 copper coins and D6 silver coins. At the bottom of the crevasse the actual remains of the Alderlander war chest can ne found: 5D6 copper coins, 4D6 silver coins and 2D6 gold coins.
+- **TREASURE:** In the catapult there are 2D6 copper coins and D6 silver coins. At the bottom of the crevasse the actual remains of the Alderlander war chest can ne found: 5D6 copper coins, 4D6 silver coins and 2D6 gold coins.
 
 ### 7. Drawbridge
 
@@ -4499,8 +4499,8 @@ The upper drawbridge to the king’s tower remains, but it is raised on the far 
 
 The guard post consists of barracks and an armory. The rest of this building is made up of servants’ quarters and a kitchen. Each room is one zone in combat.
 
-- TREASURE: None, but a few rusty swords and spears.
-- CREATURES: None, unless the undead are awake (see #9). If so, a dozen skeletons.
+- **TREASURE:** None, but a few rusty swords and spears.
+- **CREATURES:** None, unless the undead are awake (see #9). If so, a dozen skeletons.
 
 #### Box: When the Undead have Risen
 
@@ -4526,8 +4526,8 @@ If an adventurer touches Algarod’s sword, the king, his guards, and every unde
 
 Controlled by Therania, King Algarod will immediately attack anyone laying hands on his sword (treat this as a monster attack, page 73). The following round he will be joined by three undead bodyguards that will also attack. Even if the adventurers survive this, they are surrounded by dozens of undead in the castle and will desperately need to find a way to escape if they want to live.
 
-- CREATURES: King Algarod and three undead guards.
-- TREASURE: Algarod’s sword Rustbite. A masterfully crafted longsword enchanted by a court magician in Alderland four hundred years ago.
+- **CREATURES:** King Algarod and three undead guards.
+- **TREASURE:** Algarod’s sword Rustbite. A masterfully crafted longsword enchanted by a court magician in Alderland four hundred years ago.
 
 #### Box: Rustbite, Magical Longsword
 
@@ -4633,7 +4633,7 @@ Around the keep are dozens of undead Alderlander soldiers, dead for centuries. W
 
 ### The Scorpion Beast
 
-A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, halfhuman, this is a creature that was never meant to live. The beast is totally driven by instinct and see all living creatures as potential food. The Scorpion Beast is a monster (see page 73).
+A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, half-human, this is a creature that was never meant to live. The beast is totally driven by instinct and see all living creatures as potential food. The Scorpion Beast is a monster (see page 73).
 
 - STRENGTH 14, AGILITY 8
 - **Armor:** 5 (carapace)
@@ -4692,7 +4692,7 @@ As soon as an adventurer (or one of the NPC treasure hunters) touches Rustbite, 
 
 This event is best used late in the adventure to ramp up pressure on the adventurers. Regardless of whether the undead have woken up or not, the adventurers will suddenly hear a strange sound from outside the keep. If they find a window and look <!-- p.230 --> out, they will see the bard Dalb standing on the other side of the moat, singing a song in an archaic language while raising his arms to the sky. Once he stops singing everything is silent for a moment. Then an unearthly scream is heard from everywhere inside Weatherstone. If the undead have not awakened, they do so now. If they already have, they start roaming the keep in packs looking for intruders to slay.
 
-What has really happened is that Dalb/ Merigall has decided to make things a little more interesting with a spell. He sees this as an amusing experiment more than anything else.
+What has really happened is that Dalb/Merigall has decided to make things a little more interesting with a spell. He sees this as an amusing experiment more than anything else.
 
 ### Fire!
 
@@ -4752,8 +4752,8 @@ The most important sites of the Vale of the Dead are described below.
 
 The valley is hard to reach, situated high up in the mountains beyond overgrown trails. At this site, one finds a temple pagoda in ruins, so dilapidated that there isn’t even anything to rummage through. Snoring sounds can, however, be heard from a new, shoddily raised wooden watchtower. Around the tower lie left-overs, fruit peels and offal. Atop the tower is a sleeping, intoxicated orc. There is a chance that he’ll wake up if someone tries to climb up (make an opposed roll with the adventurer’s STEALTH against the orc’s SCOUTING), in which case he’ll sound the alarm on a metal bell that is actually the shoe of a suit of plate armor.
 
-- CREATURES: The orc Xugg.
-- TREASURES: The bell/shoe is worth no more than D6 copper pieces.
+- **CREATURES:** The orc Xugg.
+- **TREASURES:** The bell/shoe is worth no more than D6 copper pieces.
 
 <!-- p.234 -->
 
@@ -4773,8 +4773,8 @@ In the cavern inside the yard, the orcs distill hooch from fermented juice given
 
 The cooling pipe is an old crumhorn, a wind instrument that the whiners have stolen from the Vale of the Dead as it’s low-pitched vibrato causes the small-folks’ hollow-rock to become brittle and crack, exposing their lairs. The dead and Scrome the giant want to reclaim the horn, but cannot access the area where it’s being held.
 
-- CREATURES: Ten orc drifters.
-- TREASURES: The crumhorn. Priceless to Scrome the giant, otherwise worth 2D6 silver.
+- **CREATURES:** Ten orc drifters.
+- **TREASURES:** The crumhorn. Priceless to Scrome the giant, otherwise worth 2D6 silver.
 
 ### 3. The Temple of Silence
 
@@ -4794,7 +4794,7 @@ The priests of the temple prepared and embalmed the bodies of the dead left in t
 
 *“Beyond the Temple of Silence entered the…* *caves to the underground. The priesting folk was so wroth… choked. Cameth we to a wondrous garden, tended by the dead… carefully…* *taste these fruits, for whoever do so shall lose…* *played music… graves lined the glen… Hargard worked the sarcophagus with… the guar… of the underground… in want of flight. Golden burden… left...”*
 
-- TREASURES: D6 gems (worth 2D6 silver coins each).
+- **TREASURES:** D6 gems (worth 2D6 silver coins each).
 
 ### 5. Whiner Dwellings
 
@@ -4808,7 +4808,7 @@ In the innermost chamber resides the whiner queen, a large creature who was born
 
 From one of their inner chambers, the whiners are able to turn a wheel that cuts off the outflow from the waterfall in the distillery. If that happens, water will submerge the ravine of the orcs within twenty minutes, reaching a surface level of two meters above the gate to the Temple of Silence. The mechanism was one of <!-- p.238 --> the temple’s defense mechanisms and the water won’t reach the temple caves proper. The orc camp will be flooded, causing some discontent, but they are easily able to reach safety by clambering up the ladders. The whiners can turn the wheel in desperation to stop the adventurers, if they are perceived as a serious threat. One can swim from the temple with relative ease, even after the entrance has been submerged.
 
-- CREATURES: Several hundred whiners.
+- **CREATURES:** Several hundred whiners.
 
 ### 6. Mountain Crevice
 
@@ -4839,7 +4839,7 @@ The whiners have blocked the original entrance to the valley with hollow-rock, a
 
 During the heyday of the temple, this site was a burial ground where relatives journeyed to honor their dead. Here were temple buildings, cypresses, orchards and edible snails that the priests of the temple lived off. Everything fell into disrepair long ago, but there is still an abundance of food. A score of ghosts hover about, some agitated, others uninterested or filled with sorrow. Scrome the giant is the guardian of the vale. He sometimes sleeps in a large cave in the farthest reaches of the valley. The mountains around the valley can’t be surmounted, but one can fly into the valley.
 
-- CREATURES: Ghosts. Roll or choose from the table below. Scrome the Giant.
+- **CREATURES:** Ghosts. Roll or choose from the table below. Scrome the Giant.
 
 ### 9. Harama’s Kitchen
 
@@ -4849,8 +4849,8 @@ During the heyday of the temple, this site was a burial ground where relatives j
 
 Zygofer lived in the house with Martea when he studied necromancy in the vale 350 years ago. Also living in the house was the servant, Harama, a skilled Alderlander chef who also managed the couple’s household. The house is partially collapsed, since Scrome stepped on it in a fit of rage. Harama still resides in the house as a shapeless, semi-human mass of tissue. Inside the house are the remnants of cooking equipment, baking ovens, griddles and such, as well as drawings on parchment made by Martea. In the pictures, one can see images of the loving couple, the couple respectfully communing with the dead, Zygofer contently standing in a giant hand and a little boy who’s dancing with a skeleton.
 
-- CREATURES: Harama the glutton.
-- TREASURES: Harama’s soup stone.
+- **CREATURES:** Harama the glutton.
+- **TREASURES:** Harama’s soup stone.
 
 ### 10. The Graves
 
@@ -4860,8 +4860,8 @@ The graves of the valley can be found here and there. There is some burial gold 
 
 One can also speak with the dead and glean information about the history of the Forbidden Lands and other places that the GM finds it suitable to reveal. The information is several hundred years old, of course.
 
-- CREATURES: Ghosts.
-- TREASURES: Roll on the treasures tables on page 186.
+- **CREATURES:** Ghosts.
+- **TREASURES:** Roll on the treasures tables on page 186.
 
 ## Monsters and NPCs
 

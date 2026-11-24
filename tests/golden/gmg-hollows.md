@@ -12,7 +12,7 @@ After dark, the villagers loyal to Mrs. Pollmor gather around the large open fir
 
 The mead served at the Dead Man’s Hand is watery and tasteless, but if you ask for something else to drink, Olm can offer a good wine from a barrel he bought from a merchant passing through the village. When Mrs. Pollmor isn’t around, Olm brings out a barrel of Yawim’s delicious beer. Wild boar, mutton and game birds are being grilled on the open fire. The meat is served with turnips and carrots. Visitors short on silver can get a stew of turnips and bacon rinds.
 
-- CREATURES: Olm, various guests.
+- **CREATURES:** Olm, various guests.
 
 ### 9. The Three Skulls Tavern, Brewery and Mill
 
@@ -22,7 +22,7 @@ The mill (9a) belongs to the dwarven brewmaster Yawim who, due to a bitter histo
 
 Seeds are milled in the mill and then transported to the nearby brewery (#9b). There, the widely renowned dwarven beer is brewed. Travelers gladly make a detour to drink a tankard at Yawim’s Three Skulls Tavern (#9c), where the mood is always merry. Yawim welcomes most but will shoot daggers at richly bearded people and wolfkin. People of dwarven heritage are invariably ousted. If anyone points out to Yawim that he himself is a dwarf, the entire place falls silent and what happens next is anyone’s guess.
 
-- CREATURES: Brewmaster Yawim, D6 guests in the daytime, 2D6 guests in the evening. There are D6 workers in the brewery and the mill.
+- **CREATURES:** Brewmaster Yawim, D6 guests in the daytime, 2D6 guests in the evening. There are D6 workers in the brewery and the mill.
 
 ### 10. House of the Village Elder
 
@@ -30,7 +30,7 @@ Seeds are milled in the mill and then transported to the nearby brewery (#9b). T
 
 Mrs. Pollmor’s great-grandmother had an impressive longhouse built into the hillside facing the river. When the village elder’s husband was alive they held grandiose feasts here once each quarter, but now the dust lies thick on tables and benches in the great hall. Mrs. Pollmor <!-- p.203 --> only furnishes the bedchamber, the study and the kitchen. The smith’s daughter, Delia, helps her with her household chores, arriving at the house at dawn and leaving long after dark.
 
-- CREATURES: Mrs. Pollmor and Delia.
+- **CREATURES:** Mrs. Pollmor and Delia.
 
 ### 11. The Old Cemetery
 

@@ -74,7 +74,7 @@ Demons can be completely impervious to cuts and strikes, fire or cold. Most of t
 | 36–41 | Cold | D6+5 | The victim also instantly becomes COLD. | Near |
 | 42–45 | Roar | — | Fear attack: strength D3+6 | Near |
 | 46–51 | Killing Gaze | — | Fear attack: strength D6+5 | Near |
-| 52–55 | Heavy Weapon | D6+5 | Roll a D6. 1: Longsword, 2: Twohanded sword, 3: Heavy warhammer, 4: Morningstar, 5: Twohanded axe, 6: Trident | Arm’s Length |
+| 52–55 | Heavy Weapon | D6+5 | Roll a D6. 1: Longsword, 2: Two-handed sword, 3: Heavy warhammer, 4: Morningstar, 5: Two-handed axe, 6: Trident | Arm’s Length |
 | 61–65 | Roll Three Times | — | — | — |
 | 66 | Roll Four Times | — | — | — |
 
