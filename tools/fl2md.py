@@ -233,6 +233,11 @@ def page_lines(pg) -> list:
     lines = [l for l in lines if id(l) not in drop]
     # a bullet glyph is often its own PDF line: glue it to the text on its right
     for b in [l for l in lines if l.text.strip() in tuple(BULLETS)]:
+        twin = [l for l in lines if l is not b and abs(l.y0 - b.y0) < 4 and -12 <= l.x0 - b.x1 < 25
+                and l.text.strip()[:1] in BULLETS]
+        if twin:                          # the glyph is drawn twice (once inside the text line)
+            lines.remove(b)
+            continue
         right = [l for l in lines if l is not b and abs(l.y0 - b.y0) < 4 and 0 <= l.x0 - b.x1 < 25]
         if right:
             t = min(right, key=lambda l: l.x0)
@@ -293,8 +298,8 @@ class Vocab:
         w1, w2 = m1.group(1).lower(), m2.group(1).lower()
         if f"{w1}-{w2}" in self.hyph and (w1 + w2) not in self.words:
             return a + b
-        if w2[0].isupper() and m2.group(1)[0].isupper() and not m2.group(1).isupper():
-            return a + b                                    # "Half-Elf"
+        if m2.group(1)[0].isupper() and not m2.group(1).isupper():
+            return a + b                                    # "Half-Elf", "Demon-Tainted"
         if re.match(r"[A-Za-z]+-[a-z]", b):
             return a + b                                    # "well-" + "to-do"
         if (w1 + w2) not in self.words and (w1 in HYPH_FIRST or w2 in HYPH_SECOND):
@@ -327,6 +332,7 @@ def join_lines(texts, vocab) -> str:
             out += " " + t
     if held:
         out += " " + " ".join(held)
+    out = re.sub(r"(?<=[\w,.;:!?’”)])\* (<!-- p\.\S+ -->) \*(?=[\w‘“(])", r" \1 ", out)   # italics across a page
     return re.sub(r"(?<=[\w,.;:!?’”)])\* \*(?=[\w‘“(])", " ", out)
 
 
@@ -362,7 +368,9 @@ def title_case(t: str) -> str:
     t = re.sub(r"\s+", " ", t).strip()
     words = []
     for w in t.split(" "):
-        if re.fullmatch(r"[A-Z]?\d*D\d+.*|[IVX]+|NPCS?|PCS?|GMS?|XP|WP", w):   # D66, 2D6, roman numerals, NPC
+        if re.fullmatch(r"NPCS|PCS|GMS", w):
+            words.append(w[:-1] + "s")                                     # NPCs
+        elif re.fullmatch(r"[A-Z]?\d*D\d+.*|[IVX]+|NPC|PC|GM|XP|WP", w):   # D66, 2D6, roman numerals, NPC
             words.append(w)
         else:
             words.append(string.capwords(w.lower(), "-") if w.isupper() else w)
@@ -377,6 +385,8 @@ def norm(s: str) -> str:
 
 def bookmark_title(t: str) -> str:
     t = t.replace("\x85", "–").replace("\x90", "’").replace("\x92", "’")
+    if t.isupper():                          # Raven's Purge: "MONSTERS AND NPCS" -> "Monsters and NPCs"
+        t = title_case(t)
     t = re.sub(r"^Text [Bb]ox:\s*", "Box: ", t)
     t = re.sub(r"\s{2,}", " – ", t.strip())
     return t
@@ -524,6 +534,10 @@ def find_regions(lines):
     for l in lines:
         if l.branding:
             continue
+        body = sum(len(s.text) for s in l.spans if s.font.startswith("IM_FELL_Great_Primer"))
+        if l.text.strip()[:1] not in BULLETS and (          # (a bullet item set in the body font
+                body * 2 > len(l.text) or (heading_line(l) and not any(sp.branding for sp in l.spans))):
+            continue                     # body text and headings are never part of a table/box
         cy = (l.y0 + l.y1) / 2
         for r in regions:
             x0, y0, x1, y1 = r.bbox
@@ -833,7 +847,7 @@ def box_items(r: Region, vocab):
             items.append(cur)
         elif bullet:
             t = l.text.strip()
-            cur = {"label": "", "bullet": True, "lines": [t if t[0] == "…" else t[1:].strip()]}
+            cur = {"label": "", "bullet": True, "lines": [t if t[0] == "…" else re.sub(r"^[\s" + BULLETS + "]+", "", t)]}
             items.append(cur)
         elif new_para and not (cur and cur.get("label") and not cur["lines"]):
             cur = {"label": "", "lines": [cell_text(l) if bold_lead else fmt_spans(l.spans)]}
@@ -885,8 +899,15 @@ def heading_line(l: Line) -> bool:
             and not t[:1] in BULLETS)
 
 
+MAP_LABEL = re.compile(r"(?:\d{1,2}[a-z]?|[A-Z])(?: (?:\d{1,2}[a-z]?|[A-Z]))*")   # "7", "C", "7 10 9 8 4"
+
+
 def art_label(l: Line, prose) -> bool:
-    """Small isolated caption inside an illustration (e.g. a skill icon label)."""
+    """Small isolated caption inside an illustration (e.g. a skill icon label), or a map key
+    ("7", "12", "C") set in the body font."""
+    if MAP_LABEL.fullmatch(l.text.strip()) and l.size < 12 and not any(   # (a drop cap is not a map key)
+            o is not l and abs(o.y0 - l.y0) < 3 and re.search(r"[a-z]{3}", o.text) for o in prose):
+        return True                      # (a page number in a contents line is not one either)
     if l.size >= 6.5 or len(l.text.split()) > 4 or l.text.strip() == "EXAMPLE":
         return False
     if not re.search(r"[a-z]", l.text):           # all-caps label placed over the art
@@ -932,18 +953,23 @@ class TableBlock:
         self.heading, self.table, self.pages = heading, table, [label]
 
     @staticmethod
-    def merge(items):
+    def merge(items, vocab=None):
         """Join a table continued on the next page(s) into one: same columns, only page
         anchors in between, and either no heading or a "<caption>, Cont." heading."""
         items = [str(x) if isinstance(x, Holder) else x for x in items]
         items = [x for x in items if not (isinstance(x, str) and not x.strip())]
         out, last, prev_names = [], None, None
         box_at = None                    # index in out of the last sidebar (box) block
+        prev_real = None
         for x in items:
+            if isinstance(x, str) and x.startswith("**[Figure — map") and x == prev_real:
+                continue                 # a map spread over two pages: one note
+            if not (isinstance(x, str) and re.fullmatch(r"<!-- p\.\S+ -->", x.strip())):
+                prev_real = x
             if (isinstance(x, str) and x.startswith("> ") and box_at is not None
                     and not re.search(r"[.!?”’)]\*?$", out[box_at].rstrip())):
                 # a sidebar running on over the page break: one box
-                out[box_at] = join_lines([out[box_at].rstrip(), x[2:]], None)
+                out[box_at] = join_lines([out[box_at].rstrip(), x[2:]], vocab)
                 continue
             if isinstance(x, str) and (x.startswith("> ") or re.match(r"#+ Box: .*\n\n> ", x)):
                 box_at = len(out)
@@ -1077,8 +1103,10 @@ class Writer:
             new = True                                  # short line, then italic flavour text (or back)
         if new and p is not None and re.search(r"[a-z]-$", p.text.strip()) and l.text[:1].islower():
             new = bool(bullet or lab or dc)            # a hyphenated word always continues
+        if bullet and not re.sub(r"[\s" + BULLETS + "]", "", l.text):
+            return                       # a lone bullet glyph: nothing to say
         if bullet:
-            body = l.text.strip() if l.text.strip()[0] == "…" else l.text.strip()[1:].strip()
+            body = l.text.strip() if l.text.strip()[0] == "…" else re.sub(r"^[\s" + BULLETS + "]+", "", l.text)
             m = re.match(r"^([A-Z][A-Z’' ]+?)(?::\s*|\s+)(.*)$", body)
             gl = re.match(r"^([A-Z][A-Z’' &/-]+:)\s*(.*)$", body)
             if gl and not (m and m.group(1).strip() in ("RANK", "RANGE", "DURATION", "INGREDIENT")):
@@ -1093,7 +1121,7 @@ class Writer:
             self.para = ["- " + body]                         # wrapped lines continue the item
             self.item_strict = bool(m and m.group(1).strip() in ("RANK", "RANGE", "DURATION", "INGREDIENT")
                                     and not re.match(r"\d+:", m.group(2)))   # spell stat line
-            self.item_x = next((s.x0 for s in l.spans if s.text.strip() and s.text.strip() not in BULLETS), l.x0)
+            self.item_x = next((s.x0 for s in l.spans if re.sub(r"[\s" + BULLETS + "]", "", s.text)), l.x0)   # (glyph drawn twice)
             self.prev, self.prev_right = l, right
             return
         if lab:
@@ -1116,7 +1144,7 @@ class Writer:
     def text(self):
         self.place_anchor(inline=False)
         self.flush()
-        self.out = TableBlock.merge(self.out)
+        self.out = TableBlock.merge(self.out, self.vocab)
         md = "\n\n".join(str(x) for x in self.out if str(x))
         md = re.sub(r"\n{3,}", "\n\n", md)
         md = re.sub(r"(?m)^(- .*)\n\n(?=- )", r"\1\n", md)
@@ -1182,7 +1210,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
         if p - 1 in pages:
             toc[p - 1].append({"lvl": min(lvl, 4), "title": bookmark_title(t), "used": False})
     w = Writer(vocab)
-    prev_tnames, carry = None, None
+    prev_tnames, carry, prev_head_text = None, None, ""
     page_tables = collections.defaultdict(list)    # pno -> [[TableBlock, None, joined?]]
     for pno in pages:
         pg = doc[pno]
@@ -1242,7 +1270,15 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     t = min(below, key=lambda t: t.y0)
                     t.caption, t.intro, b.skip = b.caption, b, True
         prose = [l for l in lines if not l.branding and not l.absorbed]
-        prose = [l for l in prose if not art_label(l, prose)]
+        dropped = [l for l in prose if art_label(l, prose)]
+        prose = [l for l in prose if not any(l is d for d in dropped)]
+        map_keys = [l for l in dropped if MAP_LABEL.fullmatch(l.text.strip())]
+        map_note = ""
+        if len(map_keys) >= 4:                   # a map with numbered keys on this page
+            titles = [title_case(l.text) for l in dropped if l not in map_keys and not re.search(r"[a-z]", l.text)]
+            name = f": {' / '.join(titles)}" if titles else ""
+            map_note = (f"**[Figure — map{name}; numbered/lettered locations match the keyed "
+                        f"location descriptions; not transcribed]**")
         right = {c: max([l.x1 for l in prose if l.col == c] or [0]) for c in "LR"}
         left = {c: min([l.x0 for l in prose if l.col == c] or [0]) for c in "LR"}
         elems = [(r.col, r.y0, ("region", r)) for r in regions]
@@ -1256,6 +1292,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
             merged.append(l)
         elems += [(l.col, l.y0, ("line", l)) for l in merged]
         actions, dc, last_head, carry_next = [], "", "", None
+        last_head_text = prev_head_text
         page_heads = {mark_key(l.text) for l in merged if heading_line(l)}
         page_caps = {norm(r.caption) for r in regions if r.caption}
         last_y = max([e[1] for e in elems] + [r.y1 for r in regions] + [0])
@@ -1291,6 +1328,8 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     # stat block continued in the next column
                     actions[-1] = ("block", actions[-1][1] + "\n" + stats_md(r, vocab), "stats")
                     continue
+                if r.kind == "stats" and not heading and last_head_text:
+                    heading = f"##### Stats: {re.sub(r'^(Stats|Box|Table): ', '', last_head_text)}"
                 if r.kind == "table":
                     if t is not None:
                         prev_tnames = t.names
@@ -1332,11 +1371,16 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                 dc = "**Example:** "
                 continue
             if heading_line(l):
-                actions.append(("heading", match_heading(despace(l.text, vocab), marks)))
-                last_head = mark_key(l.text)
+                htext = re.sub(r"([A-Za-z]+)- ([A-Za-z]+)",          # "THE STONE- LOOM", "DE- CEIVED"
+                               lambda m: vocab.join(m.group(1) + "-", m.group(2)), l.text)
+                hmd = match_heading(despace(htext, vocab), marks)
+                actions.append(("heading", hmd))
+                last_head = mark_key(htext)
+                last_head_text = re.sub(r"^#+\s*", "", hmd)
                 continue
             actions.append(("prose", l, right.get(l.col, 0), dc, left.get(l.col, 0)))
             dc = ""
+        prev_head_text = last_head_text
         if carry_next:
             m = next((m for m in marks if not m["used"] and m["title"].startswith("Table:")
                       and norm(m["title"].split(":", 1)[1]) == norm(carry_next["region"].caption)), None)
@@ -1356,6 +1400,8 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                 w.prose(*act[1:])
         if fig:
             w.block(fig[1])
+        elif map_note:
+            w.block(map_note)
     if figs:
         print(f"WARNING: figure pages not found: {sorted(figs)}", file=sys.stderr)
     md = w.text()

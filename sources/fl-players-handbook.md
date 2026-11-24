@@ -226,6 +226,8 @@ Some of your ancestors came with the armies from Alderland to fight against elve
 
 When the Blood Mist fell like a shroud across Ravenland, your ancestors were forced to huddle together for ten generations, till the soil, and simply try to survive. But now the Mist has lifted, and the world has opened up again. You have exchanged the plow for a sword. You were born here, and you will take what you want, whether those who stand in your way be other humans or even stranger beings.
 
+##### Stats: Human
+
 - **Key Attribute:** Empathy
 - **Kin Talent:** Adaptive
 - **Typical Professions:** All
@@ -237,6 +239,8 @@ When the Blood Mist fell like a shroud across Ravenland, your ancestors were for
 At the dawn of time, you fell like a rain of glimmering rubies, scattered across the land by the Red Wanderer of the Heavens. Your task was to cover the barren land in life, for the Wanderer wished to lay his eyes on beauty. You clothed yourself in flesh and coaxed plants from the ground so that soon you could walk singing through the lush forests of Ravenland, to the <!-- p.17 --> joy of the Wanderer. The god Clay drew animals from the mud, fish and toads from the mires, and birds from the clouds. The Great Craftsman gave you the task of shepherding them, with the dwarves preparing the ground for your art.
 
 Then, the humans arrived. Their Raven God bought half the land for them and gave you the orcs in exchange. But the humans’ intentions were false and they soon attacked you, with demons in tow. Since you were few in number, you sent the orcs into battle, but those craven creatures failed you. Your elders claim that everything will return to the way things were if you only wait, that humankind will wither and eventually die, just as time eats away at all the stoneless kin. But the younger among you do not want to wait. While some desire to coexist with the humans peacefully, a growing number say the upstarts must be driven out.
+
+##### Stats: Elf
 
 - **Key Attribute:** Agility
 - **Kin Talent:** Inner Peace
@@ -250,6 +254,8 @@ You are the best of two kin, born from the union of humans and elves after they 
 
 <!-- p.18 -->
 
+##### Stats: Half-Elf
+
 - **Key Attribute:** Wits
 - **Kin Talent:** Psychic Power
 - **Typical Professions:** Druid, Rogue, Sorcerer
@@ -262,6 +268,8 @@ In the beginning, the god Huge gave your ancestors a small pebble and the task o
 
 The arrival of humans slowed down your holy task of building the world. You were given the orcs as servants in exchange for a piece of <!-- p.19 --> the forged land, but orcs have limited skills and questionable loyalty, as was displayed in the inevitable war that broke out. Humans may be resourceful but have no purpose and thus fail to understand your work as the chosen ones of Huge. They must be kept in check so your work may continue. Some younger ones are tempted to meet the harsh light of the world and run around on the surface like humans. Let them! Hopefully, they will come of age and return with more sense than when they left.
 
+##### Stats: Dwarf
+
 - **Key Attribute:** Strength
 - **Kin Talent:** True Grit
 - **Typical Professions:** Fighter, Minstrel, Peddler
@@ -271,6 +279,8 @@ The arrival of humans slowed down your holy task of building the world. You were
 ### Halfling
 
 Everyone is happy and tubby in your family. They sing humorous songs in the inns, and drink and smoke, but when darkness falls, they vomit in the flowerbeds and go home to scold their children. Your crazy aunt is locked up, and no one wants to acknowledge your even more twisted relatives even though everybody knows they are out there in the woods. You clean the flowerbeds and oil the wooden facade of your burrow so the neighbors will see it and be forced to go out as well, and everyone smiles and nods, even though they hate and slander each other as soon as the opportunity arises. You can’t stand it anymore. You’re going out into the world and never coming back again. You want blood on your knife and gold in your purse, to eat dangerously spicy food and see streets that no one cares to sweep, in villages where no one grins without reason.
+
+##### Stats: Halfling
 
 - **Key Attribute:** Empathy
 - **Kin Talent:** Hard to Catch
@@ -286,6 +296,8 @@ You are part of this land. The other kin are pitiful and spoiled, needing to go 
 
 You will roam day and night, basking in the far parts of the creation of the goddess. You long to wander unknown forests, to smell the distant scents and drink the intoxicating blood of strange prey.
 
+##### Stats: Wolfkin
+
 - **Key Attribute:** Agility
 - **Kin Talent:** Hunting Instincts
 - **Typical Professions:** Druid, Fighter, Hunter
@@ -295,6 +307,8 @@ You will roam day and night, basking in the far parts of the creation of the god
 ### Orc
 
 Orcs are an ancient and free kin, but the elves and dwarves of Ravenland enslaved your ancestors. When war came, they needed the courage and strong arms of the orcs. Your masters fled as the tide of battle turned, when humans, fearing the onslaught of your brethren, resorted to sorcery and to demons sprung from their unclean dreams. Now, you are free again, and the time has come for the world to learn to respect the orcs. You are many and you are strong, and you will show the other kin what <!-- p.21 --> your perseverance can accomplish. The clans grow. You will make Ravenland great again. But first, you will go out into the world to ravage and have a bit of fun.
+
+##### Stats: Orc
 
 - **Key Attribute:** Strength
 - **Kin Talent:** Unbreakable
@@ -309,6 +323,8 @@ Orcs are an ancient and free kin, but the elves and dwarves of Ravenland enslave
 > Orcs are feared and hated by most other kin. Playing an orc will therefore present unique challenges to you and your group. If you want to play an orc, it’s a good idea to discuss it with your group first.
 
 The elders say you are the dark brothers of the halflings. Like you give a shit! All you know is that you live while the lardbags don’t even try. What do halflings know about howling with wolves, licking blood off drippertrees under a full moon or making love among nettles? If you didn’t keep nightwatch over their pretty villages, trolls and wolfkin would have torn them apart a long time ago. You say enough and be gone with that! The world’s out there, swollen with smells and flavor and silver and thrills. You’ll be taking off into the dark, fingers dug deep into your wolf ’s fur, <!-- p.22 --> froth washing your face. The night’s alive and you’re the ones living it!
+
+##### Stats: Goblin
 
 - **Key Attribute:** Agility
 - **Kin Talent:** Nocturnal
@@ -329,6 +345,8 @@ There are eight professions to choose from, all described on the following pages
 ### Druid
 
 *Ever since the god Clay shaped the world, you and the brothers and sisters of your order have been tasked with safeguarding nature. You maintain the balance of the world. Your hand can be gentle or cruel, depending on what the situation requires, but you always act with respect and exercise judgment. You hold the forces of nature in your hands – the earth, the weather, the plants and the animals all listen to your voice. You are a Druid.*
+
+##### Stats: Druid
 
 - **Key Attribute:** Wits
 - **Skills:** Endurance, Survival, Insight, Healing, Animal Handling
@@ -371,6 +389,8 @@ Staff or knife, one item of your choice from the list of trade goods (see page 1
 
 *You have followed the way of the sword as long as you can remember. Wiped the blood of countless enemies from your blade. Felt many wounds heal into ugly scars on your body. You fear battle, yet you yearn for it. The battle is your life. Your task is to protect your weaker friends from all enemies and you t ake that task very seriously – but the truth is, you live for the thrill of battle itself. When the fight is over, you clean your blade and get ready for the next fray. You are a Fighter.*
 
+##### Stats: Fighter
+
 - **Key Attribute:** Strength
 - **Skills:** Might, Endurance, Melee, Crafting, Move
 - **Typical Nicknames:** Gravemaker, Grimjaw, Ironboot
@@ -410,6 +430,8 @@ Resource Dice: Food D8, Water D6
 ### Hunter
 
 *The wild lands are your home. In the forests and the mountains, on the open plains and by the winding rivers – that’s where you find inner peace. People say that the wilds are dangerous, that they are evil. Granted, you have seen the monsters that roam the lands. But you know how to move unseen and unheard, and to kill effectively if you need to. And when you bring home your prey to the camp and it’s time to eat, no one is complaining. You are a Hunter.*
+
+##### Stats: Hunter
 
 - **Key Attribute:** Agility
 - **Skills:** Stealth, Move, Marksmanship, Scouting, Survival
@@ -451,6 +473,8 @@ Resources: Food D8, Water D8, Arrows D10
 
 *When the road is long, when the wind is fierce or the night is black, everyone needs a light in the darkness. A reminder of past deeds or treasures waiting to be found. Whether through song, poetry or prose, it’s your job to spread a little hope and joy by the campfire. You have the ability to chase away despair and inject courage and hope into the hearts of your friends. And if you should all one day meet your final fate, your chronicles will let the world know of your adventures. You are a Minstrel.*
 
+##### Stats: Minstrel
+
 - **Key Attribute:** Empathy
 - **Skills:** Lore, Insight, Manipulation, Performance, Healing
 - **Typical Nicknames:** Silvertounge, Beguiler, Madrigal
@@ -490,6 +514,8 @@ Resource Dice: Food D8, Water D6
 ### Peddler
 
 *Bargaining, buying for little and selling for more, turning two silvers into three, has always been your way to survive. While the Blood Mist lay thick across the lands, trade between the villages was limited and very local. Now, the mist has lifted, and the Forbidden Lands and its treasures are yours for the taking or buying, then selling to the highest bidder. You are a Peddler.*
+
+##### Stats: Peddler
 
 - **Key Attribute:** Empathy
 - **Skills:** Crafting, Sleight of Hand, Scouting, Insight, Manipulation
@@ -531,6 +557,8 @@ Resource Dice: Food D8, Water D8
 
 *The legends say that the animals in ancient time mocked the humans for having only two legs. For that reason, your ancestors allied themselves with the horses on the great plains. Now, you have six legs together and hands to wield spear and bow. You ride faster than anyone, you strike, and you are gone before the enemy has realized what happened. You love the open plains as the fiery blood of Aslene runs through your veins. You are a Rider.*
 
+##### Stats: Rider
+
 - **Key Attribute:** Agility
 - **Skills:** Endurance, Melee, Marksmanship, Survival, Animal Handling
 - **Typical Nicknames:** Spearhawk, Black Mane , Windrider
@@ -568,6 +596,8 @@ A riding horse (choose one from the *Forbidden Lands* custom card deck if you ha
 ### Rogue
 
 *No one will ever give you what you wish for. To get what you want, you will have to take it for yourself. This is a lesson that you learned at a young age, and already as a child you became very skilled at liberating others from belongings that you needed more. Before, people used to spit at you and kick you. Now, as an adventurer with the Forbidden Lands at your feet, your expertise in the arts of moving silently in the shadows has become highly sought after. You are a Rogue.*
+
+##### Stats: Rogue
 
 - **Key Attribute:** Agility
 - **Skills:** Melee, Stealth, Sleight of Hand, Move, Manipulation
@@ -608,6 +638,8 @@ Resource Dice: Food D6, Water D6
 ### Sorcerer
 
 *Let them stare at you in fear and disgust. Let them shy away from you, afraid that your dark arts will infect them. They fear you, but they need you. Who else can force nature itself to bend to their will? Who else can make fire roar, water freeze and the earth shake? You, and only you, have seen what is beyond the veils of the world and stared into the inner core of existence. This insight is your burden to bear, so that others don’t have to. You are a Sorcerer.*
+
+##### Stats: Sorcerer
 
 - **Key Attribute:** Wits
 - **Skills:** Crafting, Sleight of Hand, Lore, Insight, Manipulation
@@ -1032,13 +1064,9 @@ How a pushed roll plays out in story terms depends on what kind of action you ar
 
 When you push yourself hard, there is a risk that you will suffer damage or exhaustion, or that your weapon will be destroyed. After you have pushed your roll, look at all the dice on the table. In the first roll, ☠ had no effect, but when you push they become active. It doesn’t matter if the ☠ came up in the first roll or the second.
 
-For every ☠ you have rolled on a Base
+For every ☠ you have rolled on a Base Die when you push, you suffer one point of damage to the attribute you have used (read more about damage in Chapter 5).
 
--Die when you push, you suffer one point of damage to the attribute you have used (read more about damage in Chapter 5).
-
-For every ☠ you have rolled on a Weapon
-
--Die when you push, your weapon’s bonus is decreased by one (read more about that below).
+For every ☠ you have rolled on a Weapon Die when you push, your weapon’s bonus is decreased by one (read more about that below).
 
 Remember that ones on the Skill Dice never count as ☠ (see above).
 
@@ -2764,7 +2792,7 @@ There is one case where you don’t risk any critical injury when Broken: when y
 
 > NPCs can be Broken in the same ways as PCs. An NPC can HEAL a PC and vice versa. However, dice are usually not rolled when an NPC HEALS another NPC – instead, the GM decides what happens. The GM can also decide that a minor NPC whose Strength is Broken simply dies.
 
-**Example:** *Poor Tyrgar was hurt before the savage strike by the minotaur, and is now Broken. He rolls 52 on the critical injury table for slash wounds, and thus suffers a bleeding gut. He rolls a D6 and gets a 5, meaning he will die in five hours unless HEALED before he bleeds out. Nirmena is not around, so Tyrgar rolls another D6 to see how long it will take him to get back on his feet without help. He rolls a 2. After two hours on* <!-- p.111 --> *the cold ground he comes to. He tries to HEAL himself but fails. He now has three hours to find Nirmena or someone else who can HEAL him before he dies from his injuries.*
+**Example:** *Poor Tyrgar was hurt before the savage strike by the minotaur, and is now Broken. He rolls 52 on the critical injury table for slash wounds, and thus suffers a bleeding gut. He rolls a D6 and gets a 5, meaning he will die in five hours unless HEALED before he bleeds out. Nirmena is not around, so Tyrgar rolls another D6 to see how long it will take him to get back on his feet without help. He rolls a 2. After two hours on <!-- p.111 --> the cold ground he comes to. He tries to HEAL himself but fails. He now has three hours to find Nirmena or someone else who can HEAL him before he dies from his injuries.*
 
 ## Conditions
 
@@ -2992,7 +3020,7 @@ Casting a spell requires a great deal of mental exertion and requires that you s
 >
 > Writing down a spell requires you to first cast it once (chance casting doesn’t count). Then, you must spend a Quarter Day with quill in hand and make a LORE roll. Writing down a ritual takes two Quarter Days.
 
-##### NPCS & Spellcasting
+##### NPCs & Spellcasting
 
 NPCs don’t have pools of Willpower Points. Instead, when an NPC casts a spell, the GM may simply choose a base Power Level up to the caster’s rank in the magic discipline used, plus one if an ingredient is used. Roll normally to determine any overcharging or magic mishap.
 
@@ -4247,7 +4275,7 @@ If you have the MASTER BUILDER hireling in your stronghold, you can have him bui
 
 **Example:** *Nirmena and Tyrgar are working on their stronghold, and start out with building RAMPARTS, a FIREPLACE, and a SCRIPTORIUM. Tyrgar has skill level 4 in CRAFTING and the BUILDER talent (level 1), and Nirmena helps out. Tyrgar spends four times the required amount of time on the work. In total, this gives Tyrgar a +4 modifier to all rolls. All three rolls succeed and, after 44 days, the functions are all complete.*
 
-*Next, Nirmena and Tyrgar hire a HANDYMAN and GUARD, as they are about to go on another journey. They pay one week’s* <!-- p.164 --> *salary in advance, but end up staying away longer. After one week, the players must roll on the table for non-payment (see above). They roll a 6 and a 2 – the HANDYMAN stays on, but the GUARD leaves her post and steals a barrel of mead as she goes.*
+*Next, Nirmena and Tyrgar hire a HANDYMAN and GUARD, as they are about to go on another journey. They pay one week’s <!-- p.164 --> salary in advance, but end up staying away longer. After one week, the players must roll on the table for non-payment (see above). They roll a 6 and a 2 – the HANDYMAN stays on, but the GUARD leaves her post and steals a barrel of mead as she goes.*
 
 ### Table: Unguarded Stronghold
 

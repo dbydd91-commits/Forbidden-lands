@@ -109,7 +109,7 @@ Avoid preparing too much – the risk is that your plans may become difficult to
 
 You command everything between dragons and demons, but your best tool to create drama is often your NPCs. Stats for several typical NPCs can be found in Chapter 4 on Kin and in Chapter 8 about adventure sites, and a large number of specific NPCs are described in the complete adventure sites in Chapters 9, 10 and 11.
 
-##### Handling NPCS
+##### Handling NPCs
 
 Technically, the NPCs function like player characters. They need food and water, perform actions and sustain damage in the same way. But in practice, you should disregard all rulecrunching for an NPC if it doesn’t directly affect a player character. Don’t keep track of food for every NPC that travels with the adventurers – instead, have their food run out at the dramatically appropriate time. You don’t need to roll the dice for actions performed by an NPC unless they are attacking or healing a player character. You can roll for the NPCs in other situations if it enhances the drama, but most of the time you can skip it.
 
@@ -493,6 +493,8 @@ The Ailanders brought the Raven Church to Ravenland seven hundred years ago, whe
 
 ### Stats: Typical Raven Sister
 
+##### Stats: Typical Raven Sister
+
 - **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 1, Marksmanship 2, Lore 3, Survival 1, Insight 2, Manipulation 1, Healing 2
 - **Talents:** Path of Healing 2, Path of Shifting Shapes 2, or Path of Sight 2
@@ -507,6 +509,8 @@ The Reapenters are a doomsday cult sprung from the Raven Church during the fourt
 These killers, dressed in black and adorned with feathers, have slaughtered whole villages under the command of their leader, Badalar the Butcher, but since their goal is an all-encompassing purge, they can insert themselves into groups of people to kill more tomorrow rather than just a few today. The Reapenters dismember their victims if possible, and enact rituals in which they hang the body parts in trees or on rocks where they can be eaten by the god’s carrion birds. War is the most holy act they know. They surround themselves with half-tame ravens and answer “Nevermore!” when their priests list all the sins and horrors committed by humans today. Some human-hating elves sympathize with the Reapenters, among them the notorious Father Geno, who has been preaching during their rituals since the beginning. Some claim Geno was present at the Shift and predicted the land would fall due to the humans; betrayal even then.
 
 ### Stats: Typical Blackwing
+
+##### Stats: Typical Blackwing
 
 - **Attributes:** Strength 4, Agility 5, Wits 4, Empathy 3
 - **Skills:** Melee 4, Move 3, Stealth 4, Marksmanship 4, Lore 1, Survival 2, Insight 3, Manipulation 2
@@ -529,6 +533,8 @@ The Sisters of Heme are the female counterpart of the Rust Brothers, but they ar
 
 ### Stats: Typical Rust Brother
 
+##### Stats: Typical Rust Brother
+
 - **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 1, Marksmanship 2, Lore 3, Survival 1, Insight 2, Manipulation 1, Healing 2
 - **Talents:** Path of Blood 2 or Path of Death 2
@@ -536,12 +542,16 @@ The Sisters of Heme are the female counterpart of the Rust Brothers, but they ar
 
 ### Stats: Typical Iron Guard
 
+##### Stats: Typical Iron Guard
+
 - **Attributes:** Strength 5, Agility 4, Wits 3, Empathy 2
 - **Skills:** Might 2, Endurance 2, Melee 4, Move 2, Marksmanship 3
 - **Talents:** Path of the Blade 2 or Path of the Enemy 2, Threatening, Cold Blooded
 - **Gear:** Longsword or flail, heavy crossbow, chainmail or plate armor, great helm, large shield, combat trained horse, one VALUABLE find
 
 ### Stats: Typical Heme Sister
+
+##### Stats: Typical Heme Sister
 
 - **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Lore 2, Insight 2, Healing 2
@@ -638,6 +648,8 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 
 ### Stats: Typical Ailander
 
+##### Stats: Typical Ailander
+
 - **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 2, Marksmanship 2, Healing 1
 - **Talents:** —
@@ -646,6 +658,8 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 **FRAILERS:** Half-elves of Alderland heritage are called Frailers. They are the descendants of the elven hostages among the humans in Alderland after the Shift. Alderland spellbinders often have Frailer blood in their veins. They are long-lived, typically with a slender body and a tendency towards pointed ears. Unlike the Elvenspring, who are half-elves born of the hostages in Ravenland, they have no concept of duty or living according to the needs of nature. Both groups are driven by the same impatience and ambition, but among the Frailers it manifests as a greedy search for power and knowledge. Zygofer is of Frailer blood, as are many of his closest supporters.
 
 ### Stats: Typical Frailer
+
+##### Stats: Typical Frailer
 
 - **Attributes:** Strength 2, Agility 3, Wits 4, Empathy 4
 - **Skills:** Lore 2, Insight 2, Manipulation 2
@@ -656,6 +670,8 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 
 ### Stats: Typical Silent Guard
 
+##### Stats: Typical Silent Guard
+
 - **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 3, Insight 4
 - **Talents:** —
@@ -664,6 +680,8 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 **OTHER ALDERLANDERS:** Humans descended from Alderlands who are neither Ailanders or Frailers are simply called Alderlanders. They are a varied group with different loyalties and temperaments.
 
 ### Stats: Typical Alderlander
+
+##### Stats: Typical Alderlander
 
 - **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 2, Move 1, Insight 2
@@ -675,6 +693,8 @@ There is a murderous sect of fanatics among the Ailanders called the Reapenters.
 The Aslenes have a more colorful physical appearance than the Alderlanders. They have various skin tones, always with a healthy luster. Their hair is always vibrant, regardless of color. Usually Aslenes braid their hair, with both men and women having artful hair styles. Their clothes are equally colorful, consisting of earth tones decorated with fields and patterns of various colors. They prefer gold and bronze jewelry to silver. The Aslenes are shorter but stouter than Alderlanders, who believe that the riders lack both beauty and culture.
 
 ### Stats: Typical Aslene
+
+##### Stats: Typical Aslene
 
 - **Attributes:** Strength 3, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 2, Marksmanship 2, Move 2, Animal Handling 2
@@ -702,6 +722,8 @@ The Elvenspring worship the creator god, Clay, and the Shardmaiden, who they bel
 **THE ORDER OF MAIDENS:** The Order of Maidens is a group of druids sworn to fight the demonic evils of the Forbidden Lands. They carry an emerald shard from the Shardmaiden fused into their foreheads, which helps them focus power from their Mother. The Maidens tend to use more offensive spells than other druids, and are even more suspicious of Alderlanders.
 
 ### Stats: Typical Maiden Druid
+
+##### Stats: Typical Maiden Druid
 
 - **Attributes:** Strength 2, Agility 3, Wits 4, Empathy 3
 - **Skills:** Melee 2, Marksmanship 2, Lore 2, Manipulation 2, Move 1
@@ -754,6 +776,8 @@ Elves with the quiet disposition of the Stillelves did not resist when the human
 
 ### Stats: Typical Stillelf
 
+##### Stats: Typical Stillelf
+
 - **Attributes:** Strength 3, Agility 3, Wits 5, Empathy 2
 - **Skills:** Melee 2, Crafting 4, Lore 5, Insight 4
 - **Talents:** Path of Shifting Shapes 2
@@ -768,6 +792,8 @@ Ents are elves who have tired of the fast and fleeting life as a being of flesh.
 Less patient elves still want to leave an impression on the world. Hopefully, it is from this group the players create their characters. Some are good-humored and curious, others are filled with a lust for revenge, focusing on experiencing the world or defending the living. Even if the Unruly respect the elders of their kin and the Stillelves, they often carry hatred or even secret disdain for their torpid and inactive relatives. They furiously resist their kin’s inclination towards lethargy, and want to fight, avenge, conquer and experience – they believe they have an obligation to commit great deeds during their long lives. This duality births a rage they gladly subject the rest of the world to. The Stillelves lovingly tolerate this rage, saying that all elves tend to go through a few centuries as Unruly while they are young. Wisdom comes with age.
 
 ### Stats: Typical Unruly Elf
+
+##### Stats: Typical Unruly Elf
 
 - **Attributes:** Strength 3, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 2, Endurance 2, Stealth 3, Marksmanship 2, Scouting 2, Survival 2
@@ -784,6 +810,8 @@ Dwarves like singing satirical songs about their allies, in which “the Golden 
 
 ### Stats: Typical Golden Bough Druid
 
+##### Stats: Typical Golden Bough Druid
+
 - **Attributes:** Strength 3, Agility 3, Wits 4, Empathy 3
 - **Skills:** Melee 2, Scouting 2, Lore 3, Marksmanship 2, Survival 3, Animal Handling 3
 - **Talents:** Path of Healing 2
@@ -796,6 +824,8 @@ Some active elves travel through the Forbidden Lands in the role of scientists a
 Melders are very hard to discover, unless they choose to reveal themselves. This is partly because their skin patterns function as a sort of camouflage when the Melder is in areas with vegetation, but also because they often know magic that allow them to hide themselves. If you come across a Melder, they are usually kind, generous and curious about everything and everybody. They especially love talking in great detail about their special interests, which can get tiresome rather quickly. After all, they have no great rush in explaining things given they are immortal.
 
 ### Stats: Typical Melder
+
+##### Stats: Typical Melder
 
 - **Attributes:** Strength 3, Agility 4, Wits 4, Empathy 3
 - **Skills:** Melee 2, Crafting 4, Stealth 5, Lore 4, Survival 3
@@ -817,6 +847,8 @@ Militant elves see elven culture as superior to the half-measures of other kin �
 Redrunners hunt and retrieve elven rubies that have been lost. They work as an intelligence gathering organisation for the elves, with spies among other kin as well as animals, and take the most dangerous and difficult missions.
 
 ### Stats: Typical Redrunner
+
+##### Stats: Typical Redrunner
 
 - **Attributes:** Strength 4, Agility 5, Wits 3, Empathy 3
 - **Skills:** Endurance 3, Melee 4, Stealth 2, Move 3, Marksmanship 4, Insight 3, Survival 2
@@ -843,6 +875,8 @@ The Belderranians are builders who honor the god Huge. Their land is the main te
 
 ### Stats: Typical Belderranian
 
+##### Stats: Typical Belderranian
+
 - **Attributes:** Strength 4, Agility 2, Wits 3, Empathy 3
 - **Skills:** Might 3, Melee 3, Crafting 2
 - **Talents:** —
@@ -860,6 +894,8 @@ More ambitious Meromannians have been gathering an army since the Blood Mist lif
 
 ### Stats: Typical Meromannian
 
+##### Stats: Typical Meromannian
+
 - **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 2, Insight 2, Marksmanship 2
 - **Talents:** —
@@ -872,6 +908,8 @@ The Iron Hounds live on the surface of the world, and have taken responsibility 
 A group of nobles in Stonegarden does not have the same confidence in the clan’s own abilities, and have secretly contacted the Urhur orc clan to forge an alliance against the humans.
 
 ### Stats: Typical Canide
+
+##### Stats: Typical Canide
 
 - **Attributes:** Strength 5, Agility 3, Wits 2, Empathy 2
 - **Skills:** Might 4, Endurance 2, Melee 3, Scouting 2, Survival 2
@@ -889,6 +927,8 @@ The Crombes, who claim that they guard the Forbidden Lands, though it is unclear
 Several interesting constructions apart from the castle can be found at Dragon’s Tooth, such as Totela’s Head, a massive man’s head carved from the slope of the mountain above Scarnehall. It is said that king Totela Goldbeard used the hammer Scarnesbane to chisel a giant portrait of himself from the cliff, so his beautiful face would be preserved for the ages. This angered the god Huge, so much so that he let beard rot destroy the king’s face and cast the hammer out into the world where it still lies hidden.
 
 ### Stats: Typical Crombe
+
+##### Stats: Typical Crombe
 
 - **Attributes:** Strength 3, Agility 3, Wits 4, Empathy 3
 - **Skills:** Melee 2, Crafting 3, Lore 2, Performance 3, Healing 2
@@ -912,6 +952,8 @@ Ogres love their freedom and celebrate life and are as erratic as they are curio
 All offspring from the union of humans and dwarves are not ogres or unruly, and some stay with the dwarves as blacksmiths and craftsmen.
 
 ### Stats: Typical Ogre
+
+##### Stats: Typical Ogre
 
 - **Attributes:** Strength 6, Agility 2, Wits 1, Empathy 2
 - **Skills:** Might 4, Endurance 2, Melee 2
@@ -979,6 +1021,8 @@ The name Urhur is derived from “purple,” a word the orcs cannot pronounce pr
 
 ### Stats: Typical Urhur
 
+##### Stats: Typical Urhur
+
 - **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 2, Lore 1
 - **Talents:** —
@@ -995,6 +1039,8 @@ Like all orcs, the Rokas despise humans and carry a deep animosity towards elves
 The Roka clan is led by General Archa, a scarred veteran and probably the most respected orc in the Forbidden Lands. He knows he is a unifying presence among the orcs, and worries about the future since he is old and has many sons who are eyeing the throne, many of whom are less than suitable to rule.
 
 ### Stats: Typical Roka
+
+##### Stats: Typical Roka
 
 - **Attributes:** Strength 5, Agility 2, Wits 2, Empathy 2
 - **Skills:** Might 2, Melee 2, Scouting 1, Survival 1
@@ -1015,6 +1061,8 @@ The leader of the Isirs is called Eldag the Ravager. Ravaging bands of Isir warr
 
 ### Stats: Typical Isir
 
+##### Stats: Typical Isir
+
 - **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Skills:** Might 2, Melee 3, Marksmanship 2, Survival 2
 - **Talents:** —
@@ -1031,6 +1079,8 @@ The Viraga are often sent on especially difficult or dangerous covert actions, s
 
 ### Stats: Typical Viraga
 
+##### Stats: Typical Viraga
+
 - **Attributes:** Strength 3, Agility 4, Wits 4, Empathy 3
 - **Skills:** Melee 2, Stealth 2, Move 2, Marksmanship 2, Lore 2, Insight 3, Manipulation 2
 - **Talents:** Path of the Killer 2
@@ -1041,6 +1091,8 @@ The Viraga are often sent on especially difficult or dangerous covert actions, s
 Orcs who have left the clans and been banished are called “drifters” among their kin. They can live in roaming bands of various individuals <!-- p.67 --> and the clans tolerate them as long as they do not cause problems – considering the history of the orcs, they strongly dislike any form of oppression and leave any deviants to their own devices. It is common for clan members to live as drifters for a part of their lives and then return to their clan. Groups of drifters almost always spend their time plundering, but can also enter into service as guards or soldiers.
 
 ### Stats: Typical Drifter
+
+##### Stats: Typical Drifter
 
 - **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Might 1, Melee 2, Insight 2
@@ -1060,6 +1112,8 @@ Despite a shared interest in nature both elves and druids hate wolfkin, believin
 <!-- p.68 -->
 
 ### Stats: Typical Wolfkin
+
+##### Stats: Typical Wolfkin
 
 - **Attributes:** Strength 4, Agility 4, Wits 2, Empathy 2
 - **Skills:** Might 1, Endurance 3, Melee 3, Scouting 3, Survival 2
@@ -1088,6 +1142,8 @@ Saurians have their own language, which other kin have great difficulty speaking
 
 ### Stats: Typical Saurian
 
+##### Stats: Typical Saurian
+
 - **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Endurance 1, Melee 2, Scouting 2, Survival 3
 - **Talents:** —
@@ -1103,6 +1159,8 @@ This process is, of course, very painful and in the end lethal to whiners, which
 Whiners make their lairs in *hollows* – a sort of rock formation riddled with passages and chambers to the point that they look like overgrown sponges. Other kin have great trouble following whiners into the cramped passages of the mountain. Druids claim the whiners have colonies like ants far down under the mountain, with a large, egg-laying queen present there. They also say the whiners create the hollows themselves by chewing stone and then throwing up a mushy saliva and rock mix that hardens into something like porous stone.
 
 ### Stats: Typical Whiner
+
+##### Stats: Typical Whiner
 
 - **Attributes:** Strength 1, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 2, Stealth 3, Move 3
@@ -1133,6 +1191,8 @@ Some halflings feel smothered by the idyllic life in the villages, grow restless
 
 ### Stats: Typical Halfling
 
+##### Stats: Typical Halfling
+
 - **Attributes:** Strength 2, Agility 4, Wits 3, Empathy 4
 - **Skills:** Melee 1, Crafting 2, Stealth 2, Sleight of Hand 1, Insight 2, Manipulation 2
 - **Talents:** —
@@ -1145,6 +1205,8 @@ Goblins live in nomadic groups that hunt and gather in the forests. They often b
 Goblins can see in the dark, but strong daylight hurts their eyes. Therefore, they prefer the night, especially when the moon, their ally in the sky, has risen.
 
 ### Stats: Typical Goblin
+
+##### Stats: Typical Goblin
 
 - **Attributes:** Strength 2, Agility 4, Wits 4, Empathy 2
 - **Skills:** Melee 1, Move 1, Stealth 2, Marksmanship 1, Insight 2, Manipulation 2
@@ -2053,7 +2115,7 @@ In this chapter, 18 unique artifacts are described in detail, including legends,
 
 ## Arrows of the Fire Wyrm
 
-*It is said that the volcano god Horn first awoke when the demons that Zygofer let loose had already laid waste to Aslene. So awful was his rage that magma and ash were spewed across the heavens. Brought before the god were three snakes, who had bitten three prophets to death. These prophets had seen the coming of the demon flood, and had wanted to warn the people and wake Horn. The snakes groveled before Horn and opined that they had not intended the desolation of the land, that they had only followed their nature as the gods had created them. When Horn’s priests still wanted to punish the reptiles by throwing them into the magma, they writhed,* <!-- p.129 --> *cried out and begged to atone for their crime by bringing vengeance to those who were truly responsible.*
+*It is said that the volcano god Horn first awoke when the demons that Zygofer let loose had already laid waste to Aslene. So awful was his rage that magma and ash were spewed across the heavens. Brought before the god were three snakes, who had bitten three prophets to death. These prophets had seen the coming of the demon flood, and had wanted to warn the people and wake Horn. The snakes groveled before Horn and opined that they had not intended the desolation of the land, that they had only followed their nature as the gods had created them. When Horn’s priests still wanted to punish the reptiles by throwing them into the magma, they writhed, <!-- p.129 --> cried out and begged to atone for their crime by bringing vengeance to those who were truly responsible.*
 
 *Horn listened to them and called his servant from the magma depths of the volcano, the mighty fire wyrm, Erinya. She breathed on her lesser kin, whereupon they turned into arrows. These arrows would, when shot from a bow, mark the butchers of Aslene so that Erinya could find and devour them.*
 
@@ -2278,7 +2340,7 @@ Queen Agatha’s Twin Tablets are identical and made from agate, with the flowin
 
 ## Scarnesbane
 
-*The legends tell of how Scarne, the ancient mother of dragons, ruled in Ravenland when the dwarves arrived in an age long forgotten, and that her armor was of impregnable obsidian that she herself had melted around her body. But Oramund, the commander of the dwarves, prayed to the god Huge, who sent him a hammer the blows of which could crush anything. With it, Oramund slew the she-dragon. The dwarves then chased the serpent’s offspring up* <!-- p.139 --> *into the mountains from whence they still plague the land. Oramund named the hammer Scarnesbane.*
+*The legends tell of how Scarne, the ancient mother of dragons, ruled in Ravenland when the dwarves arrived in an age long forgotten, and that her armor was of impregnable obsidian that she herself had melted around her body. But Oramund, the commander of the dwarves, prayed to the god Huge, who sent him a hammer the blows of which could crush anything. With it, Oramund slew the she-dragon. The dwarves then chased the serpent’s offspring up <!-- p.139 --> into the mountains from whence they still plague the land. Oramund named the hammer Scarnesbane.*
 
 In fact, the hammer was never used against Scarne. Nor is the dragon dead, but merely imprisoned far below the dwarven fortress of Stonegarden. You can read more about this in the *Raven’s Purge* campaign book.
 
@@ -2326,7 +2388,7 @@ The time travel will cost the breaker of the hourglass a limb: a finger for an h
 
 ## The Tezaur
 
-*It is told that Duke Fargalon of Aslene had a son who was named Ungule, after the god Horn’s master smith of the volcano, he who forges the hoofs of the holy steeds. After bones had been thrown in front of the newborn, the seeress proclaimed that it was the destiny of the duke’s son to fall in love with a flautist of the wandering folk and take her as his bride. The proclamation angered Fargalon, and he forbade all forms of music in his domain. Riders were even sent out to cut down the reeds that rustled too loudly on the river banks. Ungule grew up to be a handsome young man, and one day* <!-- p.141 --> *when he was out hunting in the forest, he caught the eye of Tezara of the Tarn, who became fiercely stricken with love.*
+*It is told that Duke Fargalon of Aslene had a son who was named Ungule, after the god Horn’s master smith of the volcano, he who forges the hoofs of the holy steeds. After bones had been thrown in front of the newborn, the seeress proclaimed that it was the destiny of the duke’s son to fall in love with a flautist of the wandering folk and take her as his bride. The proclamation angered Fargalon, and he forbade all forms of music in his domain. Riders were even sent out to cut down the reeds that rustled too loudly on the river banks. Ungule grew up to be a handsome young man, and one day <!-- p.141 --> when he was out hunting in the forest, he caught the eye of Tezara of the Tarn, who became fiercely stricken with love.*
 
 *Tezara was a masterful singer, but she could not sing her love to the duke’s son since he lived in a fortress of stone and always wore a helmet of silence when he ventured outside. Tezara sang her lament in the forest, where a naiad heard her. She took pity on Tezara, and gave the lovestruck maiden a silver flute, forged from the waters of a babbling brook. Anyone who plays the flute can walk through stone and iron and guards like light through water. With its help, Tezara made her way to Ungule and won his heart with her song. In the morning, Duke Fargalon discovered the young lovers and went into a rage, threatening to imprison Tezara, but when she showed him her flute his thoughts were filled with the possibilities it presented. The duke had pawned his most treasured heirlooms in the capital to fund his military campaigns. When night fell, he went to the rich pawnbroker’s house, played himself into the treasury and soon waded through silver and gold in a jolly fashion. The pawnbroker’s guards heard him, however, and soon opened the gates to the vault. The duke had already gathered his heirlooms and wanted to play his way out with them, but in his fervor and greed he had dropped the flute and was unable to find it among the silver spread around him. The guards mistook him for a simple thief and killed him. Ungule was named duke and wed Tezara, but the flute was lost.*
 
@@ -2482,7 +2544,7 @@ Time passes without any significant encounter. Describe the surrounding nature �
 
 ## 1: The Blood Mist
 
-*It all happens almost imperceptibly. At first, all sounds die down and the only thing that can be heard is your own small talk. Then you get the feeling that the hair on the backs of your necks rises up, as if the air is filled with some strange* <!-- p.148 --> *energy. Finally, you see it, the crimson mist, slowly flowing above the ground towards you. The Blood Mist.*
+*It all happens almost imperceptibly. At first, all sounds die down and the only thing that can be heard is your own small talk. Then you get the feeling that the hair on the backs of your necks rises up, as if the air is filled with some strange <!-- p.148 --> energy. Finally, you see it, the crimson mist, slowly flowing above the ground towards you. The Blood Mist.*
 
 ## Box: Reoccuring Encounters
 
@@ -2542,7 +2604,7 @@ This flock of harpies has a combined Strength of 9. Read more about harpies on p
 
 ## 6: The Horse
 
-*You hear the neighing of a horse, and suddenly it stands before you. A proud stallion, with saddle, bags* <!-- p.150 --> *and a saddle blanket. Its owner is nowhere to be seen. The lonely horse twists it head, clearly frustrated.*
+*You hear the neighing of a horse, and suddenly it stands before you. A proud stallion, with saddle, bags <!-- p.150 --> and a saddle blanket. Its owner is nowhere to be seen. The lonely horse twists it head, clearly frustrated.*
 
 The horse belongs to the noble Lavide, killed in an ambush two days ago. In the saddle bags, there is a VALUABLE find as well as the rose-shaped sigil of the noble house of the owner. The horse is combat trained but does not take kindly to strangers. However, a successful ANIMAL HANDLING roll calms the animal. If it fails, the adventures will have to catch it by force. If they return horse and sigil to Lavide’s family based in a nearby castle, they will be rewarded with the ownership of the horse, as well as a PRECIOUS find.
 
@@ -2555,6 +2617,8 @@ The horse belongs to the noble Lavide, killed in an ambush two days ago. In the 
 The scene is, in fact, completely staged and no one is hurt. A group of slavers have poured blood and intestines from animals on to and around themselves, hoping that the adventurers will approach without their weapons drawn. The leader, Harwa, has a bronze horn and when he blows on it, the entire group is meant to immediately leap up and attack their “saviors.” Their goal is not to kill, but to put the adventurers out of action using cudgels, and then sell them as slaves, possibly at Grindbone village (see the *Raven’s Purge* campaign book). If anyone manages to flee, the slavers will not pursue them, instead just proceed to secure those they have caught.
 
 ### Stats: Slavers
+
+##### Stats: Slavers
 
 - **Attributes:** Strength 3, Agility 2, Wits 2, Empathy 2
 - **Skills:** Melee 2
@@ -2619,6 +2683,8 @@ A group of starving robbers, equal in number to the adventurers, led by Argam Tw
 
 ### Stats: Bandits
 
+##### Stats: Bandits
+
 - **Attributes:** Strength 3, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 3, Stealth 2, Scouting 1, Survival 2
 - **Gear:** Broadsword, hand axe or wooden club, D6 copper
@@ -2649,7 +2715,7 @@ Mother Catyala will try to persuade the adventures to throw away their clothes a
 
 ## 15: Beggars
 
-*You see them from afar, a crowd of hungry and weary wanderers dressed in rags. The beggars* <!-- p.154 --> *surround you with outstretched hands, saying nothing.*
+*You see them from afar, a crowd of hungry and weary wanderers dressed in rags. The beggars <!-- p.154 --> surround you with outstretched hands, saying nothing.*
 
 These twenty or so beggars are the remains of the village of Freygrove, that was burned down by rapacious adventurers.
 
@@ -2662,6 +2728,8 @@ These twenty or so beggars are the remains of the village of Freygrove, that was
 The dwarf Andred disavowed the god Huge after a tunnel collapse killed his family. Andred was on the other side of the collapse. He heard their screams and how they suffocated one after another. Since then, he refuses to set his feet on the ground, and he travels over the Forbidden Lands in his hot air balloon. To survive, he lays anchor at night on top of homes and steal things he can later trade for food and other necessities. The balloon has now crashed in to a tree. Andred has broken his leg. He needs help to repair the balloon but is afraid that the adventurers will rob him. Andred has three loaded crossbows and a battleaxe. In the balloon, there is stolen property: one SIMPLE and one VALUABLE find (roll on the “in a lair” tables on page 188).
 
 ### Stats: Andred
+
+##### Stats: Andred
 
 - **Attributes:** Strength 2, Agility 2, Wits 4, Empathy 4
 - **Skills:** Melee 2, Manipulation 3, Move 2, Marksmanship 4, Insight 4, Stealth 4, Sleight of Hand 5
@@ -2696,7 +2764,7 @@ Melkar uses his oven to bake pastry creatures made of dough. His plan is to use 
 
 ## 19: The Animal Sanctum
 
-*When the darkness spreads and your fire is burning you see the first couple of eyes in the trees. At first there is just a few, but more and more eyes* <!-- p.156 --> *appear, more than you can count. You are surrounded. Owls and other woodland creatures move between the trees, mice running over your backpacks. Worms crawl at your feet and birds sit on your axes and swords. A deer stands a few feet away, next to it a fox. The animals approach you slowly.*
+*When the darkness spreads and your fire is burning you see the first couple of eyes in the trees. At first there is just a few, but more and more eyes <!-- p.156 --> appear, more than you can count. You are surrounded. Owls and other woodland creatures move between the trees, mice running over your backpacks. Worms crawl at your feet and birds sit on your axes and swords. A deer stands a few feet away, next to it a fox. The animals approach you slowly.*
 
 The adventurers have accidentally made camp at the animals’ sacred sanctum. The animals are there to peacefully drive them away. More animals will arrive at the camp, big wild boars, wolves and elks. They will use their snouts and horns to try to push the adventurers and their equipment away from the spot. If the adventurers attack, the animals will stand back but not leave. Eventually the black elk arrives, the holy leader of the forest animals. She shoves the campfire with her horns and gives off a loud breath. If she is attacked, all the animals of the forest will aid her and won’t stop attacking the adventurers until they leave the forest.
 
@@ -2792,7 +2860,7 @@ The adventurers have arrived at a cottage where the family living there recently
 
 ## 29: The Rustle of Bones
 
-*They appear without warning. A group of once proud human warriors. Now they are nothing but crumbling skeletons, which for some reason have been given unholy life. They are totally silent, but when they start to move you hear the dry sound* <!-- p.160 --> *of centuries-old bones, creaking against each other. The grinning skulls of the skeletons open their jaws when they attack, emitting a silent scream.*
+*They appear without warning. A group of once proud human warriors. Now they are nothing but crumbling skeletons, which for some reason have been given unholy life. They are totally silent, but when they start to move you hear the dry sound <!-- p.160 --> of centuries-old bones, creaking against each other. The grinning skulls of the skeletons open their jaws when they attack, emitting a silent scream.*
 
 D6+3 skeletons attack the adventurers without warning. They fight to the last man, but are not particularly fast and it is fairly easy to run away from them, although the skeletons will pursue the adventurers as long as they are in sight.
 
@@ -2812,6 +2880,8 @@ The walking armor is the strange undead creature Teramalda, who wanders through 
 - **FOURTH MEETING:** Teramalda sees the adventurers as sworn enemies and pursues them. She walks slowly and can be heard some distance away but will never give up. She will find her enemies as long as they carry any iron.
 
 ### Stats: Teramalda
+
+##### Stats: Teramalda
 
 - **Attributes:** Strength 12, Agility 4, Wits 3, Empathy 2
 - **Skills:** Scout 2
@@ -2847,6 +2917,8 @@ Kaun, the life partner of the minotaur Markut, died in a fight against a group o
 
 ### Stats: The Soldiers
 
+##### Stats: The Soldiers
+
 - **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 2
 - **Gear:** Broadsword, small shield, studded leather
@@ -2869,7 +2941,7 @@ A unit of Iron Guards (see page 40) is tracking them and will reach the company 
 
 ## 35: The Sleepy Troll
 
-*A terrible roar shatters the silence of the land. Then you notice the stench. In front of you, the rocks of the mountain appear to have come alive. A huge, gray, mottled form emerges from the side of the mountain, staring at you with cold, yellow* <!-- p.163 --> *eyes. Heavy rocky arms are raised in the air, and you hear another roar. “Who arrre you, little creeeeps disturbing Karrrg?”*
+*A terrible roar shatters the silence of the land. Then you notice the stench. In front of you, the rocks of the mountain appear to have come alive. A huge, gray, mottled form emerges from the side of the mountain, staring at you with cold, yellow <!-- p.163 --> eyes. Heavy rocky arms are raised in the air, and you hear another roar. “Who arrre you, little creeeeps disturbing Karrrg?”*
 
 The adventurers have, unwittingly, walked right onto the lair of the mountain troll Karg and have wakened him from his deep slumber. Karg is in a really bad mood in the mornings, and will not let the adventurers pass through unless they have a gift for him (he is really fond of shiny things), or if they treat him to a dinner consisting of one of the juicy goblins found in the area. Karg will also consider eating one of the adventurers or his or her horse, in exchange for safe passage.
 
@@ -2902,6 +2974,8 @@ The dragon spawn will be receptive in the first couple of days, and it can bond 
 The dwarf Guntermann has decided to make up for his mine running dry by “taxing” caravans and other travelers. He has erected several roadblocks in the mountains. This roadblock is guarded by three dwarfs. If attacked, they will sound a horn and in D6 turns three more dwarfs show up. If the adventurers want to pass without a fight, they have to pay 3 silver each.
 
 ### Stats: Dwarven Warriors
+
+##### Stats: Dwarven Warriors
 
 - **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 3, Move 2, Marksmanship 3, Insight 4
@@ -2953,6 +3027,8 @@ A group of Saurians, equal in number to the adventurers plus D6, come upon the a
 
 ### Stats: Saurians
 
+##### Stats: Saurians
+
 - **Attributes:** Strength 4, Agility 3, Wits 2, Empathy 2
 - **Skills:** Stealth 2, Melee 2, Survival 2, Scouting 2
 - **Protection:** 4 (scales)
@@ -2967,6 +3043,8 @@ A group of Saurians, equal in number to the adventurers plus D6, come upon the a
 The elf Bluefeather and her bounty hunters have found the Ylendidra family, that ran away after it was revealed that they had been hiding orcs sentenced to death. Bluefeather is supposed to bring the family back to justice, but after the mother attacked her with a knife she has decided to execute the punishment herself.
 
 ### Stats: Bounty Hunters
+
+##### Stats: Bounty Hunters
 
 - **Attributes:** Strength 2, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 3, Move 3, Marksmanship 3, Scouting 4, Survival 3, Insight 3
@@ -3670,7 +3748,7 @@ Roll once and read the entire row, or roll once in each column and combine the r
 
 An important part of most adventure sites are the creatures and people that live there. Below, you’ll find a table of typical NPCs to use whenever needed. Use the Personal Quirks table to give an NPC some personality.
 
-##### Create Your Own NPCS
+##### Create Your Own NPCs
 
 You can easily create your own NPCs from scratch. A typical human being has 3 in all attributes, so use this as a baseline and increase or decrease attributes as you see fit.
 
@@ -4129,7 +4207,7 @@ This is the burial site of the villagers. The small building is dedicated to the
 >
 > The adventurers can purchase most everything in the village. For provisions they can turn to the matron. For tools they’d go to the gamekeeper or the fisherman. When it comes to weapons and armor, the blacksmith Ness might need a little time, since he only stocks spears and arrows. The prices adhere to the list on page 182 in the *Player’s Handbook.*
 
-*At one end of the square is a chapel. A pointed roof of painted tiles is built on top of a circle of wooden columns. On the columns are carved beautiful* <!-- p.204 --> *reliefs of birds. The stone floor of the temple is covered with dried flowers, copper coins, crops and animal bones.*
+*At one end of the square is a chapel. A pointed roof of painted tiles is built on top of a circle of wooden columns. On the columns are carved beautiful <!-- p.204 --> reliefs of birds. The stone floor of the temple is covered with dried flowers, copper coins, crops and animal bones.*
 
 Once a month and on holy days, Olm conducts a ceremony at the chapel. During the ceremony, the gods Wail, Flow and the Nightwalker are worshipped. The villagers pray for bountiful harvests and uncomplicated births, and honor their dead. Small offerings of animals and crops are left for the gods at the chapel.
 
@@ -4218,6 +4296,8 @@ The most prominent individuals in the village, as well as the princely couple Ur
 
 The village elder, Mrs. Pollmor, is an elderly woman whose family has run the village for generations. She makes sure that the wall is decently functional, runs a militia, maintains the well, keeps the river clean, is responsible for fire protection, tends to the temple and sees to it that the latrines are emptied, as well as collecting taxes from those who don’t contribute to the aforementioned chores. Mrs. Pollmor is known as “The Bailiff” among those who dislike her. Ever since her man passed away she has become increasingly introverted and, aside from the occasional visit to Dead Man’s Hand, keeps to her rocking chair in front of the fireplace at home. Mrs. Pollmor lives in the shadow of her great-grandmother, who is held up as the founder of the village. With age, she has also become greedy and mean. She abuses her power and skirts her sense of justice more and more to misappropriate benefits for herself. The innkeeper, Olm and Ness, the blacksmith, are hoping that the conflict between the elder and Yawim, the brewmaster, will kindle an ember in the frozen heart of Mrs. Pollmor.
 
+##### Stats: Mrs. Pollmor
+
 - **Attributes:** Strength 2, Agility 2, Wits 4, Empathy 3
 - **Skills:** Lore 2, Insight 3, Manipulation 4
 - **Gear:** A large bronze amulet with a piece of amber at its centre – a sign of her office (worth D6 silver coins)
@@ -4230,6 +4310,8 @@ Yawim possesses exceptional brewing skills and runs the Three Skulls Tavern, whi
 
 Yawim is a beardless dwarf with a shaved head and a gut that grows ever larger in step with his fondness for beer. He is boisterous and always close to laughter or anger.
 
+##### Stats: Brewmaster Yawim
+
 - **Attributes:** Strength 4, Agility 2, Wits 3, Empathy 3
 - **Skills:** Melee 3, Crafting 2, Insight 1, Manipulation 2
 - **Gear:** Axe, ornamented chalice made from the horn of a minotaur hanging in a chain from his belt (worth D6 gold coins)
@@ -4237,6 +4319,8 @@ Yawim is a beardless dwarf with a shaved head and a gut that grows ever larger i
 ### Rust Brother Sturkas
 
 Few know Sturkas’s name and most of the villagers only speak of him as “the Rust Brother” – usually with a hint of fear in their voices. Sturkas is a large, dark-haired man, dressed in a yellow and red cloak adorned with details of rusted iron. His face is disfigured by the scars of innumerable battles. To the outside world, he strictly adheres to the laws of the Rust Brothers, but in truth, he is remorseful of cruel acts in his younger years. He turns a blind eye to the midwife and her witchcraft, and secretly cares for the “village idiot”, Perko. Should he, however, discover that the midwife is a Raven Sister he will resolutely act according to the regulations of the Rust Brothers – i.e., kill her. The Rust Brother is on Mrs. Pollmor’s side in the escalating conflict in the village, but may choose to switch sides if he feels that it suits him.
+
+##### Stats: Rust Brother Sturkas
 
 - **Attributes:** Strength 4, Agility 3, Wits 3, Empathy 2
 - **Talents:** Path of Blood 2
@@ -4251,6 +4335,8 @@ Midwife Nirvea is secretly a Raven Sister and the only person, except for Vike, 
 
 Nirvea appears older than her 40 years and is dressed in dirty sheets of cloth and a hood. She speaks with consideration, softly and slowly.
 
+##### Stats: Midwife Nirvea
+
 - **Attributes:** Strength 2, Agility 3, Wits 3, Empathy 3
 - **Talents:** Path of Healing 2, Path of Sight 1
 - **Skills:** Lore 2, Insight 2, Healing 4
@@ -4263,6 +4349,8 @@ One morning almost ten years ago, Perko’s parents were gone when he woke up. I
 Perko drifts aimlessly around town and is mostly ignored by the villagers. For this reason, he knows many of the villagers’ secrets, and would surely have been a great source of information if he hadn’t gone mute after his parents’ disappearance.
 
 Perko is a teenage boy with dirty, cut-off tights and a muddy tunic. His hair straggles in all directions and his stare is maniacal. He stuffs his pockets with dead birds, messy muck, insects and other items of interest that he gladly offers as gifts to those he meets.
+
+##### Stats: The Village Idiot Perko
 
 - **Attributes:** Strength 2, Agility 3, Wits 3, Empathy 1
 - **Skills:** Move 2, Sleight of Hand 3
@@ -4399,7 +4487,7 @@ A groan is heard from a camp site nearby. The adventurers find it abandonded exc
 
 ## Legend
 
-*Ten generations before our time, the cruel king Algarod declared that Alderland had become overcrowded. He sought to expand his kingdom by leading an army across the mountains to Ravenland, where he fell in battle against the demonic hordes of the sorcerer Zygofer. As he was lost, so too was the sceptre Nekhaka, rumored to be the source of his power. However, the will of the king burned so fiercely that he refused to die and for ages stood watch in the stronghold of Weatherstone. Legend has it that Algarod will march again one day, to retrieve the spire of Nekhaka and complete his conquest of Ravenland. But the curse was suddenly broken and the undead king and his men finally went to their final rest. There* <!-- p.217 --> *are whispers that Algarod’s war chest remains in Weatherstone, forever guarded by evil spirits and the beasts of the sorcerer.*
+*Ten generations before our time, the cruel king Algarod declared that Alderland had become overcrowded. He sought to expand his kingdom by leading an army across the mountains to Ravenland, where he fell in battle against the demonic hordes of the sorcerer Zygofer. As he was lost, so too was the sceptre Nekhaka, rumored to be the source of his power. However, the will of the king burned so fiercely that he refused to die and for ages stood watch in the stronghold of Weatherstone. Legend has it that Algarod will march again one day, to retrieve the spire of Nekhaka and complete his conquest of Ravenland. But the curse was suddenly broken and the undead king and his men finally went to their final rest. There <!-- p.217 --> are whispers that Algarod’s war chest remains in Weatherstone, forever guarded by evil spirits and the beasts of the sorcerer.*
 
 ## Locations
 
@@ -4554,6 +4642,8 @@ The monsters and NPCs that the adventurers can meet at Weatherstone are describe
 
 A man in his fifties with greying, unkempt hair, wearing a green tunic, gray hose and knitted finger gloves to protect against the cold. Constantly with a pipe in the corner of his mouth, Dalb is a person who can enchant any audience with so simple a means as his green eyes and husky voice. The bard (who is not what he seems to be, see the boxed text “Who is Dalb?”) has struck camp outside Weatherstone to lure adventurers to their doom within. This night, he is very lucky as no less than two groups arrive shortly after one another.
 
+##### Stats: Dalb, the Bard
+
 - **Attributes:** Strength 3, Agility 4, Wits 6, Empathy 6
 - **Skills:** Performance 5
 - **Gear:** Pipe, lute
@@ -4568,6 +4658,8 @@ A muscular and loud man who presents himself as a travelling merchant specializi
 
 He lacks empathy and is planning to doublecross his companions at the first and best opportunity.
 
+##### Stats: Esgar Farthing
+
 - **Attributes:** Strength 5, Agility 3, Wits 2, Empathy 2
 - **Skills:** Melee 3, Might 3, Manipulation 2, Move 1
 - **Talents:** Path of the Blade 1, Threatening 1
@@ -4579,6 +4671,8 @@ He lacks empathy and is planning to doublecross his companions at the first and 
 
 Kordomar is a hunter from Harga who as a child was told many stories of Alderland, the lands south of the Iron Lock. Despite his greying hair and furrowed face, he is still skilled with bow and arrow. Kordomar came with Esgar to retrieve the sword of King Algarod, who he considers a hero. Kordomar wants to trade the sword for access to Alderland, where he has always dreamed of going. He does not trust Esgar.
 
+##### Stats: Kordomar Sulam
+
 - **Attributes:** Strength 3, Agility 3, Wits 3, Empathy 2
 - **Skills:** Marksmanship 4, Scouting 2, Survival 2
 - **Talents:** The Path of the Arrow 1, Sharpshooter 1
@@ -4587,6 +4681,8 @@ Kordomar is a hunter from Harga who as a child was told many stories of Alderlan
 #### Brother Ferebald
 
 A gnarly and brooding Rust Brother and historian who can tell many tales of Alderland and the history of the Rust Brothers. Ferebald knows about Algarod’s wretched past, and believes the king’s undead existence is a disgrace. Ferebald has secretly joined Esgar and his compatriots to try to kill Algarod as an act of mercy.
+
+##### Stats: Brother Ferebald
 
 - **Attributes:** Strength 2, Agility 2, Wits 4, Empathy 2
 - **Skills:** Lore 3, Insight 2, Melee 1
@@ -4598,6 +4694,8 @@ A gnarly and brooding Rust Brother and historian who can tell many tales of Alde
 Dyndria plays the fiddle and seems to be a jovial woman with a taste for food and drink. She claims to be here because she has been paid to play.
 
 In fact, Dyndria is a thief and assassin hired by the rulers of Alderland, south of the Iron Lock. The new royal family wants to remove any traces of Algarod’s line since political rebels have revealed that the old king still roams Ravenland If Dyndria manages to take Algarod’s head to the Iron Lock, she will be richly rewarded and awarded citizenship in Alderland – or so she believes. Dyndria dreams of present day Alderland, but knows nothing about it. She has hinted to Esgar that she is a thief and would like to be part of any secret raid against the stronghold, but she has not divulged her true intentions.
+
+##### Stats: Dyndria the Bard
 
 - **Attributes:** Strength 3, Agility 4, Wits 2, Empathy 3
 - **Skills:** Stealth 3, Marksmanship 2, Move 2, Melee 1, Manipulation 2, Performance 2
@@ -4612,6 +4710,8 @@ The once mighty King Algarod wears chainmail and carries the sword Rustbite (unt
 
 His is a melancholy existence, dictated by Therania’s commands. If her portrait above the bed in the top room of the tower is destroyed, Therania loses her power over him. He will fly into a rage and may attempt to take back his royal power, negotiate with his liberators, or even destroy himself forever – for example, by leaping from the ramparts or asking the adventurers to find an urn with his embalmed heart which is hidden in the laboratory. In the latter case, they will be rewarded with his war chest which he believes is still in the wagons in the ravine.
 
+##### Stats: King Algarod
+
 - **Attributes:** Strength 8, Agility 3, Wits 3, Empathy 2 King Algarod is a Death Knight, a powerful undead being. Death Knights are described in detail on page 86.
 - **Gear:** Chainmail, great helm, the Rustbite longsword. If you want to introduce the *Nekhaka* spire or even the *Stanengist* crown itself (see *Raven’s Purge*), you can let Algarod have them in his chamber.
 - **Two Attacks:** King Algarod is a powerful Death Knight and as such gets to act twice every round. Draw two initiative cards at the beginning of combat.
@@ -4622,12 +4722,16 @@ Around the keep are dozens of undead Alderlander soldiers, dead for centuries. W
 
 ##### Skeleton Soldiers
 
+##### Stats: Skeleton Soldiers
+
 - **Attributes:** Strength 3, Agility 2
 - **Skills:** Melee 3
 - **Gear:** Broadsword, studded leather
 - **Bony:** Skeletons never take more than 1 point of Damage from STABS and arrows.
 
 ##### Skeleton Bodyguards
+
+##### Stats: Skeleton Bodyguards
 
 - **Attributes:** Strength 6, Agility 2
 - **Skills:** Melee 3, Might 2
@@ -4637,6 +4741,8 @@ Around the keep are dozens of undead Alderlander soldiers, dead for centuries. W
 ### The Scorpion Beast
 
 A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, half-human, this is a creature that was never meant to live. The beast is totally driven by instinct and see all living creatures as potential food. The Scorpion Beast is a monster (see page 73).
+
+##### Stats: The Scorpion Beast
 
 - **Attributes:** Strength 14, Agility 8
 - **Armor:** 5 (carapace)
@@ -4835,7 +4941,7 @@ The whiners have blocked the original entrance to the valley with hollow-rock, a
 
 ### 8. The Vale of the Dead
 
-*Protected by high mountain walls, a beautiful verdant valley opens up before you. A mournful and restrained sense of waiting rests within the exuberance of this place, where the tall cypresses seem to reach for the sky, longing to leave. Aging tombstones rise from soil where the fog creeps, while larger slabs seal crypts in the mountain. You see the remains of buildings and overgrown orchards spilling over and out of their enclosures. Here and* <!-- p.239 --> *there, semi-transparent humanoid forms move in silence, while others stand still with empty stares.*
+*Protected by high mountain walls, a beautiful verdant valley opens up before you. A mournful and restrained sense of waiting rests within the exuberance of this place, where the tall cypresses seem to reach for the sky, longing to leave. Aging tombstones rise from soil where the fog creeps, while larger slabs seal crypts in the mountain. You see the remains of buildings and overgrown orchards spilling over and out of their enclosures. Here and <!-- p.239 --> there, semi-transparent humanoid forms move in silence, while others stand still with empty stares.*
 
 #### Table: Ghost
 
@@ -4884,6 +4990,8 @@ Kalmax of Falender was once a proud and renowned rider in his clan. However, his
 
 After having gambled away his family fortune to the heir of a rival clan, he was exiled by his own and left with a few trusted companions. To restore his honor, he needs <!-- p.241 --> to find silver – lots of silver. He has heard of treasures hidden in the Vale of the Dead, and will do anything to get his hands on it, no matter what the cost.
 
+##### Stats: Kalmax
+
 - **Attributes:** Strength 3, Agility 4, Wits 3, Empathy 3
 - **Skills:** Endurance 3, Melee 4, Move 2, Scouting 3, Survival 3, Animal Handling 3
 - **Gear:** Short spear, broadsword, leather armor, riding horse
@@ -4891,6 +4999,8 @@ After having gambled away his family fortune to the heir of a rival clan, he was
 ### Horlo
 
 The clanless orcs have been hired by the whiners to keep enemies away. In return, they are receiving food and fermented juice. The orc leader, Horlo, is a scarred battle tested orc from the Isir clan. He was driven away by Eldag the Ravager after an orc woman chose Horlo over the chieftain. Horlo rightly considers himself to have been wrongfully cast out and wants nothing more than to return to the Isir and kill Eldag. He may start negotiations with strangers if he thinks that they can be of use in this endeavour. Horlo and his two Isir companions, Chren and Argana, are the most capable fighters among the orcs and they never get severely drunk. If Horlo becomes angry he will start foaming at the mouth, producing green froth that makes his bite poisonous.
+
+##### Stats: Horlo
 
 - **Attributes:** Strength 5, Agility 4, Wits 3, Empathy 2
 - **Skills:** Might 3, Melee 4, Manipulation 2
@@ -4900,6 +5010,8 @@ The clanless orcs have been hired by the whiners to keep enemies away. In return
 
 The orcs in the Vale of the Dead are clanless orcs who have been hired for protection by the whiners.
 
+##### Stats: Xugg and Other Orcs
+
 - **Attributes:** Strength 4, Agility 2, Wits 2, Empathy 2
 - **Skilla:** Melee 2, Might 1
 - **Gear:** Scimitar, studded leather armor
@@ -4908,6 +5020,8 @@ The orcs in the Vale of the Dead are clanless orcs who have been hired for prote
 
 The chieftain of the whiners is called Nasura Kak. She and her people want nothing other than to live in peace and quiet inside the mountain. Like all whiners, she and her kin are terrified of tall-folk who want to take them for their sweet-meat. Nasura wants to keep the crumhorn away from Scrome at any cost, since his tunes cause their protective hollow-rock to wither as well as being grating on the sensitive ears of whiners.
 
+##### Stats: Nasura Kak
+
 - **Attributes:** Strength 2, Agility 4, Wits 3, Empathy 2
 - **Skills:** Melee 2, Stealth 2, Manipulation 3
 - **Gear:** Shortsword, knife, studded leather armor
@@ -4915,6 +5029,8 @@ The chieftain of the whiners is called Nasura Kak. She and her people want nothi
 ### Whiners
 
 The whiners living in the caves near the Vale of the Dead are typical of their kin. Short of stature, fleet of foot and skeptical of strangers.
+
+##### Stats: Whiners
 
 - **Attributes:** Strength 1, Agility 4, Wits 2, Empathy 2
 - **Skills:** Stealth 2, Melee 1, Survival 1
@@ -4936,6 +5052,8 @@ Scrome cares for the undead and tries to make them feel at home, among other mea
 
 If Scrome’s second eye is reinserted (see page 144), he becomes a completely different and considerably more dangerous giant.
 
+##### Stats: Scrome
+
 - **Attributes:** Strength 24, Agility 2, Wits 3, Empathy 2
 - **Armor:** 3 (skin)
 - **Gear:** Wooden club
@@ -4949,6 +5067,8 @@ Harama was once the human servant and chef of Zygofer during his studies in the 
 <!-- p.243 -->
 
 If the adventurers help Harama die, he may give them his magical soup stone as thanks. It is buried in the old herbarium outside the kitchen.
+
+##### Stats: Harama the Glutton
 
 - **Attributes:** Strength 6, Agility 2, Wits 3, Empathy 2
 - **Skills:** Melee 2, Lore 2, Manipulation 2

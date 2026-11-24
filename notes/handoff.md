@@ -1,8 +1,9 @@
 # Handoff
 Limit: 2,000 characters (see CLAUDE.md). Rewrite only at session end; next task only.
 
-## Next: Raven's Purge
-1. Different layout from the core books, no typed bookmarks (no `Table:`/`Stats:` prefixes): inspect
-   fonts and a few page types first (NPC stats, maps, location keys), add samples before changing the tool.
-2. Run `tools/regress.py` after every tool change; whole books only at the end, diffed against `sources/`.
-3. User reviews L&A / GMG / PHB as they read them; fix requests first, list other finds and ask.
+## Next: more books (user has others to extract) / user review
+- All four Forbidden Lands books are in `sources/`. The user reads them and reports problems: fix the
+  request first in the tool, run `tools/regress.py`, accept intended diffs, regenerate, `tools/verify.py`.
+- A new book: inspect fonts first (`get_text("dict")` font counts). Same publisher (IM Fell / Branding)
+  should work as is; other fonts → make the font names in fl2md.py configurable. Add 5–7 sample page
+  sets per book before changing the tool; compare ~10 pages by eye.

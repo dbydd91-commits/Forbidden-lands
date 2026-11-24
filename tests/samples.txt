@@ -30,3 +30,10 @@ gmg-dungeon-rooms gmg   175-176         caption + intro + table, side-by-side ca
 la-legend         la    28-29           one header cell ("D66") with unnamed columns, 2x2 side-by-side tables
 la-monster        la    32              side-by-side tables without captions (paired "D66" headers)
 phb-hunt          phb   152             table footnote starting with *, two tables per page
+rp-story          rp    15-16           whole page of sans-italic story text (one box) next to a heading and prose
+rp-key-npcs       rp    30              table of key NPCs, chapter opener
+rp-opener         rp    49              adventure site opener: title in art, TYPE OF ADVENTURE SITE, italic intro
+rp-map-spread     rp    52-53           map spread with numbered keys -> one figure note
+rp-npcs           rp    58-59           Monsters and NPCs: synthetic Stats headings, stat blocks
+rp-events         rp    131             d6 event table in a site chapter
+rp-mixed-map      rp    199-200         text and a titled map on one page, doubled bullet glyphs

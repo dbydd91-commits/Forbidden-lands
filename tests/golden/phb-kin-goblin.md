@@ -24,6 +24,8 @@ your perseverance can accomplish. The clans grow. You will make Ravenland great 
 
 The elders say you are the dark brothers of the halflings. Like you give a shit! All you know is that you live while the lardbags don’t even try. What do halflings know about howling with wolves, licking blood off drippertrees under a full moon or making love among nettles? If you didn’t keep nightwatch over their pretty villages, trolls and wolfkin would have torn them apart a long time ago. You say enough and be gone with that! The world’s out there, swollen with smells and flavor and silver and thrills. You’ll be taking off into the dark, fingers dug deep into your wolf ’s fur, <!-- p.22 --> froth washing your face. The night’s alive and you’re the ones living it!
 
+##### Stats: Goblin
+
 - **Key Attribute:** Agility
 - **Kin Talent:** Nocturnal
 - **Typical Professions:** Hunter, Rider, Rogue
