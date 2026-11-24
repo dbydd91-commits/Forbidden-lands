@@ -11,6 +11,8 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
 - Review 1 (user): Age table (header-less row-label column, merged header words), Artifact Dice (glyphs drawn
   twice), List of Talents (→ grouped list), List of Functions (side-by-side halves stacked); paragraph breaks
   via first-line indent; list items / spell stat lines; fuzzy bookmark match.
+- Speed: text extracted once per page, 4 worker processes (PHB 2 min → 13 s, identical output).
+  `tools/regress.py` + 18 sample page sets (`tests/samples.txt`, golden in `tests/golden/`), ~10 s.
 - Spot-checked on GMG bestiary (p.77–132) and Legends & Adventurers: stats/tables OK, 0–1 words missing.
 
 ## Commands

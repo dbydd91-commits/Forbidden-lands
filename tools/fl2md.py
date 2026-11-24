@@ -33,6 +33,7 @@ Usage:
 import argparse
 import collections
 import difflib
+import multiprocessing
 import re
 import string
 import sys
@@ -186,6 +187,27 @@ def page_lines(pg) -> list:
     return lines
 
 
+_DOC = None
+
+
+def _init_worker(path):
+    global _DOC
+    _DOC = pymupdf.open(path)
+
+
+def _page_job(p):
+    return p, page_lines(_DOC[p])
+
+
+def extract_lines(pdf: str, pages, jobs: int) -> dict:
+    """page_lines for every page, once (text extraction is ~95% of the run time)."""
+    if jobs > 1 and len(pages) > 8:
+        with multiprocessing.get_context("fork").Pool(jobs, _init_worker, (pdf,)) as pool:
+            return dict(pool.map(_page_job, pages, chunksize=4))
+    doc = pymupdf.open(pdf)
+    return {p: page_lines(doc[p]) for p in pages}
+
+
 # ---------------------------------------------------------------- text helpers
 WORD_RE = re.compile(r"[A-Za-z’']+(?:-[A-Za-z’']+)*")
 
@@ -193,10 +215,10 @@ WORD_RE = re.compile(r"[A-Za-z’']+(?:-[A-Za-z’']+)*")
 class Vocab:
     """Decides whether a line-end hyphen is a real hyphen ("two-handed")."""
 
-    def __init__(self, doc, pages):
+    def __init__(self, cache):
         self.words, self.hyph = set(), set()
-        for p in pages:
-            for line in page_lines(doc[p]):
+        for lines in cache.values():
+            for line in lines:
                 for w in WORD_RE.findall(line.text)[:-1]:   # last word may be broken
                     w = w.lower()
                     (self.hyph if "-" in w else self.words).add(w)
@@ -861,11 +883,12 @@ def load_figures(path: str) -> dict:
     return {parts[i]: (bool(parts[i + 1]), parts[i + 2].strip()) for i in range(1, len(parts), 3)}
 
 
-def convert(pdf, out, title, first, last, check=False, figures=""):
+def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
     figs = load_figures(figures)
     doc = pymupdf.open(pdf)
     pages = list(range(first - 1, last))
-    vocab = Vocab(doc, pages)
+    cache = extract_lines(pdf, pages, jobs)
+    vocab = Vocab(cache)
     toc = collections.defaultdict(list)
     for lvl, t, p in doc.get_toc():
         if p - 1 in pages:
@@ -885,7 +908,7 @@ def convert(pdf, out, title, first, last, check=False, figures=""):
                     w.heading("#" * m["lvl"] + " " + m["title"])
             w.block(fig[1], floating=False)
             continue
-        lines = page_lines(pg)
+        lines = cache[pno]
         for l in lines:
             l.absorbed = False
         regions = find_regions(lines)
@@ -975,7 +998,7 @@ def convert(pdf, out, title, first, last, check=False, figures=""):
         f.write(front + md + "\n")
     print(f"{out}: {len(pages)} pages, {len(md):,} chars", file=sys.stderr)
     if check:
-        coverage(doc, pages, md)
+        coverage(doc, pages, md, cache)
 
 
 def region_heading(r: Region, marks) -> str:
@@ -1028,14 +1051,14 @@ def match_heading(text, marks) -> str:
     return "##### " + title_case(text)
 
 
-def coverage(doc, pages, md):
+def coverage(doc, pages, md, cache):
     """Words in the PDF (after the same filtering) that are missing from the output."""
     have = collections.Counter(w.lower() for w in re.findall(r"[A-Za-z]{3,}", md))
     miss = collections.Counter()
     where = collections.defaultdict(set)
     for p in pages:
         prev_hyph = False
-        for l in page_lines(doc[p]):
+        for l in cache[p]:
             t = l.text.strip()
             ws = re.findall(r"[A-Za-z]{3,}|-$", t)
             if prev_hyph and ws:
@@ -1062,11 +1085,12 @@ def main():
     ap.add_argument("--title", required=True)
     ap.add_argument("--pages", default="")
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--jobs", type=int, default=4, help="worker processes for text extraction")
     ap.add_argument("--figures", default="", help="hand transcriptions, see tools/figures/")
     a = ap.parse_args()
     n = pymupdf.open(a.pdf).page_count
     first, last = (int(x) for x in a.pages.split("-")) if a.pages else (1, n)
-    convert(a.pdf, a.out, a.title, first, last, a.check, a.figures)
+    convert(a.pdf, a.out, a.title, first, last, a.check, a.figures, a.jobs)
 
 
 if __name__ == "__main__":

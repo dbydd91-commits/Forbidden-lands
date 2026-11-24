@@ -9,6 +9,7 @@ reliably. Stage 1 = faithful extraction (`sources/`); no rules rewriting yet. Pr
 |---|---|
 | `sources/fl-players-handbook.md` | Player's Handbook (5th printing), printed p.4–200 |
 | `tools/fl2md.py` | PDF → Markdown converter (conventions in its docstring) |
+| `tools/regress.py`, `tests/` | Regression check: sample pages (`tests/samples.txt`) vs `tests/golden/` |
 | `notes/` | `handoff.md` (next task), `log.md` (what's done) |
 
 Planned: Gamemaster's Guide, Legends & Adventurers, Raven's Purge. Map & Stickers is image-only.
@@ -26,6 +27,12 @@ Planned: Gamemaster's Guide, Legends & Adventurers, Raven's Purge. Map & Sticker
 
 ## Regenerate
 PDFs are not committed (`.gitignore`). `pip install pymupdf`, then the commands in `notes/log.md`.
+
+## Changing the converter
+- After every change run `python tools/regress.py --pdf-dir DIR` (~10 s), not whole books.
+  Review each CHANGED diff; `--accept` only intended changes. Add a sample when a new page type is fixed.
+- Regenerate whole books (~15 s each) only once the samples look right, then diff against the committed `sources/`.
+- Fix what the user asked first; list other problems found and ask before widening the scope.
 
 ## Git
 - Push commits to `main` (default branch) and to the session branch if one is assigned.

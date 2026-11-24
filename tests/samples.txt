@@ -1,0 +1,19 @@
+# name            book  printed pages   what it covers
+phb-rolling-dice  phb   10              Box in a column, drop-in sidebar, prose headings
+phb-kin-goblin    phb   21-22           kin info Stats list, Box across pages, paragraph over page break
+phb-age           phb   31              table with header-less row-label column, merged header words
+phb-charsheet     phb   35              page replaced by a hand transcription (tools/figures)
+phb-encumbrance   phb   37-40           two-line Box caption, run-in labels, first-line-indent paragraphs
+phb-artifact-dice phb   50              dice glyphs drawn twice, glyph cells
+phb-talent-list   phb   60-61           side-by-side lists with bold group headings
+phb-talent-ranks  phb   65-66           Rank list items continued across columns
+phb-spear         phb   80-81           Rank item continued across pages
+phb-kin-weapons   phb   109-110         art labels dropped, Example paragraphs
+phb-spells        phb   121-125         spell stat lines, spell rank table in a frame
+phb-functions     phb   166             side-by-side repeated table halves
+phb-trade-spread  phb   184-187         facing-page tables joined, two tables per page
+phb-crit          phb   196-197         multi-line headers, centred columns, no shading
+gmg-demons        gmg   80-83           d66 tables, table continued on next page
+gmg-dragon        gmg   88-89           two stat blocks in one box, block continued in next column
+gmg-insectoids    gmg   108             stacked stat blocks next to a Box
+la-backstory      la    4-5             d6 tables with list-like cells
