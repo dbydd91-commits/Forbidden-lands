@@ -1,10 +1,8 @@
 # Handoff
 Limit: 2,000 characters (see CLAUDE.md). Rewrite only at session end; next task only.
 
-## Next: user review of PHB + GMG, then Legends & Adventurers and Raven's Purge
-1. User reviews `sources/fl-gamemasters-guide.md` (bestiary Stats, encounters, adventure sites, artifacts).
-   Fix in the tool, run `tools/regress.py`, accept intended diffs, regenerate.
-2. Legends & Adventurers (pdf p.2–40): no page labels; printed page numbers come from the footer.
-3. Raven's Purge: different layout, no typed bookmarks — inspect fonts first, add samples.
-Known open point: GMG p.52 "Box: Elven Saying" bookmark has no Branding box (italic quote), so its
-heading sits at the page top.
+## Next: Raven's Purge
+1. Different layout from the core books, no typed bookmarks (no `Table:`/`Stats:` prefixes): inspect
+   fonts and a few page types first (NPC stats, maps, location keys), add samples before changing the tool.
+2. Run `tools/regress.py` after every tool change; whole books only at the end, diffed against `sources/`.
+3. User reviews L&A / GMG / PHB as they read them; fix requests first, list other finds and ask.

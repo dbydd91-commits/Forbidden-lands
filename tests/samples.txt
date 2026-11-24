@@ -1,4 +1,4 @@
-# name            book  printed pages   what it covers
+# name            book  printed pages ("pdfN" = PDF page without a number)   what it covers
 phb-rolling-dice  phb   10              Box in a column, drop-in sidebar, prose headings
 phb-kin-goblin    phb   21-22           kin info Stats list, Box across pages, paragraph over page break
 phb-age           phb   31              table with header-less row-label column, merged header words
@@ -25,3 +25,7 @@ gmg-calendar      gmg   35              figure labels dropped (drop y>N) + trans
 gmg-vale-opener   gmg   231             letter-by-letter chapter title, centred label line, italic intro
 gmg-encounters-1  gmg   148             Box with bookmark typo, encounter headings
 phb-strong-rating phb   176             header-less two-column tables (caption + shaded rows)
+gmg-village       gmg   170             table halves under one caption, notes above a half, halves out of order
+gmg-dungeon-rooms gmg   175-176         caption + intro + table, side-by-side captioned tables, intro carried to next page
+la-legend         la    28-29           one header cell ("D66") with unnamed columns, 2x2 side-by-side tables
+la-monster        la    32              side-by-side tables without captions (paired "D66" headers)

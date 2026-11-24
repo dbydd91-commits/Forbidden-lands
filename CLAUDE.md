@@ -9,11 +9,12 @@ reliably. Stage 1 = faithful extraction (`sources/`); no rules rewriting yet. Pr
 |---|---|
 | `sources/fl-players-handbook.md` | Player's Handbook (5th printing), printed p.4–200, ~90k tokens |
 | `sources/fl-gamemasters-guide.md` | Gamemaster's Guide (5th printing), printed p.4–261, ~125k tokens |
+| `sources/fl-legends-and-adventurers.md` | Legends & Adventurers (5th printing), whole booklet, ~16k tokens |
 | `tools/fl2md.py` | PDF → Markdown converter (conventions in its docstring) |
 | `tools/regress.py`, `tests/` | Regression check: sample pages (`tests/samples.txt`) vs `tests/golden/` |
 | `notes/` | `handoff.md` (next task), `log.md` (what's done) |
 
-Planned: Legends & Adventurers, Raven's Purge. Map & Stickers is image-only.
+Planned: Raven's Purge. Map & Stickers is image-only.
 Maps (GMG p.46–47, 198–199, 218–219, 234–235) are replaced by `**[Figure — …]**` notes (`tools/figures/`).
 
 ## Reading the sources (token budget)
@@ -23,6 +24,7 @@ Maps (GMG p.46–47, 198–199, 218–219, 234–235) are replaced by `**[Figure
   - `Table: X` = GFM table, one row per line. Facing-page tables and tables continued on the next
     page(s) are joined into one; the heading then ends with the page range, e.g. `<!-- p.12–15 -->`.
     `Table: (continued)` = continuation that could not be joined (text in between).
+    A blank column name (`|   |`) = the book prints no header for that column.
   - `Stats: X` = `- **Key:** value` list (monster/NPC stat boxes, kin info).
   - `Box: X` = sidebar as `>` quote, placed at the next paragraph break.
 - Page anchors `<!-- p.N -->` = printed page N (matches the books' "see page N"); may sit inline when a paragraph crosses pages.

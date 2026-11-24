@@ -3078,7 +3078,7 @@ Roll once and use the whole row or roll twice and combine the results.
 | 32 | Tent Village |
 | 33–34 | Built on Steep Hill |
 | 35 | Old Tower in the Middle |
-| 36 **OUTPOST:** One roll **HAMLET:** Three rolls **VILLAGE:** D6+5 rolls | Grand Building |
+| 36 | Grand Building |
 | 41–42 | Windy |
 | 43 | Inbreeding |
 | 44–45 | Strange Eating Habits |
@@ -3092,18 +3092,22 @@ Roll once and use the whole row or roll twice and combine the results.
 
 ### Table: Village Institutions
 
+- **Outpost:** One roll
+- **Hamlet:** Three rolls
+- **Village:** D6+5 rolls
+
 | D66 | Institution |
 |---|---|
+| 11–16 | Nothing |
+| 21–26 | Inn |
+| 31–35 | Mill |
+| 36–43 | Smith |
 | 44–46 | Forester |
 | 51–53 | Trading Post |
 | 54–55 | Temple |
 | 56–62 | Militia |
 | 63–64 | Tavern |
 | 65–66 | Stable |
-| 11–16 | Nothing |
-| 21–26 | Inn |
-| 31–35 | Mill |
-| 36–43 | Smith |
 
 <!-- p.171 -->
 
@@ -3823,10 +3827,10 @@ The tables are divided into two categories: “carried finds” and “finds in 
 
 | D66 | Find | Value | Weight |
 |---|---|---|---|
-| 34 | Painting | 3D6 silver | Heavy |
 | 11–31 | 4D6 silver coins | Value of the coins | — |
 | 32 | Silver Medallion | 3D6 silver | Light |
 | 33 | Small Silver Chest | 3D6 silver | Light |
+| 34 | Painting | 3D6 silver | Heavy |
 | 35 | Glass Bowl | 3D6 silver | Light |
 | 36 | Beautiful Vase | 3D6 silver | Light |
 | 41 | Silver Brooch | 4D6 silver | Tiny |

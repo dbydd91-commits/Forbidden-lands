@@ -42,6 +42,8 @@ def samples():
 
 def pdf_page(doc, label: str) -> int:
     """Printed page label -> 1-based PDF page (page labels, else the printed footer number)."""
+    if label.startswith("pdf"):                 # page without a printed number: "pdf1"
+        return int(label[3:])
     hit = doc.get_page_numbers(label)
     if hit:
         return hit[0] + 1

@@ -271,12 +271,13 @@ class Vocab:
     """Decides whether a line-end hyphen is a real hyphen ("two-handed")."""
 
     def __init__(self, cache):
-        self.words, self.hyph = set(), set()
+        self.words, self.hyph, self.count = set(), set(), collections.Counter()
         for lines in cache.values():
             for line in lines:
                 for w in WORD_RE.findall(line.text)[:-1]:   # last word may be broken
                     w = w.lower()
                     (self.hyph if "-" in w else self.words).add(w)
+                    self.count[w] += 1
 
     def join(self, a: str, b: str) -> str:
         """a ends with '-', b is the next line."""
@@ -384,6 +385,7 @@ class Region:
     skip: bool = False
     intro: object = None
     headerless: bool = False
+    single_head: bool = False
 
     @property
     def bbox(self):
@@ -430,12 +432,19 @@ def split_zones(lines):
     """Vertical ranges with two tables side by side: a pair of captions on one baseline,
     one on each side of the gutter. Inside them nothing is joined across the gutter."""
     caps = [l for l in lines if l.branding and is_caption([l])]
+    dice = [l for l in lines if l.branding and all(sp.bold for sp in l.spans)
+            and re.fullmatch(r"D\d+", l.text.strip())]            # header cells "D66" on both sides
+    pair = lambda a, b: a.x1 <= MID + 4 and b.x0 >= MID - 4 and abs(a.y0 - b.y0) < 3
+    # a zone ends at the next full-width caption, or at a "D66" header with no partner
+    ends = [c.y0 for c in caps if c.x0 < MID - 4 and c.x1 > MID + 4]
+    ends += [d.y0 for d in dice if not any(pair(d, e) or pair(e, d) for e in dice)]
     zones = []
-    for a in caps:
-        for b in caps:
-            if a.x1 <= MID + 4 and b.x0 >= MID - 4 and abs(a.y0 - b.y0) < 3:
-                below = [c.y0 for c in caps if c.y0 > a.y0 + 5 and c.x0 < MID - 4 and c.x1 > MID + 4]
-                zones.append((a.y0 - 2, min(below) - 2 if below else 1e9))
+    spans_gutter = lambda d: any(c.x0 < MID - 4 and c.x1 > MID + 4 and 0 < d.y0 - c.y0 < 30 for c in caps)
+    dice_pairs = [(a, b) for a in dice for b in dice if not spans_gutter(a)]   # one caption over both
+    for a, b in [(a, b) for a in caps for b in caps] + dice_pairs:                # halves = one table
+        if pair(a, b):
+            below = [y for y in ends if y > a.y0 + 5]
+            zones.append((a.y0 - 2, min(below) - 2 if below else 1e9))
     return zones
 
 
@@ -470,18 +479,25 @@ def find_regions(lines):
     for u in units_of(blines, zones):
         ux0, uy0 = min(l.x0 for l in u), min(l.y0 for l in u)
         ux1, uy1 = max(l.x1 for l in u), max(l.y1 for l in u)
-        target = None
+        target, best = None, None
         for r in reversed(regions):
             x0, y0, x1, y1 = r.bbox
             caption_only = all(is_caption([l]) for l in r.lines)
-            near = ux0 < x1 + 2 and ux1 > x0 - 2
+            overlap = ux0 < x1 + 2 and ux1 > x0 - 2
+            near = overlap
             if caption_only and not near:      # centred caption over a wider table
                 cx = (x0 + x1) / 2
                 slack = 150 if is_header(u) or (all_caps_bold(u) and max(l.size for l in u) < 8.8) else 20
                 near = ux0 - slack < cx < ux1 + slack
             if near and uy0 - y1 < (40 if r.table else 22) and uy0 >= y0 - 2:
-                target = r
-                break
+                # an overlapping region wins; else the caption whose centre is closest
+                score = (0 if overlap else 1, abs((x0 + x1) / 2 - (ux0 + ux1) / 2))
+                if best is None or score < best:
+                    target, best = r, score
+                if overlap:
+                    break
+        if target and target.table and label_of(u[0].spans) and len(target.lines) > 4:
+            target = None                # "OUTPOST: One roll" under a table: notes for the next one
         if target and (is_caption(u) or (is_title(u) and not target.table)) \
                 and not all(is_caption([l]) for l in target.lines):
             target = None
@@ -523,10 +539,22 @@ def classify(r: Region):
     r.caption = title_case(" ".join(caps)) if caps else ""
     if any(is_header(u) for u in units[:2]):
         r.kind = "table"
+    elif (len(units) > 3 and len(units[0]) == 1 and all_caps_bold(units[0]) and units[0][0].size < 8.8
+          and multi_cell_rows(units[1:]) >= 0.7):
+        r.kind, r.single_head = "table", True      # one header cell ("D66"), unnamed value column
     elif units and sum(1 for u in units if label_of(u[0].spans)) * 2 >= len(units):
         r.kind = "stats"
     else:
         r.kind = "box"
+
+
+def multi_cell_rows(units) -> float:
+    """Share of baselines that hold two or more cells."""
+    rows = collections.Counter()
+    for u in units:
+        for l in u:
+            rows[round(l.y0 / 3)] += 1
+    return sum(n >= 2 for n in rows.values()) / len(rows) if rows else 0
 
 
 def label_of(spans):
@@ -604,7 +632,8 @@ def table_md(r: Region, shaded, vocab):
     head_units = []
     while units and all_caps_bold(units[0]) and (
             is_header(units[0]) or any(is_header(u) for u in units[1:3]) or (r.single_col and not head_units)
-            or (head_units and units[0][0].y0 - head_units[-1][0].y1 < 4)):
+            or (head_units and units[0][0].y0 - head_units[-1][0].y1 < 4)
+            or (r.single_head and not head_units)):
         head_units.append(units.pop(0))
     hlines = [l for u in head_units for l in u]
     cols = []                                   # merged header cells
@@ -617,6 +646,14 @@ def table_md(r: Region, shaded, vocab):
             cols.append({"x0": l.x0, "x1": l.x1, "parts": [l]})
     cols.sort(key=lambda c: c["x0"])
     names = [title_case(" ".join(p.text for p in sorted(c["parts"], key=lambda p: p.y0))) for c in cols]
+    if r.single_head and cols:                  # columns right of the only header cell are unnamed
+        extra = sorted(l.x0 for u in units for l in u if l.x0 > cols[-1]["x1"] + 4)
+        for x in extra:
+            if cols[-1]["parts"] == [] and x - cols[-1]["x1"] < 60:
+                cols[-1]["x1"] = x
+            else:
+                cols.append({"x0": x, "x1": x, "parts": []})
+                names.append(" ")
     if not cols and r.headerless:               # rows only: columns from the cells' left edges
         for x in sorted(l.x0 for u in units for l in u):
             if cols and x - cols[-1]["x1"] < 60:      # centred values start at varying x
@@ -878,6 +915,12 @@ class TableBlock:
                         and isinstance(x.table, Table) and (same or not x.base or norm(x.base) in norm(last.heading))):
                     last.table.rows += x.table.rows
                     last.pages += x.pages
+                    if x.intro:
+                        last.intro = "\n\n".join(i for i in (last.intro, x.intro) if i)
+                    keys = [re.match(r"(\d+)(?:–\d+)?$", r[0]) for r in last.table.rows]
+                    if all(keys):        # halves met out of order: d66 rows go by their roll
+                        last.table.rows = [r for _, r in sorted(zip([int(k.group(1)) for k in keys],
+                                                                    last.table.rows), key=lambda z: z[0])]
                     continue
                 if x.cont and not x.heading and x.table.names == prev_names:
                     x.heading = "##### Table: (continued)"   # same table, but text in between
@@ -1036,8 +1079,18 @@ def bands(elements):
     out, top = [], -1
     for f in full + [("F", 10_000, None)]:
         seg = [e for e in elements if e[0] != "F" and top <= e[1] < f[1]]
-        out += sorted([e for e in seg if e[0] == "L"], key=lambda e: e[1])
-        out += sorted([e for e in seg if e[0] == "R"], key=lambda e: e[1])
+        left = sorted([e for e in seg if e[0] == "L"], key=lambda e: e[1])
+        right = sorted([e for e in seg if e[0] == "R"], key=lambda e: e[1])
+        # two tables side by side (starting at the same height): left, then right
+        for e in left:
+            out.append(e)
+            is_tab = lambda x: x[2][0] == "region" and x[2][1].kind == "table"
+            if is_tab(e):
+                mate = next((r for r in right if is_tab(r) and abs(r[1] - e[1]) < 15), None)
+                if mate and all(is_tab(r) for r in right[:right.index(mate)]):
+                    out += right[:right.index(mate) + 1]
+                    del right[:right.index(mate) + 1]
+        out += right
         if f[2] is not None:
             out.append(f)
         top = f[1]
@@ -1111,6 +1164,13 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     b.caplines, b.caption, c.skip = c.caplines, c.caption, True
                     b.lines += c.caplines
                 b.kind, b.headerless = "table", True
+        for b in regions:
+            if b.kind == "stats" and not b.caption and len(b.lines) <= 4:
+                below = [t for t in regions if t.kind == "table" and not t.caption and t.intro is None
+                         and 0 <= t.y0 - b.y1 < 12 and t.x0 < b.x1 and t.x1 > b.x0]
+                if below:
+                    t = min(below, key=lambda t: t.y0)
+                    t.intro, b.skip = b, True
         # caption + short intro text in its own block, table right below: one captioned table
         for b in regions:
             if b.caption and (b.kind == "box" or (b.kind == "stats" and len(b.lines) - len(b.caplines) <= 4)):
@@ -1210,7 +1270,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                 dc = "**Example:** "
                 continue
             if heading_line(l):
-                actions.append(("heading", match_heading(l.text, marks)))
+                actions.append(("heading", match_heading(despace(l.text, vocab), marks)))
                 last_head = mark_key(l.text)
                 continue
             actions.append(("prose", l, right.get(l.col, 0), dc, left.get(l.col, 0)))
@@ -1303,6 +1363,22 @@ def find_mark(text, marks):
     return None
 
 
+def despace(text: str, vocab) -> str:
+    """Letter-spaced display titles: "for bidden la nds" -> "forbidden lands"."""
+    toks, out, i = text.split(), [], 0
+    while i < len(toks):
+        for j in range(min(len(toks), i + 4), i + 1, -1):
+            joined = "".join(toks[i:j])
+            if vocab.count[joined.lower()] >= 3 and any(vocab.count[t.lower()] <= 2 for t in toks[i:j]):
+                out.append(joined)
+                i = j
+                break
+        else:
+            out.append(toks[i])
+            i += 1
+    return string.capwords(" ".join(out)) if out != toks else text
+
+
 def match_heading(text, marks) -> str:
     m = find_mark(text, marks)
     if m:
@@ -1331,7 +1407,7 @@ def coverage(doc, pages, md, cache):
                 w_ = w_.lower()
                 if have[w_] <= 0:
                     miss[w_] += 1
-                    where[w_].add(doc[p].get_label() or f"pdf{p + 1}")
+                    where[w_].add(printed_label(doc[p]) or f"pdf{p + 1}")
                 have[w_] -= 1
     tot = sum(miss.values())
     print(f"coverage: {tot} word occurrences missing", file=sys.stderr)
