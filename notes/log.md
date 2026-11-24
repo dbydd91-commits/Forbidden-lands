@@ -8,6 +8,9 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
 - PHB extracted: `sources/fl-players-handbook.md` (printed p.4–200; char sheets + index skipped).
   `--check`: ~124 word occurrences missing, almost all weapon-illustration labels (p.109–112, 186–193).
   p.35 example character sheet hand-transcribed (`tools/figures/phb.md`).
+- Review 1 (user): Age table (header-less row-label column, merged header words), Artifact Dice (glyphs drawn
+  twice), List of Talents (→ grouped list), List of Functions (side-by-side halves stacked); paragraph breaks
+  via first-line indent; list items / spell stat lines; fuzzy bookmark match.
 - Spot-checked on GMG bestiary (p.77–132) and Legends & Adventurers: stats/tables OK, 0–1 words missing.
 
 ## Commands

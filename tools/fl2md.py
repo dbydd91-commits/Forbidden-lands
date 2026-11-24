@@ -32,6 +32,7 @@ Usage:
 """
 import argparse
 import collections
+import difflib
 import re
 import string
 import sys
@@ -124,33 +125,52 @@ def join_spans(spans) -> str:
 def page_lines(pg) -> list:
     """Text lines of a page minus running heads, page numbers and the watermark.
     A PDF line whose spans are far apart is split (table cells on one baseline)."""
-    lines = []
-    for b in pg.get_text("dict")["blocks"]:
+    lines, seen = [], set()
+    for b in pg.get_text("rawdict")["blocks"]:
         for l in b.get("lines", []):
             if l["dir"][0] < 0.99:          # rotated text (spine labels etc.)
                 continue
             spans = []
             for s in l["spans"]:
-                t = clean(s["text"])
                 font = s["font"].split("+")[-1]
-                if font in ("Swordlings", "SkullZ"):
-                    t = re.sub(r"\S", lambda m: DICE.get((font, m.group()), m.group()), t)
-                if not t.strip():
+                size = s["size"]
+                if font.startswith("Helvetica") and size < 7:   # purchase watermark
                     continue
-                x0, y0, x1, y1 = s["bbox"]
-                if font.startswith("Helvetica") and s["size"] < 7:   # purchase watermark
-                    continue
-                if y1 < HEAD_Y or y0 > FOOT_Y:
-                    continue
-                spans.append(Span(t, font, round(s["size"], 1), x0, y0, x1, y1,
-                                  bool(s["flags"] & 16) or "Bold" in font,
-                                  bool(s["flags"] & 2) or "Ita" in font))
+                bold = bool(s["flags"] & 16) or "Bold" in font
+                ital = bool(s["flags"] & 2) or "Ita" in font
+                # Branding (table) text: a wide gap between letters is a column gap
+                pieces, cur = [], []
+                for c in s["chars"]:
+                    if cur and font.startswith("Branding") and c["c"] != " " and \
+                            c["bbox"][0] - max(x["bbox"][2] for x in cur if x["c"] != " " or True) > 5:
+                        pieces.append(cur)
+                        cur = []
+                    cur.append(c)
+                if cur:
+                    pieces.append(cur)
+                for ch in pieces:
+                    t = clean("".join(c["c"] for c in ch))
+                    if font in ("Swordlings", "SkullZ"):
+                        t = re.sub(r"\S", lambda m: DICE.get((font, m.group()), m.group()), t)
+                    if not t.strip():
+                        continue
+                    ink = [c for c in ch if c["c"].strip()] or ch
+                    x0, x1 = min(c["bbox"][0] for c in ink), max(c["bbox"][2] for c in ink)
+                    y0, y1 = s["bbox"][1], s["bbox"][3]
+                    if y1 < HEAD_Y or y0 > FOOT_Y:
+                        continue
+                    key = (t, round(x0), round(y0))
+                    if key in seen:                 # text drawn twice (fake bold)
+                        continue
+                    seen.add(key)
+                    spans.append(Span(t, font, round(size, 1), x0, y0, x1, y1, bold, ital))
             if not spans:
                 continue
             spans.sort(key=lambda s: s.x0)
             cur = [spans[0]]
             for s in spans[1:]:
-                if s.x0 - cur[-1].x1 > 12 and join_spans(cur).strip() not in BULLETS:
+                limit = 5 if s.branding and cur[-1].branding else 12
+                if s.x0 - cur[-1].x1 > limit and join_spans(cur).strip() not in BULLETS:
                     lines.append(Line(cur))
                     cur = []
                 cur.append(s)
@@ -373,7 +393,7 @@ def find_regions(lines):
         cy = (l.y0 + l.y1) / 2
         for r in regions:
             x0, y0, x1, y1 = r.bbox
-            if x0 - 2 <= l.x0 and l.x1 <= x1 + 6 and y0 - 1 <= cy <= y1 + 1:
+            if x0 - 2 <= l.x0 <= x1 + 2 and l.x1 <= x1 + 40 and y0 - 1 <= cy <= y1 + 12:
                 r.lines.append(l)
                 l.absorbed = True
                 break
@@ -414,6 +434,36 @@ def label_of(spans):
 
 # ---------------------------------------------------------------- tables
 LISTY_RE = re.compile(r"^[A-Z][A-Za-z’' ]+ [−–+-]?\d+$")
+
+
+class ListTable:
+    """Side-by-side lists under bold headings -> `- **Heading:** item; item; ...`."""
+
+    def __init__(self, cols, names, body, col_of, vocab):
+        groups = []                                     # [name, [items]]
+        for k, name in enumerate(names):
+            ls = sorted((l for l in body if col_of(l) == k), key=lambda l: l.y0)
+            cur = [name, []]
+            groups.append(cur)
+            prev = None
+            for l in ls:
+                if all_caps_bold([l]) and re.search(r"[A-Z]{3}", l.text):
+                    cur = [title_case(l.text), []]
+                    groups.append(cur)
+                elif prev is not None and l.y0 - prev.y0 < 12.5 and cur[1]:
+                    cur[1][-1] = join_lines([cur[1][-1], l.text], vocab)   # wrapped item
+                else:
+                    cur[1].append(l.text.strip())
+                prev = l
+        merged = {}
+        for name, items in groups:
+            if items:
+                merged.setdefault(name.strip() or "Items", []).extend(items)
+        self.names = list(merged)
+        self.md = "\n".join(f"- **{n}:** " + "; ".join(i) for n, i in merged.items())
+
+    def join_spread(self, other) -> bool:
+        return False
 
 
 class Table:
@@ -459,6 +509,11 @@ def table_md(r: Region, shaded, vocab):
     body = [l for u in units for l in u]
     if not cols or not body:
         return None
+    # row labels with no column header (Young / Adult / Old)
+    lead = [l for u in units for l in u if l.x0 < cols[0]["x0"] - 6]
+    if len(lead) >= 2:
+        cols.insert(0, {"x0": min(l.x0 for l in lead), "x1": max(l.x1 for l in lead), "parts": []})
+        names.insert(0, " ")
     # column boundary = middle of the widest empty gap in body x0's between two headers
     xs = sorted(l.x0 for u in units for l in u)
     bounds = [-1e9]
@@ -475,43 +530,58 @@ def table_md(r: Region, shaded, vocab):
                 k = i
         return k
 
+    # columns that are independent lists with bold sub-headings (List of Talents)
+    subheads = [l for l in body if all_caps_bold([l]) and re.search(r"[A-Z]{3}", l.text)]
+    named = [n for n in names if n.strip()]
+    period = next((m for m in range(1, len(names)) if len(names) % m == 0 and names[:m] * (len(names) // m) == names),
+                  0)                            # header repeated side by side: A B | A B
+    if subheads or period == 1:
+        return ListTable(cols, names, body, col_of, vocab)
+
     # row starts: key-column lines that share a baseline with another column,
     # plus the first line inside / after every shaded band
-    bands = sorted({(round(b.y0), round(b.y1)) for b in shaded
-                    if b.x0 < r.x1 and b.x1 > r.x0 and r.y0 - 2 < b.y0 < r.y1 and b.height > 7})
+    all_bands = [b for b in shaded if b.x0 < r.x1 and b.x1 > r.x0 and r.y0 - 2 < b.y0 < r.y1 and b.height > 7]
 
-    def in_band(y):
-        return next(((a, b) for a, b in bands if a - 1 <= y <= b + 1), None)
+    def build_rows(colset):
+        """Rows for the columns in colset (first one = key column)."""
+        k0 = colset[0]
+        part = [l for l in body if col_of(l) in colset]
+        px0, px1 = min(l.x0 for l in part), max(l.x1 for l in part)
+        bands = sorted({(round(b.y0), round(b.y1)) for b in all_bands if b.x0 < px1 and b.x1 > px0})
 
-    starts = set()
-    key = [l for l in body if col_of(l) == 0]
-    for l in key:
-        cy = (l.y0 + l.y1) / 2
-        band = in_band(cy)
-        if band and any(band[0] - 1 <= (o.y0 + o.y1) / 2 < cy for o in body):
-            continue                    # inside a shaded row, below its first line
-        if any(0 < l.y0 - o.y0 < 12.5 for o in key):
-            continue                    # wrapped key cell ("Fishing Hook and / Line")
-        if len(cols) == 1 or any(col_of(o) != 0 and abs(o.y0 - l.y0) <= 3 for o in body):
-            starts.add(l.y0)
-    for a, b in bands:
-        inside = [l.y0 for l in body if a - 1 <= (l.y0 + l.y1) / 2 <= b + 1]
-        after = [l.y0 for l in body if (l.y0 + l.y1) / 2 > b + 1]
-        if inside:
-            starts.add(min(inside))
-        if after:
-            starts.add(min(after))
-    if not starts:
-        starts = {l.y0 for l in body}
-    starts = sorted(starts)
-    dedup = [starts[0]]
-    for s in starts[1:]:
-        if s - dedup[-1] > 4:
-            dedup.append(s)
-    rows = [[[] for _ in cols] for _ in dedup]
-    for l in sorted(body, key=lambda l: (l.y0, l.x0)):
-        k = max([i for i, s in enumerate(dedup) if l.y0 >= s - 3] or [0])
-        rows[k][col_of(l)].append(l)
+        def in_band(y):
+            return next(((a, b) for a, b in bands if a - 1 <= y <= b + 1), None)
+
+        starts = set()
+        key = [l for l in part if col_of(l) == k0]
+        for l in key:
+            cy = (l.y0 + l.y1) / 2
+            band = in_band(cy)
+            if band and any(band[0] - 1 <= (o.y0 + o.y1) / 2 < cy for o in part):
+                continue                    # inside a shaded row, below its first line
+            if any(0 < l.y0 - o.y0 < 12.5 for o in key):
+                continue                    # wrapped key cell ("Fishing Hook and / Line")
+            if len(colset) == 1 or any(col_of(o) != k0 and abs(o.y0 - l.y0) <= 3 for o in part):
+                starts.add(l.y0)
+        for a, b in bands:
+            inside = [l.y0 for l in part if a - 1 <= (l.y0 + l.y1) / 2 <= b + 1]
+            after = [l.y0 for l in part if (l.y0 + l.y1) / 2 > b + 1]
+            if inside:
+                starts.add(min(inside))
+            if after:
+                starts.add(min(after))
+        if not starts:
+            starts = {l.y0 for l in part}
+        starts = sorted(starts)
+        dedup = [starts[0]]
+        for s in starts[1:]:
+            if s - dedup[-1] > 4:
+                dedup.append(s)
+        rows = [[[] for _ in colset] for _ in dedup]
+        for l in sorted(part, key=lambda l: (l.y0, l.x0)):
+            k = max([i for i, s in enumerate(dedup) if l.y0 >= s - 3] or [0])
+            rows[k][colset.index(col_of(l))].append(l)
+        return [r for r in rows if any(r)]
 
     def cell(ls):
         if not ls:
@@ -522,9 +592,14 @@ def table_md(r: Region, shaded, vocab):
             return ", ".join(t.strip() for t in texts)
         return join_lines(texts, vocab).replace("|", "/")
 
-    keep = [i for i, row in enumerate(rows) if any(row)]
-    return Table(names, [[cell(c) for c in rows[i]] for i in keep],
-                 [min(l.y0 for c in rows[i] for l in c) for i in keep])
+    if period > 1:                              # side-by-side halves: stack them
+        rows = [r for h in range(len(names) // period)
+                for r in build_rows(list(range(h * period, (h + 1) * period)))]
+        names = names[:period]
+    else:
+        rows = build_rows(list(range(len(cols))))
+    return Table(names, [[cell(c) for c in r] for r in rows],
+                 [min(l.y0 for c in r for l in c) for r in rows])
 
 
 def cell_text(l: Line) -> str:
@@ -677,8 +752,6 @@ class Writer:
             self.out.append(md)
 
     def anchor(self, a):
-        if self.floats:                            # don't carry sidebars onto the next page
-            self.flush()
         self.pending_anchor = a
 
     def place_anchor(self, inline: bool):
@@ -696,8 +769,8 @@ class Writer:
         self.flush()
         self.out.append(md)
 
-    def prose(self, l: Line, right: float, dc: str = ""):
-        self.prev_right = right
+    def prose(self, l: Line, right: float, dc: str = "", left: float = 0):
+        pright = self.prev_right if self.prev is not None else right   # right edge of p's column
         txt = fmt_spans(l.spans)
         if dc:
             txt = dc + txt.lstrip()
@@ -705,8 +778,18 @@ class Writer:
         bullet = l.text.strip()[:1] in BULLETS
         p = self.prev
         new = (p is None or bullet or lab or dc
-               or (p.x1 < right - 10 and re.search(r"[.!?:”’)]$", p.text.strip()))
-               or l.y0 - p.y1 > 9 and l.col == p.col and l.y0 > p.y0)
+               or ((p.x1 < pright - 10 or (l.col == p.col and abs(p.x0 - left) < 2 and 11 < l.x0 - left < 17
+                                            and not (self.para and self.para[0].startswith("- "))
+                                            and not all(sp.italic for sp in l.spans if sp.text.strip())))
+                   and re.search(r"[.!?:”’*]$", p.text.strip()))
+               or l.y0 - p.y1 > 9 and l.col == p.col and l.y0 > p.y0
+               or (self.para and self.para[0].startswith("- ") and self.item_strict
+                   and not (l.col == p.col and abs(l.x0 - self.item_x) <= 2.5 and l.y0 - p.y1 < 4))
+               or (self.para and self.para[0].startswith("- ") and l.col == p.col
+                   and abs(l.x0 - self.item_x) > 2.5
+                   and p.x1 < pright - 15 and re.search(r"[.!?:”’*]$", p.text.strip())))
+        if new and p is not None and re.search(r"[a-z]-$", p.text.strip()) and l.text[:1].islower():
+            new = bool(bullet or lab or dc)            # a hyphenated word always continues
         if bullet:
             body = l.text.strip()[1:].strip()
             m = re.match(r"^([A-Z][A-Z’' ]+?)(?::\s*|\s+)(.*)$", body)
@@ -717,7 +800,10 @@ class Writer:
             self.place_anchor(inline=False)
             self.flush()
             self.para = ["- " + body]                         # wrapped lines continue the item
-            self.prev = l
+            self.item_strict = bool(m and m.group(1).strip() in ("RANK", "RANGE", "DURATION", "INGREDIENT")
+                                    and not re.match(r"\d+:", m.group(2)))   # spell stat line
+            self.item_x = next((s.x0 for s in l.spans if s.text.strip() and s.text.strip() not in BULLETS), l.x0)
+            self.prev, self.prev_right = l, right
             return
         if lab:
             txt = f"**{lab.group(1)}** " + txt[len(lab.group(1)):].lstrip()
@@ -727,7 +813,7 @@ class Writer:
         else:
             self.place_anchor(inline=True)
         self.para.append(txt)
-        self.prev = l
+        self.prev, self.prev_right = l, right
 
     def text(self):
         self.place_anchor(inline=False)
@@ -808,6 +894,7 @@ def convert(pdf, out, title, first, last, check=False, figures=""):
         prose = [l for l in lines if not l.branding and not l.absorbed]
         prose = [l for l in prose if not art_label(l, prose)]
         right = {c: max([l.x1 for l in prose if l.col == c] or [0]) for c in "LR"}
+        left = {c: min([l.x0 for l in prose if l.col == c] or [0]) for c in "LR"}
         elems = [(r.col, r.y0, ("region", r)) for r in regions]
         # merge consecutive heading lines
         merged = []
@@ -864,7 +951,7 @@ def convert(pdf, out, title, first, last, check=False, figures=""):
             if heading_line(l):
                 actions.append(("heading", match_heading(l.text, marks)))
                 continue
-            actions.append(("prose", l, right.get(l.col, 0), dc))
+            actions.append(("prose", l, right.get(l.col, 0), dc, left.get(l.col, 0)))
             dc = ""
         # bookmarks whose text wasn't found on the page go to the page top
         for m in marks:
@@ -925,6 +1012,10 @@ def find_mark(text, marks):
                 continue
             if mk == key or (not exact and len(mk) >= 4 and (key.startswith(mk) or mk.startswith(key))):
                 return m
+    for m in marks:                       # typo in a bookmark ("Cleans Spirit")
+        if not m["used"] and len(key) >= 6 and difflib.SequenceMatcher(None, mark_key(m["title"]), key).ratio() > 0.9:
+            m["fuzzy"] = True
+            return m
     return None
 
 
@@ -932,7 +1023,7 @@ def match_heading(text, marks) -> str:
     m = find_mark(text, marks)
     if m:
         m["used"] = True
-        longer = len(norm(text)) > len(mark_key(m["title"]))   # "Animal Handling (Empathy)"
+        longer = len(norm(text)) > len(mark_key(m["title"])) or m.get("fuzzy")  # "Animal Handling (Empathy)"
         return "#" * m["lvl"] + " " + (title_case(text) if longer else m["title"])
     return "##### " + title_case(text)
 
