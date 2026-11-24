@@ -4,7 +4,7 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
 ## Done
 - Converter `tools/fl2md.py` (own layout engine). Lines by font (IM Fell = prose, Branding =
   tables/boxes/stats) → regions → Table / Stats / Box; 4 workers, ~5–15 s per book.
-- Checks: `tools/regress.py` + `tests/samples.txt` (41 page sets, golden in `tests/golden/`);
+- Checks: `tools/regress.py` + `tests/samples.txt` (38 page sets, golden in `tests/golden/`);
   `tools/verify.py` (per-page word share, missing numbers). ~50 pages also compared by eye.
 - Extracted: PHB, GMG, L&A, Raven's Purge. Hand figures in `tools/figures/` (PHB p.35 sheet; GMG kin
   map, village maps, calendar). RP maps get automatic figure notes.
