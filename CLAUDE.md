@@ -7,12 +7,14 @@ reliably. Stage 1 = faithful extraction (`sources/`); no rules rewriting yet. Pr
 
 | Path | What |
 |---|---|
-| `sources/fl-players-handbook.md` | Player's Handbook (5th printing), printed p.4–200 |
+| `sources/fl-players-handbook.md` | Player's Handbook (5th printing), printed p.4–200, ~90k tokens |
+| `sources/fl-gamemasters-guide.md` | Gamemaster's Guide (5th printing), printed p.4–261, ~125k tokens |
 | `tools/fl2md.py` | PDF → Markdown converter (conventions in its docstring) |
 | `tools/regress.py`, `tests/` | Regression check: sample pages (`tests/samples.txt`) vs `tests/golden/` |
 | `notes/` | `handoff.md` (next task), `log.md` (what's done) |
 
-Planned: Gamemaster's Guide, Legends & Adventurers, Raven's Purge. Map & Stickers is image-only.
+Planned: Legends & Adventurers, Raven's Purge. Map & Stickers is image-only.
+Maps (GMG p.46–47, 198–199, 218–219, 234–235) are replaced by `**[Figure — …]**` notes (`tools/figures/`).
 
 ## Reading the sources (token budget)
 - **Never Read a whole source file.** grep → `Read offset/limit` around the hit.

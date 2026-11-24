@@ -176,6 +176,54 @@ def page_lines(pg) -> list:
                     cur = []
                 cur.append(s)
             lines.append(Line(cur))
+    # prose words that the PDF stores as separate lines on one baseline -> one line
+    lines.sort(key=lambda l: (round(l.y0), l.x0))
+    merged = []
+    for l in lines:
+        m = merged[-1] if merged else None
+        if (m and all(sp.font.startswith("IM_FELL") for sp in m.spans + l.spans) and abs(m.y0 - l.y0) < 1.5
+                and 0 <= l.x0 - m.x1 < 12 and l.size < 12 and m.size < 12
+                and not (m.x1 <= MID + 4 and l.x0 >= MID - 4)):      # never across the column gutter
+            merged[-1] = Line(m.spans + l.spans)
+        else:
+            merged.append(l)
+    lines = merged
+    # encounter number badge ("2" in Branding-Black) belongs to the heading on its right
+    for l in lines:
+        if len(l.spans) > 1 and "Black" in l.spans[0].font and l.spans[0].text.strip().isdigit():
+            sp = l.spans[0]
+            l.spans[0] = Span(sp.text.strip() + ": ", l.spans[1].font, l.spans[1].size,
+                              sp.x0, sp.y0, sp.x1, sp.y1, False, False)
+    # encounter number badge ("2" in Branding-Black) belongs to the heading on its right
+    for b in [l for l in lines if l.text.strip().isdigit() and "Black" in l.spans[0].font]:
+        right = [l for l in lines if l is not b and abs(l.y0 - b.y0) < 8 and 0 < l.x0 - b.x1 < 20]
+        if right:
+            t = min(right, key=lambda l: l.x0)
+            t.spans[:0] = [Span(b.text.strip() + ": ", t.spans[0].font, t.spans[0].size, b.x0, t.y0,
+                                b.x1, t.y1, False, False)]
+            t.__post_init__()
+            lines.remove(b)
+    # partial copies of a line drawn on top of it (text over art): keep the full line
+    groups = collections.defaultdict(list)
+    for l in lines:
+        groups[(round(l.x0), round(l.y0))].append(l)
+    drop = set()
+    for g in groups.values():
+        g.sort(key=lambda l: len(l.text))
+        for i, l in enumerate(g):
+            if any(o.text.strip().startswith(l.text.strip()) for o in g[i + 1:]):
+                drop.add(id(l))
+    # ... also when the copy starts mid-line: same baseline, inside the full line, a substring of it
+    for l in lines:
+        t = l.text.strip().rstrip("-").strip()
+        if id(l) in drop or (len(t) < 4 and l.text.strip() != "-"):
+            continue
+        for o in lines:
+            if o is not l and id(o) not in drop and abs(o.y0 - l.y0) < 1 and o.x0 - 1 <= l.x0 \
+                    and l.x1 <= o.x1 + 1 and len(o.text) > len(l.text) and t in o.text:
+                drop.add(id(l))
+                break
+    lines = [l for l in lines if id(l) not in drop]
     # a bullet glyph is often its own PDF line: glue it to the text on its right
     for b in [l for l in lines if l.text.strip() in tuple(BULLETS)]:
         right = [l for l in lines if l is not b and abs(l.y0 - b.y0) < 4 and 0 <= l.x0 - b.x1 < 25]
@@ -291,7 +339,8 @@ def title_case(t: str) -> str:
         else:
             words.append(string.capwords(w.lower(), "-") if w.isupper() else w)
     small = {"Of", "The", "A", "An", "And", "Or", "In", "On", "To", "For", "At", "By", "With"}
-    return " ".join(w if i == 0 or w not in small else w.lower() for i, w in enumerate(words))
+    first = 1 if words and re.fullmatch(r"\d+[.:]?", words[0]) else 0     # "11. The Old Cemetery"
+    return " ".join(w if i <= first or w not in small else w.lower() for i, w in enumerate(words))
 
 
 def norm(s: str) -> str:
@@ -370,7 +419,7 @@ def units_of(lines):
             if cross and margins[0] < 66 and 243 <= margins[1] <= 257:
                 gap = 999
         caps = u and all(s.bold and not re.search(r"[a-z]", s.text) for x in u + [l] for s in x.spans)
-        if u and abs(u[-1].y0 - l.y0) <= 2.5 and (gap < 45 or ((not cross or caps) and gap < 150)) and gap < 999:
+        if u and abs(u[-1].y0 - l.y0) <= 2.5 and (gap < 45 or (not cross and gap < 150) or (caps and gap < 300)) and gap < 999:
             u.append(l)
         else:
             units.append([l])
@@ -492,11 +541,13 @@ class Table:
     def __init__(self, names, rows, ys):
         self.names, self.rows, self.ys = names, rows, ys
 
+    note = ""
+
     @property
     def md(self):
         out = [f"| {' | '.join(self.names)} |", "|" + "---|" * len(self.names)]
         out += ["| " + " | ".join(r) + " |" for r in self.rows]
-        return "\n".join(out)
+        return "\n".join(out) + (f"\n\n*Note:* {self.note}" if self.note else "")
 
     def join_spread(self, other) -> bool:
         """Facing-page table: same rows, more columns on the right-hand page."""
@@ -529,11 +580,26 @@ def table_md(r: Region, shaded, vocab):
     cols.sort(key=lambda c: c["x0"])
     names = [title_case(" ".join(p.text for p in sorted(c["parts"], key=lambda p: p.y0))) for c in cols]
     body = [l for u in units for l in u]
+    # small-print notes under the last row ("Parry without Parrying weapon: −2")
+    note = []
+    if body:
+        bsize = collections.Counter(round(l.size) for l in body).most_common(1)[0][0]
+        while body:
+            last = max(body, key=lambda l: l.y0)
+            if last.size < bsize - 0.5 and not any(o.y0 > last.y0 - 3 and o is not last and o.size >= bsize - 0.5
+                                                   for o in body):
+                note.insert(0, last)
+                body.remove(last)
+            else:
+                break
     if not cols or not body:
         return None
     # row labels with no column header (Young / Adult / Old)
     lead = [l for u in units for l in u if l.x0 < cols[0]["x0"] - 6]
-    if len(lead) >= 2:
+    nxt = cols[1]["x0"] if len(cols) > 1 else 1e9
+    paired = [l for l in lead if any(o is not l and abs(o.y0 - l.y0) < 3 and cols[0]["x0"] - 6 <= o.x0 < nxt - 6
+                                     for u in units for o in u)]
+    if len(lead) >= 2 and len(paired) * 2 >= len(lead):     # first column has its own values too
         cols.insert(0, {"x0": min(l.x0 for l in lead), "x1": max(l.x1 for l in lead), "parts": []})
         names.insert(0, " ")
     # column boundary = middle of the widest empty gap in body x0's between two headers
@@ -620,8 +686,10 @@ def table_md(r: Region, shaded, vocab):
         names = names[:period]
     else:
         rows = build_rows(list(range(len(cols))))
-    return Table(names, [[cell(c) for c in r] for r in rows],
-                 [min(l.y0 for c in r for l in c) for r in rows])
+    t = Table(names, [[cell(c) for c in r] for r in rows],
+              [min(l.y0 for c in r for l in c) for r in rows])
+    t.note = " ".join(fmt_spans(l.spans).strip() for l in sorted(note, key=lambda l: l.y0))
+    return t
 
 
 def cell_text(l: Line) -> str:
@@ -634,7 +702,8 @@ def cell_text(l: Line) -> str:
         i += 1
     rest = join_spans(spans[i:]) if i < len(spans) else ""
     if lead.strip() and rest.strip():
-        return f"**{lead.strip()}** {rest.strip()}"
+        sep = "" if rest.strip()[:1] in ".,:;!?" else " "            # "**NOTHING**."
+        return f"**{lead.strip()}**{sep}{rest.strip()}"
     return fmt_spans(spans)
 
 
@@ -695,14 +764,19 @@ def stats_md(r: Region, vocab) -> str:
 
 # ---------------------------------------------------------------- prose
 def heading_line(l: Line) -> bool:
+    t = l.text.strip()
+    if (not l.branding and 6.8 <= l.size < 8.8 and t != "EXAMPLE" and not t.endswith(":")
+            and all("PICA" in s.font for s in l.spans) and not re.search(r"[a-z]", t)
+            and len(t) >= 3 and len(t.split()) <= 6):
+        return True                     # small-caps name heading (NPCs: "KORDOMAR SULAM")
     return (not l.branding and l.size >= 8.8
             and all(not s.font.startswith("IM_FELL_Great_Primer") for s in l.spans)
-            and not l.text.strip()[:1] in BULLETS)
+            and not t[:1] in BULLETS)
 
 
 def art_label(l: Line, prose) -> bool:
     """Small isolated caption inside an illustration (e.g. a skill icon label)."""
-    if l.size >= 7.5 or len(l.text.split()) > 4 or l.text.strip() == "EXAMPLE":
+    if l.size >= 6.5 or len(l.text.split()) > 4 or l.text.strip() == "EXAMPLE":
         return False
     if not re.search(r"[a-z]", l.text):           # all-caps label placed over the art
         if min(abs(l.x0 - m) for m in (57, 71, 248, 262)) > 4:
@@ -906,7 +980,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
             for m in marks:
                 if not m["title"].startswith("Map:"):
                     w.heading("#" * m["lvl"] + " " + m["title"])
-            w.block(fig[1], floating=False)
+            w.block(fig[1])                     # waits for the paragraph running round it
             continue
         lines = cache[pno]
         for l in lines:
@@ -928,7 +1002,8 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                 continue
             merged.append(l)
         elems += [(l.col, l.y0, ("line", l)) for l in merged]
-        actions, dc = [], ""
+        actions, dc, last_head = [], "", ""
+        page_heads = {mark_key(l.text) for l in merged if heading_line(l)}
         for _, _, (kind, obj) in bands(elems):
             if kind == "region":
                 r = obj
@@ -936,7 +1011,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     items = box_items(r, vocab)
                     n_lab = sum(i.startswith("- **") for i in items)
                     r.kind = "stats" if n_lab and n_lab * 2 >= len(items) else "box"
-                heading = region_heading(r, marks)
+                heading = region_heading(r, marks, last_head, page_heads)
                 if (r.kind == "stats" and not heading and not r.caption and actions
                         and actions[-1][0] == "block" and actions[-1][2] == "stats"):
                     # stat block continued in the next column
@@ -973,6 +1048,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                 continue
             if heading_line(l):
                 actions.append(("heading", match_heading(l.text, marks)))
+                last_head = mark_key(l.text)
                 continue
             actions.append(("prose", l, right.get(l.col, 0), dc, left.get(l.col, 0)))
             dc = ""
@@ -1001,7 +1077,7 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
         coverage(doc, pages, md, cache)
 
 
-def region_heading(r: Region, marks) -> str:
+def region_heading(r: Region, marks, last_head="", page_heads=()) -> str:
     kinds = {"table": "Table", "stats": "Stats", "box": "Box"}
     want = kinds[r.kind]
     cap = r.caption
@@ -1012,20 +1088,26 @@ def region_heading(r: Region, marks) -> str:
                 t = m["title"] if re.match(r"(Table|Stats|Box): ", m["title"]) else f"{want}: {m['title']}"
                 return "#" * m["lvl"] + " " + t
     if not cap:
-        for m in marks:
-            if not m["used"] and m["title"].startswith(want + ":"):
-                m["used"] = True
-                return "#" * m["lvl"] + " " + m["title"]
+        cands = [m for m in marks if not m["used"] and m["title"].startswith(want + ":")]
+        # a stat block belongs to the heading just above it ("## Bloodling" -> "Stats: Bloodling");
+        # never take the bookmark of another creature that has its own heading on the page
+        m = next((m for m in cands if last_head and mark_key(m["title"]) == last_head), None)
+        if m is None:
+            m = next((m for m in cands if mark_key(m["title"]) not in page_heads), None)
+        if m:
+            m["used"] = True
+            return "#" * m["lvl"] + " " + m["title"]
         return ""
     return f"##### {want}: {cap}"
 
 
 def mark_key(title: str) -> str:
-    return norm(re.sub(r"^\d+\.\s*", "", title))     # "4. Talents" ~ "TALENTS"
+    """"4. Talents" ~ "TALENTS"; "Stats: Typical Melder" ~ "TYPICAL MELDER"."""
+    return norm(re.sub(r"^(Stats:\s*)?(\d+[.:]\s*)?", "", title))
 
 
 def find_mark(text, marks):
-    key = norm(text)
+    key = mark_key(text)                  # "13. CHAPEL" ~ bookmark "13. Chapel"
     if not key:
         return None
     for exact in (True, False):
@@ -1046,7 +1128,7 @@ def match_heading(text, marks) -> str:
     m = find_mark(text, marks)
     if m:
         m["used"] = True
-        longer = len(norm(text)) > len(mark_key(m["title"])) or m.get("fuzzy")  # "Animal Handling (Empathy)"
+        longer = len(mark_key(text)) > len(mark_key(m["title"])) or m.get("fuzzy")  # "Animal Handling (Empathy)"
         return "#" * m["lvl"] + " " + (title_case(text) if longer else m["title"])
     return "##### " + title_case(text)
 
@@ -1058,7 +1140,7 @@ def coverage(doc, pages, md, cache):
     where = collections.defaultdict(set)
     for p in pages:
         prev_hyph = False
-        for l in cache[p]:
+        for l in sorted(cache[p], key=lambda l: (l.col, round(l.y0), l.x0)):
             t = l.text.strip()
             ws = re.findall(r"[A-Za-z]{3,}|-$", t)
             if prev_hyph and ws:

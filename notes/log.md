@@ -13,11 +13,17 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
   via first-line indent; list items / spell stat lines; fuzzy bookmark match.
 - Speed: text extracted once per page, 4 worker processes (PHB 2 min → 13 s, identical output).
   `tools/regress.py` + 18 sample page sets (`tests/samples.txt`, golden in `tests/golden/`), ~10 s.
-- Spot-checked on GMG bestiary (p.77–132) and Legends & Adventurers: stats/tables OK, 0–1 words missing.
+- GMG extracted (printed p.4–261, index skipped): 101 tables, 68 Stats, all 66 Stats bookmarks placed;
+  `--check` ~84 missing, mostly map labels. Fixes: map pages → figure notes; text drawn twice over art
+  (partial copies); encounter number badges; small-caps NPC headings; Stats bookmark goes to the heading
+  above; side-by-side table halves; table footnotes → `*Note:*`. Also fixed: PHB crit tables had a bogus
+  empty first column since review 1 (caught by the samples).
 
 ## Commands
 ```
 python tools/fl2md.py Forbidden_Lands_Players_Handbook_5th_printing.pdf sources/fl-players-handbook.md \
   --title "Forbidden Lands — Player's Handbook (5th printing)" --pages 8-204 --figures tools/figures/phb.md
+python tools/fl2md.py Forbidden_Lands_Gamemasters_Guide_5th_printing.r.pdf sources/fl-gamemasters-guide.md \
+  --title "Forbidden Lands — Gamemaster's Guide (5th printing)" --pages 8-265 --figures tools/figures/gmg.md
 ```
 Add `--check` for the missing-word report. PDFs: user's Drive folder (not committed).

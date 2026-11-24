@@ -2390,7 +2390,8 @@ PUNCH/KICK/BITE: Does not require a weapon. Roll for MELEE. Can be DODGED or PAR
 | Parry with weapon | — | −2 | +2 |
 | Parry with shield | — | +2 | +2 |
 | Dodge | +2 | — | — |
-| Parry without Parrying weapon: −2 Dodge without going prone: −2 | — | — | — |
+
+*Note:* Parry without Parrying weapon: −2 Dodge without going prone: −2
 
 **Example:** *The fight between the adventurers and the orcs begins. Orc 1 uses his two actions to RUN toward Tyrgar, first from SHORT to NEAR distance, then to ARM’S LENGTH. Orc 2 does the same, but approaches Nirmena. Then it’s Tyrgar’s turn. His axe is already drawn, so he uses his fast action to SHOVE Orc 1 to the ground, which succeeds.*
 
@@ -5262,75 +5263,75 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 
 # Table: Critical Injuries – Slash Wounds
 
-|   | D66 | Injury | Lethal | Time Limit | Effects During Healing | Healing Time |
-|---|---|---|---|---|---|---|
-| 11–12 | — | Bleeding forehead | No | — | None. | — |
-| 13–14 | — | Severed nose | No | — | −1 to MANIPULATION. | D6 |
-| 15–16 | — | Severed finger | No | — | Two-handed weapons cannot be used. | D6 |
-| 21–22 | — | Severed toe | No | — | To RUN becomes a slow action. | 2D6 |
-| 23–24 | — | Bleeding thigh | No | — | To RUN becomes a slow action. | D6 |
-| 25–26 | — | Slashed mouth | No | — | −2 to MANIPULATION. | D6 |
-| 31–32 | — | Severed tendon | No | — | To RUN becomes a slow action. | 2D6 |
-| 33–34 | — | Wounded shoulder | No | — | Two-handed weapons cannot be used. | 2D6 |
-| 35–36 | — | Severed ear | No | — | −1 to SCOUTING. | D6 |
-| 41–42 | — | Slashed eye | No | — | −2 to MARKSMANSHIP and SCOUTING. | 2D6 |
-| 43–44 | — | Punctured lung | Yes | D6 days | −2 to ENDURANCE and MOVE | D6 |
-| 45–46 | — | Severed foot | Yes | D6 days | To RUN becomes a slow action. | Permanent |
-| 51–52 | — | Bleeding gut | Yes | D6 hours | 1 point of damage at each roll for MIGHT, MOVE and MELEE. | D6 |
-| 53–54 | — | Ruptured intestines | Yes | D6 hours | Disease with Virulence 6. | 2D6 |
-| 55–56 | — | Severed arm | Yes, −1 | D6 hours | Two-handed weapons cannot be used. | Permanent |
-| 61–62 | — | Severed leg | Yes, −1 | D6 hours | To RUN becomes a slow action. | Permanent |
-| 63–64 | — | Slit throat | Yes, −1 | D6 rounds | −2 to ENDURANCE. | D6 |
-| — | 65 | Cleft skull | Yes | — | You die immediately. | — |
-| — | 66 | Decapitation | Yes | — | Your head leaves your body. | — |
+| D66 | Injury | Lethal | Time Limit | Effects During Healing | Healing Time |
+|---|---|---|---|---|---|
+| 11–12 | Bleeding forehead | No | — | None. | — |
+| 13–14 | Severed nose | No | — | −1 to MANIPULATION. | D6 |
+| 15–16 | Severed finger | No | — | Two-handed weapons cannot be used. | D6 |
+| 21–22 | Severed toe | No | — | To RUN becomes a slow action. | 2D6 |
+| 23–24 | Bleeding thigh | No | — | To RUN becomes a slow action. | D6 |
+| 25–26 | Slashed mouth | No | — | −2 to MANIPULATION. | D6 |
+| 31–32 | Severed tendon | No | — | To RUN becomes a slow action. | 2D6 |
+| 33–34 | Wounded shoulder | No | — | Two-handed weapons cannot be used. | 2D6 |
+| 35–36 | Severed ear | No | — | −1 to SCOUTING. | D6 |
+| 41–42 | Slashed eye | No | — | −2 to MARKSMANSHIP and SCOUTING. | 2D6 |
+| 43–44 | Punctured lung | Yes | D6 days | −2 to ENDURANCE and MOVE | D6 |
+| 45–46 | Severed foot | Yes | D6 days | To RUN becomes a slow action. | Permanent |
+| 51–52 | Bleeding gut | Yes | D6 hours | 1 point of damage at each roll for MIGHT, MOVE and MELEE. | D6 |
+| 53–54 | Ruptured intestines | Yes | D6 hours | Disease with Virulence 6. | 2D6 |
+| 55–56 | Severed arm | Yes, −1 | D6 hours | Two-handed weapons cannot be used. | Permanent |
+| 61–62 | Severed leg | Yes, −1 | D6 hours | To RUN becomes a slow action. | Permanent |
+| 63–64 | Slit throat | Yes, −1 | D6 rounds | −2 to ENDURANCE. | D6 |
+| 65 | Cleft skull | Yes | — | You die immediately. | — |
+| 66 | Decapitation | Yes | — | Your head leaves your body. | — |
 
 <!-- p.197 -->
 
 # Table: Critical Injuries – Blunt Force
 
-|   | D66 | Injury | Lethal | Time Limit | Effects During Healing | Healing Time |
-|---|---|---|---|---|---|---|
-| 11–12 | — | Stunned | No | — | None | — |
-| 13–14 | — | Breathless | No | — | None | — |
-| 15–16 | — | Concussion | No | — | −2 to SCOUTING. | D6 |
-| 21–22 | — | Broken nose | No | — | −1 to MANIPULATION. | D6 |
-| 23–24 | — | Broken fingers | No | — | Two-handed weapons can’t be used. | D6 |
-| 25–26 | — | Broken toes | No | — | To RUN becomes a slow action. | D6 |
-| 31–33 | — | Knocked out teeth | No | — | −1 to MANIPULATION. | D6 |
-| 34–36 | — | Groin hit | No | — | 1 point of damage suffered at every MOVE or MELEE roll. | D6 |
-| 41–43 | — | Broken ribs | No | — | −2 to MOVE and MELEE. | 2D6 |
-| 44–45 | — | Broken arm | No | — | Two-handed weapons can’t be used. | 2D6 |
-| 46–51 | — | Broken leg | No | — | To RUN becomes a slow action. | 2D6 |
-| 52–53 | — | Gouged eye | No | — | −2 to MARKSMANSHIP and SCOUTING. | 2D6 |
-| 54–55 | — | Crushed foot | Yes | D6 days | To RUN becomes a slow action. | 3D6 |
-| 56–61 | — | Crushed elbow | Yes | D6 days | Two-handed weapons can’t be used. | Permanent |
-| 62–63 | — | Crushed knee | Yes | D6 days | To RUN becomes a slow action. | Permanent |
-| — | 64 | Broken neck | No | — | Paralyzed from the neck down. If not HEALED in time, the effect is permament. | 3D6 |
-| 65–66 | — | Crushed skull | Yes | — | Your adventure and your life end here. | — |
+| D66 | Injury | Lethal | Time Limit | Effects During Healing | Healing Time |
+|---|---|---|---|---|---|
+| 11–12 | Stunned | No | — | None | — |
+| 13–14 | Breathless | No | — | None | — |
+| 15–16 | Concussion | No | — | −2 to SCOUTING. | D6 |
+| 21–22 | Broken nose | No | — | −1 to MANIPULATION. | D6 |
+| 23–24 | Broken fingers | No | — | Two-handed weapons can’t be used. | D6 |
+| 25–26 | Broken toes | No | — | To RUN becomes a slow action. | D6 |
+| 31–33 | Knocked out teeth | No | — | −1 to MANIPULATION. | D6 |
+| 34–36 | Groin hit | No | — | 1 point of damage suffered at every MOVE or MELEE roll. | D6 |
+| 41–43 | Broken ribs | No | — | −2 to MOVE and MELEE. | 2D6 |
+| 44–45 | Broken arm | No | — | Two-handed weapons can’t be used. | 2D6 |
+| 46–51 | Broken leg | No | — | To RUN becomes a slow action. | 2D6 |
+| 52–53 | Gouged eye | No | — | −2 to MARKSMANSHIP and SCOUTING. | 2D6 |
+| 54–55 | Crushed foot | Yes | D6 days | To RUN becomes a slow action. | 3D6 |
+| 56–61 | Crushed elbow | Yes | D6 days | Two-handed weapons can’t be used. | Permanent |
+| 62–63 | Crushed knee | Yes | D6 days | To RUN becomes a slow action. | Permanent |
+| 64 | Broken neck | No | — | Paralyzed from the neck down. If not HEALED in time, the effect is permament. | 3D6 |
+| 65–66 | Crushed skull | Yes | — | Your adventure and your life end here. | — |
 
 <!-- p.198 -->
 
 # Table: Critical Injuries – Stab Wounds
 
-|   | D66 | Injury | Lethal | Time Limit | Effects During Healing | Healing Time |
-|---|---|---|---|---|---|---|
-| 11–13 | — | Pierced ear | No | — | None | — |
-| 14–16 | — | Skewered foot | — | — | To RUN becomes a slow action. | D6 |
-| 21–23 | — | Hand run through | No | — | Two-handed weapons cannot be used. | D6 |
-| 24–26 | — | Pierced cheek | No | — | −1 to MANIPULATION. | D6 |
-| 31–33 | — | Impaled thigh | No | — | To RUN becomes a slow action. | 2D6 |
-| — | 34 | Severed tendon | No | — | To RUN becomes a slow action. | 3D6 |
-| 35–41 | — | Impaled shoulder | No | — | Two-handed weapons cannot be used. | 2D6 |
-| 42–43 | — | Pierced eye | No | — | −2 to MARKSMANSHIP, and SCOUTING | 2D6 |
-| 44–45 | — | Skewered groin | No | — | 1 point of damage suffered at every MOVE or MELEE roll. | 2D6 |
-| 46–51 | — | Punctured lung | Yes | D6 days | −2 to ENDURANCE and MOVE. | D6 |
-| 52–54 | — | Bleeding gut | Yes | D6 hours | 1 point of damage at each roll for MIGHT, MOVE and MELEE. | D6 |
-| 55–56 | — | Ruptured intestines | Yes | D6 hours | Disease with Virulence 6. | 2D6 |
-| — | 61 | Severed arm artery | Yes, −1 | D6 minutes | Two-handed weapons cannot be used. | D6 |
-| — | 62 | Severed leg artery | Yes, −1 | D6 minutes | To RUN becomes a slow action. | D6 |
-| — | 63 | Impaled neck | Yes, −1 | D6 rounds | −2 to ENDURANCE | 2D6 |
-| — | 64 | Skewered skull | Yes | — | You die at once. | — |
-| 65–66 | — | Pierced heart | Yes | — | Your heart beats for the last time. | — |
+| D66 | Injury | Lethal | Time Limit | Effects During Healing | Healing Time |
+|---|---|---|---|---|---|
+| 11–13 | Pierced ear | No | — | None | — |
+| 14–16 | Skewered foot | — | — | To RUN becomes a slow action. | D6 |
+| 21–23 | Hand run through | No | — | Two-handed weapons cannot be used. | D6 |
+| 24–26 | Pierced cheek | No | — | −1 to MANIPULATION. | D6 |
+| 31–33 | Impaled thigh | No | — | To RUN becomes a slow action. | 2D6 |
+| 34 | Severed tendon | No | — | To RUN becomes a slow action. | 3D6 |
+| 35–41 | Impaled shoulder | No | — | Two-handed weapons cannot be used. | 2D6 |
+| 42–43 | Pierced eye | No | — | −2 to MARKSMANSHIP, and SCOUTING | 2D6 |
+| 44–45 | Skewered groin | No | — | 1 point of damage suffered at every MOVE or MELEE roll. | 2D6 |
+| 46–51 | Punctured lung | Yes | D6 days | −2 to ENDURANCE and MOVE. | D6 |
+| 52–54 | Bleeding gut | Yes | D6 hours | 1 point of damage at each roll for MIGHT, MOVE and MELEE. | D6 |
+| 55–56 | Ruptured intestines | Yes | D6 hours | Disease with Virulence 6. | 2D6 |
+| 61 | Severed arm artery | Yes, −1 | D6 minutes | Two-handed weapons cannot be used. | D6 |
+| 62 | Severed leg artery | Yes, −1 | D6 minutes | To RUN becomes a slow action. | D6 |
+| 63 | Impaled neck | Yes, −1 | D6 rounds | −2 to ENDURANCE | 2D6 |
+| 64 | Skewered skull | Yes | — | You die at once. | — |
+| 65–66 | Pierced heart | Yes | — | Your heart beats for the last time. | — |
 
 <!-- p.199 -->
 
@@ -5343,29 +5344,29 @@ Most of the items in the gear lists can be made using the CRAFTING skill (see pa
 
 # Table: Critical Injuries – Horror
 
-|   | D66 | Trauma | Effect During Healing | Healing Time |
-|---|---|---|---|---|
-| 11–16 | — | Trembling | Penalty −1 to all rolls for Agility. | D6 |
-| — | 21 | White hair | None. | Permanent |
-| 22–24 | — | Anxious | Penalty −1 to all rolls for Wits. | D6 |
-| 25–31 | — | Sullen | Penalty −1 to all rolls for Empathy. | D6 |
-| 32–35 | — | Nightmares | Make an INSIGHT roll every Quarter Day spent SLEEPING. Failure means that the SLEEP doesn't count. | D6 |
-| 36–41 | — | Nocturnal | You can only SLEEP during the light part of the day. | 2D6 |
-| 42–43 | — | Phobic | You are terrified by something related to what Broke you. The GM decides what it is. You suffer one point of damage to Wits each round within NEAR range of the object of your phobia. | 2D6 |
-| 44–45 | — | Drunkard | You must drink wine or mead every day, or suffer one point of damage to Agility. | 3D6 |
-| 46–51 | — | Claustrophobic | Every turn (15 minutes) in a confined environment, you suffer one point of damage to Wits. | 2D6 |
-| — | 52 | Mythomania | You cannot stop yourself from lying. About everything. The effect should be roleplayed. | 2D6 |
-| 53–54 | — | Paranoia | You are certain that someone is out to get you. The effect should be roleplayed. | 2D6 |
+| D66 | Trauma | Effect During Healing | Healing Time |
+|---|---|---|---|
+| 11–16 | Trembling | Penalty −1 to all rolls for Agility. | D6 |
+| 21 | White hair | None. | Permanent |
+| 22–24 | Anxious | Penalty −1 to all rolls for Wits. | D6 |
+| 25–31 | Sullen | Penalty −1 to all rolls for Empathy. | D6 |
+| 32–35 | Nightmares | Make an INSIGHT roll every Quarter Day spent SLEEPING. Failure means that the SLEEP doesn't count. | D6 |
+| 36–41 | Nocturnal | You can only SLEEP during the light part of the day. | 2D6 |
+| 42–43 | Phobic | You are terrified by something related to what Broke you. The GM decides what it is. You suffer one point of damage to Wits each round within NEAR range of the object of your phobia. | 2D6 |
+| 44–45 | Drunkard | You must drink wine or mead every day, or suffer one point of damage to Agility. | 3D6 |
+| 46–51 | Claustrophobic | Every turn (15 minutes) in a confined environment, you suffer one point of damage to Wits. | 2D6 |
+| 52 | Mythomania | You cannot stop yourself from lying. About everything. The effect should be roleplayed. | 2D6 |
+| 53–54 | Paranoia | You are certain that someone is out to get you. The effect should be roleplayed. | 2D6 |
 
 <!-- p.200 -->
 
 ##### Table: Critical Injuries – Horror
 
-|   | D66 | Trauma | Effect During Healing | Healing Time |
-|---|---|---|---|---|
-| — | 55 | Delusion | You are totally convinced of something that is totally untrue, for example that a certain kin doesn't exist. | 3D6 |
-| — | 56 | Hallucinations | Make an INSIGHT roll every Quarter Day. If you fail, you suffer a powerful hallucination. The GM determines the details. | 3D6 |
-| 61–62 | — | Altered personality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed. | Permanent |
-| — | 63 | Amnesia | You lose all memory, and cannot recollect who you or the other adventurers are. The effect should be roleplayed. | D6 |
-| 64–65 | — | Catatonic | You stare blankly into oblivion, and do not respond to any stimuli. | D6 |
-| — | 66 | Heart attack | Your heart stops, and you die of pure fright. | — |
+| D66 | Trauma | Effect During Healing | Healing Time |
+|---|---|---|---|
+| 55 | Delusion | You are totally convinced of something that is totally untrue, for example that a certain kin doesn't exist. | 3D6 |
+| 56 | Hallucinations | Make an INSIGHT roll every Quarter Day. If you fail, you suffer a powerful hallucination. The GM determines the details. | 3D6 |
+| 61–62 | Altered personality | Your personality is altered in a fundamental way. Determine how together with the GM. The effect should be roleplayed. | Permanent |
+| 63 | Amnesia | You lose all memory, and cannot recollect who you or the other adventurers are. The effect should be roleplayed. | D6 |
+| 64–65 | Catatonic | You stare blankly into oblivion, and do not respond to any stimuli. | D6 |
+| 66 | Heart attack | Your heart stops, and you die of pure fright. | — |

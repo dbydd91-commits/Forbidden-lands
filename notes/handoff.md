@@ -1,8 +1,11 @@
 # Handoff
 Limit: 2,000 characters (see CLAUDE.md). Rewrite only at session end; next task only.
 
-## Next: user review of the PHB extraction, then the other books
-1. User reviews `sources/fl-players-handbook.md` (tables, Stats, Box, spells, talents). Fix the tool, regenerate.
-2. GMG (pdf p.8–265, index from pdf 270): check history timeline bookmarks ("0–500 AS"), maps, adventure sites.
-3. Legends & Adventurers (pdf p.2–40). 4. Raven's Purge: different layout, no typed bookmarks — inspect fonts first.
-Known open point: an anchor for a facing page joined into the previous page's table is dropped.
+## Next: user review of PHB + GMG, then Legends & Adventurers and Raven's Purge
+1. User reviews `sources/fl-gamemasters-guide.md` (bestiary Stats, encounters, adventure sites, artifacts).
+   Fix in the tool, run `tools/regress.py`, accept intended diffs, regenerate.
+2. Legends & Adventurers (pdf p.2–40): no page labels; printed page numbers come from the footer.
+3. Raven's Purge: different layout, no typed bookmarks — inspect fonts first, add samples.
+Known open points: anchor of a facing page joined into the previous page's table is dropped;
+long d66 tables are split per page as `Table: (continued)`; GMG p.52 "Box: Elven Saying" bookmark
+has no Branding box (italic quote), so its heading sits at the page top.

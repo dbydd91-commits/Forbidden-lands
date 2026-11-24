@@ -17,3 +17,7 @@ gmg-demons        gmg   80-83           d66 tables, table continued on next page
 gmg-dragon        gmg   88-89           two stat blocks in one box, block continued in next column
 gmg-insectoids    gmg   108             stacked stat blocks next to a Box
 la-backstory      la    4-5             d6 tables with list-like cells
+phb-gear-rules    phb   180-181         run-in labels in both columns on the same baselines
+gmg-npcs          gmg   225-226         small-caps NPC name headings, NPC stat lines
+gmg-hollows       gmg   202-203         keyed locations, numbered bookmarks with typos, Box
+gmg-overlay       gmg   146             text drawn twice over art (partial copies), drop cap
