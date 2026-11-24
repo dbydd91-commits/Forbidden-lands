@@ -20,7 +20,7 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
 - Review 5 (visual sampling, ~12 table/stat pages): table values all matched. Fixed: "*" table
   footnotes, "gear/ weapon", kept hyphens (half-, two-, -like), NPC/XP acronyms, italic-colon labels,
   bold labels in bullets (CREATURES:, REQUIREMENT:), sidebars no longer split an italic example.
-  Round 2 (~10 pages): "…" list items, NPC **Attributes:**, bold-led stat rows, colon outside a bold
+  Round 2: "…" list items, NPC **Attributes:**, bold-led stat rows, colon outside a bold
   label (KIN TALENT: Adaptive), italic→roman paragraph break at a sentence end.
 - Known leftovers: `--check` misses ~200/150/40 words (PHB/GMG/L&A): art labels, map labels and dropped
   repeated table headers. GMG p.52 Box: Elven Saying heading sits at the page top.
