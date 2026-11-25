@@ -8,9 +8,9 @@ pdf_pages: 16-17 of 225
 
 <!-- p.15 -->
 
-> *vously, as he was simultaneously struck by the possibility that their savior was a highwayman. He shot a glance at Trisnir.*
+> *thyst dripping with fresh blood with disgust.*
 >
-> *The warrior had sheathed her sword and appeared completely smitten, though it was nigh impossible to tell if the beautiful stranger was man or woman.*
+> *“That is my best stone, but you have earned it as your reward! It holds a higher value to me than my left nut,” laughed the merchant, somewhat nervously, as he was simultaneously struck by the possibility that their savior was a highwayman. He shot a glance at Trisnir. The warrior had sheathed her sword and appeared completely smitten, though it was nigh impossible to tell if the beautiful stranger was man or woman.*
 >
 > *“You peddle nothing but trash.*
 >
@@ -18,10 +18,8 @@ pdf_pages: 16-17 of 225
 >
 > *The merchant’s disaffirming answers seemed to distress the stranger, who exhaled a heavy sigh.*
 >
-> *“Viridia and her five elven siblings once ruled this land, but after the peace was secured, their heart stones were set into the crown Stanengist, which was long worn by the rulers of Ravenland.*
->
-> *If you as a merchant find the crown or any of its six stones, they can be sold for whatever sum of gold you desire. If you instead seek power, you will receive it with Stanengist on your brow. But if you want my friendship, you will return Viridia’s heart to me.”*
->
+> *“Viridia and her five elven siblings once ruled this land, but after the peace was secured, their heart stones were set into the crown Stanengist, which was long worn by the rulers of Ravenland. If you as a merchant find the crown or any of its six stones, they can be sold for whatever sum of gold you desire. If you instead seek power, you will receive it with Stanengist on your brow. But if you want my friendship, you will return Viridia’s heart to me.”*
+
 > *“Have I understood correctly? Are these valuable stones really lost without an owner?” asked the merchant, whose business acumen once again had crawled free of fear.*
 >
 > *The beautiful stranger regarded the party with a blank stare, and it was as if their thoughts were drawn from their souls by it.*
@@ -37,10 +35,6 @@ pdf_pages: 16-17 of 225
 > *Unabashedly, the creature met their stunned stares.*
 >
 > *“I can’t be everywhere all the time but must journey on post haste, but there is a place where you could help me search for Gall-Eye. If you find any of the six elven stones you will be rewarded beyond comprehension...”*
-
-> *thyst dripping with fresh blood with disgust.*
->
-> *“That is my best stone, but you have earned it as your reward! It holds a higher value to me than my left nut,” laughed the merchant, somewhat ner-*
 
 ## The Course of the Campaign
 

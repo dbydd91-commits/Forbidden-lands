@@ -278,9 +278,9 @@ If you want to, you can use the starting scene described in the boxed text below
 
 > *“Blessed benefactor, you delivered us from the monster! Who has ever beheld such magic?” the merchant exclaimed from inside the wagon. Yet he dared not emerge until the last vestiges of the red mist had dispersed in the evening breeze.*
 >
-> *“That was not magic. I just pointed out a truth in the native tongue of the Bloodlings,” the stranger muttered in response, bending over the jewelry box that had fallen off the table in the heat of battle. The stranger eyed an amevously, as he was simultaneously struck by the possibility that their savior was a highwayman. He shot a glance at Trisnir.*
+> *“That was not magic. I just pointed out a truth in the native tongue of the Bloodlings,” the stranger muttered in response, bending over the jewelry box that had fallen off the table in the heat of battle. The stranger eyed an amethyst dripping with fresh blood with disgust.*
 >
-> *The warrior had sheathed her sword and appeared completely smitten, though it was nigh impossible to tell if the beautiful stranger was man or woman.*
+> *“That is my best stone, but you have earned it as your reward! It holds a higher value to me than my left nut,” laughed the merchant, somewhat nervously, as he was simultaneously struck by the possibility that their savior was a highwayman. He shot a glance at Trisnir. The warrior had sheathed her sword and appeared completely smitten, though it was nigh impossible to tell if the beautiful stranger was man or woman.*
 >
 > *“You peddle nothing but trash.*
 >
@@ -288,10 +288,10 @@ If you want to, you can use the starting scene described in the boxed text below
 >
 > *The merchant’s disaffirming answers seemed to distress the stranger, who exhaled a heavy sigh.*
 >
-> *“Viridia and her five elven siblings once ruled this land, but after the peace was secured, their heart stones were set into the crown Stanengist, which was long worn by the rulers of Ravenland.*
->
-> *If you as a merchant find the crown or any of its six stones, they can be sold for whatever sum of gold you desire. If you instead seek power, you will receive it with Stanengist on your brow. But if you want my friendship, you will return Viridia’s heart to me.”*
->
+> *“Viridia and her five elven siblings once ruled this land, but after the peace was secured, their heart stones were set into the crown Stanengist, which was long worn by the rulers of Ravenland. If you as a merchant find the crown or any of its six stones, they can be sold for whatever sum of gold you desire. If you instead seek power, you will receive it with Stanengist on your brow. But if you want my friendship, you will return Viridia’s heart to me.”*
+
+<!-- p.15 -->
+
 > *“Have I understood correctly? Are these valuable stones really lost without an owner?” asked the merchant, whose business acumen once again had crawled free of fear.*
 >
 > *The beautiful stranger regarded the party with a blank stare, and it was as if their thoughts were drawn from their souls by it.*
@@ -307,12 +307,6 @@ If you want to, you can use the starting scene described in the boxed text below
 > *Unabashedly, the creature met their stunned stares.*
 >
 > *“I can’t be everywhere all the time but must journey on post haste, but there is a place where you could help me search for Gall-Eye. If you find any of the six elven stones you will be rewarded beyond comprehension...”*
-
-<!-- p.15 -->
-
-> *thyst dripping with fresh blood with disgust.*
->
-> *“That is my best stone, but you have earned it as your reward! It holds a higher value to me than my left nut,” laughed the merchant, somewhat ner-*
 
 ## The Course of the Campaign
 
@@ -630,7 +624,7 @@ Therania is utterly bored by her father and only tolerates him for his knowledge
 
 Zytera mainly devotes its time to horrendous demonological and necromantic studies in its so-called Mogarium at the top of Mount Ora in Vond (see page 205), often accompanied by Merigall. The adventurers can also encounter Zytera in Haggler’s House (see page 160).
 
-##### Stats: Meeting Zytera
+##### Stats: Zytera
 
 - **Attributes:** Strength 24, Agility 4, Wits 5, Empathy 3
 - **Skills:** Lore 5, Insight 5, Manipulation 5
@@ -640,52 +634,33 @@ Zytera mainly devotes its time to horrendous demonological and necromantic studi
 - **Gear:** In the partially decomposed cloak worn by the old man, Zygofer, is the parchment that holds the contract that binds Krasylla to Zytera.
 - **Monster:** Zytera counts as a monster in combat, see page 73 of the *Gamemaster’s Guide.*
 
+<!-- p.33–34 -->
+
 | D6 | Monster Attacks |
 |---|---|
 | 1. | **CHILLING SCREAM!** Zytera stands on its four hind legs and utters an unnatural, chilling scream. All adventurers within NEAR distance suffer a fear attack with ten dice. |
+| 2. | **BITE ATTACK!** The demonic creature throws itself over an adventurer within NEAR distance and bites down with its poisonous fangs. Perform an attack with eleven Base Dice and Weapon Damage 1 (stab wound). The unfortunate adventurer then suffers a lethal poison attack with a Potency of 9. |
+| 3. | **HAND OF DOOM!** Zytera casts the spell HAND OF DOOM on an adventurer within SHORT distance with a Power Level of D6+1. The spell damage to the victim’s Strength is equal to the Power Level. |
+| 4. | **IMMOLATE!** The monster chooses an adventurer within NEAR distance and casts the spell IMMOLATE with a Power Level of D6+2. The victim senses how her blood begins to boil and how she is devoured from within by the magical attack. |
+| 5. | **TERROR!** Zytera releases its horrible magic and causes all adventurers within SHORT distance to be afflicted by the spell TERROR with a Power Level of D6+2 (roll for every afflicted adventurer). |
+| 6. | **LIFE DRAIN!** The monster chooses an adventurer within NEAR distance and casts the spell WEIGHT OF AGES on her with a Power Level of D6. The afflicted adventurer then drops to the ground. |
 
 <!-- p.34 -->
 
-> 2.
->
-> **BITE ATTACK!** The demonic creature throws itself over an adventurer within NEAR distance and bites down with its poisonous fangs. Perform an attack with eleven Base Dice and Weapon Damage 1 (stab wound). The unfortunate adventurer then suffers a lethal poison attack with a Potency of 9.
->
-> 3.
->
-> **HAND OF DOOM!** Zytera casts the spell HAND OF DOOM on an adventurer within SHORT distance with a Power Level of D6+1. The spell damage to the victim’s Strength is equal to the Power Level.
->
-> 4.
->
-> **IMMOLATE!** The monster chooses an adventurer within NEAR distance and casts the spell IMMOLATE with a Power Level of D6+2. The victim senses how her blood begins to boil and how she is devoured from within by the magical attack.
->
-> 5.
->
-> **TERROR!** Zytera releases its horrible magic and causes all adventurers within SHORT distance to be afflicted by the spell TERROR with a Power Level of D6+2 (roll for every afflicted adventurer).
->
-> 6.
->
-> **LIFE DRAIN!** The monster chooses an adventurer within NEAR distance and casts the spell WEIGHT OF AGES on her with a Power Level of D6. The afflicted adventurer then drops to the ground.
->
-> - Zygofer and Therania can be severed from Zytera’s body with the magical sword Asina (see page 130 in the *Gamemaster’s Guide*). This demands a single hit that inflicts 4 points of damage or more. See below for stats for the half-bodies, both of which will die in D6 hours unless reattached through magical means.
->
-> - The wife, Martea, in the Stoneloom Mines (see page 157) has a lock of Zygofer’s hair. If the lock is thrown into the Protonexus, demons will swarm through the portal from the world of Churmog to end the sorcerer for having the audacity to disturb them. Read more on page 213.
->
-> - Zygofer will go insane if he dons the crown Stanengist. Read more on page 28.
->
-> STRENGTH 3, AGILITY 2, WITS 4, EMPATHY 3
->
-> - **Skills:** Lore 4, Insight 2, Manipulation 2
->
-> - **Talents:** Path of Death 3, Path of Blood 3
->
-> - **Gear:** In the partially decomposed cloak worn by the old man, Zygofer, is the parchment that holds the contract that binds Krasylla to Zytera.
-
-##### Stats: Meeting Zytera
-
 - **Spells:** Several of Zytera’s monster attacks are spells. The GM’s pool of Willpower is not used to power these, and Zytera runs no risk of suffering a magical mishap.
 - **Weaknesses:** Zytera is a powerful being, but has several weaknesses that the adventurers can exploit:
+  - Zygofer and Therania can be severed from Zytera’s body with the magical sword Asina (see page 130 in the *Gamemaster’s Guide*). This demands a single hit that inflicts 4 points of damage or more. See below for stats for the half-bodies, both of which will die in D6 hours unless reattached through magical means.
+  - The wife, Martea, in the Stoneloom Mines (see page 157) has a lock of Zygofer’s hair. If the lock is thrown into the Protonexus, demons will swarm through the portal from the world of Churmog to end the sorcerer for having the audacity to disturb them. Read more on page 213.
+  - Zygofer will go insane if he dons the crown Stanengist. Read more on page 28.
 
 ##### Zygofer, Severed From Zytera
+
+##### Stats: Zygofer, Severed From Zytera
+
+- **Attributes:** Strength 3, Agility 2, Wits 4, Empathy 3
+- **Skills:** Lore 4, Insight 2, Manipulation 2
+- **Talents:** Path of Death 3, Path of Blood 3
+- **Gear:** In the partially decomposed cloak worn by the old man, Zygofer, is the parchment that holds the contract that binds Krasylla to Zytera.
 
 ##### Therania, Severed From Zytera
 
@@ -739,7 +714,7 @@ Owing to its ability to teleport (see the boxed text to the left), Merigall can 
 
 When Merigall isn’t traveling the land, the demon can be found in its pavilion on the slope of Mount Ora (read more on page 198 in the chapter on Vond).
 
-##### Stats: Meeting Merigall
+##### Stats: Merigall
 
 - **Attributes:** Strength 5, Agility 5, Wits 5, Empathy 6
 - **Skills:** Lore 5, Insight 5, Manipulation 5, Performance 5
@@ -751,8 +726,6 @@ When Merigall isn’t traveling the land, the demon can be found in its pavilion
 - No matter what form Merigall takes, the demon’s yellow eyes remain.
 
 <!-- p.37 -->
-
-##### Stats: Meeting Merigall
 
 - **Weakness:** Merigall’s life essence is kept in a container in the last surviving statue in the guardian chamber of Zytera’s Mogarium (page 207). The demon will die if the essence is poured into the ocean or if it is dissolved with acid and then mixed with lye. Only Zygofer and Kalman Rodenfell know of this. If the essence is poured into a lake the demon will live on, dissolved in water.
 
@@ -800,32 +773,25 @@ Krasylla never leaves his chamber in Vond (page 189) – at least not until he t
 | D6 | Monster Attack |
 |---|---|
 | 1. | **TENTACLE WHIP!** A powerful tentacle swipes at an adventurer within NEAR distance. Perform an attack with nine Base Dice and Weapon Damage 1 (blunt force). If the attack succeeds, the victim becomes prone. |
-| 2. | **TENTACLE EMBRACE!** The monster tries to squeeze the life out of an adventurer within NEAR distance. Perform an attack with nine Base Dice and Weapon Damage 1. If the attack succeeds, the |
-
-> 6.
->
-> **SWEEPING ATTACK!** The demon uses his long tentacles to perform a sweeping attack that hits all adventurers within NEAR distance. Perform an attack with nine Base Dice and Weapon Damage 1 (blunt force). Victims hit by the attack become prone.
+| 2. | **TENTACLE EMBRACE!** The monster tries to squeeze the life out of an adventurer within NEAR distance. Perform an attack with nine Base Dice and Weapon Damage 1. If the attack succeeds, the adventurer is GRAPPLED and will suffer the same attack in every subsequent round until the adventurer breaks free. |
+| 3. | **CHOKING ATTACK!** The demon embraces an adventurer within NEAR distance and attempts to choke her by pressing her against his enormous bulk. Perform an attack with ten Base Dice and Weapon Damage 1 (blunt force). If the attack succeeds, the adventurer is GRAPPLED and suffers a choking attack that does 1 damage each round until the adventurer breaks free. |
+| 4. | **THROWING ATTACK!** Krasylla grabs an adventurer within NEAR distance with his tentacles and throws her against a wall. Perform an attack with twelve Base Dice and Weapon Damage 1 (blunt force). If the attack succeeds, the adventurer will additionally become prone and land at SHORT distance. |
+| 5. | **ADVENTURER MASH!** The demon lifts up two adventurers within NEAR distance with his tentacles and smashes them together with great force. Perform an attack with eleven Base Dice and Weapon Damage 1 (blunt force). If either one of the adventurers is wearing a metal helmet the damage to the other increases by 1. |
+| 6. | **SWEEPING ATTACK!** The demon uses his long tentacles to perform a sweeping attack that hits all adventurers within NEAR distance. Perform an attack with nine Base Dice and Weapon Damage 1 (blunt force). Victims hit by the attack become prone. |
 
 ##### Krasylla As Sarmog
 
-> adventurer is GRAPPLED and will suffer the same attack in every subsequent round until the adventurer breaks free.
->
-> 3.
->
-> **CHOKING ATTACK!** The demon embraces an adventurer within NEAR distance and attempts to choke her by pressing her against his enormous bulk. Perform an attack with ten Base Dice and Weapon Damage 1 (blunt force). If the attack succeeds, the adventurer is GRAPPLED and suffers a choking attack that STRENGTH 60, AGILITY 2, WITS 6, EMPATHY 3
->
-> - **Armor Rating:** 12 (stone armor)
+##### Stats: Krasylla As Sarmog
 
-##### Table: (continued)
+- **Attributes:** Strength 60, Agility 2, Wits 6, Empathy 3
+- **Armor Rating:** 12 (stone armor)
 
 | D6 | Monster Attack |
 |---|---|
 | 1. | **STOMP ATTACK!** The sarmog attempts to stomp two adventurers, like insects, within NEAR distance to death. Perform an attack against each adventurer with twelve Base Dice and Weapon Damage 2 (blunt force). If the attack succeeds, the adventurers are thrown to the ground. |
-| 2. does 1 damage each round until the adventurer breaks free. | **BOULDER THROW!** Krasylla picks up a giant boulder from the ground and |
-| 4. **THROWING ATTACK!** Krasylla grabs an adventurer within NEAR distance with his tentacles and throws her | throws it at an adventurer within SHORT distance. Perform an attack with twelve Base Dice and Weapon Damage 2 (blunt force). |
-| against a wall. Perform an attack 3. with twelve Base Dice and Weapon Damage 1 (blunt force). If the attack succeeds, the adventurer will additionally become prone and land at SHORT distance. | **DEMONIC ROAR!** The demon opens his enormous jaws and lets out a demonic roar that echoes across the land. All adventurers within SHORT distance suffers a fear attack with |
-| 5. **ADVENTURER MASH!** The demon lifts up | eleven Base Dice. |
-| 4. two adventurers within NEAR distance with his tentacles and smashes them together with great force. Perform an attack with eleven Base Dice and Weapon Damage 1 (blunt force). If either one of the adventurers is wearing a metal helmet the damage to the other increases by 1. | **SWEEPING BLOW!** Krasylla lets his giant fists sweep across the ground. All adventurers within NEAR distance suffer an attack with ten Base Dice and Weapon Damage 2 (blunt force). If the attack succeeds, the adventurers are thrown to SHORT distance and falls prone. |
+| 2. | **BOULDER THROW!** Krasylla picks up a giant boulder from the ground and throws it at an adventurer within SHORT distance. Perform an attack with twelve Base Dice and Weapon Damage 2 (blunt force). |
+| 3. | **DEMONIC ROAR!** The demon opens his enormous jaws and lets out a demonic roar that echoes across the land. All adventurers within SHORT distance suffers a fear attack with eleven Base Dice. |
+| 4. | **SWEEPING BLOW!** Krasylla lets his giant fists sweep across the ground. All adventurers within NEAR distance suffer an attack with ten Base Dice and Weapon Damage 2 (blunt force). If the attack succeeds, the adventurers are thrown to SHORT distance and falls prone. |
 
 <!-- p.40 -->
 
@@ -871,7 +837,7 @@ If the adventurers have already met Teramalda as a random encounter, and tell Vi
 
 The adventurers can also encounter Virelda in Haggler’s House (see page 160) and during the showdown in Vond (see page 175).
 
-##### Stats: Meeting Virelda
+##### Stats: Virelda
 
 - **Attributes:** Strength 6, Agility 6, Wits 5, Empathy 4
 - **Skills:** Melee 4, Stealth 4, Move 5, Scouting 5, Lore 4, Survival 4, Insight 3, Manipulation 3, Performance 3, Healing 4, Animal Handling 5
@@ -914,7 +880,7 @@ Zertorme would love to have his face back, but this will enrage Brinhelda since 
 
 The adventurers will most likely meet Zertorme during a visit to Amber’s Peak (page 75). He may also appear in Vond in the final battle.
 
-##### Stats: Meeting Zertorme
+##### Stats: Zertorme
 
 - **Attributes:** Strength 4, Agility 3, Wits 5, Empathy 3
 - **Skills:** Melee 4, Move 2, Insight 3, Manipulation 4
@@ -965,15 +931,13 @@ Arvia is reluctantly, and secretly, in love with Peyraman, and is jealous and wa
 
 Arvia is constantly travelling. The adventurers can encounter her during a visit to Stonegarden, to Pelagia, or as a random encounter while journeying through the Forbidden Lands. Arvia can tell the adventurers of Castle Vond, which the Alderlanders deceitfully stole from the Crombe clan when they invaded, and of Zytera, Merigall and Krasylla who now rule the fortress.
 
-##### Stats: Meeting Arvia
+##### Stats: Arvia
 
 - **Attributes:** Strength 6, Agility 3, Wits 3, Empathy 3
 - **Skills:** Melee 5, Crafting 3, Scouting 3, Lore 2, Insight 1, Manipulation 2
 - **Talents:** True Grit, Path of The Blade 3, Path of The Shield 2, Melee Charge 2
 
 <!-- p.45 -->
-
-##### Stats: Meeting Arvia
 
 - **Reputation:** 6
 - **Gear:** Battle axe, chainmail, covered helmet, large shield, VALUABLE find
@@ -1007,7 +971,7 @@ Soria spends most of her time in the fortress of Eye of the Rose (see page 92), 
 
 <!-- p.46 -->
 
-##### Stats: Meeting Soria
+##### Stats: Soria
 
 - **Attributes:** Strength 4, Agility 4, Wits 5, Empathy 5
 - **Skills:** Melee 3, Lore 4, Insight 3, Manipulation 4
@@ -1042,7 +1006,7 @@ Kalman Rodenfell wants to claim Stanengist to save the old elfstones to the Stil
 
 Kalman Rodenfell, strategist that he is, spends most of his time in Dankwood, but may partake in field missions if the need arises. Kalman can seek out the adventurers after their visit to the Eye of the Rose, and he may take part in the final battle in Vond.
 
-##### Stats: Meeting Kalman
+##### Stats: Kalman
 
 - **Attributes:** Strength 5, Agility 6, Wits 5, Empathy 4
 - **Skills:** Melee 5, Crafting 5, Stealth 4, Marksmanship 5, Move 5, Scouting 5, Lore 4, Insight 4, Manipulation 2
@@ -1080,7 +1044,7 @@ The Rust Brothers may scheme with the adventurers or Zertorme to get rid of Zyte
 
 The Rust Prince Kartorda can be found most of the time in Haggler’s House (see page 160) or in Vond (see page 175).
 
-##### Stats: Meeting Kartorda
+##### Stats: Kartorda
 
 - **Attributes:** Strength 4, Agility 2, Wits 4, Empathy 4
 - **Skills:** Melee 4, Lore 3, Insight 5, Manipulation 4
@@ -1674,8 +1638,6 @@ Prince Brand wonders where the dwarven goods he has been bragging about have dis
 
 # Amber’s Peak
 
-##### R’s
-
 **TYPE OF ADVENTURE SITE:** Castle (by a river)
 
 *The mist around the village on the plain is accentuated by the smell of the horses in the large corrals nearby. Some of the animals neigh restlessly as the stench of charred meat reaches their nostrils. The mist lazily lifts as if the smell has aroused its curiosity. An incinerated man lies where the village street ends. Early birds out for a walk rush to his aid, and manage to catch the man’s last words about how a fire-breathing boar has attacked his farm. He is hastily removed so as not to disturb the mood of the market.*
@@ -1735,8 +1697,6 @@ The settlement of the Aslene Quards has only been in place since Palakus of Horn
 *On the opposite side of the village, you find yet another camp of riders. Everything here appears more worn, but also more genuine.*
 
 <!-- p.78 -->
-
-##### R’s
 
 **[Figure — map; numbered/lettered locations match the keyed location descriptions; not transcribed]**
 
@@ -1827,9 +1787,9 @@ What remains of the southwest corner of the hall can be reached via the <!-- p.8
 
 *B – KITCHEN AREA, ENTRY LEVEL: Fluids of different colors gathered in vats and pots burn quietly here. The flames slither unnaturally in patterns across the fluids, as if they were alive. Some are cold fires while others sear hotly, building steam in the rooms. The walls are singed but dripping with moisture.*
 
-<!-- p.84 -->
+B
 
-The two chambers used to be a kitchen and the servant quarters. Zertorme is storing different fractions of Brinhelda’s fluid in the vats, and is attempting to condense and prepare them. On the patio below the round tower are larger oaken vats fitted with taps. The fluid from these spontaneously catches fire when tapped. Empty tinplated buckets stand in stacks. At the base of the round tower is an empty fish pond. This is where the fluids are collected after being washed from Brinhelda’s body at the top of the tower. The top of the round tower can be reached by climbing the tower’s staircases.
+A <!-- p.84 --> The two chambers used to be a kitchen and the servant quarters. Zertorme is storing different fractions of Brinhelda’s fluid in the vats, and is attempting to condense and prepare them. On the patio below the round tower are larger oaken vats fitted with taps. The fluid from these spontaneously catches fire when tapped. Empty tinplated buckets stand in stacks. At the base of the round tower is an empty fish pond. This is where the fluids are collected after being washed from Brinhelda’s body at the top of the tower. The top of the round tower can be reached by climbing the tower’s staircases.
 
 C – BRINHELDA’S SUITE, SECOND FLOOR: *The stairs end in a hallway with three doors. There is a burnt smell here, and you can hear plaintive sounds. Firelight of different shades flickers through the cracks in the wood.*
 
@@ -1837,7 +1797,11 @@ In the smaller chamber to the right is a human, a goat and a pig, all chained to
 
 The center chamber contains a single big iron bed on scorched rugs. Brinhelda may be found here, asleep or making love to Merigall or Zertorme, producing other valuable fire fluids. Tinplated buckets with sponges and an oily substance stand by the bed as well as bundles of fireproof cloth. If Brinhelda is alone, she will try to tempt the visitors with the offer of an amorous tryst. Gender or kin matters little to her. Her passion will, however, burn the one who gives in, eventually turning him or her to ash.
 
-In the leftmost, larger chamber are the charred remains of furniture and a marble statue wearing a mask. Upon closer inspection, the mask turns out to be the living face of a man, strapped to the statue with hooks. This is Zertorme’s face. Outside the chamber is a balcony with a beautiful view of the western <!-- p.85 --> countryside below the stronghold. A smaller, spiral staircase runs up to the crest of the square tower.
+In the leftmost, larger chamber are the charred remains of furniture and a marble statue wearing a mask. Upon closer inspection, the mask turns out to be the living face of a man, strapped to the statue with hooks. This is Zertorme’s face. Outside the chamber is a balcony with a beautiful view of the western
+
+C <!-- p.85 --> D
+
+countryside below the stronghold. A smaller, spiral staircase runs up to the crest of the square tower.
 
 - **CREATURES:** The demon Brinhelda.
 - **TREASURES:** Zertorme’s face (invaluable to Zertorme).
@@ -1846,7 +1810,9 @@ D – CREST OF THE TOWER, THIRD FLOOR: *The crests of the palace’s two towers 
 
 The crest of the square tower is empty, save for the flames. If it amuses her, Brinhelda may lie sleeping among the flames, pretending to be imprisoned. By examining the different fires down in the kitchen, the visitors can figure out which ones burn and which ones don’t, and reach the woman “in need.”
 
-The crenellations of the round tower have been torn down in the east and an addition has been built there. This is where Brinhelda goes to rinse off her bodily fluids with the water from the cistern, which accumulates in the fish pond below and is collected by Zertorme’s pyrotaurs for the sorcerer’s continued experiments.
+The crenellations of the round tower have been torn down in the east and an addition has been built there. This is where Brinhelda goes to E
+
+rinse off her bodily fluids with the water from the cistern, which accumulates in the fish pond below and is collected by Zertorme’s pyrotaurs for the sorcerer’s continued experiments.
 
 *E – OBSERVATORY AND STAIRCASE: A narrow ledge leads out to a small, lonely, round tower on a cliff. You see a metal tube pointing skywards through the roof.*
 
@@ -1951,22 +1917,11 @@ Zertorme’s mount is a demonized wyvern whom the sorcerer is attempting to resh
 | D6 | Monster Attacks: |
 |---|---|
 | 1. | **SMOLDERING BITE!** The reptile takes a forceful bite out of the strongest, closest adventurer. Perform an attack with nine Base dice and Weapon Damage 2 (slash wound). Additionally, the damage ignores all armor due to the white-hot teeth. |
-
-> 2.
->
-> **FIRE-SPIT!** A missile of burning saliva hits an adventurer within NEAR distance. Perform an attack with seven Base dice and Weapon Damage 1 (blunt force). Additionally, the damage ignores all armor.
->
-> 3.
->
-> **TERRIBLE SLASH ATTACK!** The reptile slashes an adventurer with razor sharp claws. The adventurer is attacked with nine Base dice and Weapon Damage 1 (slash wound).
->
-> 4.
->
-> **CHARGING ATTACK!** Snorting, the beast barrels towards an adventurer to crush them with its full bodyweight. Roll for the attack with ten Base dice and Weapon Damage 2 (blunt force). 5.
->
-> **TAIL ATTACK!** The reptile swings its tail in a sweeping attack and strikes two adventurers with separate attacks with six Base dice and Weapon Damage 1 (slash wound). The victim becomes prone if the attack succeeds. 6.
->
-> **REARING ATTACK!** The beast rears up in front of an adventurer and makes a series of quick slashes intended to tear the victim to shreds. Roll for three attacks in direct succession with seven Base Dice for each and Weapon Damage 2 (slash wound) each. The attacks can be PARRIED separately.
+| 2. | **FIRE-SPIT!** A missile of burning saliva hits an adventurer within NEAR distance. Perform an attack with seven Base dice and Weapon Damage 1 (blunt force). Additionally, the damage ignores all armor. |
+| 3. | **TERRIBLE SLASH ATTACK!** The reptile slashes an adventurer with razor sharp claws. The adventurer is attacked with nine Base dice and Weapon Damage 1 (slash wound). |
+| 4. | **CHARGING ATTACK!** Snorting, the beast barrels towards an adventurer to crush them with its full bodyweight. Roll for the attack with ten Base dice and Weapon Damage 2 (blunt force). |
+| 5. | **TAIL ATTACK!** The reptile swings its tail in a sweeping attack and strikes two adventurers with separate attacks with six Base dice and Weapon Damage 1 (slash wound). The victim becomes prone if the attack succeeds. |
+| 6. | **REARING ATTACK!** The beast rears up in front of an adventurer and makes a series of quick slashes intended to tear the victim to shreds. Roll for three attacks in direct succession with seven Base Dice for each and Weapon Damage 2 (slash wound) each. The attacks can be PARRIED separately. |
 
 ##### Merigall
 
@@ -2058,8 +2013,6 @@ The problem is that the dragon hatchling will let out an earsplitting scream as 
 
 # Eye of the Rose
 
-##### Er
-
 **TYPE OF ADVENTURE SITE:** Castle
 
 *The old elven city looks alive from a distance. Smoke rises from fires and creatures are moving among the houses. As you get closer, you notice how all of the once beautiful houses are dilapidated, the gardens have been cut down or left to grow wild and the populace isn’t elven but multitudes of orcs instead. The fortress of the Eye of the Rose looks down upon the city from the cliff above, from which the self-appointed emperor of the orcish clans, Hroka the First and the Greatest, is said to rule.*
@@ -2142,10 +2095,6 @@ The off-duty orcs of the Imperial Guard are almost constantly partying in this l
 
 <!-- p.97 -->
 
-##### Er
-
-**[Figure — map; numbered/lettered locations match the keyed location descriptions; not transcribed]**
-
 <!-- p.98 -->
 
 The craftsmen who have been kidnapped or lured to the city by the Viraga work here. About twenty younger orcs are supposed to be training to increase the knowledge of the orc nation. The progress is so-so, enraging the orcs and causing them to slap around their teachers. The tower in the back has a covered roof and barred gate behind which the craftsmen are imprisoned when resting.
@@ -2202,17 +2151,13 @@ In the castle, the private suites of the emperor and the empress can be found, a
 >
 > *The god of Clay the vessel shapes The walker of Night the serpent escapes The fortress is entered through the yield of the tree*
 
-The gods depicted are Flow, Wail, Clay and the Nightwalker. If someone blows into their half-open mouths, the tones of a diminished chord are heard, i.e., four tones separated by two semi-tones between each tone. The head on the <!-- p.100 --> F
-
-D
-
-B
-
-9 third stone has cracked, however, producing no sound. If someone sings the missing tone while the others blow into the three remaining statues mouths, a hidden door will swing open. The adventurers can figure out the cipher with the help of Mergolene’s poem (see the boxed text). The elves created this choral lock since orcs and other beasts don’t understand such music.
+The gods depicted are Flow, Wail, Clay and the Nightwalker. If someone blows into their half-open mouths, the tones of a diminished chord are heard, i.e., four tones separated by two semi-tones between each tone. The head on the <!-- p.100 --> third stone has cracked, however, producing no sound. If someone sings the missing tone while the others blow into the three remaining statues mouths, a hidden door will swing open. The adventurers can figure out the cipher with the help of Mergolene’s poem (see the boxed text). The elves created this choral lock since orcs and other beasts don’t understand such music.
 
 The hidden door will reveal a secret passage from the chapel all the way to the library inside the Eye of the Rose castle (location #2 on the main map). The adventurers will need to pass several dangerous traps on the way, however. See the detailed map to the left. The traps are described below.
 
 A – HALL OF STARES: On the walls next to a closed door are bas reliefs of the faces of the four gods. Inside the mouth of Flow is a pressure plate that can be pushed aside causing a few hundred liters of water to gush from her mouth in a couple of minutes. If the tank of water is emptied, it is possible to safely open the door. If the tank isn’t drained, the water will flow into the corridor beyond when the door is opened. The water will cause a species of rapid-growth barbed vines to sprout from the wooden floor. The door will be completely blocked by vegetation within five minutes; within fifteen minutes it will have spread into the upper passage, sealing it off.
+
+**[Figure — map; numbered/lettered locations match the keyed location descriptions; not transcribed]**
 
 **B - HALL OF STATUES:** In the passage are the statues of the four gods and beyond a portal, multiple versions of their faces are set into the wall. Before proceeding through, the adventurers have to block the mouth of the statue of Wail, or else spores will pour from <!-- p.101 --> all of her faces as they step on the pressure plates in the middle of the corridor. The spores are hallucinogenic and count as a poison with Potency 7. Anyone affected by the spores will become confused and may be subjected to visions of the statues coming alive. This is only an illusion.
 
@@ -2637,8 +2582,6 @@ White Cloud’s Flight secretly shares her grandmother’s opinions and refuses 
 - **Skills:** Melee 2, Crafting 2, Insight 2, Manipulation 2, Healing 2
 
 <!-- p.118 -->
-
-##### Stats: White Cloud’s Flight
 
 - **Talents:** Path of Healing 2
 - **Gear:** Knife
@@ -3287,9 +3230,7 @@ The sloping passage from the cave has two alcoves housing dilapidated wheelbarro
 
 - **CREATURES:** Demonic mass.
 
-##### 5.
-
-##### The Lair of the Saurians
+##### 5. The Lair of the Saurians
 
 *An almost overpowering stench of filth and decay drifts in from a side tunnel. Two Saurians armed with spears hiss and cluck when they notice the light you are carrying.*
 
@@ -3473,28 +3414,18 @@ Marga is Zygofer’s and Martea’s demonified daughter. She is an immense, gray
 - **The Avatar:** The avatar that wears the appearance of Marga as a girl (see area 22 above) has Strength 3. If the adventurers defeat it and give it a COUP DE GRACE, the creature will die. The demonic mass will, however, do anything to stop the adventurers from attacking the avatar.
 - **Immunity:** It is possible to use MANIPULATION on Marga, but she is immune to damage to Wits and Empathy.
 
+<!-- p.156–157 -->
+
 | D6 | Monster Attacks |
 |---|---|
 | 1. | **MARGA’S LULLABY.** An unpleasant and unnatural song wells forth from the demonic mass. Perform an attack on all the adventurers within SHORT distance. This is a fear attack rolled with seven Base Dice. |
 | 2. | **TENTACLE ATTACK!** A number of tentacles (equal to half the number of adventurers, round up) swoop down from the mass in the ceiling and attempt to squeeze the life out of one adventurer each. Perform an attack against each of them with seven Base Dice and Weapon Damage 1 (blunt force). |
+| 3. | **DEMONIC SHRIEK!** The little girl in the middle of the demonic mass shrieks, and the next second it is as if the scream is amplified by the very mountain walls. All adventurers within NEAR distance suffer a fear attack with eight Base Dice. |
+| 4. | **SLIME ATTACK!** One of the adventurers within NEAR distance is covered by slime from the demonic mass. This counts as a fear attack with six Base Dice, and the adventurer gets a -2 penalty to MOVE for the remainder of the battle. |
+| 5. | **NIGHTMARE ATTACK!** A part of the demonic mass assumes the shape of one the adventurers’ worst nightmares (make something up from previous adventures or ask the player to describe what the adventurer’s greatest fear is). The demonic creature attacks the adventurer with twelve Base Dice (Weapon Damage 1). On a hit, the adventurer is thrown to NEAR distance and falls PRONE. |
+| 6. | **DEVOURING ATTACK!** An unfortunate adventurer is assaulted by several tentacles that attempt to lift her up to the demonic mass in the ceiling, where a hole is forming. The victim suffers an attack with ten Base Dice and Weapon Damage 1 (blunt force). On a hit, the adventurer is GRAPPLED and drawn into the demonic mass. The victim must roll for ENDURANCE every round, with failure meaning 1 point of damage to Agility. If the victim becomes broken, she will die from suffocation after D6 rounds. The only way to save the victim is to deal 10 points of damage to the cocoon that surrounds her. |
 
 <!-- p.157 -->
-
-> 3.
->
-> **DEMONIC SHRIEK!** The little girl in the middle of the demonic mass shrieks, and the next second it is as if the scream is amplified by the very mountain walls. All adventurers within NEAR distance suffer a fear attack with eight Base Dice.
->
-> 4.
->
-> **SLIME ATTACK!** One of the adventurers within NEAR distance is covered by slime from the demonic mass. This counts as a fear attack with six Base Dice, and the adventurer gets a -2 penalty to MOVE for the remainder of the battle.
->
-> 5.
->
-> **NIGHTMARE ATTACK!** A part of the demonic mass assumes the shape of one the adventurers’ worst nightmares (make something up from previous adventures or ask the player to describe what the adventurer’s greatest fear is). The demonic creature attacks the adventurer with twelve Base Dice (Weapon Damage 1). On a hit, the adventurer is thrown to NEAR distance and falls PRONE.
->
-> 6.
->
-> **DEVOURING ATTACK!** An unfortunate adventurer is assaulted by several tentacles that attempt to lift her up to the demonic mass in the ceiling, where a hole is forming. The victim suffers an attack with ten Base Dice and Weapon Damage 1 (blunt force). On a hit, the adventurer is GRAPPLED and drawn into the demonic mass. The victim must roll for ENDURANCE every round, with failure meaning 1 point of damage to Agility. If the victim becomes broken, she will die from suffocation after D6 rounds. The only way to save the victim is to deal 10 points of damage to the cocoon that surrounds her.
 
 ##### Martea
 
@@ -3737,8 +3668,6 @@ Rust Brothers in metal-clad robes are everywhere in Haggler’s House.
 | 8 | Roll Twice | – |
 
 <!-- p.169 -->
-
-##### Stats: Rust Brothers
 
 - **Talents:** Path of Healing 2, Path of Shifting Shapes 2, or Path of Sight 2
 - **Gear:** Staff, dagger, D6 copper
@@ -4265,8 +4194,6 @@ The commander of the Iron Guard is Grandmaster Manderel, a scarred war veteran a
 - **Gear:** Two-handed sword, plate armor, great helm, PRECIOUS find
 
 <!-- p.192 -->
-
-##### Stats: Grandmaster Manderel
 
 - **Misgrown:** Manderel has four arms and an extra eye at the back of the neck. Because of this, he gets to draw three initiative cards at the start of combat, choose the best two, and perform actions on both.
 - **Magical Shield:** The silver veins in Manderel’s face act as the spell DISPEL MAGIC with Power Level D6. No Willpower Points are needed. The effect only affects magic directed at Manderel’s person.

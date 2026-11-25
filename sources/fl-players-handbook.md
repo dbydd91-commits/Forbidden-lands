@@ -4103,8 +4103,6 @@ If your roll fails, your camp is less pleasant. You still set up a camp where yo
 
 ## Rest
 
-##### Table: (continued)
-
 | D66 | Mishap | Effect |
 |---|---|---|
 | 43–45 | Ants | Your camp sits in the middle of an ant road. You all suffer one point of damage to Agility and no one gets any SLEEP here. |
@@ -4947,15 +4945,13 @@ The results in the table should primarily be seen as inspiration and will need t
 | 5 | A PC suddenly finds herself face-to-face with the commander of the attackers. Resolve a close combat between them until only one remains standing, preferably in a dramatic location in the stronghold. |
 | 6 | Two PCs confront a powerful enemy together. It can be a monster or the commander of the attackers. |
 
-> Combat Rating (rounding up) to get the number of soldiers in a BASE UNIT of defenders. Divide 100 by the Combat Rating (rounding up) to get the number of soldiers in a base unit of attackers. Each base unit gives a +1 to the Defense or Attack Rating of the force. The maximum bonus is still +5. Each point of lost Defense or Attack Rating during the battle means that a number of soldiers equal to one base unit have been Broken.
->
-> For example, a force of attacking soldiers with Strength 4 and skill level 3 in MELEE (Combat Rating 7) has a base unit size of 15 (100 divided by 7, rounded up). If the force loses 2 points of Attack
-
 ### Box: Varied Forces
 
 > The rules for battles at the stronghold are designed to be fast and easy to use, and therefore make no difference between different types of soldiers. If you prefer a more detailed approach, you can use the following rules.
 >
-> Add the Strength rating to the skill level in MELEE or MARKSMANSHIP (whichever is higher) of a typical soldier in the force. The sum is the soldier’s Combat Rating. Divide 50 by the Rating, 30 soldiers are Broken.
+> Add the Strength rating to the skill level in MELEE or MARKSMANSHIP (whichever is higher) of a typical soldier in the force. The sum is the soldier’s Combat Rating. Divide 50 by the Combat Rating (rounding up) to get the number of soldiers in a BASE UNIT of defenders. Divide 100 by the Combat Rating (rounding up) to get the number of soldiers in a base unit of attackers. Each base unit gives a +1 to the Defense or Attack Rating of the force. The maximum bonus is still +5. Each point of lost Defense or Attack Rating during the battle means that a number of soldiers equal to one base unit have been Broken.
+>
+> For example, a force of attacking soldiers with Strength 4 and skill level 3 in MELEE (Combat Rating 7) has a base unit size of 15 (100 divided by 7, rounded up). If the force loses 2 points of Attack Rating, 30 soldiers are Broken.
 
 **Example:** *Nirmena’s and Tyrgar’s stronghold is attacked by some 90 savage orcs led by the chieftain, Geldad. The stronghold has RAMPARTS and 20 GUARDS, which gives a total Defense Rating of 5 (one for the adventurers, +2 for the RAMPARTS and +2 for the GUARDS). The attackers have a battering ram and thus get Attack Rating 7 (5 for the number of attackers, +1 for the ram and +1 for Geldad himself).*
 

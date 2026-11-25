@@ -136,7 +136,7 @@ def page_lines(pg) -> list:
     lines, seen = [], set()
     for b in pg.get_text("rawdict")["blocks"]:
         for l in b.get("lines", []):
-            if l["dir"][0] < 0.99:          # rotated text (spine labels etc.)
+            if l["dir"][0] < 0.99 or abs(l["dir"][1]) > 0.01:   # rotated text (spine labels, curved titles)
                 continue
             spans = []
             for s in l["spans"]:
@@ -189,7 +189,8 @@ def page_lines(pg) -> list:
     for l in lines:
         m = merged[-1] if merged else None
         if (m and all(sp.font.startswith("IM_FELL") for sp in m.spans + l.spans) and abs(m.y0 - l.y0) < 1.5
-                and 0 <= l.x0 - m.x1 < 12 and l.size < 12 and m.size < 12
+                and 0 <= l.x0 - m.x1 < (24 if re.fullmatch(r"\d+\.", m.text.strip()) else 12)   # "5." + title
+                and l.size < 12 and m.size < 12
                 and not (m.x1 <= MID + 4 and l.x0 >= MID - 4)):      # never across the column gutter
             merged[-1] = Line(m.spans + l.spans)
         else:
@@ -404,6 +405,7 @@ class Region:
     skip: bool = False
     intro: object = None
     headerless: bool = False
+    numbered: bool = False
     single_head: bool = False
 
     @property
@@ -467,6 +469,10 @@ def split_zones(lines):
     return zones
 
 
+def caps_line(l) -> bool:
+    return all(s.bold and not re.search(r"[a-z]", s.text) for s in l.spans)
+
+
 def units_of(lines, zones=()):
     """Group lines sharing a baseline and lying close together horizontally."""
     lines = sorted(lines, key=lambda l: (round(l.y0), l.x0))
@@ -481,6 +487,8 @@ def units_of(lines, zones=()):
             margins = sorted([ux0, l.x0])
             if cross and margins[0] < 66 and 243 <= margins[1] <= 257:
                 gap = 999
+            if cross and (len(l.text) > 25 or len(u[-1].text) > 25) and not caps_line(l) and not caps_line(u[-1]):
+                gap = 999                # running text in a column, not cells of one table row
         caps = u and all(s.bold and s.size < 8.8 and not re.search(r"[a-z]", s.text) for x in u + [l] for s in x.spans)
         if u and cross and any(a <= l.y0 <= b for a, b in zones):
             gap = 999                    # two tables side by side
@@ -545,6 +553,16 @@ def find_regions(lines):
                 r.lines.append(l)
                 l.absorbed = True
                 break
+    # a text box set in two columns (lines on both sides, none across): one region per column
+    split = []
+    for r in regions:
+        cols = {l.col for l in r.lines}
+        if not r.table and cols == {"L", "R"} and not any(is_header(u) for u in units_of(r.lines)):
+            for c in "LR":
+                split.append(Region(lines=[l for l in r.lines if l.col == c]))
+        else:
+            split.append(r)
+    regions = split
     for r in regions:
         r.lines.sort(key=lambda l: (round(l.y0), l.x0))
         classify(r)
@@ -682,7 +700,7 @@ def table_md(r: Region, shaded, vocab):
                 names.append(" ")
     if not cols and r.headerless:               # rows only: columns from the cells' left edges
         for x in sorted(l.x0 for u in units for l in u):
-            if cols and x - cols[-1]["x1"] < 60:      # centred values start at varying x
+            if cols and x - cols[-1]["x1"] < (12 if r.numbered else 60):   # centred values start at varying x
                 cols[-1]["x1"] = x
             else:
                 cols.append({"x0": x, "x1": x, "parts": []})
@@ -902,12 +920,16 @@ def heading_line(l: Line) -> bool:
 MAP_LABEL = re.compile(r"(?:\d{1,2}[a-z]?|[A-Z])(?: (?:\d{1,2}[a-z]?|[A-Z]))*")   # "7", "C", "7 10 9 8 4"
 
 
+def map_key(l: Line, prose) -> bool:
+    """A map key ("7", "C") set in the body font, not part of a line of text."""
+    return bool(MAP_LABEL.fullmatch(l.text.strip()) and l.size < 12 and not any(   # (a drop cap is not one)
+        o is not l and abs(o.y0 - l.y0) < 3 and re.search(r"[a-z]{3}", o.text)
+        and (o.col == l.col or "F" in (o.col, l.col)) for o in prose))
+
+
 def art_label(l: Line, prose) -> bool:
     """Small isolated caption inside an illustration (e.g. a skill icon label), or a map key
     ("7", "12", "C") set in the body font."""
-    if MAP_LABEL.fullmatch(l.text.strip()) and l.size < 12 and not any(   # (a drop cap is not a map key)
-            o is not l and abs(o.y0 - l.y0) < 3 and re.search(r"[a-z]{3}", o.text) for o in prose):
-        return True                      # (a page number in a contents line is not one either)
     if l.size >= 6.5 or len(l.text.split()) > 4 or l.text.strip() == "EXAMPLE":
         return False
     if not re.search(r"[a-z]", l.text):           # all-caps label placed over the art
@@ -919,7 +941,7 @@ def art_label(l: Line, prose) -> bool:
 
 
 def dropcap(l: Line) -> bool:
-    return l.size >= 18 and len(l.text.strip()) <= 2
+    return l.size >= 18 and len(l.text.strip()) == 1
 
 
 class Holder:
@@ -975,9 +997,15 @@ class TableBlock:
                 box_at = len(out)
             elif not (isinstance(x, str) and re.fullmatch(r"<!-- p\.\S+ -->", x.strip())):
                 box_at = None
+            if isinstance(x, str) and re.match(r"#+ ", x):
+                prev_names = None            # a new section: a same-shaped table is a new table
             if isinstance(x, TableBlock):
                 title = lambda h: norm(re.sub(r"^#+\s*", "", h or ""))
                 same = last is not None and x.heading and title(x.heading) == title(last.heading)  # caption repeated
+                blank = isinstance(x.table, Table) and not "".join(x.table.names).strip()
+                if (x.cont and blank and last is not None and isinstance(last.table, Table)
+                        and len(x.table.names) == len(last.table.names)):
+                    x.table.names = list(last.table.names)    # header-less run-on rows of the last table
                 if ((x.cont or same) and last is not None and x.table.names == last.table.names
                         and isinstance(x.table, Table) and (same or not x.base or norm(x.base) in norm(last.heading))):
                     last.table.rows += x.table.rows
@@ -1210,7 +1238,9 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
         if p - 1 in pages:
             toc[p - 1].append({"lvl": min(lvl, 4), "title": bookmark_title(t), "used": False})
     w = Writer(vocab)
-    prev_tnames, carry, prev_head_text = None, None, ""
+    prev_tnames, carry, prev_head_text, last_stats_name = None, None, "", ""
+    rough_keys = {q: sum(1 for l in ls if not l.branding and MAP_LABEL.fullmatch(l.text.strip()) and l.size < 12)
+                  for q, ls in cache.items()}
     page_tables = collections.defaultdict(list)    # pno -> [[TableBlock, None, joined?]]
     for pno in pages:
         pg = doc[pno]
@@ -1229,9 +1259,12 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
             lim = float(fig[0].split(">")[1])
             lines = [l for l in lines if l.y0 <= lim]
         # big title set letter by letter ("T","H","E","VA"...) on chapter openers: decoration
-        big = [l for l in lines if dropcap(l)]
-        if len(big) > 2:
-            lines = [l for l in lines if not dropcap(l)]
+        big = [l for l in lines if l.size >= 18 and len(l.text.strip()) <= 4]
+        singles = [b for b in big if len(b.text.strip()) == 1]
+        drop = [b for b in big if len(b.text.strip()) >= 2]          # pieces of a display title
+        if len(singles) >= 3:
+            drop += singles                                         # a title set letter by letter
+        lines = [l for l in lines if not any(l is b for b in drop)]
         for l in lines:
             l.absorbed = False
         shaded = [it[1] for d in pg.get_drawings() if d.get("fill") and d["fill"][0] < 0.95
@@ -1245,7 +1278,13 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
             paired = [l for l in body if any(o is not l and abs(o.y0 - l.y0) < 2 and abs(o.x0 - l.x0) > 40
                                              for o in body)]
             bands_in = sum(1 for sh in shaded if sh.x0 < b.x1 and sh.x1 > b.x0 and b.y0 - 2 < sh.y0 < b.y1)
-            if len(body) >= 4 and len(paired) * 10 >= len(body) * 7 and bands_in >= 2:
+            # rows numbered down the left edge ("2." + text), as when a table runs on without its header
+            nums = [l for l in body if re.fullmatch(r"\d+[.)]?|\d+–\d+", l.text.strip())
+                    and l.x0 - min(o.x0 for o in body) < 4 and any(
+                        o is not l and abs(o.y0 - l.y0) < 3 for o in body)]
+            top_num = nums and min(body, key=lambda l: (round(l.y0), l.x0)) in nums
+            if (len(body) >= 4 and len(paired) * 10 >= len(body) * 7 and bands_in >= 2) or len(nums) >= 3 \
+                    or (top_num and len(nums) >= 1):
                 above = [c for c in regions if c is not b and c.kind == "box" and c.caption and not c.skip
                          and -40 < b.y0 - c.y1 < 6 and c.y0 < b.y0 and c.x0 < b.x1 and c.x1 > b.x0]
                 if above:                        # its caption block also caught the first row
@@ -1253,9 +1292,10 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     b.lines = [l for l in c.lines if not any(l is x for x in c.caplines)] + b.lines
                     b.caplines, b.caption, c.skip = c.caplines, c.caption, True
                     b.lines += c.caplines
-                b.kind, b.headerless = "table", True
+                b.kind, b.headerless, b.numbered = "table", True, len(nums) >= 1
         for b in regions:
-            if b.kind == "stats" and not b.caption and len(b.lines) <= 4:
+            if b.kind == "stats" and not b.caption and len(b.lines) <= 4 and not any(
+                    re.match(r"STRENGTH \d", l.text) for l in b.lines):     # (creature stats are not notes)
                 below = [t for t in regions if t.kind == "table" and not t.caption and t.intro is None
                          and 0 <= t.y0 - b.y1 < 12 and t.x0 < b.x1 and t.x1 > b.x0]
                 if below:
@@ -1271,8 +1311,12 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     t.caption, t.intro, b.skip = b.caption, b, True
         prose = [l for l in lines if not l.branding and not l.absorbed]
         dropped = [l for l in prose if art_label(l, prose)]
+        keys = [l for l in prose if map_key(l, prose)]
+        # a map shows several keys (a contents page fewer); a map running on from the last page, two
+        near_map = any(rough_keys.get(q, 0) >= 4 for q in (pno - 1, pno + 1))   # map spread / run-on
+        map_keys = keys if len(keys) >= (1 if near_map else 4) else []
+        dropped += [k for k in map_keys if not any(k is d for d in dropped)]
         prose = [l for l in prose if not any(l is d for d in dropped)]
-        map_keys = [l for l in dropped if MAP_LABEL.fullmatch(l.text.strip())]
         map_note = ""
         if len(map_keys) >= 4:                   # a map with numbered keys on this page
             titles = [title_case(l.text) for l in dropped if l not in map_keys and not re.search(r"[a-z]", l.text)]
@@ -1323,13 +1367,24 @@ def convert(pdf, out, title, first, last, check=False, figures="", jobs=4):
                     if carried.get("mark"):
                         m = carried["mark"]
                         heading = "#" * m["lvl"] + " " + m["title"]
+                if (r.kind == "box" and not r.caption and actions and actions[-1][0] == "block"
+                        and actions[-1][2] == "stats" and str(actions[-1][1]).rstrip().endswith(":")):
+                    items = box_items(r, vocab)          # list that a stat line ending in ':' introduces
+                    if items and all(i.startswith("- ") for i in items):
+                        actions[-1] = ("block", str(actions[-1][1]) + "\n" + "\n".join("  " + i for i in items),
+                                       "stats")
+                        continue
                 if (r.kind == "stats" and not heading and not r.caption and actions
                         and actions[-1][0] == "block" and actions[-1][2] == "stats"):
                     # stat block continued in the next column
                     actions[-1] = ("block", actions[-1][1] + "\n" + stats_md(r, vocab), "stats")
                     continue
                 if r.kind == "stats" and not heading and last_head_text:
-                    heading = f"##### Stats: {re.sub(r'^(Stats|Box|Table): ', '', last_head_text)}"
+                    name = re.sub(r"^(Stats|Box|Table): |^Meeting ", "", last_head_text)   # "Meeting Zytera"
+                    if name != last_stats_name:      # (same name again = the block runs on: no new heading)
+                        heading = f"##### Stats: {name}"
+                if r.kind == "stats" and heading:
+                    last_stats_name = re.sub(r"^#+ (Stats: )?", "", heading)
                 if r.kind == "table":
                     if t is not None:
                         prev_tnames = t.names

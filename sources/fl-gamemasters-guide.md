@@ -2088,8 +2088,6 @@ The Wyverns have a very thin but energy-laden layer of blubber under their skin 
 
 > A swarm of animals (see the table below) is handled as a single creature with a Strength rating that represents the swarm as a whole. A single attack on a swarm can never inflict more than one point of damage.
 
-##### Table: (continued)
-
 | Animal | Strength | Agility | Skills | Movement | Weapon | Damage | Type |
 |---|---|---|---|---|---|---|---|
 | Dog | 3 | 3 | Melee 1, Scout 5 | 2 | Bite | 1 | Slash |
@@ -4105,8 +4103,6 @@ The Hollows was built on the ruins of an old burial ground, southeast of a hillo
 
 **[Figure — map of the Hollows (p.198–199)]** Village map with numbered locations 1–20; the numbers match the keyed location sections that follow.
 
-##### Table: (continued)
-
 | D6 | Event | Details |
 |---|---|---|
 | 4 | The Ghost Minstrel | A sad tune can be heard in the fog, and soon a ghostly apparition can be seen. It has a dark hood and a noose around its neck, and is playing a lute. This is the long since executed minstrel Alma, playing her song of mourning for the dead of The Hollows. Any adventurer showing their appreciation by giving her a coin or something similar will receive Alma’s gratitude, and the ghost may come to the person’s aid some time later. |
@@ -4748,28 +4744,18 @@ A foul demon creature spawned in the laboratory of Weatherstone. Half-scorpion, 
 - **Armor:** 5 (carapace)
 - **Two Attacks:** The scorpion beast can act twice every round. Draw two initiative cards at the beginning of combat.
 
+<!-- p.227–228 -->
+
 | D6 | Monster Attacks |
 |---|---|
 | 1 | **WHIPPING TAIL!** A lightning quick attack with the beast’s tail hits one adventurer. Perform an attack with ten Base Dice and Weapon Damage 2 (slash wound). If it hits, the victim is thrown to the ground. |
 | 2 | **CLAW TOSS!** With a roar, the beast grabs an adventurer with its giant claw. Roll for the attack with eight Base Dice and Weapon Damage 2 (slash wound). If it hits, the beast locks its claw around the victim and shakes the adventurer violently. The adventurer must make an opposed Strength roll against the beast (not an action). If the roll fails, the adventurer is thrown to NEAR distance and lands prone. |
+| 3 | **CHILLING ROAR!** The Scorpion Beast lets out an otherworldly scream that makes the adventurers blood freeze. Everyone within NEAR range is exposed to a fear attack rolled with six Base Dice. |
+| 4 | **DEATHLY EMBRACE!** With a powerful leap, the beast jumps upon an adventurer and embraces her with its demonic claws. Roll for the attack with eight Base Dice and Weapon Damage 1 (blunt force). If the attack hits, the victim is GRAPPLED. |
+| 5 | **POISON FANG!** The Scorpion Beast’s tail rattles like a cobra before it thrusts against an adventurer, stinging her with its poison. Roll for the attack using seven Base Dice and Weapon Damage 1 (stab wound). This attack is too fast to DODGE. If the victim is hit and suffers 1 point of Damage or more, they are injected with a paralyzing poison with Potency of 9. |
+| 6 | **WHIRLWIND ATTACK!** The beast lets its tail sweep against all adventurers within ARM’S LENGTH. Roll to hit on each with eight Base Dice and Weapon Damage 2 (slash wound). All adventurers who are hit are also struck to the ground. |
 
 <!-- p.228 -->
-
-> 3
->
-> **CHILLING ROAR!** The Scorpion Beast lets out an otherworldly scream that makes the adventurers blood freeze. Everyone within NEAR range is exposed to a fear attack rolled with six Base Dice.
->
-> 4
->
-> **DEATHLY EMBRACE!** With a powerful leap, the beast jumps upon an adventurer and embraces her with its demonic claws. Roll for the attack with eight Base Dice and Weapon Damage 1 (blunt force). If the attack hits, the victim is GRAPPLED.
->
-> 5
->
-> **POISON FANG!** The Scorpion Beast’s tail rattles like a cobra before it thrusts against an adventurer, stinging her with its poison. Roll for the attack using seven Base Dice and Weapon Damage 1 (stab wound). This attack is too fast to DODGE. If the victim is hit and suffers 1 point of Damage or more, they are injected with a paralyzing poison with Potency of 9.
->
-> 6
->
-> **WHIRLWIND ATTACK!** The beast lets its tail sweep against all adventurers within ARM’S LENGTH. Roll to hit on each with eight Base Dice and Weapon Damage 2 (slash wound). All adventurers who are hit are also struck to the ground.
 
 ### Harpies
 
