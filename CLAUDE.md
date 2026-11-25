@@ -38,6 +38,11 @@ numbered map keys were dropped; the keys match the location headings).
 - Dice symbols: ⚔ = success (sword), ☠ = bane (skull). Small-caps game terms keep the book's CAPITALS (MOVE, NEAR).
 - Cite as (PHB p.N), (GMG p.N), (L&A p.N), (RP p.N).
 
+## Answering rules questions
+- Answer from `sources/`, not from memory: grep the term (and its CAPITALS form), read around the hit,
+  quote the rule and cite (PHB p.N). Check related tables/boxes and RP/GMG exceptions before answering.
+- If the books don't say it, say so instead of filling the gap.
+
 ## Regenerate
 PDFs are not committed (`.gitignore`). `pip install pymupdf`, then the commands in `notes/log.md`.
 
