@@ -17,6 +17,7 @@ Limit: 3,000 characters (see CLAUDE.md). Merge or compress older entries; don't 
   (bold, italic colon, colon outside bold); doubled bullet glyphs; acronyms (NPCs, XP).
 - RP specifics: all-caps bookmarks title-cased; map keys dropped + figure note; synthetic
   `Stats:` headings (also added in PHB/GMG where no bookmark named the block).
+- Hand fix (no converter change yet): PHB split mishap tables joined, Sea Travel table moved.
 - Known leftovers: `--check` misses art/map labels and repeated table headers; GMG p.52 Box: Elven
   Saying heading sits at the page top.
 

@@ -3940,9 +3940,7 @@ The winters are darker than the summers in the Forbidden Lands. In the winter, t
 
 If you return to a hex on the map where you have been before, you don’t need to make another roll to LEAD THE WAY. It is up to you the players to keep track of where you have been during your journeys.
 
-## Keep Watch
-
-### Table: Leading the Way Mishaps
+### Table: Leading the Way Mishaps <!-- p.148–149 -->
 
 | D66 | Mishap | Effect |
 |---|---|---|
@@ -3953,6 +3951,11 @@ If you return to a hex on the map where you have been before, you don’t need t
 | 33–34 | Torn Clothes | Your clothes are damaged. Your boots break or your robe rips on thorny plants or sharp rocks. You must roll for the effects of cold. Your clothes can be mended by making a successful CRAFTING roll. |
 | 35–36 | Landslide | You are walking in rough terrain when the ground suddenly opens beneath your feet. You must roll MOVE – if you fail, you suffer an attack with four Base Dice and Weapon Damage 1 (blunt trauma). |
 | 41–45 | Downpour | A massive rainfall or snow storm (depending on the time of year) catches you unawares. You must roll for the effects of cold (page 111). You must also seek shelter until the storm has passed and won’t make any progress on the map during this Quarter Day. |
+| 46–52 | Fog | You are caught unawares by a thick fog. The distance you cover this Quarter Day is decreased by one hex. In difficult terrain, you’re stuck in the hex you started. In addition, each adventurer suffers one point of damage to Empathy from the gloomy mist. |
+| 53–54 | Wasps’ Nest | You step right into a nest of wasps. An angry swarm attack the entire group. Each adventurer must make a MOVE roll or suffer an attack with four Base Dice, causing damage to Agility. |
+| 55–61 | Mosquito Swarm | A large swarm of mosquitoes or gnats attacks you, driving you crazy with their biting and buzzing. They attack with four Base Dice, causing damage to Empathy. |
+| 62–64 | Savage Animal | A wolf, bear or other wild animal feels threatened, and attacks you. The GM chooses an animal from the table on page 126 of the *Gamemaster’s Guide.* |
+| 65–66 | Persistent Animal | A squirrel, bird or other small animal follows you around and doesn’t leave you alone. The animal causes trouble, described by the GM – it might make a noise at some inappropriate time, eat your food or steal something. |
 
 ### Table: Light & Darkness
 
@@ -3963,15 +3966,9 @@ If you return to a hex on the map where you have been before, you don’t need t
 | Evening | Dark | Light | Dark | Dark |
 | Nighttime | Dark | Dark | Dark | Dark |
 
-During every Quarter Day of your journey, you should also designate one adventurer in your group who is responsible for scouting <!-- p.148 --> <!-- p.149 --> for threats and enemies. The *lookout* can KEEP WATCH and HIKE at the same time, but cannot LEAD THE WAY while doing so. A lookout is useful during every Quarter Day, even after you MAKE CAMP. You don’t need to have a lookout if you don’t want to, but without one you have no chance to spot threats before they are upon you.
+## Keep Watch
 
-| D66 | Mishap | Effect |
-|---|---|---|
-| 46–52 | Fog | You are caught unawares by a thick fog. The distance you cover this Quarter Day is decreased by one hex. In difficult terrain, you’re stuck in the hex you started. In addition, each adventurer suffers one point of damage to Empathy from the gloomy mist. |
-| 53–54 | Wasps’ Nest | You step right into a nest of wasps. An angry swarm attack the entire group. Each adventurer must make a MOVE roll or suffer an attack with four Base Dice, causing damage to Agility. |
-| 55–61 | Mosquito Swarm | A large swarm of mosquitoes or gnats attacks you, driving you crazy with their biting and buzzing. They attack with four Base Dice, causing damage to Empathy. |
-| 62–64 | Savage Animal | A wolf, bear or other wild animal feels threatened, and attacks you. The GM chooses an animal from the table on page 126 of the *Gamemaster’s Guide.* |
-| 65–66 | Persistent Animal | A squirrel, bird or other small animal follows you around and doesn’t leave you alone. The animal causes trouble, described by the GM – it might make a noise at some inappropriate time, eat your food or steal something. |
+During every Quarter Day of your journey, you should also designate one adventurer in your group who is responsible for scouting <!-- p.148 --> <!-- p.149 --> for threats and enemies. The *lookout* can KEEP WATCH and HIKE at the same time, but cannot LEAD THE WAY while doing so. A lookout is useful during every Quarter Day, even after you MAKE CAMP. You don’t need to have a lookout if you don’t want to, but without one you have no chance to spot threats before they are upon you.
 
 ## Box: Hiking Alone
 
@@ -4082,7 +4079,7 @@ If your roll fails, you don’t catch any FISH and you also suffer a mishap. Rol
 
 ## Make Camp
 
-### Table: Making Camp Mishaps
+### Table: Making Camp Mishaps <!-- p.154–155 -->
 
 | D66 | Mishap | Effect |
 |---|---|---|
@@ -4092,6 +4089,12 @@ If your roll fails, you don’t catch any FISH and you also suffer a mishap. Rol
 | 26–32 | Downpour | A massive rainfall starts in the middle of the night. The camp is flooded and everything gets soaking wet. All adventurers must roll for the effects of cold, and no one gets any SLEEP this night. |
 | 33–36 | Fire Dies | The firewood is wet, and your campfire goes out. Everyone in the group must roll for the effects of cold (see page 111). |
 | 41–42 | Fire! | Suddenly, the flames from your campfire spread out of control. Your tents, sleeping furs and other gear catch fire. Each adventurer suffers an attack with five Base Dice (Weapon Damage 1). Each adventurer must also make a MOVE roll to save her gear. Failure means that one piece of equipment (the GM decides which) is lost in the fire. |
+| 43–45 | Ants | Your camp sits in the middle of an ant road. You all suffer one point of damage to Agility and no one gets any SLEEP here. |
+| 46–51 | Lice | A randomly selected adventurer has caught lice. It itches horribly, and she gets a rash all over the body. The victim suffers one point of damage to Agility each day and cannot SLEEP. A successful HEALING roll stops the effect. |
+| 52–54 | Mosquito Swarm | A large swarm of mosquitoes or gnats attacks the camp, driving everyone crazy with their bites and buzzing. They attack all adventurers with four Base Dice, causing damage to Empathy. |
+| 55–56 | Savage Animal | A wolf, bear or other wild animal feels threatened, and attacks you. The GM chooses an animal from the table on page 124 of the *Gamemaster’s Guide.* |
+| 61–63 | Lost Gear | A randomly selected adventurer has lost a piece of gear. The GM decides what was lost, and if it can be found. |
+| 64–66 | Broken Gear | An item belonging to a randomly selected adventurer is broken. The GM decides what item it is. The item can be repaired with a CRAFTING roll. |
 
 When the journey of the day is over, it’s time to MAKE CAMP. Finding a good location for a camp, making a fire, and prepar- <!-- p.155 --> ing where to SLEEP takes a whole Quarter Day – usually the Evening. Only one person rolls to MAKE CAMP, but others can help her (see page 48).
 
@@ -4103,15 +4106,6 @@ If your roll fails, your camp is less pleasant. You still set up a camp where yo
 
 ## Rest
 
-| D66 | Mishap | Effect |
-|---|---|---|
-| 43–45 | Ants | Your camp sits in the middle of an ant road. You all suffer one point of damage to Agility and no one gets any SLEEP here. |
-| 46–51 | Lice | A randomly selected adventurer has caught lice. It itches horribly, and she gets a rash all over the body. The victim suffers one point of damage to Agility each day and cannot SLEEP. A successful HEALING roll stops the effect. |
-| 52–54 | Mosquito Swarm | A large swarm of mosquitoes or gnats attacks the camp, driving everyone crazy with their bites and buzzing. They attack all adventurers with four Base Dice, causing damage to Empathy. |
-| 55–56 | Savage Animal | A wolf, bear or other wild animal feels threatened, and attacks you. The GM chooses an animal from the table on page 124 of the *Gamemaster’s Guide.* |
-| 61–63 | Lost Gear | A randomly selected adventurer has lost a piece of gear. The GM decides what was lost, and if it can be found. |
-| 64–66 | Broken Gear | An item belonging to a randomly selected adventurer is broken. The GM decides what item it is. The item can be repaired with a CRAFTING roll. |
-
 Resting by the campfire is a good opportunity to recover from damage. Read more about recovery on page 108. If your REST is interrupted by something dramatic, like <!-- p.156 --> combat or other similar activity, your activity during the Quarter Day no longer counts as REST.
 
 ## Sleep
@@ -4121,17 +4115,6 @@ You have to SLEEP at least one Quarter Day per day (usually during the Night) to
 ### Box: Bare Ground
 
 > It is possible to SLEEP in the wilderness without MAKING CAMP – you simply find a suitable tree to SLEEP under. You save the time it takes to MAKE CAMP, but everyone in the group must make a SURVIVAL roll to find a good spot to SLEEP. Failure means the individual doesn’t SLEEP at all, and thus becomes SLEEPY (see page 111). Since you don’t have a fire to keep the cold away, you all also suffer the effects of cold (see page 111).
-
-### Table: Sea Travel Mishaps
-
-| D6 | Mishap | Effect |
-|---|---|---|
-| 1 | Navigational Error | You sail off course and make no progress on the map during this Quarter Day. |
-| 2 | Sudden Squall | A sudden squall makes your boat tilt suddenly. One important item falls into the water. The GM decides what it is. |
-| 3 | Whirlpool | Your boat is caught in a whirlpool. The skipper must make a SURVIVAL roll (modified by the SAILOR talent). Failure means the boat runs aground and has to be repaired (a CRAFTING roll) before your journey can continue. |
-| 4 | Leak | Your boat springs a leak and takes on water. The leak must be repaired (a CRAFTING roll), which takes one turn (15 minutes), but your journey can continue while you do so. If the leak is not repaired, the boat sinks after D6 hours. |
-| 5 | Overboard | Someone in the group (GM’s choice) falls overboard after a large wave hits the boat. See rules for swimming and drowning on page 113. |
-| 6 | Grounding | Your boat runs aground and must be abandoned or repaired with a CRAFTING roll. The boat must be on the shore to be repaired. |
 
 <!-- p.157 -->
 
@@ -4144,6 +4127,17 @@ When you stop at an adventure site to EXPLORE it, your journey is interrupted. E
 If you have access to a boat or raft (see the table on page 190), you can cross a river without using a bridge or a ford. You can also travel along a river, across a lake or on an ocean.
 
 Travel by sea works like journeys on land, but with some differences. Instead of a pathfinder, a boat has a *skipper*, who LEADS THE WAY (roll for SURVIVAL modified by the SAILOR talent) in each new hexagon. Failure takes you into the new hexagon anyway, but you must make a roll on the mishap table.
+
+### Table: Sea Travel Mishaps <!-- p.156 -->
+
+| D6 | Mishap | Effect |
+|---|---|---|
+| 1 | Navigational Error | You sail off course and make no progress on the map during this Quarter Day. |
+| 2 | Sudden Squall | A sudden squall makes your boat tilt suddenly. One important item falls into the water. The GM decides what it is. |
+| 3 | Whirlpool | Your boat is caught in a whirlpool. The skipper must make a SURVIVAL roll (modified by the SAILOR talent). Failure means the boat runs aground and has to be repaired (a CRAFTING roll) before your journey can continue. |
+| 4 | Leak | Your boat springs a leak and takes on water. The leak must be repaired (a CRAFTING roll), which takes one turn (15 minutes), but your journey can continue while you do so. If the leak is not repaired, the boat sinks after D6 hours. |
+| 5 | Overboard | Someone in the group (GM’s choice) falls overboard after a large wave hits the boat. See rules for swimming and drowning on page 113. |
+| 6 | Grounding | Your boat runs aground and must be abandoned or repaired with a CRAFTING roll. The boat must be on the shore to be repaired. |
 
 <!-- p.158 -->
 
